@@ -1,0 +1,11 @@
+.sites-runtime/
+node_modules/
+*.zip
+.wrangler/
+dist/server/
+dist/.openai/
+update-dashboard.cjs
+integrate-history.cjs
+finish-history.cjs
+*.tar.gz
+publish-stage/

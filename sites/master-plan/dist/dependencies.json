@@ -1,0 +1,867 @@
+{
+  "generatedAt": "2026-09-16",
+  "sourceFile": "C:\\Agents\\pm_assistant\\sites\\master-plan\\dist\\source.json",
+  "sourceSheet": "Eagle-N B0 SW Development Plan",
+  "workbookModifiedAt": "2026-09-16T07:11:08Z",
+  "method": "Workbook-only semantic inference from feature titles, groups, dates and notes. All edges are hypotheses, not Jira-recorded links.",
+  "confidenceMeaning": "High means strong semantic relationship between the named deliverables, not verified scheduling precedence. Medium means an architecture or acceptance-scope assumption needs validation.",
+  "dateRules": [
+    "Compare predecessor Feature Done due with successor P-D due as an overlap signal, never an automatic blocker.",
+    "Compare predecessor Feature Done due with successor Feature Done due to identify conditional final-readiness risks.",
+    "Do not infer start dates or actual completion from due dates.",
+    "A status of P-D is not assumed to mean final Feature Done.",
+    "Unknown and missing dates remain unknown."
+  ],
+  "dependencies": [
+    {
+      "id": "inferred-NSDT-1951-NSDT-1961",
+      "predecessorKey": "NSDT-1951",
+      "successorKey": "NSDT-1961",
+      "predecessorTitle": "SW Req. Specification (SRS)",
+      "successorTitle": "SW Arch. Specification (SAD)",
+      "predecessorOwner": "MyeongGI Jeong",
+      "successorOwner": "MyeongGI Jeong",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "high",
+      "relationshipType": "requirements-to-architecture",
+      "rationale": "TT-metal architecture should trace to the requirements for BOS modifications and the multi-model scheduler.",
+      "evidenceSourceRows": [
+        30,
+        31
+      ],
+      "caveats": [
+        "Architecture can use a reviewed requirements subset before final SRS publication; confirm the required baseline.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "phase-overlap-review",
+        "predecessorFeatureDoneDue": "2026-09-30",
+        "successorPDDue": "2026-09-25",
+        "successorFeatureDoneDue": "2026-10-30",
+        "predecessorPDDue": "2026-09-30",
+        "daysAfterSuccessorPD": 5,
+        "daysAfterSuccessorFeatureDone": -30,
+        "predecessorPDDaysAfterSuccessorPD": 5,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-1961-NSDT-1957",
+      "predecessorKey": "NSDT-1961",
+      "successorKey": "NSDT-1957",
+      "predecessorTitle": "SW Arch. Specification (SAD)",
+      "successorTitle": "SW Unit Design (SUD)",
+      "predecessorOwner": "MyeongGI Jeong",
+      "successorOwner": "MyeongGI Jeong",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "high",
+      "relationshipType": "architecture-to-unit-design",
+      "rationale": "TT-metal unit design should implement the architecture for the same documented scope.",
+      "evidenceSourceRows": [
+        31,
+        32
+      ],
+      "caveats": [
+        "Final documentation may be published after implementation; confirm the acceptance baseline.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "no-date-inversion",
+        "predecessorFeatureDoneDue": "2026-10-30",
+        "successorPDDue": "2026-11-16",
+        "successorFeatureDoneDue": "2026-11-27",
+        "predecessorPDDue": "2026-09-25",
+        "daysAfterSuccessorPD": -17,
+        "daysAfterSuccessorFeatureDone": -28,
+        "predecessorPDDaysAfterSuccessorPD": -52,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-1952-NSDT-1954",
+      "predecessorKey": "NSDT-1952",
+      "successorKey": "NSDT-1954",
+      "predecessorTitle": "SW Req. Specification (SRS)",
+      "successorTitle": "SW Arch. Specification (SAD)",
+      "predecessorOwner": "MyeongGI Jeong",
+      "successorOwner": "MyeongGI Jeong",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "high",
+      "relationshipType": "requirements-to-architecture",
+      "rationale": "UMD/KMD architecture should be grounded in the UMD/KMD requirements.",
+      "evidenceSourceRows": [
+        33,
+        34
+      ],
+      "caveats": [
+        "Incremental requirements can support overlapping development.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "no-date-inversion",
+        "predecessorFeatureDoneDue": "2026-09-25",
+        "successorPDDue": "2026-10-15",
+        "successorFeatureDoneDue": "2026-10-30",
+        "predecessorPDDue": "2026-08-28",
+        "daysAfterSuccessorPD": -20,
+        "daysAfterSuccessorFeatureDone": -35,
+        "predecessorPDDaysAfterSuccessorPD": -48,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-1954-NSDT-1960",
+      "predecessorKey": "NSDT-1954",
+      "successorKey": "NSDT-1960",
+      "predecessorTitle": "SW Arch. Specification (SAD)",
+      "successorTitle": "SW Unit Design (SUD)",
+      "predecessorOwner": "MyeongGI Jeong",
+      "successorOwner": "MyeongGI Jeong",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "high",
+      "relationshipType": "architecture-to-unit-design",
+      "rationale": "UMD/KMD unit design should trace to the UMD/KMD architecture.",
+      "evidenceSourceRows": [
+        34,
+        35
+      ],
+      "caveats": [
+        "Confirm which reviewed architecture revision is needed.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "no-date-inversion",
+        "predecessorFeatureDoneDue": "2026-10-30",
+        "successorPDDue": "2026-11-13",
+        "successorFeatureDoneDue": "2026-11-27",
+        "predecessorPDDue": "2026-10-15",
+        "daysAfterSuccessorPD": -14,
+        "daysAfterSuccessorFeatureDone": -28,
+        "predecessorPDDaysAfterSuccessorPD": -29,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-1953-NSDT-1958",
+      "predecessorKey": "NSDT-1953",
+      "successorKey": "NSDT-1958",
+      "predecessorTitle": "SW Req. Specification (SRS)",
+      "successorTitle": "SW Arch. Specification (SAD)",
+      "predecessorOwner": "MyeongGI Jeong",
+      "successorOwner": "MyeongGI Jeong",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "high",
+      "relationshipType": "requirements-to-architecture",
+      "rationale": "BOS-SMI architecture should trace to BOS-SMI requirements.",
+      "evidenceSourceRows": [
+        36,
+        37
+      ],
+      "caveats": [
+        "Incremental requirements can support overlapping development.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "no-date-inversion",
+        "predecessorFeatureDoneDue": "2026-09-30",
+        "successorPDDue": "2026-10-16",
+        "successorFeatureDoneDue": "2026-10-30",
+        "predecessorPDDue": "2026-09-25",
+        "daysAfterSuccessorPD": -16,
+        "daysAfterSuccessorFeatureDone": -30,
+        "predecessorPDDaysAfterSuccessorPD": -21,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-1958-NSDT-1959",
+      "predecessorKey": "NSDT-1958",
+      "successorKey": "NSDT-1959",
+      "predecessorTitle": "SW Arch. Specification (SAD)",
+      "successorTitle": "SW Unit Design (SUD)",
+      "predecessorOwner": "MyeongGI Jeong",
+      "successorOwner": "MyeongGI Jeong",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "high",
+      "relationshipType": "architecture-to-unit-design",
+      "rationale": "BOS-SMI unit design should implement its architecture.",
+      "evidenceSourceRows": [
+        37,
+        38
+      ],
+      "caveats": [
+        "Confirm which architecture baseline is required for unit-design acceptance.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "no-date-inversion",
+        "predecessorFeatureDoneDue": "2026-10-30",
+        "successorPDDue": "2026-11-13",
+        "successorFeatureDoneDue": "2026-11-27",
+        "predecessorPDDue": "2026-10-16",
+        "daysAfterSuccessorPD": -14,
+        "daysAfterSuccessorFeatureDone": -28,
+        "predecessorPDDaysAfterSuccessorPD": -28,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-2056-NSDT-2057",
+      "predecessorKey": "NSDT-2056",
+      "successorKey": "NSDT-2057",
+      "predecessorTitle": "SW Arch. Specification (SAD)",
+      "successorTitle": "SW Unit Design (SUD)",
+      "predecessorOwner": "SungminLee",
+      "successorOwner": "SungminLee",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "high",
+      "relationshipType": "architecture-to-unit-design",
+      "rationale": "Quantization unit design should be consistent with the quantization architecture.",
+      "evidenceSourceRows": [
+        40,
+        41
+      ],
+      "caveats": [
+        "An approved partial architecture could justify earlier SUD completion; final document dates alone do not prove a blocker.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "potential-final-readiness-conflict",
+        "predecessorFeatureDoneDue": "2027-01-31",
+        "successorPDDue": "2026-11-15",
+        "successorFeatureDoneDue": "2026-11-30",
+        "predecessorPDDue": "2026-10-30",
+        "daysAfterSuccessorPD": 77,
+        "daysAfterSuccessorFeatureDone": 62,
+        "predecessorPDDaysAfterSuccessorPD": -16,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-2062-NSDT-2063",
+      "predecessorKey": "NSDT-2062",
+      "successorKey": "NSDT-2063",
+      "predecessorTitle": "SW Arch. Specification (SAD)",
+      "successorTitle": "SW Unit Design (SUD)",
+      "predecessorOwner": "서정현",
+      "successorOwner": "서정현",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "high",
+      "relationshipType": "architecture-to-unit-design",
+      "rationale": "Speculative-decoding unit design should be consistent with its architecture.",
+      "evidenceSourceRows": [
+        43,
+        44
+      ],
+      "caveats": [
+        "An approved partial architecture could justify earlier SUD completion; validate the scope of both final dates.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "potential-final-readiness-conflict",
+        "predecessorFeatureDoneDue": "2026-12-31",
+        "successorPDDue": "2026-11-16",
+        "successorFeatureDoneDue": "2026-11-30",
+        "predecessorPDDue": "2026-10-30",
+        "daysAfterSuccessorPD": 45,
+        "daysAfterSuccessorFeatureDone": 31,
+        "predecessorPDDaysAfterSuccessorPD": -17,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-2059-NSDT-2060",
+      "predecessorKey": "NSDT-2059",
+      "successorKey": "NSDT-2060",
+      "predecessorTitle": "SW Arch. Specification (SAD)",
+      "successorTitle": "SW Unit Design (SUD)",
+      "predecessorOwner": "Dang Thanh Huy",
+      "successorOwner": "Dang Thanh Huy",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "high",
+      "relationshipType": "architecture-to-unit-design",
+      "rationale": "BOS-Compiler unit design should implement the documented compiler architecture.",
+      "evidenceSourceRows": [
+        46,
+        47
+      ],
+      "caveats": [
+        "The same P-D and final dates can represent parallel documentation of an existing design; no ordering conflict is asserted.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "phase-overlap-review",
+        "predecessorFeatureDoneDue": "2026-11-30",
+        "successorPDDue": "2026-11-16",
+        "successorFeatureDoneDue": "2026-11-30",
+        "predecessorPDDue": "2026-11-16",
+        "daysAfterSuccessorPD": 14,
+        "daysAfterSuccessorFeatureDone": 0,
+        "predecessorPDDaysAfterSuccessorPD": 0,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-2087-NSDT-2101",
+      "predecessorKey": "NSDT-2087",
+      "successorKey": "NSDT-2101",
+      "predecessorTitle": "Device Access",
+      "successorTitle": "Debug-mode - NPU Register R & SRAM/DARM R/W",
+      "predecessorOwner": "Hyun Eun (은현)",
+      "successorOwner": "MyeongGI Jeong",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "high",
+      "relationshipType": "driver-to-tool",
+      "rationale": "BOS-SMI register and memory access requires a usable device-access interface in UMD/KMD.",
+      "evidenceSourceRows": [
+        123,
+        171
+      ],
+      "caveats": [
+        "A preliminary driver interface may satisfy tool development; final driver completion need not precede tool P-D.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "phase-overlap-review",
+        "predecessorFeatureDoneDue": "2026-12-08",
+        "successorPDDue": "2026-11-27",
+        "successorFeatureDoneDue": "2026-12-24",
+        "predecessorPDDue": "2026-08-07",
+        "daysAfterSuccessorPD": 11,
+        "daysAfterSuccessorFeatureDone": -16,
+        "predecessorPDDaysAfterSuccessorPD": -112,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-2088-NSDT-2103",
+      "predecessorKey": "NSDT-2088",
+      "successorKey": "NSDT-2103",
+      "predecessorTitle": "NPU reset scenario",
+      "successorTitle": "Device Ctrl - Device Reset/NPU Reset",
+      "predecessorOwner": "Hailee Kim(김승하)",
+      "successorOwner": "MyeongGI Jeong",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "high",
+      "relationshipType": "driver-to-tool",
+      "rationale": "BOS-SMI device and NPU reset control should invoke or be validated against the UMD/KMD reset scenario.",
+      "evidenceSourceRows": [
+        124,
+        173
+      ],
+      "caveats": [
+        "Confirm the reset API and whether the tool uses this exact driver path.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "phase-overlap-review",
+        "predecessorFeatureDoneDue": "2026-12-08",
+        "successorPDDue": "2026-11-27",
+        "successorFeatureDoneDue": "2026-12-24",
+        "predecessorPDDue": "2026-08-28",
+        "daysAfterSuccessorPD": 11,
+        "daysAfterSuccessorFeatureDone": -16,
+        "predecessorPDDaysAfterSuccessorPD": -91,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-2096-NSDT-1938",
+      "predecessorKey": "NSDT-2096",
+      "successorKey": "NSDT-1938",
+      "predecessorTitle": "Memory allocator for sharding, interleaving, etc",
+      "successorTitle": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "predecessorOwner": "MyeongGI Jeong",
+      "successorOwner": "Dang Thanh Huy",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "medium",
+      "relationshipType": "runtime-to-compiler",
+      "rationale": "Compiler memory-layout and sharding optimization likely needs a compatible runtime allocation and sharding contract.",
+      "evidenceSourceRows": [
+        140,
+        174
+      ],
+      "caveats": [
+        "Compiler work may use a stable interface or simulation before runtime final delivery; confirm actual architecture coupling.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "phase-overlap-review",
+        "predecessorFeatureDoneDue": "2026-12-10",
+        "successorPDDue": "2026-09-30",
+        "successorFeatureDoneDue": "2026-12-31",
+        "predecessorPDDue": "2026-11-27",
+        "daysAfterSuccessorPD": 71,
+        "daysAfterSuccessorFeatureDone": -21,
+        "predecessorPDDaysAfterSuccessorPD": 58,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-2093-NSDT-2104",
+      "predecessorKey": "NSDT-2093",
+      "successorKey": "NSDT-2104",
+      "predecessorTitle": "Fast dispatch",
+      "successorTitle": "Automated tt-metal installation and host memory access configuration",
+      "predecessorOwner": "Hyun Eun (은현)",
+      "successorOwner": "MyeongGI Jeong",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "medium",
+      "relationshipType": "runtime-to-installer",
+      "rationale": "The automated tt-metal installer should install and smoke-test the release runtime including fast dispatch when enabled in the SDK.",
+      "evidenceSourceRows": [
+        137,
+        203
+      ],
+      "caveats": [
+        "The installer can be implemented using an earlier package; fast dispatch may be optional for its acceptance scope.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "phase-overlap-review",
+        "predecessorFeatureDoneDue": "2026-12-10",
+        "successorPDDue": "2026-11-27",
+        "successorFeatureDoneDue": "2026-12-24",
+        "predecessorPDDue": "2026-09-18",
+        "daysAfterSuccessorPD": 13,
+        "daysAfterSuccessorFeatureDone": -14,
+        "predecessorPDDaysAfterSuccessorPD": -70,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-1921-NSDT-1927",
+      "predecessorKey": "NSDT-1921",
+      "successorKey": "NSDT-1927",
+      "predecessorTitle": "INT8 w8a8 quantization for LLM/VLM",
+      "successorTitle": "Llama 3.1 8B/Llama 3.2 1B/3B Quantized",
+      "predecessorOwner": "SungminLee",
+      "successorOwner": "조민수",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "high",
+      "relationshipType": "quantization-to-model",
+      "rationale": "Quantized Llama reference models require a supported LLM INT8 quantization path.",
+      "evidenceSourceRows": [
+        115,
+        185
+      ],
+      "caveats": [
+        "Confirm these reference models specifically use the W8A8 path covered by the predecessor.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "phase-overlap-review",
+        "predecessorFeatureDoneDue": "2027-01-31",
+        "successorPDDue": "2026-09-30",
+        "successorFeatureDoneDue": "2027-01-31",
+        "predecessorPDDue": "2026-06-30",
+        "daysAfterSuccessorPD": 123,
+        "daysAfterSuccessorFeatureDone": 0,
+        "predecessorPDDaysAfterSuccessorPD": -92,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-1921-NSDT-1930",
+      "predecessorKey": "NSDT-1921",
+      "successorKey": "NSDT-1930",
+      "predecessorTitle": "INT8 w8a8 quantization for LLM/VLM",
+      "successorTitle": "Qwen 2.5VL 3B/7B Quantized",
+      "predecessorOwner": "SungminLee",
+      "successorOwner": "조민수",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "high",
+      "relationshipType": "quantization-to-model",
+      "rationale": "Quantized Qwen VL reference models require a supported LLM/VLM INT8 quantization path.",
+      "evidenceSourceRows": [
+        115,
+        186
+      ],
+      "caveats": [
+        "Confirm the model precision and whether an alternative quantization pipeline can satisfy acceptance.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "phase-overlap-review",
+        "predecessorFeatureDoneDue": "2027-01-31",
+        "successorPDDue": "2026-09-30",
+        "successorFeatureDoneDue": "2027-01-31",
+        "predecessorPDDue": "2026-06-30",
+        "daysAfterSuccessorPD": 123,
+        "daysAfterSuccessorFeatureDone": 0,
+        "predecessorPDDaysAfterSuccessorPD": -92,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-1945-NSDT-1946",
+      "predecessorKey": "NSDT-1945",
+      "successorKey": "NSDT-1946",
+      "predecessorTitle": "INT8 w8a8 quantization for Vision models",
+      "successorTitle": "Resnet50/Yolo Quantized",
+      "predecessorOwner": "",
+      "successorOwner": "Tran Thi Cam Giang",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "high",
+      "relationshipType": "quantization-to-model",
+      "rationale": "Quantized ResNet50/Yolo models need the vision-model INT8 W8A8 capability.",
+      "evidenceSourceRows": [
+        116,
+        199
+      ],
+      "caveats": [
+        "Confirm the quantization format; a prototype path may be sufficient for P-D.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "phase-overlap-review",
+        "predecessorFeatureDoneDue": "2026-12-31",
+        "successorPDDue": "2026-10-01",
+        "successorFeatureDoneDue": "2026-12-31",
+        "predecessorPDDue": "2026-10-31",
+        "daysAfterSuccessorPD": 91,
+        "daysAfterSuccessorFeatureDone": 0,
+        "predecessorPDDaysAfterSuccessorPD": 30,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-1945-NSDT-2138",
+      "predecessorKey": "NSDT-1945",
+      "successorKey": "NSDT-2138",
+      "predecessorTitle": "INT8 w8a8 quantization for Vision models",
+      "successorTitle": "ViT Quantized",
+      "predecessorOwner": "",
+      "successorOwner": "Hoang Nhat Quang",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "high",
+      "relationshipType": "quantization-to-model",
+      "rationale": "Quantized ViT requires a supported vision-model quantization pipeline.",
+      "evidenceSourceRows": [
+        116,
+        190
+      ],
+      "caveats": [
+        "Confirm ViT uses this INT8 W8A8 toolkit rather than another format.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "phase-overlap-review",
+        "predecessorFeatureDoneDue": "2026-12-31",
+        "successorPDDue": "2026-10-31",
+        "successorFeatureDoneDue": "2026-12-31",
+        "predecessorPDDue": "2026-10-31",
+        "daysAfterSuccessorPD": 61,
+        "daysAfterSuccessorFeatureDone": 0,
+        "predecessorPDDaysAfterSuccessorPD": 0,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-1922-NSDT-1928",
+      "predecessorKey": "NSDT-1922",
+      "successorKey": "NSDT-1928",
+      "predecessorTitle": "Draft-Target Speculative Decoding Runtime",
+      "successorTitle": "Llama 3.1 8B/Llama 3.2 1B/3B Speculative decoding",
+      "predecessorOwner": "서정현",
+      "successorOwner": "서정현",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "high",
+      "relationshipType": "runtime-to-model",
+      "rationale": "The Llama speculative-decoding reference feature needs a draft-target speculative-decoding runtime.",
+      "evidenceSourceRows": [
+        119,
+        187
+      ],
+      "caveats": [
+        "A preliminary runtime can support the model P-D milestone; final dates may legitimately coincide.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "phase-overlap-review",
+        "predecessorFeatureDoneDue": "2027-01-31",
+        "successorPDDue": "2026-09-30",
+        "successorFeatureDoneDue": "2027-01-31",
+        "predecessorPDDue": "2026-09-04",
+        "daysAfterSuccessorPD": 123,
+        "daysAfterSuccessorFeatureDone": 0,
+        "predecessorPDDaysAfterSuccessorPD": -26,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-1922-NSDT-1931",
+      "predecessorKey": "NSDT-1922",
+      "successorKey": "NSDT-1931",
+      "predecessorTitle": "Draft-Target Speculative Decoding Runtime",
+      "successorTitle": "Qwen 3 VL 3B/7B Speculative decoding",
+      "predecessorOwner": "서정현",
+      "successorOwner": "DongHo",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "high",
+      "relationshipType": "runtime-to-model",
+      "rationale": "The Qwen speculative-decoding reference feature needs a compatible speculative-decoding runtime.",
+      "evidenceSourceRows": [
+        119,
+        188
+      ],
+      "caveats": [
+        "Confirm Qwen compatibility and the acceptance criteria; its workbook note already reports unacceptable benefit and reopening.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "phase-overlap-review",
+        "predecessorFeatureDoneDue": "2027-01-31",
+        "successorPDDue": "2026-09-30",
+        "successorFeatureDoneDue": "2027-02-19",
+        "predecessorPDDue": "2026-09-04",
+        "daysAfterSuccessorPD": 123,
+        "daysAfterSuccessorFeatureDone": -19,
+        "predecessorPDDaysAfterSuccessorPD": -26,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-1923-NSDT-1931",
+      "predecessorKey": "NSDT-1923",
+      "successorKey": "NSDT-1931",
+      "predecessorTitle": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "successorTitle": "Qwen 3 VL 3B/7B Speculative decoding",
+      "predecessorOwner": "서정현",
+      "successorOwner": "DongHo",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "medium",
+      "relationshipType": "benchmark-to-model-acceptance",
+      "rationale": "The speculative-decoding benchmark and acceptance-rate dashboard can supply evidence for Qwen benefit acceptance.",
+      "evidenceSourceRows": [
+        120,
+        188
+      ],
+      "caveats": [
+        "This is an acceptance-evidence dependency, not necessarily a runtime or implementation blocker; another benchmark may suffice.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "phase-overlap-review",
+        "predecessorFeatureDoneDue": "2027-01-31",
+        "successorPDDue": "2026-09-30",
+        "successorFeatureDoneDue": "2027-02-19",
+        "predecessorPDDue": "2026-09-04",
+        "daysAfterSuccessorPD": 123,
+        "daysAfterSuccessorFeatureDone": -19,
+        "predecessorPDDaysAfterSuccessorPD": -26,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-2291-NSDT-1927",
+      "predecessorKey": "NSDT-2291",
+      "successorKey": "NSDT-1927",
+      "predecessorTitle": "BOS: Llama INT8  Kernel OPs - Trinity",
+      "successorTitle": "Llama 3.1 8B/Llama 3.2 1B/3B Quantized",
+      "predecessorOwner": "min.yi (이창민)",
+      "successorOwner": "조민수",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "medium",
+      "relationshipType": "kernel-to-model",
+      "rationale": "Trinity INT8 Llama kernels are a plausible prerequisite for final target-platform acceptance of quantized Llama models.",
+      "evidenceSourceRows": [
+        182,
+        185
+      ],
+      "caveats": [
+        "Only applies if the reference-model final milestone requires these exact Trinity INT8 kernels; workbook also questions ticket coverage.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "potential-final-readiness-conflict",
+        "predecessorFeatureDoneDue": "2027-02-19",
+        "successorPDDue": "2026-09-30",
+        "successorFeatureDoneDue": "2027-01-31",
+        "predecessorPDDue": "2026-12-18",
+        "daysAfterSuccessorPD": 142,
+        "daysAfterSuccessorFeatureDone": 19,
+        "predecessorPDDaysAfterSuccessorPD": 79,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-2292-NSDT-1946",
+      "predecessorKey": "NSDT-2292",
+      "successorKey": "NSDT-1946",
+      "predecessorTitle": "BOS: ResNet INT-8 Kernel OPs - Trinity",
+      "successorTitle": "Resnet50/Yolo Quantized",
+      "predecessorOwner": "Nguyen Viet Nhat",
+      "successorOwner": "Tran Thi Cam Giang",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "medium",
+      "relationshipType": "kernel-to-model",
+      "rationale": "Trinity INT8 ResNet kernels are a plausible prerequisite for final target-platform acceptance of the ResNet part of ResNet50/Yolo Quantized.",
+      "evidenceSourceRows": [
+        195,
+        199
+      ],
+      "caveats": [
+        "The successor combines two models; this edge covers ResNet only and assumes target-platform INT8 acceptance. Workbook questions ticket coverage.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "potential-final-readiness-conflict",
+        "predecessorFeatureDoneDue": "2027-02-19",
+        "successorPDDue": "2026-10-01",
+        "successorFeatureDoneDue": "2026-12-31",
+        "predecessorPDDue": "2026-12-18",
+        "daysAfterSuccessorPD": 141,
+        "daysAfterSuccessorFeatureDone": 50,
+        "predecessorPDDaysAfterSuccessorPD": 78,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-2085-NSDT-1946",
+      "predecessorKey": "NSDT-2085",
+      "successorKey": "NSDT-1946",
+      "predecessorTitle": "INT-8 Runtime Format",
+      "successorTitle": "Resnet50/Yolo Quantized",
+      "predecessorOwner": "MyeongGI Jeong",
+      "successorOwner": "Tran Thi Cam Giang",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "medium",
+      "relationshipType": "runtime-format-to-model",
+      "rationale": "Quantized ResNet50/Yolo on the target NPU likely needs the INT8 runtime format.",
+      "evidenceSourceRows": [
+        118,
+        199
+      ],
+      "caveats": [
+        "Confirm the selected model path uses this runtime format and that software-only validation is insufficient for Feature Done.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "phase-overlap-review",
+        "predecessorFeatureDoneDue": "2026-12-11",
+        "successorPDDue": "2026-10-01",
+        "successorFeatureDoneDue": "2026-12-31",
+        "predecessorPDDue": "2026-10-30",
+        "daysAfterSuccessorPD": 71,
+        "daysAfterSuccessorFeatureDone": -20,
+        "predecessorPDDaysAfterSuccessorPD": 29,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-2097-NSDT-2078",
+      "predecessorKey": "NSDT-2097",
+      "successorKey": "NSDT-2078",
+      "predecessorTitle": "NPU statistics",
+      "successorTitle": "Statistics tracking",
+      "predecessorOwner": "MyeongGI Jeong",
+      "successorOwner": "UKJIN CHOI",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "medium",
+      "relationshipType": "telemetry-to-scheduler",
+      "rationale": "Scheduler statistics tracking may consume NPU statistics from the runtime.",
+      "evidenceSourceRows": [
+        141,
+        147
+      ],
+      "caveats": [
+        "Scheduler-only counters could be independent of NPU counters; validate the actual telemetry contract before treating this as a dependency.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "potential-final-readiness-conflict",
+        "predecessorFeatureDoneDue": "2027-03-26",
+        "successorPDDue": "2026-12-04",
+        "successorFeatureDoneDue": "2027-02-12",
+        "predecessorPDDue": "2026-11-27",
+        "daysAfterSuccessorPD": 112,
+        "daysAfterSuccessorFeatureDone": 42,
+        "predecessorPDDaysAfterSuccessorPD": -7,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    },
+    {
+      "id": "inferred-NSDT-1959-NSDT-2101",
+      "predecessorKey": "NSDT-1959",
+      "successorKey": "NSDT-2101",
+      "predecessorTitle": "SW Unit Design (SUD)",
+      "successorTitle": "Debug-mode - NPU Register R & SRAM/DARM R/W",
+      "predecessorOwner": "MyeongGI Jeong",
+      "successorOwner": "MyeongGI Jeong",
+      "status": "inferred-unconfirmed",
+      "jiraRecorded": false,
+      "confidence": "medium",
+      "relationshipType": "spec-to-implementation",
+      "rationale": "BOS-SMI debug-mode implementation and acceptance should trace to BOS-SMI unit design.",
+      "evidenceSourceRows": [
+        38,
+        171
+      ],
+      "caveats": [
+        "Documentation can lag working code; this is a design-traceability relationship, not a claimed start gate.",
+        "Direction and acceptance scope require owner validation. No live Jira dependency was checked."
+      ],
+      "dateAssessment": {
+        "classification": "no-date-inversion",
+        "predecessorFeatureDoneDue": "2026-11-27",
+        "successorPDDue": "2026-11-27",
+        "successorFeatureDoneDue": "2026-12-24",
+        "predecessorPDDue": "2026-11-13",
+        "daysAfterSuccessorPD": 0,
+        "daysAfterSuccessorFeatureDone": -27,
+        "predecessorPDDaysAfterSuccessorPD": -14,
+        "confirmedConflict": false,
+        "phaseCompatibility": "P-D due and Feature Done due are different milestones. P-D is not a start date. Upstream final delivery after downstream P-D can be compatible with partial delivery or a stable interface. A final-to-final inversion is a conditional readiness risk only if the same target-platform release and acceptance scope are required."
+      }
+    }
+  ]
+}

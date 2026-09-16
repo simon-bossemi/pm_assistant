@@ -1,0 +1,25 @@
+.env
+__pycache__/
+.venv/
+.pydeps/
+
+# Local/generated data is intentionally excluded from the repository.
+inputs/
+input/
+output/
+outputs/
+reports/
+tmp/
+temp/
+work_notes/
+*.xlsx
+*.xls
+*.csv
+*.db
+
+# Widget build/runtime state.
+sites/master-plan/node_modules/
+sites/master-plan/.wrangler/
+sites/master-plan/.sites-runtime/
+sites/master-plan/publish-stage/
+sites/master-plan/*.tar.gz

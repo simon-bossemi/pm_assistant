@@ -1,0 +1,1 @@
+{"name":"eagle-master-plan-local","main":"dist/server/index.js","compatibility_date":"2026-05-01","d1_databases":[{"binding":"DB","database_name":"master-plan-local","database_id":"00000000-0000-4000-8000-000000000000","migrations_dir":"drizzle"}]}

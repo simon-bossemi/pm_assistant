@@ -1,0 +1,11 @@
+(function(root){
+ const scopes={focus:{title:'Host SW features',subtitle:'Four focus areas',match:r=>['Host SW','AI Model Dev. Tools','Ref. Models','SDK Installer'].includes(r.section)},req:{title:'Requirements',subtitle:'Feature Requirements section',match:r=>r.section==='Feature Requirements'},docs:{title:'Dev. Spec. Documents',subtitle:'All development specifications',match:r=>r.section==='Dev. Spec. Documents'},validation:{title:'Validation plan',subtitle:'SW Validation section',match:r=>r.section==='SW Validation'},all:{title:'Full master plan',subtitle:'First worksheet',match:()=>true}};
+ const statuses=['G','R','D','P-D','Done','Unknown'];
+ const countStatus=rows=>Object.fromEntries([...new Set([...statuses,...rows.map(r=>r.status)])].map(k=>[k,rows.filter(r=>r.status===k).length]));
+ function groupRows(rows,key){const groups=new Map();for(const r of rows){const value=r[key]||'Not recorded';if(!groups.has(value))groups.set(value,[]);groups.get(value).push(r);}return [...groups].map(([label,items])=>({label,rows:items,total:items.length,statuses:countStatus(items)}));}
+ const isDate=v=>/^20\d\d-\d{2}-\d{2}$/.test(v)&&!Number.isNaN(Date.parse(v));
+ const milestoneDone=(r,field)=>r.status==='Done'||field==='preDue'&&r.status==='P-D';
+ function dueSummary(rows,field,asOf){const dated=rows.filter(r=>isDate(r[field]));const months=[...new Set(dated.map(r=>r[field].slice(0,7)))].sort();return {months:months.map(month=>{const list=dated.filter(r=>r[field].startsWith(month));return {month,total:list.length,confirmed:list.filter(r=>milestoneDone(r,field)).length,unconfirmed:list.filter(r=>!milestoneDone(r,field)).length}}),missing:rows.length-dated.length,past:dated.filter(r=>r[field]<asOf&&!milestoneDone(r,field)),upcoming:dated.filter(r=>r[field]>=asOf&&!milestoneDone(r,field)).sort((a,b)=>a[field].localeCompare(b[field]))};}
+ function docType(title){return /\bSRS\b/.test(title)?'SRS':/\bSAD\b/.test(title)?'SAD':/\bSUD\b/.test(title)?'SUD':'Other';}
+ const api={scopes,statuses,countStatus,groupRows,dueSummary,isDate,milestoneDone,docType};root.Analytics=api;if(typeof module!=='undefined')module.exports=api;
+})(globalThis);
