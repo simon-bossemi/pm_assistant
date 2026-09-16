@@ -1,0 +1,816 @@
+{
+  "source": "Jira REST issue changelog",
+  "observedAt": "2026-09-16T09:57:05.306068+00:00",
+  "mappingNotice": "Categories use the currently displayed workbook section; Jira changelogs do not retain historical Level 1 mapping in this capture.",
+  "issues": [
+    {
+      "key": "NSDT-1945",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for Vision models",
+      "created": "2026-07-05T17:18:37.167+0900",
+      "updated": "2026-08-24T10:30:37.435+0900",
+      "historyCount": 14
+    },
+    {
+      "key": "NSDT-1919",
+      "section": "Host SW",
+      "title": "W8A8 LLM compression recipes/scripts",
+      "created": "2026-07-02T14:52:18.113+0900",
+      "updated": "2026-08-31T16:22:01.808+0900",
+      "historyCount": 10
+    },
+    {
+      "key": "NSDT-1921",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for LLM/VLM",
+      "created": "2026-07-02T14:53:00.339+0900",
+      "updated": "2026-08-31T16:22:02.689+0900",
+      "historyCount": 8
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "created": "2026-07-02T14:53:16.714+0900",
+      "updated": "2026-09-07T14:55:07.498+0900",
+      "historyCount": 16
+    },
+    {
+      "key": "NSDT-2084",
+      "section": "Host SW",
+      "title": "MXINT4 a8 Runtime Format",
+      "created": "2026-07-09T15:41:06.924+0900",
+      "updated": "2026-09-16T18:56:11.332+0900",
+      "historyCount": 10
+    },
+    {
+      "key": "NSDT-2085",
+      "section": "Host SW",
+      "title": "INT-8 Runtime Format",
+      "created": "2026-07-09T15:43:21.220+0900",
+      "updated": "2026-09-16T18:56:10.529+0900",
+      "historyCount": 5
+    },
+    {
+      "key": "NSDT-2087",
+      "section": "Host SW",
+      "title": "Device Access",
+      "created": "2026-07-09T15:46:25.210+0900",
+      "updated": "2026-09-16T18:56:10.558+0900",
+      "historyCount": 12
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "created": "2026-07-02T14:58:49.585+0900",
+      "updated": "2026-08-31T16:22:05.392+0900",
+      "historyCount": 12
+    },
+    {
+      "key": "NSDT-2086",
+      "section": "Host SW",
+      "title": "NPU boot-up",
+      "created": "2026-07-09T15:45:35.815+0900",
+      "updated": "2026-09-16T18:56:11.301+0900",
+      "historyCount": 12
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "created": "2026-07-02T14:56:23.812+0900",
+      "updated": "2026-09-07T14:55:05.683+0900",
+      "historyCount": 15
+    },
+    {
+      "key": "NSDT-2088",
+      "section": "Host SW",
+      "title": "NPU reset scenario",
+      "created": "2026-07-09T15:47:05.209+0900",
+      "updated": "2026-09-16T18:56:10.966+0900",
+      "historyCount": 9
+    },
+    {
+      "key": "NSDT-2089",
+      "section": "Host SW",
+      "title": "PCIe interface",
+      "created": "2026-07-09T15:47:26.863+0900",
+      "updated": "2026-09-16T18:56:10.597+0900",
+      "historyCount": 9
+    }
+  ],
+  "changes": [
+    {
+      "key": "NSDT-1945",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for Vision models",
+      "at": "2026-08-24T10:30:37.435+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1945",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for Vision models",
+      "at": "2026-07-05T17:19:58.615+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1945",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for Vision models",
+      "at": "2026-07-05T17:19:26.112+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][",
+      "to": "[N1-B0][AISW][Quantization] INT8 w8a8 quantization for Vision models (ResNet50, YOLOv8s, ViT, PDL, OFT/FastOFT, SSR) "
+    },
+    {
+      "key": "NSDT-1919",
+      "section": "Host SW",
+      "title": "W8A8 LLM compression recipes/scripts",
+      "at": "2026-08-25T16:56:06.542+0900",
+      "field": "duedate",
+      "from": "2026-06-30 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1919",
+      "section": "Host SW",
+      "title": "W8A8 LLM compression recipes/scripts",
+      "at": "2026-07-13T12:50:52.319+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "조민수"
+    },
+    {
+      "key": "NSDT-1919",
+      "section": "Host SW",
+      "title": "W8A8 LLM compression recipes/scripts",
+      "at": "2026-07-09T14:22:36.119+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-06-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1919",
+      "section": "Host SW",
+      "title": "W8A8 LLM compression recipes/scripts",
+      "at": "2026-07-09T13:16:31.865+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1919",
+      "section": "Host SW",
+      "title": "W8A8 LLM compression recipes/scripts",
+      "at": "2026-07-09T13:16:28.391+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1919",
+      "section": "Host SW",
+      "title": "W8A8 LLM compression recipes/scripts",
+      "at": "2026-07-03T08:55:49.384+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1919",
+      "section": "Host SW",
+      "title": "W8A8 LLM compression recipes/scripts",
+      "at": "2026-07-03T08:53:15.511+0900",
+      "field": "assignee",
+      "from": "조민수",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1919",
+      "section": "Host SW",
+      "title": "W8A8 LLM compression recipes/scripts",
+      "at": "2026-07-02T17:25:56.322+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "조민수"
+    },
+    {
+      "key": "NSDT-1921",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for LLM/VLM",
+      "at": "2026-08-25T16:56:05.653+0900",
+      "field": "duedate",
+      "from": "2026-06-30 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1921",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for LLM/VLM",
+      "at": "2026-08-25T16:01:59.267+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "SungminLee"
+    },
+    {
+      "key": "NSDT-1921",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for LLM/VLM",
+      "at": "2026-07-09T14:19:16.508+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-06-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1921",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for LLM/VLM",
+      "at": "2026-07-09T13:44:29.706+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1921",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for LLM/VLM",
+      "at": "2026-07-09T13:44:21.671+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1921",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for LLM/VLM",
+      "at": "2026-07-03T08:55:37.291+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-09-07T14:55:07.498+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-09-07T14:51:43.084+0900",
+      "field": "status",
+      "from": "RE-OPEN",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-08-25T16:56:06.827+0900",
+      "field": "duedate",
+      "from": "2026-08-27 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-08-24T14:20:27.512+0900",
+      "field": "duedate",
+      "from": "2026-06-30 00:00:00.0",
+      "to": "2026-08-27 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-08-24T14:20:19.212+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "서정현"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-08-24T14:15:52.021+0900",
+      "field": "status",
+      "from": "pre-silicon done",
+      "to": "RE-OPEN"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-07-09T14:19:32.910+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-06-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-07-09T13:44:45.818+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-07-09T13:44:43.542+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-07-03T08:55:29.884+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-07-03T08:53:08.783+0900",
+      "field": "assignee",
+      "from": "서정현",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-07-02T17:24:48.770+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "서정현"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-07-02T14:55:50.290+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Speculative Decoding] W8A8 LLM compression recipes/scripts",
+      "to": "[N1-B0][AISW][Speculative Decoding] Draft-Target Speculative Decoding Runtime"
+    },
+    {
+      "key": "NSDT-2084",
+      "section": "Host SW",
+      "title": "MXINT4 a8 Runtime Format",
+      "at": "2026-07-14T13:54:51.506+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2027-01-29 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2084",
+      "section": "Host SW",
+      "title": "MXINT4 a8 Runtime Format",
+      "at": "2026-07-14T13:36:20.801+0900",
+      "field": "duedate",
+      "from": "2026-12-11 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-2084",
+      "section": "Host SW",
+      "title": "MXINT4 a8 Runtime Format",
+      "at": "2026-07-14T11:55:39.322+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-11 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2084",
+      "section": "Host SW",
+      "title": "MXINT4 a8 Runtime Format",
+      "at": "2026-07-09T15:43:29.616+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "MyeongGI Jeong"
+    },
+    {
+      "key": "NSDT-2085",
+      "section": "Host SW",
+      "title": "INT-8 Runtime Format",
+      "at": "2026-07-14T11:56:26.128+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-11 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2087",
+      "section": "Host SW",
+      "title": "Device Access",
+      "at": "2026-08-06T15:42:15.346+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-2087",
+      "section": "Host SW",
+      "title": "Device Access",
+      "at": "2026-08-06T15:42:13.687+0900",
+      "field": "status",
+      "from": "RE-OPEN",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2087",
+      "section": "Host SW",
+      "title": "Device Access",
+      "at": "2026-08-06T15:42:11.740+0900",
+      "field": "status",
+      "from": "Resolved",
+      "to": "RE-OPEN"
+    },
+    {
+      "key": "NSDT-2087",
+      "section": "Host SW",
+      "title": "Device Access",
+      "at": "2026-08-06T15:40:21.178+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "Resolved"
+    },
+    {
+      "key": "NSDT-2087",
+      "section": "Host SW",
+      "title": "Device Access",
+      "at": "2026-08-06T15:40:19.449+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2087",
+      "section": "Host SW",
+      "title": "Device Access",
+      "at": "2026-08-06T15:20:24.753+0900",
+      "field": "assignee",
+      "from": "MyeongGI Jeong",
+      "to": "Hyun Eun (은현)"
+    },
+    {
+      "key": "NSDT-2087",
+      "section": "Host SW",
+      "title": "Device Access",
+      "at": "2026-07-14T11:57:53.551+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-08 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-08-25T16:56:06.542+0900",
+      "field": "duedate",
+      "from": "2026-06-30 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-08-25T16:01:59.269+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "min.yi (이창민)"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-07-09T14:18:31.569+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-06-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-07-09T13:13:37.393+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-07-09T13:13:32.748+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-07-09T13:13:28.562+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Speculative Decoding] Long-Context and KV-Cache Policy",
+      "to": "[N1-B0][AISW][Long Context] Sliding Window Attention/Attention sync"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-07-03T08:55:14.182+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-07-03T08:53:01.878+0900",
+      "field": "assignee",
+      "from": "min.yi (이창민)",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-07-02T17:24:01.076+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "min.yi (이창민)"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-07-02T17:12:54.569+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Speculative Decoding] Long-Context and KV-Cache Policy for Speculative Decoding",
+      "to": "[N1-B0][AISW][Speculative Decoding] Long-Context and KV-Cache Policy"
+    },
+    {
+      "key": "NSDT-2086",
+      "section": "Host SW",
+      "title": "NPU boot-up",
+      "at": "2026-08-06T15:42:22.759+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-2086",
+      "section": "Host SW",
+      "title": "NPU boot-up",
+      "at": "2026-08-06T15:42:21.186+0900",
+      "field": "status",
+      "from": "RE-OPEN",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2086",
+      "section": "Host SW",
+      "title": "NPU boot-up",
+      "at": "2026-08-06T15:42:19.442+0900",
+      "field": "status",
+      "from": "Resolved",
+      "to": "RE-OPEN"
+    },
+    {
+      "key": "NSDT-2086",
+      "section": "Host SW",
+      "title": "NPU boot-up",
+      "at": "2026-08-06T15:39:53.605+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "Resolved"
+    },
+    {
+      "key": "NSDT-2086",
+      "section": "Host SW",
+      "title": "NPU boot-up",
+      "at": "2026-08-06T15:39:51.586+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2086",
+      "section": "Host SW",
+      "title": "NPU boot-up",
+      "at": "2026-08-06T15:20:25.462+0900",
+      "field": "assignee",
+      "from": "MyeongGI Jeong",
+      "to": "Hyun Eun (은현)"
+    },
+    {
+      "key": "NSDT-2086",
+      "section": "Host SW",
+      "title": "NPU boot-up",
+      "at": "2026-07-14T11:57:21.854+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-08 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-09-07T14:55:05.683+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-09-07T14:51:32.106+0900",
+      "field": "status",
+      "from": "RE-OPEN",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-08-25T16:56:06.827+0900",
+      "field": "duedate",
+      "from": "2026-08-27 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-08-25T16:01:59.268+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "서정현"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-08-25T14:41:00.286+0900",
+      "field": "status",
+      "from": "pre-silicon done",
+      "to": "RE-OPEN"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-08-24T14:19:49.956+0900",
+      "field": "duedate",
+      "from": "2026-06-30 00:00:00.0",
+      "to": "2026-08-27 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-07-09T14:19:42.130+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-06-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-07-09T13:44:53.375+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-07-09T13:44:51.049+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-07-03T08:55:23.547+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-07-03T08:53:05.161+0900",
+      "field": "assignee",
+      "from": "서정현",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-07-02T17:24:10.175+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "서정현"
+    },
+    {
+      "key": "NSDT-2088",
+      "section": "Host SW",
+      "title": "NPU reset scenario",
+      "at": "2026-08-06T15:40:44.894+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2088",
+      "section": "Host SW",
+      "title": "NPU reset scenario",
+      "at": "2026-08-06T15:40:44.537+0900",
+      "field": "assignee",
+      "from": "Hyun Eun (은현)",
+      "to": "Hailee Kim(김승하)"
+    },
+    {
+      "key": "NSDT-2088",
+      "section": "Host SW",
+      "title": "NPU reset scenario",
+      "at": "2026-08-06T15:20:24.365+0900",
+      "field": "assignee",
+      "from": "MyeongGI Jeong",
+      "to": "Hyun Eun (은현)"
+    },
+    {
+      "key": "NSDT-2088",
+      "section": "Host SW",
+      "title": "NPU reset scenario",
+      "at": "2026-07-14T11:58:22.529+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-08 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2089",
+      "section": "Host SW",
+      "title": "PCIe interface",
+      "at": "2026-08-06T15:41:38.362+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-2089",
+      "section": "Host SW",
+      "title": "PCIe interface",
+      "at": "2026-08-06T15:41:36.758+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2089",
+      "section": "Host SW",
+      "title": "PCIe interface",
+      "at": "2026-08-06T15:20:24.732+0900",
+      "field": "assignee",
+      "from": "MyeongGI Jeong",
+      "to": "Hyun Eun (은현)"
+    },
+    {
+      "key": "NSDT-2089",
+      "section": "Host SW",
+      "title": "PCIe interface",
+      "at": "2026-07-14T11:58:40.514+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-08 00:00:00.0"
+    }
+  ]
+}
