@@ -14,10 +14,10 @@ rows={i.get('key'):workbook_rows.get(i.get('key'), {'key':i.get('key'),'section'
 def fetch(item):
     key,row=item; s=jira.session()
     try:
-        res=s.get(f"{s.base_url}/rest/api/3/issue/{key}", params={'expand':'changelog','fields':'summary,status,created,updated'}, timeout=8)
+        res=s.get(f"{s.base_url}/rest/api/3/issue/{key}", params={'expand':'changelog','fields':'summary,status,assignee,duedate,created,updated'}, timeout=8)
         if res.status_code != 200: return [],[]
         p=res.json(); f=p.get('fields',{}); histories=p.get('changelog',{}).get('histories',[])
-        issue={'key':key,'section':row.get('section',''),'title':row.get('title',''),'created':f.get('created'),'updated':f.get('updated'),'currentStatus':(f.get('status') or {}).get('name',''),'historyCount':len(histories)}
+        issue={'key':key,'section':row.get('section',''),'title':row.get('title',''),'created':f.get('created'),'updated':f.get('updated'),'currentStatus':(f.get('status') or {}).get('name',''),'assignee':(f.get('assignee') or {}).get('displayName',''),'dueDate':f.get('duedate') or '','historyCount':len(histories)}
         local=[]
         for h in histories:
             for it in h.get('items',[]):
