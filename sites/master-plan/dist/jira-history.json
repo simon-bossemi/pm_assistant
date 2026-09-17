@@ -2,16 +2,19 @@
   "source": "Jira filter 19455 · labels = \"host_sw_master_plan\" ORDER BY created DESC · REST issue changelog",
   "filterId": "19455",
   "jql": "labels = \"host_sw_master_plan\" ORDER BY created DESC",
-  "observedAt": "2026-09-16T10:02:31.649315+00:00",
+  "observedAt": "2026-09-16T10:15:08.773196+00:00",
   "mappingNotice": "Only tickets returned by Jira filter 19455 are included. Categories use the currently displayed workbook section when available; otherwise they are marked Unmapped Jira ticket.",
   "issues": [
     {
-      "key": "NSDT-2288",
-      "section": "Host SW",
-      "title": "ResNet LLK for trinity",
-      "created": "2026-08-11T17:21:05.956+0900",
-      "updated": "2026-09-16T18:56:10.783+0900",
-      "historyCount": 10
+      "key": "NSDT-2293",
+      "section": "Ref. Models",
+      "title": "BOS: Yolo Int-8 Kernel OPs - Trinity",
+      "created": "2026-08-11T18:28:51.433+0900",
+      "updated": "2026-09-16T18:50:32.053+0900",
+      "currentStatus": "To Do",
+      "assignee": "Nguyen Viet Nhat",
+      "dueDate": "",
+      "historyCount": 4
     },
     {
       "key": "NSDT-2292",
@@ -19,31 +22,10 @@
       "title": "BOS: ResNet INT-8 Kernel OPs - Trinity",
       "created": "2026-08-11T18:28:19.695+0900",
       "updated": "2026-09-16T18:50:32.050+0900",
+      "currentStatus": "To Do",
+      "assignee": "Nguyen Viet Nhat",
+      "dueDate": "2027-02-19",
       "historyCount": 6
-    },
-    {
-      "key": "NSDT-2293",
-      "section": "Ref. Models",
-      "title": "BOS: Yolo Int-8 Kernel OPs - Trinity",
-      "created": "2026-08-11T18:28:51.433+0900",
-      "updated": "2026-09-16T18:50:32.053+0900",
-      "historyCount": 4
-    },
-    {
-      "key": "NSDT-2138",
-      "section": "Ref. Models",
-      "title": "ViT Quantized",
-      "created": "2026-07-14T15:16:38.613+0900",
-      "updated": "2026-09-16T18:56:10.663+0900",
-      "historyCount": 11
-    },
-    {
-      "key": "NSDT-2289",
-      "section": "Host SW",
-      "title": "Llama LLK for trinity",
-      "created": "2026-08-11T17:22:52.271+0900",
-      "updated": "2026-09-16T18:50:32.145+0900",
-      "historyCount": 8
     },
     {
       "key": "NSDT-2291",
@@ -51,7 +33,54 @@
       "title": "BOS: Llama INT8  Kernel OPs - Trinity",
       "created": "2026-08-11T18:27:38.398+0900",
       "updated": "2026-09-16T18:50:32.451+0900",
+      "currentStatus": "To Do",
+      "assignee": "min.yi (이창민)",
+      "dueDate": "2027-02-19",
       "historyCount": 9
+    },
+    {
+      "key": "NSDT-2289",
+      "section": "Host SW",
+      "title": "Llama LLK for trinity",
+      "created": "2026-08-11T17:22:52.271+0900",
+      "updated": "2026-09-16T18:50:32.145+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-12-15",
+      "historyCount": 8
+    },
+    {
+      "key": "NSDT-2138",
+      "section": "Ref. Models",
+      "title": "ViT Quantized",
+      "created": "2026-07-14T15:16:38.613+0900",
+      "updated": "2026-09-16T18:56:10.663+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Hoang Nhat Quang",
+      "dueDate": "2026-12-31",
+      "historyCount": 11
+    },
+    {
+      "key": "NSDT-2288",
+      "section": "Host SW",
+      "title": "ResNet LLK for trinity",
+      "created": "2026-08-11T17:21:05.956+0900",
+      "updated": "2026-09-16T18:56:10.783+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-12-15",
+      "historyCount": 10
+    },
+    {
+      "key": "NSDT-2101",
+      "section": "AI Model Dev. Tools",
+      "title": "Debug-mode - NPU Register R & SRAM/DARM R/W",
+      "created": "2026-07-09T15:58:37.440+0900",
+      "updated": "2026-09-16T18:56:11.275+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-12-24",
+      "historyCount": 5
     },
     {
       "key": "NSDT-2105",
@@ -59,22 +88,9 @@
       "title": "Automated device binary fusing",
       "created": "2026-07-09T16:01:44.198+0900",
       "updated": "2026-09-16T18:56:10.690+0900",
-      "historyCount": 7
-    },
-    {
-      "key": "NSDT-2102",
-      "section": "AI Model Dev. Tools",
-      "title": "Device info - Device ID/SW Ver./Device Status/PCIE ID/Thermal Status",
-      "created": "2026-07-09T15:59:07.472+0900",
-      "updated": "2026-09-16T18:56:10.717+0900",
-      "historyCount": 6
-    },
-    {
-      "key": "NSDT-2104",
-      "section": "SDK Installer",
-      "title": "Automated tt-metal installation and host memory access configuration",
-      "created": "2026-07-09T16:01:06.093+0900",
-      "updated": "2026-09-16T18:56:10.651+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-12-24",
       "historyCount": 7
     },
     {
@@ -83,15 +99,21 @@
       "title": "Device Ctrl - Device Reset/NPU Reset",
       "created": "2026-07-09T15:59:32.355+0900",
       "updated": "2026-09-16T18:56:11.380+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-12-24",
       "historyCount": 5
     },
     {
-      "key": "NSDT-2101",
-      "section": "AI Model Dev. Tools",
-      "title": "Debug-mode - NPU Register R & SRAM/DARM R/W",
-      "created": "2026-07-09T15:58:37.440+0900",
-      "updated": "2026-09-16T18:56:11.275+0900",
-      "historyCount": 5
+      "key": "NSDT-2104",
+      "section": "SDK Installer",
+      "title": "Automated tt-metal installation and host memory access configuration",
+      "created": "2026-07-09T16:01:06.093+0900",
+      "updated": "2026-09-16T18:56:10.651+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-12-24",
+      "historyCount": 7
     },
     {
       "key": "NSDT-2100",
@@ -99,7 +121,21 @@
       "title": "Column harvesting (runtime + umd/kmd)",
       "created": "2026-07-09T15:56:59.992+0900",
       "updated": "2026-09-16T18:56:11.442+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2027-03-26",
       "historyCount": 9
+    },
+    {
+      "key": "NSDT-2102",
+      "section": "AI Model Dev. Tools",
+      "title": "Device info - Device ID/SW Ver./Device Status/PCIE ID/Thermal Status",
+      "created": "2026-07-09T15:59:07.472+0900",
+      "updated": "2026-09-16T18:56:10.717+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-12-24",
+      "historyCount": 6
     },
     {
       "key": "NSDT-2098",
@@ -107,15 +143,10 @@
       "title": "Partition manager",
       "created": "2026-07-09T15:55:44.536+0900",
       "updated": "2026-09-16T18:56:11.311+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2027-03-26",
       "historyCount": 9
-    },
-    {
-      "key": "NSDT-2096",
-      "section": "Host SW",
-      "title": "Memory allocator for sharding, interleaving, etc",
-      "created": "2026-07-09T15:51:33.072+0900",
-      "updated": "2026-09-16T18:56:10.621+0900",
-      "historyCount": 7
     },
     {
       "key": "NSDT-2099",
@@ -123,14 +154,9 @@
       "title": "memory protection (isolation)",
       "created": "2026-07-09T15:56:15.230+0900",
       "updated": "2026-09-16T18:56:12.688+0900",
-      "historyCount": 9
-    },
-    {
-      "key": "NSDT-2097",
-      "section": "Host SW",
-      "title": "NPU statistics",
-      "created": "2026-07-09T15:51:57.351+0900",
-      "updated": "2026-09-16T18:56:11.123+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2027-03-26",
       "historyCount": 9
     },
     {
@@ -139,7 +165,21 @@
       "title": "MX INT4",
       "created": "2026-07-09T15:50:56.610+0900",
       "updated": "2026-09-16T18:56:10.860+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2027-01-29",
       "historyCount": 10
+    },
+    {
+      "key": "NSDT-2097",
+      "section": "Host SW",
+      "title": "NPU statistics",
+      "created": "2026-07-09T15:51:57.351+0900",
+      "updated": "2026-09-16T18:56:11.123+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2027-03-26",
+      "historyCount": 9
     },
     {
       "key": "NSDT-2094",
@@ -147,15 +187,21 @@
       "title": "Trace",
       "created": "2026-07-09T15:50:39.913+0900",
       "updated": "2026-09-16T18:56:10.578+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-12-09",
       "historyCount": 6
     },
     {
-      "key": "NSDT-2092",
+      "key": "NSDT-2096",
       "section": "Host SW",
-      "title": "Slow dispatch",
-      "created": "2026-07-09T15:50:00.275+0900",
-      "updated": "2026-09-16T18:56:11.224+0900",
-      "historyCount": 9
+      "title": "Memory allocator for sharding, interleaving, etc",
+      "created": "2026-07-09T15:51:33.072+0900",
+      "updated": "2026-09-16T18:56:10.621+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-12-10",
+      "historyCount": 7
     },
     {
       "key": "NSDT-2093",
@@ -163,22 +209,20 @@
       "title": "Fast dispatch",
       "created": "2026-07-09T15:50:11.574+0900",
       "updated": "2026-09-16T18:56:10.816+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Hyun Eun (은현)",
+      "dueDate": "2026-12-10",
       "historyCount": 11
     },
     {
-      "key": "NSDT-2091",
+      "key": "NSDT-2092",
       "section": "Host SW",
-      "title": "Yolo LLK for trinity",
-      "created": "2026-07-09T15:49:42.909+0900",
-      "updated": "2026-09-16T18:56:11.136+0900",
-      "historyCount": 11
-    },
-    {
-      "key": "NSDT-2089",
-      "section": "Host SW",
-      "title": "PCIe interface",
-      "created": "2026-07-09T15:47:26.863+0900",
-      "updated": "2026-09-16T18:56:10.597+0900",
+      "title": "Slow dispatch",
+      "created": "2026-07-09T15:50:00.275+0900",
+      "updated": "2026-09-16T18:56:11.224+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Hyun Eun (은현)",
+      "dueDate": "2026-12-09",
       "historyCount": 9
     },
     {
@@ -187,7 +231,32 @@
       "title": "NPU firmware for Tensix boot-up",
       "created": "2026-07-09T15:49:31.107+0900",
       "updated": "2026-09-16T18:56:11.145+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Hyun Eun (은현)",
+      "dueDate": "2026-12-09",
       "historyCount": 8
+    },
+    {
+      "key": "NSDT-2091",
+      "section": "Host SW",
+      "title": "Yolo LLK for trinity",
+      "created": "2026-07-09T15:49:42.909+0900",
+      "updated": "2026-09-16T18:56:11.136+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Hyun Eun (은현)",
+      "dueDate": "2026-12-15",
+      "historyCount": 11
+    },
+    {
+      "key": "NSDT-2089",
+      "section": "Host SW",
+      "title": "PCIe interface",
+      "created": "2026-07-09T15:47:26.863+0900",
+      "updated": "2026-09-16T18:56:10.597+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Hyun Eun (은현)",
+      "dueDate": "2026-12-08",
+      "historyCount": 9
     },
     {
       "key": "NSDT-2088",
@@ -195,38 +264,9 @@
       "title": "NPU reset scenario",
       "created": "2026-07-09T15:47:05.209+0900",
       "updated": "2026-09-16T18:56:10.966+0900",
-      "historyCount": 9
-    },
-    {
-      "key": "NSDT-2087",
-      "section": "Host SW",
-      "title": "Device Access",
-      "created": "2026-07-09T15:46:25.210+0900",
-      "updated": "2026-09-16T18:56:10.558+0900",
-      "historyCount": 12
-    },
-    {
-      "key": "NSDT-2084",
-      "section": "Host SW",
-      "title": "MXINT4 a8 Runtime Format",
-      "created": "2026-07-09T15:41:06.924+0900",
-      "updated": "2026-09-16T18:56:11.332+0900",
-      "historyCount": 10
-    },
-    {
-      "key": "NSDT-2086",
-      "section": "Host SW",
-      "title": "NPU boot-up",
-      "created": "2026-07-09T15:45:35.815+0900",
-      "updated": "2026-09-16T18:56:11.301+0900",
-      "historyCount": 12
-    },
-    {
-      "key": "NSDT-2079",
-      "section": "Host SW",
-      "title": "Diagnostics",
-      "created": "2026-07-09T15:18:46.406+0900",
-      "updated": "2026-09-16T18:56:11.585+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Hailee Kim(김승하)",
+      "dueDate": "2026-12-08",
       "historyCount": 9
     },
     {
@@ -235,7 +275,32 @@
       "title": "INT-8 Runtime Format",
       "created": "2026-07-09T15:43:21.220+0900",
       "updated": "2026-09-16T18:56:10.529+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-12-11",
       "historyCount": 5
+    },
+    {
+      "key": "NSDT-2087",
+      "section": "Host SW",
+      "title": "Device Access",
+      "created": "2026-07-09T15:46:25.210+0900",
+      "updated": "2026-09-16T18:56:10.558+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Hyun Eun (은현)",
+      "dueDate": "2026-12-08",
+      "historyCount": 12
+    },
+    {
+      "key": "NSDT-2084",
+      "section": "Host SW",
+      "title": "MXINT4 a8 Runtime Format",
+      "created": "2026-07-09T15:41:06.924+0900",
+      "updated": "2026-09-16T18:56:11.332+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2027-01-29",
+      "historyCount": 10
     },
     {
       "key": "NSDT-2078",
@@ -243,7 +308,32 @@
       "title": "Statistics tracking",
       "created": "2026-07-09T15:18:27.489+0900",
       "updated": "2026-09-16T18:56:10.645+0900",
+      "currentStatus": "To Do",
+      "assignee": "UKJIN CHOI",
+      "dueDate": "2027-02-12",
       "historyCount": 12
+    },
+    {
+      "key": "NSDT-2086",
+      "section": "Host SW",
+      "title": "NPU boot-up",
+      "created": "2026-07-09T15:45:35.815+0900",
+      "updated": "2026-09-16T18:56:11.301+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Hyun Eun (은현)",
+      "dueDate": "2026-12-08",
+      "historyCount": 12
+    },
+    {
+      "key": "NSDT-2079",
+      "section": "Host SW",
+      "title": "Diagnostics",
+      "created": "2026-07-09T15:18:46.406+0900",
+      "updated": "2026-09-16T18:56:11.585+0900",
+      "currentStatus": "To Do",
+      "assignee": "UKJIN CHOI",
+      "dueDate": "2027-02-12",
+      "historyCount": 9
     },
     {
       "key": "NSDT-2077",
@@ -251,15 +341,10 @@
       "title": "Centralized Governor",
       "created": "2026-07-09T15:18:10.931+0900",
       "updated": "2026-09-16T18:56:10.878+0900",
+      "currentStatus": "To Do",
+      "assignee": "UKJIN CHOI",
+      "dueDate": "2027-02-12",
       "historyCount": 11
-    },
-    {
-      "key": "NSDT-2076",
-      "section": "Host SW",
-      "title": "Preemption",
-      "created": "2026-07-09T15:17:47.659+0900",
-      "updated": "2026-09-16T18:56:10.658+0900",
-      "historyCount": 13
     },
     {
       "key": "NSDT-2074",
@@ -267,15 +352,21 @@
       "title": "Real-time scheduling",
       "created": "2026-07-09T15:17:01.158+0900",
       "updated": "2026-09-16T18:56:10.716+0900",
+      "currentStatus": "To Do",
+      "assignee": "UKJIN CHOI",
+      "dueDate": "2027-02-12",
       "historyCount": 15
     },
     {
-      "key": "NSDT-2075",
+      "key": "NSDT-2076",
       "section": "Host SW",
-      "title": "Deadline scheduling",
-      "created": "2026-07-09T15:17:27.740+0900",
-      "updated": "2026-09-16T18:56:10.756+0900",
-      "historyCount": 18
+      "title": "Preemption",
+      "created": "2026-07-09T15:17:47.659+0900",
+      "updated": "2026-09-16T18:56:10.658+0900",
+      "currentStatus": "To Do",
+      "assignee": "UKJIN CHOI",
+      "dueDate": "2027-02-12",
+      "historyCount": 13
     },
     {
       "key": "PTTM-702",
@@ -283,6 +374,9 @@
       "title": "IT Test Case Automation (incl. Test Code) for BOS-compiler",
       "created": "2026-07-09T12:58:46.080+0900",
       "updated": "2026-09-16T18:50:32.467+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-12-31",
       "historyCount": 9
     },
     {
@@ -291,15 +385,21 @@
       "title": "Fair scheduling",
       "created": "2026-07-09T15:16:00.386+0900",
       "updated": "2026-09-16T18:56:10.825+0900",
+      "currentStatus": "To Do",
+      "assignee": "UKJIN CHOI",
+      "dueDate": "2027-02-12",
       "historyCount": 18
     },
     {
-      "key": "PTTM-699",
-      "section": "SW Validation",
-      "title": "System Test Scenario for BOS-compiler",
-      "created": "2026-07-09T12:58:06.944+0900",
-      "updated": "2026-09-16T18:50:32.562+0900",
-      "historyCount": 9
+      "key": "NSDT-2075",
+      "section": "Host SW",
+      "title": "Deadline scheduling",
+      "created": "2026-07-09T15:17:27.740+0900",
+      "updated": "2026-09-16T18:56:10.756+0900",
+      "currentStatus": "To Do",
+      "assignee": "UKJIN CHOI",
+      "dueDate": "2027-02-12",
+      "historyCount": 18
     },
     {
       "key": "PTTM-701",
@@ -307,6 +407,9 @@
       "title": "Integration Test Scenario for BOS-compiler",
       "created": "2026-07-09T12:58:33.082+0900",
       "updated": "2026-09-16T18:50:32.154+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-11-30",
       "historyCount": 9
     },
     {
@@ -315,6 +418,20 @@
       "title": "ST Test Case Automation (incl. Test Code) for BOS-compiler",
       "created": "2026-07-09T12:58:20.371+0900",
       "updated": "2026-09-16T18:50:33.051+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-11-30",
+      "historyCount": 9
+    },
+    {
+      "key": "PTTM-699",
+      "section": "SW Validation",
+      "title": "System Test Scenario for BOS-compiler",
+      "created": "2026-07-09T12:58:06.944+0900",
+      "updated": "2026-09-16T18:50:32.562+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-10-30",
       "historyCount": 9
     },
     {
@@ -323,14 +440,9 @@
       "title": "IT Test Case Automation (incl. Test Code) for TT-metal",
       "created": "2026-07-09T12:52:10.411+0900",
       "updated": "2026-09-16T18:50:32.125+0900",
-      "historyCount": 8
-    },
-    {
-      "key": "PTTM-685",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for BOS-SMI",
-      "created": "2026-07-09T12:51:57.102+0900",
-      "updated": "2026-09-16T18:50:32.006+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-11-30",
       "historyCount": 8
     },
     {
@@ -339,14 +451,20 @@
       "title": "IT Test Case Automation (incl. Test Code) for KMD",
       "created": "2026-07-09T12:51:43.389+0900",
       "updated": "2026-09-16T18:50:32.144+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-10-30",
       "historyCount": 8
     },
     {
-      "key": "PTTM-683",
+      "key": "PTTM-685",
       "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for UMD",
-      "created": "2026-07-09T12:51:35.925+0900",
-      "updated": "2026-09-16T18:50:31.965+0900",
+      "title": "IT Test Case Automation (incl. Test Code) for BOS-SMI",
+      "created": "2026-07-09T12:51:57.102+0900",
+      "updated": "2026-09-16T18:50:32.006+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-10-30",
       "historyCount": 8
     },
     {
@@ -355,6 +473,9 @@
       "title": "Integration Test Scenario for TT-metal",
       "created": "2026-07-09T12:51:07.755+0900",
       "updated": "2026-09-16T18:50:32.069+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-10-30",
       "historyCount": 8
     },
     {
@@ -363,6 +484,20 @@
       "title": "Integration Test Scenario for BOS-SMI",
       "created": "2026-07-09T12:50:51.315+0900",
       "updated": "2026-09-16T18:50:32.141+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-10-30",
+      "historyCount": 8
+    },
+    {
+      "key": "PTTM-683",
+      "section": "SW Validation",
+      "title": "IT Test Case Automation (incl. Test Code) for UMD",
+      "created": "2026-07-09T12:51:35.925+0900",
+      "updated": "2026-09-16T18:50:31.965+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-10-30",
       "historyCount": 8
     },
     {
@@ -371,39 +506,10 @@
       "title": "Integration Test Scenario for KMD",
       "created": "2026-07-09T12:50:42.539+0900",
       "updated": "2026-09-16T18:50:31.952+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-10-30",
       "historyCount": 8
-    },
-    {
-      "key": "PTTM-679",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for UMD",
-      "created": "2026-07-09T12:50:33.699+0900",
-      "updated": "2026-09-16T18:50:32.280+0900",
-      "historyCount": 10
-    },
-    {
-      "key": "PTTM-678",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for TT-Metal",
-      "created": "2026-07-09T12:49:31.316+0900",
-      "updated": "2026-09-16T18:50:34.699+0900",
-      "historyCount": 8
-    },
-    {
-      "key": "PTTM-677",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for BOS-SMI",
-      "created": "2026-07-09T12:49:09.700+0900",
-      "updated": "2026-09-16T18:50:32.147+0900",
-      "historyCount": 7
-    },
-    {
-      "key": "PTTM-675",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for UMD",
-      "created": "2026-07-09T12:48:24.163+0900",
-      "updated": "2026-09-16T18:50:32.047+0900",
-      "historyCount": 7
     },
     {
       "key": "PTTM-674",
@@ -411,6 +517,9 @@
       "title": "System Test Scenario for TT-metal",
       "created": "2026-07-09T12:48:00.974+0900",
       "updated": "2026-09-16T18:50:34.272+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-09-30",
       "historyCount": 8
     },
     {
@@ -419,14 +528,53 @@
       "title": "ST Test Case Automation (incl. Test Code) for KMD",
       "created": "2026-07-09T12:48:45.410+0900",
       "updated": "2026-09-16T18:50:31.951+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-09-30",
       "historyCount": 7
     },
     {
-      "key": "PTTM-673",
+      "key": "PTTM-677",
       "section": "SW Validation",
-      "title": "System Test Scenario for BOS-SMI",
-      "created": "2026-07-09T12:47:30.223+0900",
-      "updated": "2026-09-16T18:50:32.043+0900",
+      "title": "ST Test Case Automation (incl. Test Code) for BOS-SMI",
+      "created": "2026-07-09T12:49:09.700+0900",
+      "updated": "2026-09-16T18:50:32.147+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-09-30",
+      "historyCount": 7
+    },
+    {
+      "key": "PTTM-675",
+      "section": "SW Validation",
+      "title": "ST Test Case Automation (incl. Test Code) for UMD",
+      "created": "2026-07-09T12:48:24.163+0900",
+      "updated": "2026-09-16T18:50:32.047+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-09-30",
+      "historyCount": 7
+    },
+    {
+      "key": "PTTM-679",
+      "section": "SW Validation",
+      "title": "Integration Test Scenario for UMD",
+      "created": "2026-07-09T12:50:33.699+0900",
+      "updated": "2026-09-16T18:50:32.280+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-10-30",
+      "historyCount": 10
+    },
+    {
+      "key": "PTTM-678",
+      "section": "SW Validation",
+      "title": "ST Test Case Automation (incl. Test Code) for TT-Metal",
+      "created": "2026-07-09T12:49:31.316+0900",
+      "updated": "2026-09-16T18:50:34.699+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-10-30",
       "historyCount": 8
     },
     {
@@ -435,23 +583,21 @@
       "title": "System Test Scenario for KMD",
       "created": "2026-07-09T12:47:03.152+0900",
       "updated": "2026-09-16T18:50:32.025+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-09-11",
       "historyCount": 8
     },
     {
-      "key": "PTTM-667",
+      "key": "PTTM-673",
       "section": "SW Validation",
-      "title": "Integration Test Scenario for LLM Compressor",
-      "created": "2026-07-09T12:43:57.735+0900",
-      "updated": "2026-09-16T18:50:32.064+0900",
-      "historyCount": 9
-    },
-    {
-      "key": "PTTM-668",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for LLM Compressor",
-      "created": "2026-07-09T12:44:21.055+0900",
-      "updated": "2026-09-16T18:50:31.996+0900",
-      "historyCount": 9
+      "title": "System Test Scenario for BOS-SMI",
+      "created": "2026-07-09T12:47:30.223+0900",
+      "updated": "2026-09-16T18:50:32.043+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-09-11",
+      "historyCount": 8
     },
     {
       "key": "PTTM-671",
@@ -459,6 +605,9 @@
       "title": "System Test Scenario for UMD",
       "created": "2026-07-09T12:46:40.132+0900",
       "updated": "2026-09-16T18:50:33.954+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-09-11",
       "historyCount": 8
     },
     {
@@ -467,6 +616,9 @@
       "title": "IT Test Case Automation (incl. Test Code) for Speculative decoding",
       "created": "2026-07-09T12:45:14.842+0900",
       "updated": "2026-09-16T18:50:33.480+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-12-31",
       "historyCount": 9
     },
     {
@@ -475,6 +627,20 @@
       "title": "Integration Test Scenario for Speculative decoding",
       "created": "2026-07-09T12:44:48.151+0900",
       "updated": "2026-09-16T18:50:32.156+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-11-30",
+      "historyCount": 9
+    },
+    {
+      "key": "PTTM-668",
+      "section": "SW Validation",
+      "title": "IT Test Case Automation (incl. Test Code) for LLM Compressor",
+      "created": "2026-07-09T12:44:21.055+0900",
+      "updated": "2026-09-16T18:50:31.996+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-12-31",
       "historyCount": 9
     },
     {
@@ -483,14 +649,31 @@
       "title": "IT Test Case Automation (incl. Test Code) for Quantization",
       "created": "2026-07-09T12:43:31.708+0900",
       "updated": "2026-09-16T18:50:33.136+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-12-31",
       "historyCount": 9
     },
     {
-      "key": "PTTM-663",
+      "key": "PTTM-667",
       "section": "SW Validation",
-      "title": "System Test Scenario for Speculative decoding",
-      "created": "2026-07-09T12:32:16.400+0900",
-      "updated": "2026-09-16T18:50:32.532+0900",
+      "title": "Integration Test Scenario for LLM Compressor",
+      "created": "2026-07-09T12:43:57.735+0900",
+      "updated": "2026-09-16T18:50:32.064+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-11-30",
+      "historyCount": 9
+    },
+    {
+      "key": "PTTM-664",
+      "section": "SW Validation",
+      "title": "ST Test Case Automation (incl. Test Code) for Speculative decoding",
+      "created": "2026-07-09T12:32:46.696+0900",
+      "updated": "2026-09-16T18:50:32.259+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-11-13",
       "historyCount": 9
     },
     {
@@ -499,14 +682,20 @@
       "title": "Integration Test Scenario for Quantization",
       "created": "2026-07-09T12:43:04.465+0900",
       "updated": "2026-09-16T18:50:32.253+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-11-30",
       "historyCount": 10
     },
     {
-      "key": "PTTM-664",
+      "key": "PTTM-663",
       "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for Speculative decoding",
-      "created": "2026-07-09T12:32:46.696+0900",
-      "updated": "2026-09-16T18:50:32.259+0900",
+      "title": "System Test Scenario for Speculative decoding",
+      "created": "2026-07-09T12:32:16.400+0900",
+      "updated": "2026-09-16T18:50:32.532+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-10-30",
       "historyCount": 9
     },
     {
@@ -515,6 +704,9 @@
       "title": "ST Test Case Automation (incl. Test Code) for LLM Compressor",
       "created": "2026-07-09T12:31:29.137+0900",
       "updated": "2026-09-16T18:50:36.091+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-11-13",
       "historyCount": 9
     },
     {
@@ -523,6 +715,9 @@
       "title": "System Test Scenario for LLM Compressor",
       "created": "2026-07-09T12:30:57.639+0900",
       "updated": "2026-09-16T18:50:31.968+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-10-30",
       "historyCount": 9
     },
     {
@@ -531,23 +726,10 @@
       "title": "ST Test Case Automation (incl. Test Code) for Quantization",
       "created": "2026-07-09T12:27:40.532+0900",
       "updated": "2026-09-16T18:50:32.414+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-11-13",
       "historyCount": 10
-    },
-    {
-      "key": "NSDT-2062",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "created": "2026-07-08T17:10:49.357+0900",
-      "updated": "2026-09-16T18:56:10.730+0900",
-      "historyCount": 8
-    },
-    {
-      "key": "PTTM-659",
-      "section": "SW Validation",
-      "title": "System Test Scenario for Quantization",
-      "created": "2026-07-09T12:23:35.875+0900",
-      "updated": "2026-09-16T18:50:32.452+0900",
-      "historyCount": 18
     },
     {
       "key": "NSDT-2063",
@@ -555,7 +737,32 @@
       "title": "SW Unit Design (SUD)",
       "created": "2026-07-08T17:11:10.538+0900",
       "updated": "2026-09-16T18:56:10.677+0900",
+      "currentStatus": "To Do",
+      "assignee": "서정현",
+      "dueDate": "2026-11-30",
       "historyCount": 10
+    },
+    {
+      "key": "PTTM-659",
+      "section": "SW Validation",
+      "title": "System Test Scenario for Quantization",
+      "created": "2026-07-09T12:23:35.875+0900",
+      "updated": "2026-09-16T18:50:32.452+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-10-30",
+      "historyCount": 18
+    },
+    {
+      "key": "NSDT-2062",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "created": "2026-07-08T17:10:49.357+0900",
+      "updated": "2026-09-16T18:56:10.730+0900",
+      "currentStatus": "To Do",
+      "assignee": "서정현",
+      "dueDate": "2026-12-31",
+      "historyCount": 8
     },
     {
       "key": "NSDT-2061",
@@ -563,6 +770,9 @@
       "title": "SW Req. Specification (SRS)",
       "created": "2026-07-08T17:10:29.533+0900",
       "updated": "2026-09-16T18:56:10.710+0900",
+      "currentStatus": "To Do",
+      "assignee": "서정현",
+      "dueDate": "2026-12-31",
       "historyCount": 8
     },
     {
@@ -571,15 +781,10 @@
       "title": "SW Unit Design (SUD)",
       "created": "2026-07-08T17:08:46.056+0900",
       "updated": "2026-09-16T18:56:10.504+0900",
+      "currentStatus": "To Do",
+      "assignee": "Dang Thanh Huy",
+      "dueDate": "2026-11-30",
       "historyCount": 15
-    },
-    {
-      "key": "NSDT-2059",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "created": "2026-07-08T17:08:25.849+0900",
-      "updated": "2026-09-16T18:56:10.553+0900",
-      "historyCount": 17
     },
     {
       "key": "NSDT-2057",
@@ -587,7 +792,21 @@
       "title": "SW Unit Design (SUD)",
       "created": "2026-07-08T17:06:46.919+0900",
       "updated": "2026-09-16T18:56:11.214+0900",
+      "currentStatus": "To Do",
+      "assignee": "조민수",
+      "dueDate": "2026-11-30",
       "historyCount": 13
+    },
+    {
+      "key": "NSDT-2059",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "created": "2026-07-08T17:08:25.849+0900",
+      "updated": "2026-09-16T18:56:10.553+0900",
+      "currentStatus": "To Do",
+      "assignee": "Dang Thanh Huy",
+      "dueDate": "2026-11-30",
+      "historyCount": 17
     },
     {
       "key": "NSDT-2058",
@@ -595,14 +814,9 @@
       "title": "SW Req. Specification (SRS)",
       "created": "2026-07-08T17:07:42.449+0900",
       "updated": "2026-09-16T18:56:10.638+0900",
-      "historyCount": 13
-    },
-    {
-      "key": "NSDT-2055",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "created": "2026-07-08T17:05:07.241+0900",
-      "updated": "2026-09-16T18:56:10.681+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Dang Thanh Huy",
+      "dueDate": "2026-09-30",
       "historyCount": 13
     },
     {
@@ -611,7 +825,21 @@
       "title": "SW Arch. Specification (SAD)",
       "created": "2026-07-08T17:06:23.739+0900",
       "updated": "2026-09-16T18:56:11.340+0900",
+      "currentStatus": "To Do",
+      "assignee": "조민수",
+      "dueDate": "2027-01-31",
       "historyCount": 10
+    },
+    {
+      "key": "NSDT-2055",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "created": "2026-07-08T17:05:07.241+0900",
+      "updated": "2026-09-16T18:56:10.681+0900",
+      "currentStatus": "In Progress",
+      "assignee": "조민수",
+      "dueDate": "2026-09-30",
+      "historyCount": 13
     },
     {
       "key": "NSDT-1961",
@@ -619,7 +847,32 @@
       "title": "SW Arch. Specification (SAD)",
       "created": "2026-07-06T14:55:34.867+0900",
       "updated": "2026-09-16T18:56:11.140+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-10-30",
       "historyCount": 10
+    },
+    {
+      "key": "NSDT-1960",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Unit Design (SUD)",
+      "created": "2026-07-06T14:54:43.944+0900",
+      "updated": "2026-09-16T18:56:10.566+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-11-27",
+      "historyCount": 10
+    },
+    {
+      "key": "NSDT-1958",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "created": "2026-07-06T14:49:34.700+0900",
+      "updated": "2026-09-16T18:56:11.926+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-10-30",
+      "historyCount": 12
     },
     {
       "key": "NSDT-1959",
@@ -627,6 +880,20 @@
       "title": "SW Unit Design (SUD)",
       "created": "2026-07-06T14:49:56.753+0900",
       "updated": "2026-09-16T18:56:10.470+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-11-27",
+      "historyCount": 12
+    },
+    {
+      "key": "NSDT-1954",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "created": "2026-07-06T14:47:12.041+0900",
+      "updated": "2026-09-16T18:56:11.170+0900",
+      "currentStatus": "In Progress",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-10-30",
       "historyCount": 12
     },
     {
@@ -635,146 +902,310 @@
       "title": "SW Unit Design (SUD)",
       "created": "2026-07-06T14:48:39.940+0900",
       "updated": "2026-09-16T18:56:11.813+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-11-27",
       "historyCount": 12
     },
     {
-      "key": "PTTM-477",
-      "section": "SDK Packaging",
-      "title": "Model development Guide",
-      "created": "2026-06-04T13:35:52.503+0900",
-      "updated": "2026-09-16T18:50:32.253+0900",
-      "historyCount": 24
-    },
-    {
-      "key": "NSDT-1954",
+      "key": "NSDT-1953",
       "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "created": "2026-07-06T14:47:12.041+0900",
-      "updated": "2026-09-16T18:56:11.170+0900",
-      "historyCount": 12
-    },
-    {
-      "key": "NSDT-1958",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "created": "2026-07-06T14:49:34.700+0900",
-      "updated": "2026-09-16T18:56:11.926+0900",
-      "historyCount": 12
-    },
-    {
-      "key": "NSDT-1960",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "created": "2026-07-06T14:54:43.944+0900",
-      "updated": "2026-09-16T18:56:10.566+0900",
-      "historyCount": 10
-    },
-    {
-      "key": "PTTM-476",
-      "section": "SDK Packaging",
-      "title": "Custom Ops & Kernel Programming Guide",
-      "created": "2026-06-04T13:33:34.595+0900",
-      "updated": "2026-09-16T18:50:32.156+0900",
+      "title": "SW Req. Specification (SRS)",
+      "created": "2026-07-06T14:46:20.421+0900",
+      "updated": "2026-09-16T19:07:56.575+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-09-30",
       "historyCount": 11
     },
     {
-      "key": "PTTM-475",
-      "section": "SDK Packaging",
-      "title": "Model performance optimization Guide",
-      "created": "2026-06-04T13:33:34.140+0900",
-      "updated": "2026-09-16T18:50:32.172+0900",
-      "historyCount": 12
+      "key": "NSDT-1952",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "created": "2026-07-06T14:45:43.084+0900",
+      "updated": "2026-09-16T19:07:55.667+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-09-25",
+      "historyCount": 14
     },
     {
-      "key": "PTTM-471",
-      "section": "SDK Packaging",
-      "title": "How to Quantize models",
-      "created": "2026-06-04T13:33:32.299+0900",
-      "updated": "2026-09-16T18:50:32.581+0900",
-      "historyCount": 9
-    },
-    {
-      "key": "PTTM-472",
-      "section": "SDK Packaging",
-      "title": "Custom model development and deployment",
-      "created": "2026-06-04T13:33:32.765+0900",
-      "updated": "2026-09-16T18:50:31.956+0900",
-      "historyCount": 8
-    },
-    {
-      "key": "PTTM-470",
-      "section": "SDK Packaging",
-      "title": "How to use tt-sim",
-      "created": "2026-06-04T13:33:31.861+0900",
-      "updated": "2026-09-16T18:50:31.989+0900",
-      "historyCount": 10
-    },
-    {
-      "key": "PTTM-469",
-      "section": "SDK Packaging",
-      "title": "How to use tt-explorer",
-      "created": "2026-06-04T13:33:31.378+0900",
-      "updated": "2026-09-16T18:50:32.253+0900",
-      "historyCount": 9
-    },
-    {
-      "key": "PTTM-468",
-      "section": "SDK Packaging",
-      "title": "Custom Operator Implementation",
-      "created": "2026-06-04T13:33:30.927+0900",
-      "updated": "2026-09-16T18:50:31.951+0900",
+      "key": "NSDT-1949",
+      "section": "Ref. Models",
+      "title": "SSR Quantized",
+      "created": "2026-07-05T17:24:27.781+0900",
+      "updated": "2026-09-16T19:07:55.447+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Hoang Nhat Quang",
+      "dueDate": "2026-12-31",
       "historyCount": 11
     },
     {
-      "key": "PTTM-467",
-      "section": "SDK Packaging",
-      "title": "How to use tt-npe (Practical Tutorial)",
-      "created": "2026-06-04T13:33:30.454+0900",
-      "updated": "2026-09-16T18:50:32.006+0900",
-      "historyCount": 21
+      "key": "NSDT-1951",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "created": "2026-07-06T14:44:42.232+0900",
+      "updated": "2026-09-16T19:07:55.478+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-09-30",
+      "historyCount": 14
     },
     {
-      "key": "PTTM-465",
-      "section": "SDK Packaging",
-      "title": "Model Deployment Workflow",
-      "created": "2026-06-04T13:33:29.507+0900",
-      "updated": "2026-09-16T18:50:33.062+0900",
-      "historyCount": 7
-    },
-    {
-      "key": "PTTM-466",
-      "section": "SDK Packaging",
-      "title": "SW Installation Guide (auto installer-based)",
-      "created": "2026-06-04T13:33:29.962+0900",
-      "updated": "2026-09-16T18:50:32.036+0900",
+      "key": "NSDT-1948",
+      "section": "Ref. Models",
+      "title": "SSR",
+      "created": "2026-07-05T17:24:05.181+0900",
+      "updated": "2026-09-16T19:07:55.378+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Hoang Nhat Quang",
+      "dueDate": "2026-12-11",
       "historyCount": 13
     },
     {
-      "key": "PTTM-464",
-      "section": "SDK Packaging",
-      "title": "Model Performance Optimization Workflow",
-      "created": "2026-06-04T13:33:28.958+0900",
-      "updated": "2026-09-16T18:50:32.102+0900",
-      "historyCount": 6
-    },
-    {
-      "key": "PTTM-463",
-      "section": "SDK Packaging",
-      "title": "Compiler-based Model Development Workflow",
-      "created": "2026-06-04T13:33:28.491+0900",
-      "updated": "2026-09-16T18:50:32.031+0900",
+      "key": "NSDT-1947",
+      "section": "Ref. Models",
+      "title": "OFT/PDL Quantized",
+      "created": "2026-07-05T17:23:31.285+0900",
+      "updated": "2026-09-16T19:07:55.473+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Nguyen Dang Thoi Toan",
+      "dueDate": "2026-12-31",
       "historyCount": 9
     },
     {
-      "key": "PTTM-462",
+      "key": "NSDT-1946",
+      "section": "Ref. Models",
+      "title": "Resnet50/Yolo Quantized",
+      "created": "2026-07-05T17:22:36.022+0900",
+      "updated": "2026-09-16T19:07:55.435+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Tran Thi Cam Giang",
+      "dueDate": "2026-12-31",
+      "historyCount": 11
+    },
+    {
+      "key": "NSDT-1945",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for Vision models",
+      "created": "2026-07-05T17:18:37.167+0900",
+      "updated": "2026-09-16T19:07:55.538+0900",
+      "currentStatus": "In Progress",
+      "assignee": "",
+      "dueDate": "2026-12-31",
+      "historyCount": 15
+    },
+    {
+      "key": "NSDT-1944",
       "section": "SDK Packaging",
-      "title": "Manual Model Development Workflow",
-      "created": "2026-06-04T13:33:28.041+0900",
-      "updated": "2026-09-16T18:50:32.428+0900",
+      "title": "AIMET based - Vision Quantization Workflow for Customer Vision Model documentation",
+      "created": "2026-07-05T17:17:10.270+0900",
+      "updated": "2026-09-16T19:07:55.877+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Hoang Nhat Quang",
+      "dueDate": "2026-12-31",
+      "historyCount": 20
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools",
+      "title": "Production-Ready Deployment Flow",
+      "created": "2026-07-05T14:13:41.528+0900",
+      "updated": "2026-09-16T19:07:55.542+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Dang Thanh Huy",
+      "dueDate": "2026-12-31",
       "historyCount": 14
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools",
+      "title": "Performance-Driven Data Formats",
+      "created": "2026-07-05T14:11:33.102+0900",
+      "updated": "2026-09-16T19:07:55.991+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Dang Thanh Huy",
+      "dueDate": "2026-12-31",
+      "historyCount": 17
+    },
+    {
+      "key": "NSDT-1941",
+      "section": "AI Model Dev. Tools",
+      "title": "New Operation / Custom Operation Enablement",
+      "created": "2026-07-05T14:10:14.608+0900",
+      "updated": "2026-09-16T19:07:56.062+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Dang Thanh Huy",
+      "dueDate": "2026-12-31",
+      "historyCount": 17
+    },
+    {
+      "key": "NSDT-1940",
+      "section": "AI Model Dev. Tools",
+      "title": "High-Efficiency Operator Fusion",
+      "created": "2026-07-05T14:07:42.094+0900",
+      "updated": "2026-09-16T19:07:55.599+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Dang Thanh Huy",
+      "dueDate": "2026-12-31",
+      "historyCount": 19
+    },
+    {
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "created": "2026-07-05T14:02:30.071+0900",
+      "updated": "2026-09-16T19:07:55.592+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Dang Thanh Huy",
+      "dueDate": "2026-12-31",
+      "historyCount": 21
+    },
+    {
+      "key": "NSDT-1939",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph Optimization",
+      "created": "2026-07-05T14:06:00.420+0900",
+      "updated": "2026-09-16T19:07:55.372+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Dang Thanh Huy",
+      "dueDate": "2026-12-31",
+      "historyCount": 20
+    },
+    {
+      "key": "NSDT-1934",
+      "section": "Ref. Models",
+      "title": "OFT/PDL",
+      "created": "2026-07-02T16:33:00.140+0900",
+      "updated": "2026-09-16T19:07:55.805+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Athul Shibu",
+      "dueDate": "2027-01-31",
+      "historyCount": 10
+    },
+    {
+      "key": "NSDT-1933",
+      "section": "Ref. Models",
+      "title": "Resnet50/Yolo",
+      "created": "2026-07-02T16:32:32.268+0900",
+      "updated": "2026-09-16T19:07:55.380+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "조민수",
+      "dueDate": "2027-01-31",
+      "historyCount": 10
+    },
+    {
+      "key": "NSDT-1932",
+      "section": "Ref. Models",
+      "title": "ViT",
+      "created": "2026-07-02T16:30:56.374+0900",
+      "updated": "2026-09-16T19:07:55.459+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "조민수",
+      "dueDate": "2027-01-31",
+      "historyCount": 10
     }
   ],
   "changes": [
+    {
+      "key": "NSDT-2293",
+      "section": "Ref. Models",
+      "title": "BOS: Yolo Int-8 Kernel OPs - Trinity",
+      "at": "2026-08-12T10:19:24.560+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Nguyen Viet Nhat"
+    },
+    {
+      "key": "NSDT-2292",
+      "section": "Ref. Models",
+      "title": "BOS: ResNet INT-8 Kernel OPs - Trinity",
+      "at": "2026-08-27T17:45:13.652+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2027-02-19 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2292",
+      "section": "Ref. Models",
+      "title": "BOS: ResNet INT-8 Kernel OPs - Trinity",
+      "at": "2026-08-12T10:19:09.793+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Nguyen Viet Nhat"
+    },
+    {
+      "key": "NSDT-2291",
+      "section": "AI Model Dev. Tools",
+      "title": "BOS: Llama INT8  Kernel OPs - Trinity",
+      "at": "2026-08-24T15:01:33.963+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2027-02-19 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2291",
+      "section": "AI Model Dev. Tools",
+      "title": "BOS: Llama INT8  Kernel OPs - Trinity",
+      "at": "2026-08-12T10:18:47.963+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "min.yi (이창민)"
+    },
+    {
+      "key": "NSDT-2289",
+      "section": "Host SW",
+      "title": "Llama LLK for trinity",
+      "at": "2026-08-12T09:29:40.892+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-2289",
+      "section": "Host SW",
+      "title": "Llama LLK for trinity",
+      "at": "2026-08-12T09:29:37.987+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2289",
+      "section": "Host SW",
+      "title": "Llama LLK for trinity",
+      "at": "2026-08-12T09:29:28.035+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-15 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2138",
+      "section": "Ref. Models",
+      "title": "ViT Quantized",
+      "at": "2026-08-24T10:30:44.301+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2138",
+      "section": "Ref. Models",
+      "title": "ViT Quantized",
+      "at": "2026-08-24T10:26:20.002+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Hoang Nhat Quang"
+    },
+    {
+      "key": "NSDT-2138",
+      "section": "Ref. Models",
+      "title": "ViT Quantized",
+      "at": "2026-07-14T15:16:57.994+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
     {
       "key": "NSDT-2288",
       "section": "Host SW",
@@ -839,103 +1270,13 @@
       "to": "MyeongGI Jeong"
     },
     {
-      "key": "NSDT-2292",
-      "section": "Ref. Models",
-      "title": "BOS: ResNet INT-8 Kernel OPs - Trinity",
-      "at": "2026-08-27T17:45:13.652+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2027-02-19 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2292",
-      "section": "Ref. Models",
-      "title": "BOS: ResNet INT-8 Kernel OPs - Trinity",
-      "at": "2026-08-12T10:19:09.793+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Nguyen Viet Nhat"
-    },
-    {
-      "key": "NSDT-2293",
-      "section": "Ref. Models",
-      "title": "BOS: Yolo Int-8 Kernel OPs - Trinity",
-      "at": "2026-08-12T10:19:24.560+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Nguyen Viet Nhat"
-    },
-    {
-      "key": "NSDT-2138",
-      "section": "Ref. Models",
-      "title": "ViT Quantized",
-      "at": "2026-08-24T10:30:44.301+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-2138",
-      "section": "Ref. Models",
-      "title": "ViT Quantized",
-      "at": "2026-08-24T10:26:20.002+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Hoang Nhat Quang"
-    },
-    {
-      "key": "NSDT-2138",
-      "section": "Ref. Models",
-      "title": "ViT Quantized",
-      "at": "2026-07-14T15:16:57.994+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2289",
-      "section": "Host SW",
-      "title": "Llama LLK for trinity",
-      "at": "2026-08-12T09:29:40.892+0900",
-      "field": "status",
-      "from": "In Progress",
-      "to": "pre-silicon done"
-    },
-    {
-      "key": "NSDT-2289",
-      "section": "Host SW",
-      "title": "Llama LLK for trinity",
-      "at": "2026-08-12T09:29:37.987+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-2289",
-      "section": "Host SW",
-      "title": "Llama LLK for trinity",
-      "at": "2026-08-12T09:29:28.035+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-15 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2291",
+      "key": "NSDT-2101",
       "section": "AI Model Dev. Tools",
-      "title": "BOS: Llama INT8  Kernel OPs - Trinity",
-      "at": "2026-08-24T15:01:33.963+0900",
+      "title": "Debug-mode - NPU Register R & SRAM/DARM R/W",
+      "at": "2026-07-14T12:49:22.071+0900",
       "field": "duedate",
       "from": "Not recorded",
-      "to": "2027-02-19 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2291",
-      "section": "AI Model Dev. Tools",
-      "title": "BOS: Llama INT8  Kernel OPs - Trinity",
-      "at": "2026-08-12T10:18:47.963+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "min.yi (이창민)"
+      "to": "2026-12-24 00:00:00.0"
     },
     {
       "key": "NSDT-2105",
@@ -965,10 +1306,10 @@
       "to": "2026-12-24 00:00:00.0"
     },
     {
-      "key": "NSDT-2102",
+      "key": "NSDT-2103",
       "section": "AI Model Dev. Tools",
-      "title": "Device info - Device ID/SW Ver./Device Status/PCIE ID/Thermal Status",
-      "at": "2026-07-14T12:49:39.626+0900",
+      "title": "Device Ctrl - Device Reset/NPU Reset",
+      "at": "2026-07-14T12:49:56.704+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-12-24 00:00:00.0"
@@ -1001,24 +1342,6 @@
       "to": "2026-12-24 00:00:00.0"
     },
     {
-      "key": "NSDT-2103",
-      "section": "AI Model Dev. Tools",
-      "title": "Device Ctrl - Device Reset/NPU Reset",
-      "at": "2026-07-14T12:49:56.704+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-24 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2101",
-      "section": "AI Model Dev. Tools",
-      "title": "Debug-mode - NPU Register R & SRAM/DARM R/W",
-      "at": "2026-07-14T12:49:22.071+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-24 00:00:00.0"
-    },
-    {
       "key": "NSDT-2100",
       "section": "Host SW",
       "title": "Column harvesting (runtime + umd/kmd)",
@@ -1041,6 +1364,15 @@
       "section": "Host SW",
       "title": "Column harvesting (runtime + umd/kmd)",
       "at": "2026-07-14T12:48:26.161+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-24 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2102",
+      "section": "AI Model Dev. Tools",
+      "title": "Device info - Device ID/SW Ver./Device Status/PCIE ID/Thermal Status",
+      "at": "2026-07-14T12:49:39.626+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-12-24 00:00:00.0"
@@ -1073,15 +1405,6 @@
       "to": "2026-12-24 00:00:00.0"
     },
     {
-      "key": "NSDT-2096",
-      "section": "Host SW",
-      "title": "Memory allocator for sharding, interleaving, etc",
-      "at": "2026-07-14T12:45:13.077+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-10 00:00:00.0"
-    },
-    {
       "key": "NSDT-2099",
       "section": "Host SW",
       "title": "memory protection (isolation)",
@@ -1107,33 +1430,6 @@
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-12-24 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2097",
-      "section": "Host SW",
-      "title": "NPU statistics",
-      "at": "2026-07-15T09:52:10.401+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2027-03-26 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2097",
-      "section": "Host SW",
-      "title": "NPU statistics",
-      "at": "2026-07-14T13:53:06.708+0900",
-      "field": "duedate",
-      "from": "2026-12-18 00:00:00.0",
-      "to": "Not recorded"
-    },
-    {
-      "key": "NSDT-2097",
-      "section": "Host SW",
-      "title": "NPU statistics",
-      "at": "2026-07-14T12:46:03.583+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-18 00:00:00.0"
     },
     {
       "key": "NSDT-2095",
@@ -1172,6 +1468,33 @@
       "to": "2026-12-07 00:00:00.0"
     },
     {
+      "key": "NSDT-2097",
+      "section": "Host SW",
+      "title": "NPU statistics",
+      "at": "2026-07-15T09:52:10.401+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2027-03-26 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2097",
+      "section": "Host SW",
+      "title": "NPU statistics",
+      "at": "2026-07-14T13:53:06.708+0900",
+      "field": "duedate",
+      "from": "2026-12-18 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-2097",
+      "section": "Host SW",
+      "title": "NPU statistics",
+      "at": "2026-07-14T12:46:03.583+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-18 00:00:00.0"
+    },
+    {
       "key": "NSDT-2094",
       "section": "Host SW",
       "title": "Trace",
@@ -1181,40 +1504,13 @@
       "to": "2026-12-09 00:00:00.0"
     },
     {
-      "key": "NSDT-2092",
+      "key": "NSDT-2096",
       "section": "Host SW",
-      "title": "Slow dispatch",
-      "at": "2026-08-06T15:51:57.322+0900",
-      "field": "status",
-      "from": "In Progress",
-      "to": "pre-silicon done"
-    },
-    {
-      "key": "NSDT-2092",
-      "section": "Host SW",
-      "title": "Slow dispatch",
-      "at": "2026-08-06T15:51:55.843+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-2092",
-      "section": "Host SW",
-      "title": "Slow dispatch",
-      "at": "2026-08-06T15:20:23.209+0900",
-      "field": "assignee",
-      "from": "MyeongGI Jeong",
-      "to": "Hyun Eun (은현)"
-    },
-    {
-      "key": "NSDT-2092",
-      "section": "Host SW",
-      "title": "Slow dispatch",
-      "at": "2026-07-14T12:42:44.346+0900",
+      "title": "Memory allocator for sharding, interleaving, etc",
+      "at": "2026-07-14T12:45:13.077+0900",
       "field": "duedate",
       "from": "Not recorded",
-      "to": "2026-12-09 00:00:00.0"
+      "to": "2026-12-10 00:00:00.0"
     },
     {
       "key": "NSDT-2093",
@@ -1260,6 +1556,78 @@
       "field": "assignee",
       "from": "Not recorded",
       "to": "MyeongGI Jeong"
+    },
+    {
+      "key": "NSDT-2092",
+      "section": "Host SW",
+      "title": "Slow dispatch",
+      "at": "2026-08-06T15:51:57.322+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-2092",
+      "section": "Host SW",
+      "title": "Slow dispatch",
+      "at": "2026-08-06T15:51:55.843+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2092",
+      "section": "Host SW",
+      "title": "Slow dispatch",
+      "at": "2026-08-06T15:20:23.209+0900",
+      "field": "assignee",
+      "from": "MyeongGI Jeong",
+      "to": "Hyun Eun (은현)"
+    },
+    {
+      "key": "NSDT-2092",
+      "section": "Host SW",
+      "title": "Slow dispatch",
+      "at": "2026-07-14T12:42:44.346+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-09 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2090",
+      "section": "Host SW",
+      "title": "NPU firmware for Tensix boot-up",
+      "at": "2026-08-06T15:51:27.669+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-2090",
+      "section": "Host SW",
+      "title": "NPU firmware for Tensix boot-up",
+      "at": "2026-08-06T15:51:25.755+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2090",
+      "section": "Host SW",
+      "title": "NPU firmware for Tensix boot-up",
+      "at": "2026-08-06T15:20:23.204+0900",
+      "field": "assignee",
+      "from": "MyeongGI Jeong",
+      "to": "Hyun Eun (은현)"
+    },
+    {
+      "key": "NSDT-2090",
+      "section": "Host SW",
+      "title": "NPU firmware for Tensix boot-up",
+      "at": "2026-07-14T12:42:20.412+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-09 00:00:00.0"
     },
     {
       "key": "NSDT-2091",
@@ -1361,42 +1729,6 @@
       "to": "2026-12-08 00:00:00.0"
     },
     {
-      "key": "NSDT-2090",
-      "section": "Host SW",
-      "title": "NPU firmware for Tensix boot-up",
-      "at": "2026-08-06T15:51:27.669+0900",
-      "field": "status",
-      "from": "In Progress",
-      "to": "pre-silicon done"
-    },
-    {
-      "key": "NSDT-2090",
-      "section": "Host SW",
-      "title": "NPU firmware for Tensix boot-up",
-      "at": "2026-08-06T15:51:25.755+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-2090",
-      "section": "Host SW",
-      "title": "NPU firmware for Tensix boot-up",
-      "at": "2026-08-06T15:20:23.204+0900",
-      "field": "assignee",
-      "from": "MyeongGI Jeong",
-      "to": "Hyun Eun (은현)"
-    },
-    {
-      "key": "NSDT-2090",
-      "section": "Host SW",
-      "title": "NPU firmware for Tensix boot-up",
-      "at": "2026-07-14T12:42:20.412+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-09 00:00:00.0"
-    },
-    {
       "key": "NSDT-2088",
       "section": "Host SW",
       "title": "NPU reset scenario",
@@ -1431,6 +1763,15 @@
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-12-08 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2085",
+      "section": "Host SW",
+      "title": "INT-8 Runtime Format",
+      "at": "2026-07-14T11:56:26.128+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-11 00:00:00.0"
     },
     {
       "key": "NSDT-2087",
@@ -1532,6 +1873,33 @@
       "to": "MyeongGI Jeong"
     },
     {
+      "key": "NSDT-2078",
+      "section": "Host SW",
+      "title": "Statistics tracking",
+      "at": "2026-08-21T09:23:59.973+0900",
+      "field": "duedate",
+      "from": "2027-02-26 00:00:00.0",
+      "to": "2027-02-12 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2078",
+      "section": "Host SW",
+      "title": "Statistics tracking",
+      "at": "2026-08-19T10:51:46.399+0900",
+      "field": "duedate",
+      "from": "2026-10-30 00:00:00.0",
+      "to": "2027-02-26 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2078",
+      "section": "Host SW",
+      "title": "Statistics tracking",
+      "at": "2026-07-09T15:25:44.718+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
       "key": "NSDT-2086",
       "section": "Host SW",
       "title": "NPU boot-up",
@@ -1613,42 +1981,6 @@
       "to": "2027-02-26 00:00:00.0"
     },
     {
-      "key": "NSDT-2085",
-      "section": "Host SW",
-      "title": "INT-8 Runtime Format",
-      "at": "2026-07-14T11:56:26.128+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-11 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2078",
-      "section": "Host SW",
-      "title": "Statistics tracking",
-      "at": "2026-08-21T09:23:59.973+0900",
-      "field": "duedate",
-      "from": "2027-02-26 00:00:00.0",
-      "to": "2027-02-12 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2078",
-      "section": "Host SW",
-      "title": "Statistics tracking",
-      "at": "2026-08-19T10:51:46.399+0900",
-      "field": "duedate",
-      "from": "2026-10-30 00:00:00.0",
-      "to": "2027-02-26 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2078",
-      "section": "Host SW",
-      "title": "Statistics tracking",
-      "at": "2026-07-09T15:25:44.718+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-10-30 00:00:00.0"
-    },
-    {
       "key": "NSDT-2077",
       "section": "Host SW",
       "title": "Centralized Governor",
@@ -1671,33 +2003,6 @@
       "section": "Host SW",
       "title": "Centralized Governor",
       "at": "2026-07-09T15:25:27.038+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-10-30 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2076",
-      "section": "Host SW",
-      "title": "Preemption",
-      "at": "2026-08-21T09:24:37.703+0900",
-      "field": "duedate",
-      "from": "2027-02-26 00:00:00.0",
-      "to": "2027-02-12 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2076",
-      "section": "Host SW",
-      "title": "Preemption",
-      "at": "2026-08-19T10:51:10.181+0900",
-      "field": "duedate",
-      "from": "2026-10-30 00:00:00.0",
-      "to": "2027-02-26 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2076",
-      "section": "Host SW",
-      "title": "Preemption",
-      "at": "2026-07-09T15:25:02.205+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-10-30 00:00:00.0"
@@ -1730,40 +2035,31 @@
       "to": "2026-09-30 00:00:00.0"
     },
     {
-      "key": "NSDT-2075",
+      "key": "NSDT-2076",
       "section": "Host SW",
-      "title": "Deadline scheduling",
-      "at": "2026-08-21T09:24:46.530+0900",
+      "title": "Preemption",
+      "at": "2026-08-21T09:24:37.703+0900",
       "field": "duedate",
       "from": "2027-02-26 00:00:00.0",
       "to": "2027-02-12 00:00:00.0"
     },
     {
-      "key": "NSDT-2075",
+      "key": "NSDT-2076",
       "section": "Host SW",
-      "title": "Deadline scheduling",
-      "at": "2026-08-19T10:50:19.355+0900",
+      "title": "Preemption",
+      "at": "2026-08-19T10:51:10.181+0900",
       "field": "duedate",
-      "from": "2026-12-31 00:00:00.0",
+      "from": "2026-10-30 00:00:00.0",
       "to": "2027-02-26 00:00:00.0"
     },
     {
-      "key": "NSDT-2075",
+      "key": "NSDT-2076",
       "section": "Host SW",
-      "title": "Deadline scheduling",
-      "at": "2026-08-19T10:49:46.914+0900",
-      "field": "duedate",
-      "from": "2026-09-30 00:00:00.0",
-      "to": "2026-12-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2075",
-      "section": "Host SW",
-      "title": "Deadline scheduling",
-      "at": "2026-07-09T15:24:32.359+0900",
+      "title": "Preemption",
+      "at": "2026-07-09T15:25:02.205+0900",
       "field": "duedate",
       "from": "Not recorded",
-      "to": "2026-09-30 00:00:00.0"
+      "to": "2026-10-30 00:00:00.0"
     },
     {
       "key": "PTTM-702",
@@ -1811,22 +2107,40 @@
       "to": "2026-09-30 00:00:00.0"
     },
     {
-      "key": "PTTM-699",
-      "section": "SW Validation",
-      "title": "System Test Scenario for BOS-compiler",
-      "at": "2026-08-04T16:46:13.896+0900",
+      "key": "NSDT-2075",
+      "section": "Host SW",
+      "title": "Deadline scheduling",
+      "at": "2026-08-21T09:24:46.530+0900",
       "field": "duedate",
-      "from": "2026-09-18 00:00:00.0",
-      "to": "2026-10-30 00:00:00.0"
+      "from": "2027-02-26 00:00:00.0",
+      "to": "2027-02-12 00:00:00.0"
     },
     {
-      "key": "PTTM-699",
-      "section": "SW Validation",
-      "title": "System Test Scenario for BOS-compiler",
-      "at": "2026-07-09T15:54:13.987+0900",
+      "key": "NSDT-2075",
+      "section": "Host SW",
+      "title": "Deadline scheduling",
+      "at": "2026-08-19T10:50:19.355+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2027-02-26 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2075",
+      "section": "Host SW",
+      "title": "Deadline scheduling",
+      "at": "2026-08-19T10:49:46.914+0900",
+      "field": "duedate",
+      "from": "2026-09-30 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2075",
+      "section": "Host SW",
+      "title": "Deadline scheduling",
+      "at": "2026-07-09T15:24:32.359+0900",
       "field": "duedate",
       "from": "Not recorded",
-      "to": "2026-09-18 00:00:00.0"
+      "to": "2026-09-30 00:00:00.0"
     },
     {
       "key": "PTTM-701",
@@ -1865,6 +2179,24 @@
       "to": "2026-10-30 00:00:00.0"
     },
     {
+      "key": "PTTM-699",
+      "section": "SW Validation",
+      "title": "System Test Scenario for BOS-compiler",
+      "at": "2026-08-04T16:46:13.896+0900",
+      "field": "duedate",
+      "from": "2026-09-18 00:00:00.0",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-699",
+      "section": "SW Validation",
+      "title": "System Test Scenario for BOS-compiler",
+      "at": "2026-07-09T15:54:13.987+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-18 00:00:00.0"
+    },
+    {
       "key": "PTTM-686",
       "section": "SW Validation",
       "title": "IT Test Case Automation (incl. Test Code) for TT-metal",
@@ -1872,15 +2204,6 @@
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-11-30 00:00:00.0"
-    },
-    {
-      "key": "PTTM-685",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for BOS-SMI",
-      "at": "2026-08-04T16:37:01.361+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-10-30 00:00:00.0"
     },
     {
       "key": "PTTM-684",
@@ -1892,10 +2215,10 @@
       "to": "2026-10-30 00:00:00.0"
     },
     {
-      "key": "PTTM-683",
+      "key": "PTTM-685",
       "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for UMD",
-      "at": "2026-08-04T16:37:42.718+0900",
+      "title": "IT Test Case Automation (incl. Test Code) for BOS-SMI",
+      "at": "2026-08-04T16:37:01.361+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-10-30 00:00:00.0"
@@ -1919,6 +2242,15 @@
       "to": "2026-10-30 00:00:00.0"
     },
     {
+      "key": "PTTM-683",
+      "section": "SW Validation",
+      "title": "IT Test Case Automation (incl. Test Code) for UMD",
+      "at": "2026-08-04T16:37:42.718+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
       "key": "PTTM-680",
       "section": "SW Validation",
       "title": "Integration Test Scenario for KMD",
@@ -1926,42 +2258,6 @@
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-10-30 00:00:00.0"
-    },
-    {
-      "key": "PTTM-679",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for UMD",
-      "at": "2026-08-04T16:37:28.855+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-10-30 00:00:00.0"
-    },
-    {
-      "key": "PTTM-678",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for TT-Metal",
-      "at": "2026-08-04T16:25:12.026+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-10-30 00:00:00.0"
-    },
-    {
-      "key": "PTTM-677",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for BOS-SMI",
-      "at": "2026-08-04T16:19:10.967+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-30 00:00:00.0"
-    },
-    {
-      "key": "PTTM-675",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for UMD",
-      "at": "2026-08-04T16:22:19.825+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-30 00:00:00.0"
     },
     {
       "key": "PTTM-674",
@@ -1982,6 +2278,51 @@
       "to": "2026-09-30 00:00:00.0"
     },
     {
+      "key": "PTTM-677",
+      "section": "SW Validation",
+      "title": "ST Test Case Automation (incl. Test Code) for BOS-SMI",
+      "at": "2026-08-04T16:19:10.967+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-675",
+      "section": "SW Validation",
+      "title": "ST Test Case Automation (incl. Test Code) for UMD",
+      "at": "2026-08-04T16:22:19.825+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-679",
+      "section": "SW Validation",
+      "title": "Integration Test Scenario for UMD",
+      "at": "2026-08-04T16:37:28.855+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-678",
+      "section": "SW Validation",
+      "title": "ST Test Case Automation (incl. Test Code) for TT-Metal",
+      "at": "2026-08-04T16:25:12.026+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-672",
+      "section": "SW Validation",
+      "title": "System Test Scenario for KMD",
+      "at": "2026-08-04T16:21:39.263+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-11 00:00:00.0"
+    },
+    {
       "key": "PTTM-673",
       "section": "SW Validation",
       "title": "System Test Scenario for BOS-SMI",
@@ -1998,51 +2339,6 @@
       "field": "assignee",
       "from": "Not recorded",
       "to": "Ngo Chi Kien"
-    },
-    {
-      "key": "PTTM-672",
-      "section": "SW Validation",
-      "title": "System Test Scenario for KMD",
-      "at": "2026-08-04T16:21:39.263+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-11 00:00:00.0"
-    },
-    {
-      "key": "PTTM-667",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for LLM Compressor",
-      "at": "2026-08-04T16:49:59.640+0900",
-      "field": "duedate",
-      "from": "2026-08-28 00:00:00.0",
-      "to": "2026-11-30 00:00:00.0"
-    },
-    {
-      "key": "PTTM-667",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for LLM Compressor",
-      "at": "2026-07-09T15:56:32.354+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-08-28 00:00:00.0"
-    },
-    {
-      "key": "PTTM-668",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for LLM Compressor",
-      "at": "2026-08-04T16:50:57.388+0900",
-      "field": "duedate",
-      "from": "2026-09-25 00:00:00.0",
-      "to": "2026-12-31 00:00:00.0"
-    },
-    {
-      "key": "PTTM-668",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for LLM Compressor",
-      "at": "2026-07-09T15:56:32.340+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-25 00:00:00.0"
     },
     {
       "key": "PTTM-671",
@@ -2090,6 +2386,24 @@
       "to": "2026-09-25 00:00:00.0"
     },
     {
+      "key": "PTTM-668",
+      "section": "SW Validation",
+      "title": "IT Test Case Automation (incl. Test Code) for LLM Compressor",
+      "at": "2026-08-04T16:50:57.388+0900",
+      "field": "duedate",
+      "from": "2026-09-25 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "PTTM-668",
+      "section": "SW Validation",
+      "title": "IT Test Case Automation (incl. Test Code) for LLM Compressor",
+      "at": "2026-07-09T15:56:32.340+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-25 00:00:00.0"
+    },
+    {
       "key": "PTTM-666",
       "section": "SW Validation",
       "title": "IT Test Case Automation (incl. Test Code) for Quantization",
@@ -2108,37 +2422,19 @@
       "to": "2026-09-25 00:00:00.0"
     },
     {
-      "key": "PTTM-663",
+      "key": "PTTM-667",
       "section": "SW Validation",
-      "title": "System Test Scenario for Speculative decoding",
-      "at": "2026-08-04T16:43:56.093+0900",
-      "field": "duedate",
-      "from": "2026-09-11 00:00:00.0",
-      "to": "2026-10-30 00:00:00.0"
-    },
-    {
-      "key": "PTTM-663",
-      "section": "SW Validation",
-      "title": "System Test Scenario for Speculative decoding",
-      "at": "2026-07-09T16:00:16.420+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-11 00:00:00.0"
-    },
-    {
-      "key": "PTTM-665",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for Quantization",
-      "at": "2026-08-04T16:49:33.057+0900",
+      "title": "Integration Test Scenario for LLM Compressor",
+      "at": "2026-08-04T16:49:59.640+0900",
       "field": "duedate",
       "from": "2026-08-28 00:00:00.0",
       "to": "2026-11-30 00:00:00.0"
     },
     {
-      "key": "PTTM-665",
+      "key": "PTTM-667",
       "section": "SW Validation",
-      "title": "Integration Test Scenario for Quantization",
-      "at": "2026-07-09T15:59:07.077+0900",
+      "title": "Integration Test Scenario for LLM Compressor",
+      "at": "2026-07-09T15:56:32.354+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-08-28 00:00:00.0"
@@ -2160,6 +2456,42 @@
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-10-23 00:00:00.0"
+    },
+    {
+      "key": "PTTM-665",
+      "section": "SW Validation",
+      "title": "Integration Test Scenario for Quantization",
+      "at": "2026-08-04T16:49:33.057+0900",
+      "field": "duedate",
+      "from": "2026-08-28 00:00:00.0",
+      "to": "2026-11-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-665",
+      "section": "SW Validation",
+      "title": "Integration Test Scenario for Quantization",
+      "at": "2026-07-09T15:59:07.077+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-08-28 00:00:00.0"
+    },
+    {
+      "key": "PTTM-663",
+      "section": "SW Validation",
+      "title": "System Test Scenario for Speculative decoding",
+      "at": "2026-08-04T16:43:56.093+0900",
+      "field": "duedate",
+      "from": "2026-09-11 00:00:00.0",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-663",
+      "section": "SW Validation",
+      "title": "System Test Scenario for Speculative decoding",
+      "at": "2026-07-09T16:00:16.420+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-11 00:00:00.0"
     },
     {
       "key": "PTTM-662",
@@ -2225,28 +2557,37 @@
       "to": "Ngo Chi Kien"
     },
     {
-      "key": "NSDT-2062",
+      "key": "NSDT-2063",
       "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-31T14:58:39.955+0900",
-      "field": "summary",
-      "from": "[N1-B0] Speculative Decoding SAD Write",
-      "to": "[HS] Speculative Decoding SAD Write"
+      "title": "SW Unit Design (SUD)",
+      "at": "2026-09-15T13:07:30.406+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-11-30 00:00:00.0"
     },
     {
-      "key": "NSDT-2062",
+      "key": "NSDT-2063",
       "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-30T15:25:14.960+0900",
+      "title": "SW Unit Design (SUD)",
+      "at": "2026-07-31T14:58:24.428+0900",
+      "field": "summary",
+      "from": "[N1-B0] Speculative Decoding SUD Write",
+      "to": "[HS] Speculative Decoding SUD Write"
+    },
+    {
+      "key": "NSDT-2063",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Unit Design (SUD)",
+      "at": "2026-07-30T15:25:51.400+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-12-31 00:00:00.0"
     },
     {
-      "key": "NSDT-2062",
+      "key": "NSDT-2063",
       "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-30T15:24:52.396+0900",
+      "title": "SW Unit Design (SUD)",
+      "at": "2026-07-30T15:25:26.029+0900",
       "field": "assignee",
       "from": "Ted Kim(김태현)",
       "to": "서정현"
@@ -2306,37 +2647,28 @@
       "to": "Ngo Chi Kien"
     },
     {
-      "key": "NSDT-2063",
+      "key": "NSDT-2062",
       "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-09-15T13:07:30.406+0900",
-      "field": "duedate",
-      "from": "2026-12-31 00:00:00.0",
-      "to": "2026-11-30 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2063",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-31T14:58:24.428+0900",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-07-31T14:58:39.955+0900",
       "field": "summary",
-      "from": "[N1-B0] Speculative Decoding SUD Write",
-      "to": "[HS] Speculative Decoding SUD Write"
+      "from": "[N1-B0] Speculative Decoding SAD Write",
+      "to": "[HS] Speculative Decoding SAD Write"
     },
     {
-      "key": "NSDT-2063",
+      "key": "NSDT-2062",
       "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-30T15:25:51.400+0900",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-07-30T15:25:14.960+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-12-31 00:00:00.0"
     },
     {
-      "key": "NSDT-2063",
+      "key": "NSDT-2062",
       "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-30T15:25:26.029+0900",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-07-30T15:24:52.396+0900",
       "field": "assignee",
       "from": "Ted Kim(김태현)",
       "to": "서정현"
@@ -2423,42 +2755,6 @@
       "to": "[HS] Compiler SUD Write"
     },
     {
-      "key": "NSDT-2059",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-08-24T17:40:04.292+0900",
-      "field": "duedate",
-      "from": "2027-01-29 00:00:00.0",
-      "to": "2026-11-30 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2059",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-08-24T17:39:15.026+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2027-01-29 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2059",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-08-18T14:31:22.730+0900",
-      "field": "assignee",
-      "from": "Ted Kim(김태현)",
-      "to": "Dang Thanh Huy"
-    },
-    {
-      "key": "NSDT-2059",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-31T14:59:17.544+0900",
-      "field": "summary",
-      "from": "[N1-B0] Compiler SAD Write",
-      "to": "[HS] Compiler SAD Write"
-    },
-    {
       "key": "NSDT-2057",
       "section": "Dev. Spec. Documents",
       "title": "SW Unit Design (SUD)",
@@ -2522,6 +2818,42 @@
       "to": "Not recorded"
     },
     {
+      "key": "NSDT-2059",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-08-24T17:40:04.292+0900",
+      "field": "duedate",
+      "from": "2027-01-29 00:00:00.0",
+      "to": "2026-11-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2059",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-08-24T17:39:15.026+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2027-01-29 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2059",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-08-18T14:31:22.730+0900",
+      "field": "assignee",
+      "from": "Ted Kim(김태현)",
+      "to": "Dang Thanh Huy"
+    },
+    {
+      "key": "NSDT-2059",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-07-31T14:59:17.544+0900",
+      "field": "summary",
+      "from": "[N1-B0] Compiler SAD Write",
+      "to": "[HS] Compiler SAD Write"
+    },
+    {
       "key": "NSDT-2058",
       "section": "Dev. Spec. Documents",
       "title": "SW Req. Specification (SRS)",
@@ -2556,6 +2888,51 @@
       "field": "summary",
       "from": "[N1-B0] Compiler SRS Write",
       "to": "[HS] Compiler SRS Write"
+    },
+    {
+      "key": "NSDT-2056",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-09-16T08:09:53.444+0900",
+      "field": "assignee",
+      "from": "SungminLee",
+      "to": "조민수"
+    },
+    {
+      "key": "NSDT-2056",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-07-31T14:57:19.928+0900",
+      "field": "summary",
+      "from": "[N1-B0] LLM Quantization SAD Write",
+      "to": "[HS] LLM Quantization SAD Write"
+    },
+    {
+      "key": "NSDT-2056",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-07-30T15:26:25.919+0900",
+      "field": "summary",
+      "from": "[N1-B0] Quantization SAD Write",
+      "to": "[N1-B0] LLM Quantization SAD Write"
+    },
+    {
+      "key": "NSDT-2056",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-07-30T15:22:24.831+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2056",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-07-30T15:21:51.650+0900",
+      "field": "assignee",
+      "from": "Ted Kim(김태현)",
+      "to": "SungminLee"
     },
     {
       "key": "NSDT-2055",
@@ -2630,51 +3007,6 @@
       "to": "Ted Kim(김태현)"
     },
     {
-      "key": "NSDT-2056",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-09-16T08:09:53.444+0900",
-      "field": "assignee",
-      "from": "SungminLee",
-      "to": "조민수"
-    },
-    {
-      "key": "NSDT-2056",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-31T14:57:19.928+0900",
-      "field": "summary",
-      "from": "[N1-B0] LLM Quantization SAD Write",
-      "to": "[HS] LLM Quantization SAD Write"
-    },
-    {
-      "key": "NSDT-2056",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-30T15:26:25.919+0900",
-      "field": "summary",
-      "from": "[N1-B0] Quantization SAD Write",
-      "to": "[N1-B0] LLM Quantization SAD Write"
-    },
-    {
-      "key": "NSDT-2056",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-30T15:22:24.831+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2027-01-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2056",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-30T15:21:51.650+0900",
-      "field": "assignee",
-      "from": "Ted Kim(김태현)",
-      "to": "SungminLee"
-    },
-    {
       "key": "NSDT-1961",
       "section": "Dev. Spec. Documents",
       "title": "SW Arch. Specification (SAD)",
@@ -2720,229 +3052,49 @@
       "to": "Nagoo Sung(성낙우)"
     },
     {
-      "key": "NSDT-1959",
+      "key": "NSDT-1960",
       "section": "Dev. Spec. Documents",
       "title": "SW Unit Design (SUD)",
-      "at": "2026-09-15T13:04:50.988+0900",
-      "field": "duedate",
-      "from": "2026-12-24 00:00:00.0",
-      "to": "2026-11-27 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1959",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-31T14:56:03.367+0900",
+      "at": "2026-07-31T14:56:48.159+0900",
       "field": "summary",
-      "from": "[N1-B0] BOS-SMI SUD Write",
-      "to": "[HS] BOS-SMI SUD Write"
+      "from": "  [N1-B0] UMD/KMD SUD Write",
+      "to": "  [HS] UMD/KMD SUD Write"
     },
     {
-      "key": "NSDT-1959",
+      "key": "NSDT-1960",
       "section": "Dev. Spec. Documents",
       "title": "SW Unit Design (SUD)",
-      "at": "2026-07-30T15:28:15.450+0900",
-      "field": "duedate",
-      "from": "2026-11-27 00:00:00.0",
-      "to": "2026-12-24 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1959",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-30T15:21:28.300+0900",
-      "field": "assignee",
-      "from": "Nagoo Sung(성낙우)",
-      "to": "MyeongGI Jeong"
-    },
-    {
-      "key": "NSDT-1959",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-30T15:21:28.300+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-11-27 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1959",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-06T15:02:32.177+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Nagoo Sung(성낙우)"
-    },
-    {
-      "key": "NSDT-1959",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-06T14:53:39.527+0900",
-      "field": "summary",
-      "from": "Eagle-N BOS-SMI SUD Write",
-      "to": "[N1-B0] BOS-SMI SUD Write"
-    },
-    {
-      "key": "NSDT-1957",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-31T14:55:22.002+0900",
-      "field": "summary",
-      "from": "[N1-B0] TT-metal-E2 SUD Write (including multi-model scheduler)",
-      "to": "[HS] TT-metal-E2 SUD Write (including multi-model scheduler)"
-    },
-    {
-      "key": "NSDT-1957",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-30T15:27:28.312+0900",
+      "at": "2026-07-30T15:27:54.810+0900",
       "field": "duedate",
       "from": "2026-10-30 00:00:00.0",
       "to": "2026-11-27 00:00:00.0"
     },
     {
-      "key": "NSDT-1957",
+      "key": "NSDT-1960",
       "section": "Dev. Spec. Documents",
       "title": "SW Unit Design (SUD)",
-      "at": "2026-07-30T15:21:28.725+0900",
+      "at": "2026-07-30T15:21:28.301+0900",
       "field": "assignee",
       "from": "Nagoo Sung(성낙우)",
       "to": "MyeongGI Jeong"
     },
     {
-      "key": "NSDT-1957",
+      "key": "NSDT-1960",
       "section": "Dev. Spec. Documents",
       "title": "SW Unit Design (SUD)",
-      "at": "2026-07-30T15:21:28.725+0900",
+      "at": "2026-07-30T15:21:28.301+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-10-30 00:00:00.0"
     },
     {
-      "key": "NSDT-1957",
+      "key": "NSDT-1960",
       "section": "Dev. Spec. Documents",
       "title": "SW Unit Design (SUD)",
-      "at": "2026-07-06T15:02:52.814+0900",
+      "at": "2026-07-06T15:02:06.361+0900",
       "field": "assignee",
       "from": "Not recorded",
       "to": "Nagoo Sung(성낙우)"
-    },
-    {
-      "key": "NSDT-1957",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-06T14:53:22.576+0900",
-      "field": "summary",
-      "from": "Eagle-N TT-metal-E2 SUD Write (including multi-model scheduler)",
-      "to": "[N1-B0] TT-metal-E2 SUD Write (including multi-model scheduler)"
-    },
-    {
-      "key": "PTTM-477",
-      "section": "SDK Packaging",
-      "title": "Model development Guide",
-      "at": "2026-06-29T17:07:45.827+0900",
-      "field": "status",
-      "from": "In Progress",
-      "to": "Done"
-    },
-    {
-      "key": "PTTM-477",
-      "section": "SDK Packaging",
-      "title": "Model development Guide",
-      "at": "2026-06-16T10:18:13.818+0900",
-      "field": "duedate",
-      "from": "2026-07-20 00:00:00.0",
-      "to": "2026-06-30 00:00:00.0"
-    },
-    {
-      "key": "PTTM-477",
-      "section": "SDK Packaging",
-      "title": "Model development Guide",
-      "at": "2026-06-08T15:30:27.434+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "PTTM-477",
-      "section": "SDK Packaging",
-      "title": "Model development Guide",
-      "at": "2026-06-05T17:47:51.561+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-07-20 00:00:00.0"
-    },
-    {
-      "key": "PTTM-477",
-      "section": "SDK Packaging",
-      "title": "Model development Guide",
-      "at": "2026-06-05T17:00:05.168+0900",
-      "field": "summary",
-      "from": "Simplifying installation steps",
-      "to": "Manual model development Guide"
-    },
-    {
-      "key": "NSDT-1954",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-09-07T14:08:08.990+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-1954",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-31T14:56:17.316+0900",
-      "field": "summary",
-      "from": "[N1-B0] UMD/KMD SAD Write",
-      "to": "[HS] UMD/KMD SAD Write"
-    },
-    {
-      "key": "NSDT-1954",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-30T15:25:54.094+0900",
-      "field": "duedate",
-      "from": "2026-09-25 00:00:00.0",
-      "to": "2026-10-30 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1954",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-30T15:21:29.619+0900",
-      "field": "assignee",
-      "from": "Nagoo Sung(성낙우)",
-      "to": "MyeongGI Jeong"
-    },
-    {
-      "key": "NSDT-1954",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-30T15:21:29.619+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-25 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1954",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-06T15:03:01.455+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Nagoo Sung(성낙우)"
-    },
-    {
-      "key": "NSDT-1954",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-06T14:53:05.437+0900",
-      "field": "summary",
-      "from": "Eagle-N UMD/KMD SAD Write",
-      "to": "[N1-B0] UMD/KMD SAD Write"
     },
     {
       "key": "NSDT-1958",
@@ -3008,562 +3160,1237 @@
       "to": "[N1-B0] BOS-SMI SAD Write"
     },
     {
-      "key": "NSDT-1960",
+      "key": "NSDT-1959",
       "section": "Dev. Spec. Documents",
       "title": "SW Unit Design (SUD)",
-      "at": "2026-07-31T14:56:48.159+0900",
-      "field": "summary",
-      "from": "  [N1-B0] UMD/KMD SUD Write",
-      "to": "  [HS] UMD/KMD SUD Write"
-    },
-    {
-      "key": "NSDT-1960",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-30T15:27:54.810+0900",
+      "at": "2026-09-15T13:04:50.988+0900",
       "field": "duedate",
-      "from": "2026-10-30 00:00:00.0",
+      "from": "2026-12-24 00:00:00.0",
       "to": "2026-11-27 00:00:00.0"
     },
     {
-      "key": "NSDT-1960",
+      "key": "NSDT-1959",
       "section": "Dev. Spec. Documents",
       "title": "SW Unit Design (SUD)",
-      "at": "2026-07-30T15:21:28.301+0900",
+      "at": "2026-07-31T14:56:03.367+0900",
+      "field": "summary",
+      "from": "[N1-B0] BOS-SMI SUD Write",
+      "to": "[HS] BOS-SMI SUD Write"
+    },
+    {
+      "key": "NSDT-1959",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Unit Design (SUD)",
+      "at": "2026-07-30T15:28:15.450+0900",
+      "field": "duedate",
+      "from": "2026-11-27 00:00:00.0",
+      "to": "2026-12-24 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1959",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Unit Design (SUD)",
+      "at": "2026-07-30T15:21:28.300+0900",
       "field": "assignee",
       "from": "Nagoo Sung(성낙우)",
       "to": "MyeongGI Jeong"
     },
     {
-      "key": "NSDT-1960",
+      "key": "NSDT-1959",
       "section": "Dev. Spec. Documents",
       "title": "SW Unit Design (SUD)",
-      "at": "2026-07-30T15:21:28.301+0900",
+      "at": "2026-07-30T15:21:28.300+0900",
       "field": "duedate",
       "from": "Not recorded",
-      "to": "2026-10-30 00:00:00.0"
+      "to": "2026-11-27 00:00:00.0"
     },
     {
-      "key": "NSDT-1960",
+      "key": "NSDT-1959",
       "section": "Dev. Spec. Documents",
       "title": "SW Unit Design (SUD)",
-      "at": "2026-07-06T15:02:06.361+0900",
+      "at": "2026-07-06T15:02:32.177+0900",
       "field": "assignee",
       "from": "Not recorded",
       "to": "Nagoo Sung(성낙우)"
     },
     {
-      "key": "PTTM-476",
-      "section": "SDK Packaging",
-      "title": "Custom Ops & Kernel Programming Guide",
-      "at": "2026-06-10T14:46:55.889+0900",
+      "key": "NSDT-1959",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Unit Design (SUD)",
+      "at": "2026-07-06T14:53:39.527+0900",
       "field": "summary",
-      "from": "Compiler-based model development Guide",
-      "to": "Custom Ops & Kernel Programming Guide"
+      "from": "Eagle-N BOS-SMI SUD Write",
+      "to": "[N1-B0] BOS-SMI SUD Write"
     },
     {
-      "key": "PTTM-476",
-      "section": "SDK Packaging",
-      "title": "Custom Ops & Kernel Programming Guide",
-      "at": "2026-06-05T17:47:51.181+0900",
-      "field": "summary",
-      "from": "Yolo",
-      "to": "Compiler-based model development Guide"
+      "key": "NSDT-1954",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-09-07T14:08:08.990+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
     },
     {
-      "key": "PTTM-476",
-      "section": "SDK Packaging",
-      "title": "Custom Ops & Kernel Programming Guide",
-      "at": "2026-06-05T16:58:56.535+0900",
+      "key": "NSDT-1954",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-07-31T14:56:17.316+0900",
       "field": "summary",
-      "from": "Enhanced end to end workflow documentation",
-      "to": "Yolo"
+      "from": "[N1-B0] UMD/KMD SAD Write",
+      "to": "[HS] UMD/KMD SAD Write"
     },
     {
-      "key": "PTTM-476",
-      "section": "SDK Packaging",
-      "title": "Custom Ops & Kernel Programming Guide",
-      "at": "2026-06-04T13:36:54.318+0900",
+      "key": "NSDT-1954",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-07-30T15:25:54.094+0900",
+      "field": "duedate",
+      "from": "2026-09-25 00:00:00.0",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1954",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-07-30T15:21:29.619+0900",
+      "field": "assignee",
+      "from": "Nagoo Sung(성낙우)",
+      "to": "MyeongGI Jeong"
+    },
+    {
+      "key": "NSDT-1954",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-07-30T15:21:29.619+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-25 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1954",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-07-06T15:03:01.455+0900",
       "field": "assignee",
       "from": "Not recorded",
-      "to": "Simon Jacqmart"
+      "to": "Nagoo Sung(성낙우)"
     },
     {
-      "key": "PTTM-475",
+      "key": "NSDT-1954",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Arch. Specification (SAD)",
+      "at": "2026-07-06T14:53:05.437+0900",
+      "field": "summary",
+      "from": "Eagle-N UMD/KMD SAD Write",
+      "to": "[N1-B0] UMD/KMD SAD Write"
+    },
+    {
+      "key": "NSDT-1957",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Unit Design (SUD)",
+      "at": "2026-07-31T14:55:22.002+0900",
+      "field": "summary",
+      "from": "[N1-B0] TT-metal-E2 SUD Write (including multi-model scheduler)",
+      "to": "[HS] TT-metal-E2 SUD Write (including multi-model scheduler)"
+    },
+    {
+      "key": "NSDT-1957",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Unit Design (SUD)",
+      "at": "2026-07-30T15:27:28.312+0900",
+      "field": "duedate",
+      "from": "2026-10-30 00:00:00.0",
+      "to": "2026-11-27 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1957",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Unit Design (SUD)",
+      "at": "2026-07-30T15:21:28.725+0900",
+      "field": "assignee",
+      "from": "Nagoo Sung(성낙우)",
+      "to": "MyeongGI Jeong"
+    },
+    {
+      "key": "NSDT-1957",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Unit Design (SUD)",
+      "at": "2026-07-30T15:21:28.725+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1957",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Unit Design (SUD)",
+      "at": "2026-07-06T15:02:52.814+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Nagoo Sung(성낙우)"
+    },
+    {
+      "key": "NSDT-1957",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Unit Design (SUD)",
+      "at": "2026-07-06T14:53:22.576+0900",
+      "field": "summary",
+      "from": "Eagle-N TT-metal-E2 SUD Write (including multi-model scheduler)",
+      "to": "[N1-B0] TT-metal-E2 SUD Write (including multi-model scheduler)"
+    },
+    {
+      "key": "NSDT-1953",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-09-15T13:03:20.825+0900",
+      "field": "duedate",
+      "from": "2026-10-30 00:00:00.0",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1953",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-07-31T14:55:53.109+0900",
+      "field": "summary",
+      "from": "[N1-B0] BOS-SMI SRS Write",
+      "to": "[HS] BOS-SMI SRS Write"
+    },
+    {
+      "key": "NSDT-1953",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-07-30T15:25:15.279+0900",
+      "field": "duedate",
+      "from": "2026-09-25 00:00:00.0",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1953",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-07-30T15:21:29.622+0900",
+      "field": "assignee",
+      "from": "Nagoo Sung(성낙우)",
+      "to": "MyeongGI Jeong"
+    },
+    {
+      "key": "NSDT-1953",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-07-30T15:21:29.622+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-25 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1953",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-07-06T15:02:24.830+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Nagoo Sung(성낙우)"
+    },
+    {
+      "key": "NSDT-1953",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-07-06T14:52:56.386+0900",
+      "field": "summary",
+      "from": "Eagle-N BOS-SMI SRS Write",
+      "to": "[N1-B0] BOS-SMI SRS Write"
+    },
+    {
+      "key": "NSDT-1952",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-09-03T10:06:44.589+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1952",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-08-20T14:30:28.035+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1952",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-07-31T14:55:37.897+0900",
+      "field": "summary",
+      "from": "[N1-B0] UMD/KMD SRS Write",
+      "to": "[HS] UMD/KMD SRS Write"
+    },
+    {
+      "key": "NSDT-1952",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-07-30T15:24:54.416+0900",
+      "field": "duedate",
+      "from": "2026-08-28 00:00:00.0",
+      "to": "2026-09-25 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1952",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-07-30T15:21:29.617+0900",
+      "field": "assignee",
+      "from": "Nagoo Sung(성낙우)",
+      "to": "MyeongGI Jeong"
+    },
+    {
+      "key": "NSDT-1952",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-07-30T15:21:29.617+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-08-28 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1952",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-07-06T15:03:10.213+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Nagoo Sung(성낙우)"
+    },
+    {
+      "key": "NSDT-1952",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-07-06T14:52:44.991+0900",
+      "field": "summary",
+      "from": "Eagle-N UMD/KMD SRS Write",
+      "to": "[N1-B0] UMD/KMD SRS Write"
+    },
+    {
+      "key": "NSDT-1949",
+      "section": "Ref. Models",
+      "title": "SSR Quantized",
+      "at": "2026-08-24T10:30:42.292+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1949",
+      "section": "Ref. Models",
+      "title": "SSR Quantized",
+      "at": "2026-08-24T10:26:17.523+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Hoang Nhat Quang"
+    },
+    {
+      "key": "NSDT-1949",
+      "section": "Ref. Models",
+      "title": "SSR Quantized",
+      "at": "2026-07-05T17:24:34.351+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1951",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-09-15T16:49:48.640+0900",
+      "field": "duedate",
+      "from": "2026-09-25 00:00:00.0",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1951",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-07-31T14:54:53.691+0900",
+      "field": "summary",
+      "from": "[N1-B0] TT-metal-E2 SRS write (including multi-model scheduler)",
+      "to": "[HS] TT-metal-E2 SRS write (including multi-model scheduler)"
+    },
+    {
+      "key": "NSDT-1951",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-07-30T15:24:30.032+0900",
+      "field": "duedate",
+      "from": "2026-08-28 00:00:00.0",
+      "to": "2026-09-25 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1951",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-07-30T15:21:30.035+0900",
+      "field": "assignee",
+      "from": "Nagoo Sung(성낙우)",
+      "to": "MyeongGI Jeong"
+    },
+    {
+      "key": "NSDT-1951",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-07-30T15:21:30.035+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-08-28 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1951",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-07-06T15:02:45.424+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Nagoo Sung(성낙우)"
+    },
+    {
+      "key": "NSDT-1951",
+      "section": "Dev. Spec. Documents",
+      "title": "SW Req. Specification (SRS)",
+      "at": "2026-07-06T14:52:35.254+0900",
+      "field": "summary",
+      "from": "TT-metal-E2 SRS write (including multi-model scheduler)",
+      "to": "[N1-B0] TT-metal-E2 SRS write (including multi-model scheduler)"
+    },
+    {
+      "key": "NSDT-1948",
+      "section": "Ref. Models",
+      "title": "SSR",
+      "at": "2026-08-24T10:27:29.769+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Hoang Nhat Quang"
+    },
+    {
+      "key": "NSDT-1948",
+      "section": "Ref. Models",
+      "title": "SSR",
+      "at": "2026-07-15T16:19:23.958+0900",
+      "field": "duedate",
+      "from": "2026-12-04 00:00:00.0",
+      "to": "2026-12-11 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1948",
+      "section": "Ref. Models",
+      "title": "SSR",
+      "at": "2026-07-14T10:56:12.279+0900",
+      "field": "duedate",
+      "from": "2026-11-30 00:00:00.0",
+      "to": "2026-12-04 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1948",
+      "section": "Ref. Models",
+      "title": "SSR",
+      "at": "2026-07-14T10:56:03.474+0900",
+      "field": "duedate",
+      "from": "2026-03-31 00:00:00.0",
+      "to": "2026-11-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1948",
+      "section": "Ref. Models",
+      "title": "SSR",
+      "at": "2026-07-14T10:19:01.611+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-03-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1948",
+      "section": "Ref. Models",
+      "title": "SSR",
+      "at": "2026-07-14T10:18:51.367+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1948",
+      "section": "Ref. Models",
+      "title": "SSR",
+      "at": "2026-07-14T10:18:43.843+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1947",
+      "section": "Ref. Models",
+      "title": "OFT/PDL Quantized",
+      "at": "2026-08-24T10:30:40.182+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1947",
+      "section": "Ref. Models",
+      "title": "OFT/PDL Quantized",
+      "at": "2026-08-24T10:26:08.422+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Nguyen Dang Thoi Toan"
+    },
+    {
+      "key": "NSDT-1946",
+      "section": "Ref. Models",
+      "title": "Resnet50/Yolo Quantized",
+      "at": "2026-08-24T10:30:39.313+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1946",
+      "section": "Ref. Models",
+      "title": "Resnet50/Yolo Quantized",
+      "at": "2026-08-24T10:24:27.297+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Tran Thi Cam Giang"
+    },
+    {
+      "key": "NSDT-1946",
+      "section": "Ref. Models",
+      "title": "Resnet50/Yolo Quantized",
+      "at": "2026-07-05T17:22:44.315+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1945",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for Vision models",
+      "at": "2026-08-24T10:30:37.435+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1945",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for Vision models",
+      "at": "2026-07-05T17:19:58.615+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1945",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for Vision models",
+      "at": "2026-07-05T17:19:26.112+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][",
+      "to": "[N1-B0][AISW][Quantization] INT8 w8a8 quantization for Vision models (ResNet50, YOLOv8s, ViT, PDL, OFT/FastOFT, SSR) "
+    },
+    {
+      "key": "NSDT-1944",
       "section": "SDK Packaging",
-      "title": "Model performance optimization Guide",
-      "at": "2026-06-10T14:59:35.359+0900",
+      "title": "AIMET based - Vision Quantization Workflow for Customer Vision Model documentation",
+      "at": "2026-09-04T15:00:10.672+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Doc] Vision Quantization Workflow for Customer Vision Model documentation",
+      "to": "[N1-B0][AISW][Doc] AIMET-based Vision Quantization Workflow for Customer Vision Model documentation"
+    },
+    {
+      "key": "NSDT-1944",
+      "section": "SDK Packaging",
+      "title": "AIMET based - Vision Quantization Workflow for Customer Vision Model documentation",
+      "at": "2026-09-02T16:59:38.318+0900",
+      "field": "assignee",
+      "from": "Nguyen Viet Nhat",
+      "to": "Hoang Nhat Quang"
+    },
+    {
+      "key": "NSDT-1944",
+      "section": "SDK Packaging",
+      "title": "AIMET based - Vision Quantization Workflow for Customer Vision Model documentation",
+      "at": "2026-08-24T10:30:27.313+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1944",
+      "section": "SDK Packaging",
+      "title": "AIMET based - Vision Quantization Workflow for Customer Vision Model documentation",
+      "at": "2026-08-18T14:29:52.185+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Nguyen Viet Nhat"
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools",
+      "title": "Production-Ready Deployment Flow",
+      "at": "2026-07-15T13:21:38.222+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools",
+      "title": "Production-Ready Deployment Flow",
+      "at": "2026-07-15T13:21:32.551+0900",
+      "field": "duedate",
+      "from": "2026-09-30 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools",
+      "title": "Production-Ready Deployment Flow",
+      "at": "2026-07-08T11:56:01.549+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools",
+      "title": "Production-Ready Deployment Flow",
+      "at": "2026-07-05T14:41:24.374+0900",
+      "field": "duedate",
+      "from": "2026-08-31 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools",
+      "title": "Production-Ready Deployment Flow",
+      "at": "2026-07-05T14:13:58.851+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-08-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools",
+      "title": "Production-Ready Deployment Flow",
+      "at": "2026-07-05T14:13:48.017+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Dang Thanh Huy"
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools",
+      "title": "Performance-Driven Data Formats",
+      "at": "2026-09-01T16:26:07.882+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools",
+      "title": "Performance-Driven Data Formats",
+      "at": "2026-07-15T13:21:19.698+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools",
+      "title": "Performance-Driven Data Formats",
+      "at": "2026-07-15T13:21:14.990+0900",
+      "field": "duedate",
+      "from": "2026-08-31 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools",
+      "title": "Performance-Driven Data Formats",
+      "at": "2026-07-08T11:55:51.417+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-08-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools",
+      "title": "Performance-Driven Data Formats",
+      "at": "2026-07-05T14:41:12.773+0900",
+      "field": "duedate",
+      "from": "2026-08-31 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools",
+      "title": "Performance-Driven Data Formats",
+      "at": "2026-07-05T14:40:53.909+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "To Do"
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools",
+      "title": "Performance-Driven Data Formats",
+      "at": "2026-07-05T14:13:17.689+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools",
+      "title": "Performance-Driven Data Formats",
+      "at": "2026-07-05T14:12:53.265+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-08-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools",
+      "title": "Performance-Driven Data Formats",
+      "at": "2026-07-05T14:11:42.530+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Dang Thanh Huy"
+    },
+    {
+      "key": "NSDT-1941",
+      "section": "AI Model Dev. Tools",
+      "title": "New Operation / Custom Operation Enablement",
+      "at": "2026-07-15T13:21:00.639+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1941",
+      "section": "AI Model Dev. Tools",
+      "title": "New Operation / Custom Operation Enablement",
+      "at": "2026-07-15T13:20:52.662+0900",
+      "field": "duedate",
+      "from": "2026-09-30 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1941",
+      "section": "AI Model Dev. Tools",
+      "title": "New Operation / Custom Operation Enablement",
+      "at": "2026-07-08T11:55:37.279+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1941",
+      "section": "AI Model Dev. Tools",
+      "title": "New Operation / Custom Operation Enablement",
+      "at": "2026-07-05T14:41:03.643+0900",
+      "field": "duedate",
+      "from": "2026-08-31 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1941",
+      "section": "AI Model Dev. Tools",
+      "title": "New Operation / Custom Operation Enablement",
+      "at": "2026-07-05T14:14:51.635+0900",
+      "field": "duedate",
+      "from": "2026-11-30 00:00:00.0",
+      "to": "2026-08-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1941",
+      "section": "AI Model Dev. Tools",
+      "title": "New Operation / Custom Operation Enablement",
+      "at": "2026-07-05T14:11:05.370+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-11-30 00:00:00.0"
     },
     {
-      "key": "PTTM-475",
-      "section": "SDK Packaging",
-      "title": "Model performance optimization Guide",
-      "at": "2026-06-09T17:56:46.019+0900",
-      "field": "summary",
-      "from": "Yolo",
-      "to": "Model performance optimization Guide"
-    },
-    {
-      "key": "PTTM-475",
-      "section": "SDK Packaging",
-      "title": "Model performance optimization Guide",
-      "at": "2026-06-05T16:59:07.626+0900",
-      "field": "summary",
-      "from": "Custom model Compilation and execution tutorial",
-      "to": "Yolo"
-    },
-    {
-      "key": "PTTM-475",
-      "section": "SDK Packaging",
-      "title": "Model performance optimization Guide",
-      "at": "2026-06-04T13:57:18.310+0900",
+      "key": "NSDT-1941",
+      "section": "AI Model Dev. Tools",
+      "title": "New Operation / Custom Operation Enablement",
+      "at": "2026-07-05T14:10:37.024+0900",
       "field": "assignee",
       "from": "Not recorded",
-      "to": "Simon Jacqmart"
+      "to": "Dang Thanh Huy"
     },
     {
-      "key": "PTTM-471",
-      "section": "SDK Packaging",
-      "title": "How to Quantize models",
-      "at": "2026-07-09T11:13:54.130+0900",
+      "key": "NSDT-1941",
+      "section": "AI Model Dev. Tools",
+      "title": "New Operation / Custom Operation Enablement",
+      "at": "2026-07-05T14:10:35.306+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][BOS Compiler] Graph Optimization ",
+      "to": "[N1-B0][AISW][BOS Compiler] New Operation / Custom Operation Enablement"
+    },
+    {
+      "key": "NSDT-1940",
+      "section": "AI Model Dev. Tools",
+      "title": "High-Efficiency Operator Fusion",
+      "at": "2026-09-01T16:25:51.005+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1940",
+      "section": "AI Model Dev. Tools",
+      "title": "High-Efficiency Operator Fusion",
+      "at": "2026-07-15T13:20:40.127+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1940",
+      "section": "AI Model Dev. Tools",
+      "title": "High-Efficiency Operator Fusion",
+      "at": "2026-07-15T13:20:37.815+0900",
+      "field": "duedate",
+      "from": "2026-08-31 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1940",
+      "section": "AI Model Dev. Tools",
+      "title": "High-Efficiency Operator Fusion",
+      "at": "2026-07-08T11:55:22.850+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-08-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1940",
+      "section": "AI Model Dev. Tools",
+      "title": "High-Efficiency Operator Fusion",
+      "at": "2026-07-05T14:40:47.497+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "To Do"
+    },
+    {
+      "key": "NSDT-1940",
+      "section": "AI Model Dev. Tools",
+      "title": "High-Efficiency Operator Fusion",
+      "at": "2026-07-05T14:40:43.641+0900",
+      "field": "duedate",
+      "from": "2026-08-31 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1940",
+      "section": "AI Model Dev. Tools",
+      "title": "High-Efficiency Operator Fusion",
+      "at": "2026-07-05T14:09:33.110+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-08-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1940",
+      "section": "AI Model Dev. Tools",
+      "title": "High-Efficiency Operator Fusion",
+      "at": "2026-07-05T14:07:52.608+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Dang Thanh Huy"
+    },
+    {
+      "key": "NSDT-1940",
+      "section": "AI Model Dev. Tools",
+      "title": "High-Efficiency Operator Fusion",
+      "at": "2026-07-05T14:07:48.229+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-15T13:20:02.473+0900",
       "field": "duedate",
       "from": "2026-09-30 00:00:00.0",
-      "to": "2026-12-30 00:00:00.0"
+      "to": "2026-12-31 00:00:00.0"
     },
     {
-      "key": "PTTM-471",
-      "section": "SDK Packaging",
-      "title": "How to Quantize models",
-      "at": "2026-06-10T14:59:35.344+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-30 00:00:00.0"
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-15T13:19:37.330+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
     },
     {
-      "key": "PTTM-471",
-      "section": "SDK Packaging",
-      "title": "How to Quantize models",
-      "at": "2026-06-05T16:55:57.950+0900",
-      "field": "summary",
-      "from": "Ops compatibility Checker",
-      "to": "How to Quantize models"
-    },
-    {
-      "key": "PTTM-471",
-      "section": "SDK Packaging",
-      "title": "How to Quantize models",
-      "at": "2026-06-04T13:57:31.619+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Simon Jacqmart"
-    },
-    {
-      "key": "PTTM-472",
-      "section": "SDK Packaging",
-      "title": "Custom model development and deployment",
-      "at": "2026-06-09T17:54:14.695+0900",
-      "field": "summary",
-      "from": "Custom model compilation and execution",
-      "to": "Custom model development and deployment "
-    },
-    {
-      "key": "PTTM-472",
-      "section": "SDK Packaging",
-      "title": "Custom model development and deployment",
-      "at": "2026-06-05T16:56:25.202+0900",
-      "field": "summary",
-      "from": "Possible Guided Performance tooling",
-      "to": "Custom model compilation and execution"
-    },
-    {
-      "key": "PTTM-472",
-      "section": "SDK Packaging",
-      "title": "Custom model development and deployment",
-      "at": "2026-06-04T13:57:30.580+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Simon Jacqmart"
-    },
-    {
-      "key": "PTTM-470",
-      "section": "SDK Packaging",
-      "title": "How to use tt-sim",
-      "at": "2026-07-09T11:13:54.144+0900",
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-08T11:55:08.434+0900",
       "field": "duedate",
       "from": "2026-08-31 00:00:00.0",
       "to": "2026-09-30 00:00:00.0"
     },
     {
-      "key": "PTTM-470",
-      "section": "SDK Packaging",
-      "title": "How to use tt-sim",
-      "at": "2026-06-10T14:59:35.352+0900",
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-08T11:54:34.778+0900",
       "field": "duedate",
-      "from": "Not recorded",
+      "from": "2026-12-31 00:00:00.0",
       "to": "2026-08-31 00:00:00.0"
     },
     {
-      "key": "PTTM-470",
-      "section": "SDK Packaging",
-      "title": "How to use tt-sim",
-      "at": "2026-06-05T16:55:23.348+0900",
-      "field": "summary",
-      "from": "ttnn-standalone",
-      "to": "How to use tt-sim"
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-05T14:40:50.228+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "To Do"
     },
     {
-      "key": "PTTM-470",
-      "section": "SDK Packaging",
-      "title": "How to use tt-sim",
-      "at": "2026-06-04T13:57:33.115+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Simon Jacqmart"
-    },
-    {
-      "key": "PTTM-469",
-      "section": "SDK Packaging",
-      "title": "How to use tt-explorer",
-      "at": "2026-06-10T14:59:35.804+0900",
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-05T14:40:14.530+0900",
       "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-10-31 00:00:00.0"
+      "from": "2026-08-31 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
     },
     {
-      "key": "PTTM-469",
-      "section": "SDK Packaging",
-      "title": "How to use tt-explorer",
-      "at": "2026-06-05T16:54:42.035+0900",
-      "field": "summary",
-      "from": "tt-explorer",
-      "to": "How to use tt-explorer"
-    },
-    {
-      "key": "PTTM-469",
-      "section": "SDK Packaging",
-      "title": "How to use tt-explorer",
-      "at": "2026-06-04T13:57:35.390+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Simon Jacqmart"
-    },
-    {
-      "key": "PTTM-468",
-      "section": "SDK Packaging",
-      "title": "Custom Operator Implementation",
-      "at": "2026-06-10T14:59:35.858+0900",
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-05T14:09:57.815+0900",
       "field": "duedate",
-      "from": "Not recorded",
+      "from": "2026-07-31 00:00:00.0",
       "to": "2026-08-31 00:00:00.0"
     },
     {
-      "key": "PTTM-468",
-      "section": "SDK Packaging",
-      "title": "Custom Operator Implementation",
-      "at": "2026-06-05T16:53:31.158+0900",
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-05T14:06:23.548+0900",
       "field": "summary",
-      "from": "tt-npe",
-      "to": "Custom Operator Implementation"
+      "from": "[N1-B0][AISW][BOS Compiler] Graph Optimization ",
+      "to": "[N1-B0][AISW][BOS Compiler] Graph-Aware Memory, layout, and Sharding Optimization"
     },
     {
-      "key": "PTTM-468",
-      "section": "SDK Packaging",
-      "title": "Custom Operator Implementation",
-      "at": "2026-06-04T13:57:36.774+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Simon Jacqmart"
-    },
-    {
-      "key": "PTTM-467",
-      "section": "SDK Packaging",
-      "title": "How to use tt-npe (Practical Tutorial)",
-      "at": "2026-07-30T12:59:32.970+0900",
-      "field": "status",
-      "from": "In Progress",
-      "to": "Won't Do"
-    },
-    {
-      "key": "PTTM-467",
-      "section": "SDK Packaging",
-      "title": "How to use tt-npe (Practical Tutorial)",
-      "at": "2026-07-14T09:23:27.810+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Simon Jacqmart"
-    },
-    {
-      "key": "PTTM-467",
-      "section": "SDK Packaging",
-      "title": "How to use tt-npe (Practical Tutorial)",
-      "at": "2026-06-30T14:07:08.022+0900",
-      "field": "summary",
-      "from": "How to use tt-npe",
-      "to": "How to use tt-npe: Eagle N A0 configuration and practical example"
-    },
-    {
-      "key": "PTTM-467",
-      "section": "SDK Packaging",
-      "title": "How to use tt-npe (Practical Tutorial)",
-      "at": "2026-06-09T17:57:31.516+0900",
-      "field": "summary",
-      "from": "Automated device binary fusing",
-      "to": "How to use tt-npe"
-    },
-    {
-      "key": "PTTM-467",
-      "section": "SDK Packaging",
-      "title": "How to use tt-npe (Practical Tutorial)",
-      "at": "2026-06-09T17:57:21.203+0900",
-      "field": "assignee",
-      "from": "Simon Jacqmart",
-      "to": "Not recorded"
-    },
-    {
-      "key": "PTTM-467",
-      "section": "SDK Packaging",
-      "title": "How to use tt-npe (Practical Tutorial)",
-      "at": "2026-06-05T17:47:51.468+0900",
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-05T14:04:56.053+0900",
       "field": "status",
       "from": "To Do",
       "to": "In Progress"
     },
     {
-      "key": "PTTM-467",
-      "section": "SDK Packaging",
-      "title": "How to use tt-npe (Practical Tutorial)",
-      "at": "2026-06-05T17:47:51.207+0900",
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-05T14:04:52.703+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Dang Thanh Huy"
+    },
+    {
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-05T14:04:31.343+0900",
       "field": "duedate",
       "from": "Not recorded",
-      "to": "2026-07-20 00:00:00.0"
+      "to": "2026-07-31 00:00:00.0"
     },
     {
-      "key": "PTTM-467",
-      "section": "SDK Packaging",
-      "title": "How to use tt-npe (Practical Tutorial)",
-      "at": "2026-06-05T16:52:01.750+0900",
-      "field": "summary",
-      "from": "ttnn-visualizer",
-      "to": "Automated device binary fusing"
-    },
-    {
-      "key": "PTTM-467",
-      "section": "SDK Packaging",
-      "title": "How to use tt-npe (Practical Tutorial)",
-      "at": "2026-06-04T13:57:38.301+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Simon Jacqmart"
-    },
-    {
-      "key": "PTTM-465",
-      "section": "SDK Packaging",
-      "title": "Model Deployment Workflow",
-      "at": "2026-06-09T17:51:10.422+0900",
-      "field": "summary",
-      "from": "Manual Model Deployment Workflow",
-      "to": "Model Deployment Workflow"
-    },
-    {
-      "key": "PTTM-465",
-      "section": "SDK Packaging",
-      "title": "Model Deployment Workflow",
-      "at": "2026-06-09T17:50:09.840+0900",
-      "field": "summary",
-      "from": "Model Deployment Workflow",
-      "to": "Manual Model Deployment Workflow"
-    },
-    {
-      "key": "PTTM-465",
-      "section": "SDK Packaging",
-      "title": "Model Deployment Workflow",
-      "at": "2026-06-05T16:50:44.422+0900",
-      "field": "summary",
-      "from": "Deployment Workflow",
-      "to": "Model Deployment Workflow"
-    },
-    {
-      "key": "PTTM-465",
-      "section": "SDK Packaging",
-      "title": "Model Deployment Workflow",
-      "at": "2026-06-04T13:57:24.470+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Simon Jacqmart"
-    },
-    {
-      "key": "PTTM-466",
-      "section": "SDK Packaging",
-      "title": "SW Installation Guide (auto installer-based)",
-      "at": "2026-07-30T12:59:32.993+0900",
+      "key": "NSDT-1939",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph Optimization",
+      "at": "2026-09-01T16:25:04.642+0900",
       "field": "status",
       "from": "In Progress",
-      "to": "Done"
+      "to": "pre-silicon done"
     },
     {
-      "key": "PTTM-466",
-      "section": "SDK Packaging",
-      "title": "SW Installation Guide (auto installer-based)",
-      "at": "2026-06-09T17:54:51.371+0900",
-      "field": "summary",
-      "from": "Automated tt-metal installation and host memory access configuration",
-      "to": "SW Installation Guide"
-    },
-    {
-      "key": "PTTM-466",
-      "section": "SDK Packaging",
-      "title": "SW Installation Guide (auto installer-based)",
-      "at": "2026-06-05T17:47:51.463+0900",
+      "key": "NSDT-1939",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph Optimization",
+      "at": "2026-07-15T13:20:21.784+0900",
       "field": "status",
       "from": "To Do",
       "to": "In Progress"
     },
     {
-      "key": "PTTM-466",
-      "section": "SDK Packaging",
-      "title": "SW Installation Guide (auto installer-based)",
-      "at": "2026-06-05T17:47:51.206+0900",
+      "key": "NSDT-1939",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph Optimization",
+      "at": "2026-07-15T13:20:18.190+0900",
       "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-07-20 00:00:00.0"
+      "from": "2026-08-31 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
     },
     {
-      "key": "PTTM-466",
-      "section": "SDK Packaging",
-      "title": "SW Installation Guide (auto installer-based)",
-      "at": "2026-06-05T16:51:55.383+0900",
-      "field": "summary",
-      "from": "Model Deployment Workflow",
-      "to": "Automated tt-metal installation and host memory access configuration"
-    },
-    {
-      "key": "PTTM-466",
-      "section": "SDK Packaging",
-      "title": "SW Installation Guide (auto installer-based)",
-      "at": "2026-06-05T16:51:44.188+0900",
-      "field": "summary",
-      "from": "Tracy profiler",
-      "to": "Model Deployment Workflow"
-    },
-    {
-      "key": "PTTM-466",
-      "section": "SDK Packaging",
-      "title": "SW Installation Guide (auto installer-based)",
-      "at": "2026-06-04T13:57:39.752+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Simon Jacqmart"
-    },
-    {
-      "key": "PTTM-464",
-      "section": "SDK Packaging",
-      "title": "Model Performance Optimization Workflow",
-      "at": "2026-06-05T16:50:38.785+0900",
-      "field": "summary",
-      "from": "Optimization Workflow",
-      "to": "Model Performance Optimization Workflow"
-    },
-    {
-      "key": "PTTM-464",
-      "section": "SDK Packaging",
-      "title": "Model Performance Optimization Workflow",
-      "at": "2026-06-04T13:57:25.900+0900",
-      "field": "assignee",
-      "from": "Jeong Park",
-      "to": "Simon Jacqmart"
-    },
-    {
-      "key": "PTTM-464",
-      "section": "SDK Packaging",
-      "title": "Model Performance Optimization Workflow",
-      "at": "2026-06-04T13:57:21.420+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Jeong Park"
-    },
-    {
-      "key": "PTTM-463",
-      "section": "SDK Packaging",
-      "title": "Compiler-based Model Development Workflow",
-      "at": "2026-06-10T14:59:46.536+0900",
+      "key": "NSDT-1939",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph Optimization",
+      "at": "2026-07-08T11:54:56.420+0900",
       "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-11-30 00:00:00.0"
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-08-31 00:00:00.0"
     },
     {
-      "key": "PTTM-463",
-      "section": "SDK Packaging",
-      "title": "Compiler-based Model Development Workflow",
-      "at": "2026-06-05T17:36:50.874+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Simon Jacqmart"
-    },
-    {
-      "key": "PTTM-463",
-      "section": "SDK Packaging",
-      "title": "Compiler-based Model Development Workflow",
-      "at": "2026-06-05T16:50:35.111+0900",
-      "field": "summary",
-      "from": "Development Workflow",
-      "to": "Compiler-based Model Development Workflow"
-    },
-    {
-      "key": "PTTM-462",
-      "section": "SDK Packaging",
-      "title": "Manual Model Development Workflow",
-      "at": "2026-06-29T17:07:25.151+0900",
+      "key": "NSDT-1939",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph Optimization",
+      "at": "2026-07-05T14:40:48.935+0900",
       "field": "status",
       "from": "In Progress",
-      "to": "Done"
+      "to": "To Do"
     },
     {
-      "key": "PTTM-462",
-      "section": "SDK Packaging",
-      "title": "Manual Model Development Workflow",
-      "at": "2026-06-16T10:18:14.273+0900",
+      "key": "NSDT-1939",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph Optimization",
+      "at": "2026-07-05T14:40:30.090+0900",
       "field": "duedate",
-      "from": "2026-07-20 00:00:00.0",
-      "to": "2026-06-30 00:00:00.0"
+      "from": "2026-08-31 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
     },
     {
-      "key": "PTTM-462",
-      "section": "SDK Packaging",
-      "title": "Manual Model Development Workflow",
-      "at": "2026-06-10T15:07:10.079+0900",
+      "key": "NSDT-1939",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph Optimization",
+      "at": "2026-07-05T14:09:48.272+0900",
+      "field": "duedate",
+      "from": "2026-07-31 00:00:00.0",
+      "to": "2026-08-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1939",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph Optimization",
+      "at": "2026-07-05T14:06:49.256+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-07-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1939",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph Optimization",
+      "at": "2026-07-05T14:06:35.565+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Dang Thanh Huy"
+    },
+    {
+      "key": "NSDT-1939",
+      "section": "AI Model Dev. Tools",
+      "title": "Graph Optimization",
+      "at": "2026-07-05T14:06:32.964+0900",
       "field": "status",
       "from": "To Do",
       "to": "In Progress"
     },
     {
-      "key": "PTTM-462",
-      "section": "SDK Packaging",
-      "title": "Manual Model Development Workflow",
-      "at": "2026-06-05T17:47:51.763+0900",
+      "key": "NSDT-1934",
+      "section": "Ref. Models",
+      "title": "OFT/PDL",
+      "at": "2026-08-25T16:56:03.882+0900",
       "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-07-20 00:00:00.0"
+      "from": "2026-03-31 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
     },
     {
-      "key": "PTTM-462",
-      "section": "SDK Packaging",
-      "title": "Manual Model Development Workflow",
-      "at": "2026-06-05T17:36:29.348+0900",
+      "key": "NSDT-1934",
+      "section": "Ref. Models",
+      "title": "OFT/PDL",
+      "at": "2026-08-25T16:01:57.876+0900",
       "field": "assignee",
       "from": "Not recorded",
-      "to": "Simon Jacqmart"
+      "to": "Athul Shibu"
     },
     {
-      "key": "PTTM-462",
-      "section": "SDK Packaging",
-      "title": "Manual Model Development Workflow",
-      "at": "2026-06-05T16:50:27.182+0900",
+      "key": "NSDT-1934",
+      "section": "Ref. Models",
+      "title": "OFT/PDL",
+      "at": "2026-07-09T14:19:59.420+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-03-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1934",
+      "section": "Ref. Models",
+      "title": "OFT/PDL",
+      "at": "2026-07-09T13:08:49.313+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1934",
+      "section": "Ref. Models",
+      "title": "OFT/PDL",
+      "at": "2026-07-09T13:08:45.094+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1934",
+      "section": "Ref. Models",
+      "title": "OFT/PDL",
+      "at": "2026-07-03T08:53:41.964+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1934",
+      "section": "Ref. Models",
+      "title": "OFT/PDL",
+      "at": "2026-07-02T16:33:18.207+0900",
       "field": "summary",
-      "from": "tt-forge/tt-xla",
-      "to": "Manual Model Development Workflow"
+      "from": "OFT/PDL",
+      "to": "[N1-B0][AISW][Model] OFT/PDL"
+    },
+    {
+      "key": "NSDT-1933",
+      "section": "Ref. Models",
+      "title": "Resnet50/Yolo",
+      "at": "2026-08-25T16:56:03.883+0900",
+      "field": "duedate",
+      "from": "2026-03-31 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1933",
+      "section": "Ref. Models",
+      "title": "Resnet50/Yolo",
+      "at": "2026-08-25T16:01:57.871+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "조민수"
+    },
+    {
+      "key": "NSDT-1933",
+      "section": "Ref. Models",
+      "title": "Resnet50/Yolo",
+      "at": "2026-07-09T14:20:06.985+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-03-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1933",
+      "section": "Ref. Models",
+      "title": "Resnet50/Yolo",
+      "at": "2026-07-09T13:08:57.299+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1933",
+      "section": "Ref. Models",
+      "title": "Resnet50/Yolo",
+      "at": "2026-07-09T13:08:54.946+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1933",
+      "section": "Ref. Models",
+      "title": "Resnet50/Yolo",
+      "at": "2026-07-03T08:53:53.748+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1932",
+      "section": "Ref. Models",
+      "title": "ViT",
+      "at": "2026-08-25T16:56:03.866+0900",
+      "field": "duedate",
+      "from": "2026-03-31 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1932",
+      "section": "Ref. Models",
+      "title": "ViT",
+      "at": "2026-08-25T16:01:57.866+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "조민수"
+    },
+    {
+      "key": "NSDT-1932",
+      "section": "Ref. Models",
+      "title": "ViT",
+      "at": "2026-07-09T14:20:19.866+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-03-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1932",
+      "section": "Ref. Models",
+      "title": "ViT",
+      "at": "2026-07-09T13:09:13.103+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1932",
+      "section": "Ref. Models",
+      "title": "ViT",
+      "at": "2026-07-09T13:09:10.015+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1932",
+      "section": "Ref. Models",
+      "title": "ViT",
+      "at": "2026-07-03T08:54:20.557+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1932",
+      "section": "Ref. Models",
+      "title": "ViT",
+      "at": "2026-07-02T16:31:58.220+0900",
+      "field": "summary",
+      "from": "Transformer\tViT\tAIMM\t\tP-D \tViT Quantized \tAIMM\t\t CNN\tResnet50/Yolo\tAIMM\t\tP-D \tOFT/PDL\tAIMM\t\tP-D \tResnet50/Yolo Quantized\tAIMM\t\tP-D \tOFT/PDL Quantized\tAIMM\t\tP-D E2E\tSSR\tAIMM\t\tP-D \tSSR Quantized\tAIMM",
+      "to": "[N1-B0][AISW][Model] VIT"
     }
   ]
 }

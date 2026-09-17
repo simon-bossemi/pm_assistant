@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-09-17T10:30:00+09:00",
+  "sourceObservedAt": "2026-09-16T19:15:08+09:00",
+  "title": "Eagle B0 host software status",
+  "overall": "The Jira baseline contains 100 tickets. Delivery maturity is still early: 68 tickets remain To Do, 13 are In Progress, and 19 have reached pre-silicon done; none is recorded as Resolved or Done. Three validation tickets are past their Jira due dates, one Ref. Models ticket has no due date, and one Host SW ticket has no assignee. Validation readiness is the clearest immediate management concern.",
+  "attention": [
+    "Review the three overdue SW Validation tickets and confirm owners, recovery dates, and blocking inputs.",
+    "Convert the 68-ticket To Do backlog into an execution sequence, prioritizing validation and development specifications.",
+    "Add the missing Ref. Models due date and assign the unassigned Host SW ticket so schedule ownership is complete.",
+    "Verify completion criteria before treating pre-silicon done as final B0 delivery."
+  ],
+  "sections": [
+    {"name":"Host SW","tickets":27,"toDo":16,"inProgress":2,"preSiliconDone":9,"resolved":0,"done":0,"overdue":0,"missingDue":0,"summary":"Host SW has the largest demonstrated delivery progress: nine tickets are pre-silicon done. Sixteen tickets remain queued, so execution sequencing and dependency confirmation are still important."},
+    {"name":"AI Model Dev. Tools","tickets":10,"toDo":4,"inProgress":3,"preSiliconDone":3,"resolved":0,"done":0,"overdue":0,"missingDue":0,"summary":"Work is balanced across queued, active, and pre-silicon-complete tickets. The section shows movement, but no ticket has reached final completion."},
+    {"name":"Ref. Models","tickets":10,"toDo":2,"inProgress":4,"preSiliconDone":4,"resolved":0,"done":0,"overdue":0,"missingDue":1,"summary":"Ref. Models has the strongest active-to-complete mix among the model-related areas. One missing Jira due date prevents full schedule assessment."},
+    {"name":"SDK Installer","tickets":2,"toDo":0,"inProgress":0,"preSiliconDone":2,"resolved":0,"done":0,"overdue":0,"missingDue":0,"summary":"Both installer tickets are pre-silicon done. Final B0 acceptance remains unrecorded."},
+    {"name":"SDK Packaging","tickets":1,"toDo":0,"inProgress":1,"preSiliconDone":0,"resolved":0,"done":0,"overdue":0,"missingDue":0,"summary":"The single packaging ticket is active and dated. Its delivery should be checked against installer and release dependencies."},
+    {"name":"Dev. Spec. Documents","tickets":18,"toDo":14,"inProgress":3,"preSiliconDone":1,"resolved":0,"done":0,"overdue":0,"missingDue":0,"summary":"Development specifications are mostly queued. This creates a risk that implementation and validation proceed without stable specification evidence."},
+    {"name":"SW Validation","tickets":32,"toDo":32,"inProgress":0,"preSiliconDone":0,"resolved":0,"done":0,"overdue":3,"missingDue":0,"summary":"All validation tickets remain To Do and three are overdue. This is the primary schedule-warning area and requires an owner-level recovery review."}
+  ],
+  "limitations": "This report uses Jira filter 19455 and ticket histories captured during the latest Codex refresh. Workbook rows provide category context only. Due dates are targets, and Jira status does not prove physical delivery or acceptance."
+}
