@@ -1,6 +1,6 @@
 {
   "source": "SharePoint workbook documentation sheet + direct Jira issue reads",
-  "observedAt": "2026-09-23T04:07:57.206734+00:00",
+  "observedAt": "2026-09-23T04:28:08.940224+00:00",
   "documentationSheet": "Eagle-N B0 Doc Delivery Plan",
   "pairs": [
     {
@@ -2658,10 +2658,10 @@
           "key": "NSDT-2628",
           "summary": "[HS] Python-to-MLIR converter SAD Write",
           "status": "To Do",
-          "assignee": "박세희",
+          "assignee": "Lu Thanh Thien",
           "dueDate": "",
           "created": "2026-09-23T11:13:48.514+0900",
-          "updated": "2026-09-23T11:16:00.095+0900",
+          "updated": "2026-09-23T13:26:18.103+0900",
           "labels": [],
           "parent": ""
         },
@@ -2770,10 +2770,10 @@
           "key": "NSDT-2629",
           "summary": "[HS] Python-to-MLIR converter SUD Write",
           "status": "To Do",
-          "assignee": "박세희",
+          "assignee": "Lu Thanh Thien",
           "dueDate": "",
           "created": "2026-09-23T11:14:51.894+0900",
-          "updated": "2026-09-23T11:16:58.580+0900",
+          "updated": "2026-09-23T13:26:29.751+0900",
           "labels": [],
           "parent": ""
         },

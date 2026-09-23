@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T13:08:46+09:00",
-  "sourceObservedAt": "2026-09-23T04:07:45.829078+00:00",
+  "generatedAt": "2026-09-23T13:28:09+09:00",
+  "sourceObservedAt": "2026-09-23T04:27:58.956202+00:00",
   "title": "Eagle B0 ticket and documentation control",
   "overall": "Jira filter 19455 contains 126 tickets: 77 To Do, 16 In Progress, 30 Pre-silicon Done and 3 Done. The four requested Level 1 areas account for 76 tickets: SDK 17, Host SW 33, AI Model Dev. Tools for Eagle N 9 and Ref. Models 17. 5 overdue tickets, 22 missing due dates and 1 missing assignee require management review. No filter ticket is currently recorded as Resolved or Reopened. The documentation sheet contributes 24 SRS/SAD/SUD writing and review pairs; direct Jira reads cover document keys outside filter 19455.",
   "attention": [
