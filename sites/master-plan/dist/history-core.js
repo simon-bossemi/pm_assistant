@@ -1,5 +1,5 @@
 (function(root){
- const focus=['Host SW','AI Model Dev. Tools','Ref. Models','SDK Installer'];
+ const focus=['SDK','Host SW','AI Model Dev. Tools for Eagle N','Ref. Models'];
  const valid=x=>/^\d{4}-\d{2}-\d{2}$/.test(x||'')&&!isNaN(Date.parse(x));
  const days=(a,b)=>valid(a)&&valid(b)?Math.round((Date.parse(a)-Date.parse(b))/86400000):null;
  function week(stamp){const d=new Date(stamp);if(isNaN(d))return '';const k=new Date(d.getTime()+9*3600000);k.setUTCHours(0,0,0,0);k.setUTCDate(k.getUTCDate()-((k.getUTCDay()+6)%7));return k.toISOString().slice(0,10);}

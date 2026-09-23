@@ -2,7 +2,7 @@
   "source": "Jira filter 19455 · labels = \"host_sw_master_plan\" ORDER BY created DESC · REST issue changelog",
   "filterId": "19455",
   "jql": "labels = \"host_sw_master_plan\" ORDER BY created DESC",
-  "observedAt": "2026-09-16T10:15:08.773196+00:00",
+  "observedAt": "2026-09-23T02:51:06.016556+00:00",
   "mappingNotice": "Only tickets returned by Jira filter 19455 are included. Categories use the currently displayed workbook section when available; otherwise they are marked Unmapped Jira ticket.",
   "issues": [
     {
@@ -17,28 +17,6 @@
       "historyCount": 4
     },
     {
-      "key": "NSDT-2292",
-      "section": "Ref. Models",
-      "title": "BOS: ResNet INT-8 Kernel OPs - Trinity",
-      "created": "2026-08-11T18:28:19.695+0900",
-      "updated": "2026-09-16T18:50:32.050+0900",
-      "currentStatus": "To Do",
-      "assignee": "Nguyen Viet Nhat",
-      "dueDate": "2027-02-19",
-      "historyCount": 6
-    },
-    {
-      "key": "NSDT-2291",
-      "section": "AI Model Dev. Tools",
-      "title": "BOS: Llama INT8  Kernel OPs - Trinity",
-      "created": "2026-08-11T18:27:38.398+0900",
-      "updated": "2026-09-16T18:50:32.451+0900",
-      "currentStatus": "To Do",
-      "assignee": "min.yi (이창민)",
-      "dueDate": "2027-02-19",
-      "historyCount": 9
-    },
-    {
       "key": "NSDT-2289",
       "section": "Host SW",
       "title": "Llama LLK for trinity",
@@ -50,15 +28,15 @@
       "historyCount": 8
     },
     {
-      "key": "NSDT-2138",
+      "key": "NSDT-2292",
       "section": "Ref. Models",
-      "title": "ViT Quantized",
-      "created": "2026-07-14T15:16:38.613+0900",
-      "updated": "2026-09-16T18:56:10.663+0900",
-      "currentStatus": "In Progress",
-      "assignee": "Hoang Nhat Quang",
-      "dueDate": "2026-12-31",
-      "historyCount": 11
+      "title": "BOS: ResNet INT-8 Kernel OPs - Trinity",
+      "created": "2026-08-11T18:28:19.695+0900",
+      "updated": "2026-09-16T18:50:32.050+0900",
+      "currentStatus": "To Do",
+      "assignee": "Nguyen Viet Nhat",
+      "dueDate": "2027-02-19",
+      "historyCount": 6
     },
     {
       "key": "NSDT-2288",
@@ -72,19 +50,30 @@
       "historyCount": 10
     },
     {
-      "key": "NSDT-2101",
-      "section": "AI Model Dev. Tools",
-      "title": "Debug-mode - NPU Register R & SRAM/DARM R/W",
-      "created": "2026-07-09T15:58:37.440+0900",
-      "updated": "2026-09-16T18:56:11.275+0900",
+      "key": "NSDT-2291",
+      "section": "Ref. Models",
+      "title": "BOS: Llama INT8 Kernel OPs - Trinity",
+      "created": "2026-08-11T18:27:38.398+0900",
+      "updated": "2026-09-16T18:50:32.451+0900",
       "currentStatus": "To Do",
-      "assignee": "MyeongGI Jeong",
-      "dueDate": "2026-12-24",
-      "historyCount": 5
+      "assignee": "min.yi (이창민)",
+      "dueDate": "2027-02-19",
+      "historyCount": 9
+    },
+    {
+      "key": "NSDT-2138",
+      "section": "Ref. Models",
+      "title": "ViT Quantized",
+      "created": "2026-07-14T15:16:38.613+0900",
+      "updated": "2026-09-16T18:56:10.663+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Hoang Nhat Quang",
+      "dueDate": "2026-12-31",
+      "historyCount": 11
     },
     {
       "key": "NSDT-2105",
-      "section": "SDK Installer",
+      "section": "SDK",
       "title": "Automated device binary fusing",
       "created": "2026-07-09T16:01:44.198+0900",
       "updated": "2026-09-16T18:56:10.690+0900",
@@ -94,19 +83,8 @@
       "historyCount": 7
     },
     {
-      "key": "NSDT-2103",
-      "section": "AI Model Dev. Tools",
-      "title": "Device Ctrl - Device Reset/NPU Reset",
-      "created": "2026-07-09T15:59:32.355+0900",
-      "updated": "2026-09-16T18:56:11.380+0900",
-      "currentStatus": "To Do",
-      "assignee": "MyeongGI Jeong",
-      "dueDate": "2026-12-24",
-      "historyCount": 5
-    },
-    {
       "key": "NSDT-2104",
-      "section": "SDK Installer",
+      "section": "SDK",
       "title": "Automated tt-metal installation and host memory access configuration",
       "created": "2026-07-09T16:01:06.093+0900",
       "updated": "2026-09-16T18:56:10.651+0900",
@@ -116,26 +94,59 @@
       "historyCount": 7
     },
     {
+      "key": "NSDT-2103",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Device Ctrl - Device Reset/NPU Reset",
+      "created": "2026-07-09T15:59:32.355+0900",
+      "updated": "2026-09-18T11:04:21.849+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-12-24",
+      "historyCount": 11
+    },
+    {
+      "key": "NSDT-2102",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Device info - Device ID/SW Ver./Device Status/PCIE ID/Thermal Status",
+      "created": "2026-07-09T15:59:07.472+0900",
+      "updated": "2026-09-23T09:04:34.980+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-12-24",
+      "historyCount": 11
+    },
+    {
+      "key": "NSDT-2101",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Debug-mode - NPU Register R & SRAM/DARM R/W",
+      "created": "2026-07-09T15:58:37.440+0900",
+      "updated": "2026-09-18T10:46:20.882+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-12-24",
+      "historyCount": 7
+    },
+    {
       "key": "NSDT-2100",
       "section": "Host SW",
       "title": "Column harvesting (runtime + umd/kmd)",
       "created": "2026-07-09T15:56:59.992+0900",
-      "updated": "2026-09-16T18:56:11.442+0900",
+      "updated": "2026-09-18T10:46:22.762+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2027-03-26",
+      "historyCount": 11
+    },
+    {
+      "key": "NSDT-2099",
+      "section": "Host SW",
+      "title": "memory protection (isolation)",
+      "created": "2026-07-09T15:56:15.230+0900",
+      "updated": "2026-09-16T18:56:12.688+0900",
       "currentStatus": "To Do",
       "assignee": "MyeongGI Jeong",
       "dueDate": "2027-03-26",
       "historyCount": 9
-    },
-    {
-      "key": "NSDT-2102",
-      "section": "AI Model Dev. Tools",
-      "title": "Device info - Device ID/SW Ver./Device Status/PCIE ID/Thermal Status",
-      "created": "2026-07-09T15:59:07.472+0900",
-      "updated": "2026-09-16T18:56:10.717+0900",
-      "currentStatus": "To Do",
-      "assignee": "MyeongGI Jeong",
-      "dueDate": "2026-12-24",
-      "historyCount": 6
     },
     {
       "key": "NSDT-2098",
@@ -149,11 +160,11 @@
       "historyCount": 9
     },
     {
-      "key": "NSDT-2099",
+      "key": "NSDT-2097",
       "section": "Host SW",
-      "title": "memory protection (isolation)",
-      "created": "2026-07-09T15:56:15.230+0900",
-      "updated": "2026-09-16T18:56:12.688+0900",
+      "title": "NPU statistics",
+      "created": "2026-07-09T15:51:57.351+0900",
+      "updated": "2026-09-16T18:56:11.123+0900",
       "currentStatus": "To Do",
       "assignee": "MyeongGI Jeong",
       "dueDate": "2027-03-26",
@@ -171,28 +182,6 @@
       "historyCount": 10
     },
     {
-      "key": "NSDT-2097",
-      "section": "Host SW",
-      "title": "NPU statistics",
-      "created": "2026-07-09T15:51:57.351+0900",
-      "updated": "2026-09-16T18:56:11.123+0900",
-      "currentStatus": "To Do",
-      "assignee": "MyeongGI Jeong",
-      "dueDate": "2027-03-26",
-      "historyCount": 9
-    },
-    {
-      "key": "NSDT-2094",
-      "section": "Host SW",
-      "title": "Trace",
-      "created": "2026-07-09T15:50:39.913+0900",
-      "updated": "2026-09-16T18:56:10.578+0900",
-      "currentStatus": "To Do",
-      "assignee": "MyeongGI Jeong",
-      "dueDate": "2026-12-09",
-      "historyCount": 6
-    },
-    {
       "key": "NSDT-2096",
       "section": "Host SW",
       "title": "Memory allocator for sharding, interleaving, etc",
@@ -204,6 +193,17 @@
       "historyCount": 7
     },
     {
+      "key": "NSDT-2094",
+      "section": "Host SW",
+      "title": "Trace",
+      "created": "2026-07-09T15:50:39.913+0900",
+      "updated": "2026-09-22T16:51:27.572+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-12-09",
+      "historyCount": 6
+    },
+    {
       "key": "NSDT-2093",
       "section": "Host SW",
       "title": "Fast dispatch",
@@ -212,6 +212,17 @@
       "currentStatus": "pre-silicon done",
       "assignee": "Hyun Eun (은현)",
       "dueDate": "2026-12-10",
+      "historyCount": 11
+    },
+    {
+      "key": "NSDT-2091",
+      "section": "Host SW",
+      "title": "Yolo LLK for trinity",
+      "created": "2026-07-09T15:49:42.909+0900",
+      "updated": "2026-09-16T18:56:11.136+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Hyun Eun (은현)",
+      "dueDate": "2026-12-15",
       "historyCount": 11
     },
     {
@@ -226,28 +237,6 @@
       "historyCount": 9
     },
     {
-      "key": "NSDT-2090",
-      "section": "Host SW",
-      "title": "NPU firmware for Tensix boot-up",
-      "created": "2026-07-09T15:49:31.107+0900",
-      "updated": "2026-09-16T18:56:11.145+0900",
-      "currentStatus": "pre-silicon done",
-      "assignee": "Hyun Eun (은현)",
-      "dueDate": "2026-12-09",
-      "historyCount": 8
-    },
-    {
-      "key": "NSDT-2091",
-      "section": "Host SW",
-      "title": "Yolo LLK for trinity",
-      "created": "2026-07-09T15:49:42.909+0900",
-      "updated": "2026-09-16T18:56:11.136+0900",
-      "currentStatus": "pre-silicon done",
-      "assignee": "Hyun Eun (은현)",
-      "dueDate": "2026-12-15",
-      "historyCount": 11
-    },
-    {
       "key": "NSDT-2089",
       "section": "Host SW",
       "title": "PCIe interface",
@@ -259,26 +248,26 @@
       "historyCount": 9
     },
     {
+      "key": "NSDT-2090",
+      "section": "Host SW",
+      "title": "NPU firmware for Tensix boot-up",
+      "created": "2026-07-09T15:49:31.107+0900",
+      "updated": "2026-09-16T18:56:11.145+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Hyun Eun (은현)",
+      "dueDate": "2026-12-09",
+      "historyCount": 8
+    },
+    {
       "key": "NSDT-2088",
       "section": "Host SW",
       "title": "NPU reset scenario",
       "created": "2026-07-09T15:47:05.209+0900",
-      "updated": "2026-09-16T18:56:10.966+0900",
+      "updated": "2026-09-18T10:45:56.230+0900",
       "currentStatus": "In Progress",
       "assignee": "Hailee Kim(김승하)",
       "dueDate": "2026-12-08",
-      "historyCount": 9
-    },
-    {
-      "key": "NSDT-2085",
-      "section": "Host SW",
-      "title": "INT-8 Runtime Format",
-      "created": "2026-07-09T15:43:21.220+0900",
-      "updated": "2026-09-16T18:56:10.529+0900",
-      "currentStatus": "To Do",
-      "assignee": "MyeongGI Jeong",
-      "dueDate": "2026-12-11",
-      "historyCount": 5
+      "historyCount": 11
     },
     {
       "key": "NSDT-2087",
@@ -290,6 +279,28 @@
       "assignee": "Hyun Eun (은현)",
       "dueDate": "2026-12-08",
       "historyCount": 12
+    },
+    {
+      "key": "NSDT-2086",
+      "section": "Host SW",
+      "title": "NPU boot-up",
+      "created": "2026-07-09T15:45:35.815+0900",
+      "updated": "2026-09-16T18:56:11.301+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Hyun Eun (은현)",
+      "dueDate": "2026-12-08",
+      "historyCount": 12
+    },
+    {
+      "key": "NSDT-2085",
+      "section": "Host SW",
+      "title": "INT-8 Runtime Format",
+      "created": "2026-07-09T15:43:21.220+0900",
+      "updated": "2026-09-23T10:59:22.221+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-12-11",
+      "historyCount": 6
     },
     {
       "key": "NSDT-2084",
@@ -311,17 +322,6 @@
       "currentStatus": "To Do",
       "assignee": "UKJIN CHOI",
       "dueDate": "2027-02-12",
-      "historyCount": 12
-    },
-    {
-      "key": "NSDT-2086",
-      "section": "Host SW",
-      "title": "NPU boot-up",
-      "created": "2026-07-09T15:45:35.815+0900",
-      "updated": "2026-09-16T18:56:11.301+0900",
-      "currentStatus": "pre-silicon done",
-      "assignee": "Hyun Eun (은현)",
-      "dueDate": "2026-12-08",
       "historyCount": 12
     },
     {
@@ -347,15 +347,15 @@
       "historyCount": 11
     },
     {
-      "key": "NSDT-2074",
+      "key": "NSDT-2075",
       "section": "Host SW",
-      "title": "Real-time scheduling",
-      "created": "2026-07-09T15:17:01.158+0900",
-      "updated": "2026-09-16T18:56:10.716+0900",
+      "title": "Deadline scheduling",
+      "created": "2026-07-09T15:17:27.740+0900",
+      "updated": "2026-09-16T18:56:10.756+0900",
       "currentStatus": "To Do",
       "assignee": "UKJIN CHOI",
       "dueDate": "2027-02-12",
-      "historyCount": 15
+      "historyCount": 18
     },
     {
       "key": "NSDT-2076",
@@ -369,15 +369,15 @@
       "historyCount": 13
     },
     {
-      "key": "PTTM-702",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for BOS-compiler",
-      "created": "2026-07-09T12:58:46.080+0900",
-      "updated": "2026-09-16T18:50:32.467+0900",
+      "key": "NSDT-2074",
+      "section": "Host SW",
+      "title": "Real-time scheduling",
+      "created": "2026-07-09T15:17:01.158+0900",
+      "updated": "2026-09-16T18:56:10.716+0900",
       "currentStatus": "To Do",
-      "assignee": "Ngo Chi Kien",
-      "dueDate": "2026-12-31",
-      "historyCount": 9
+      "assignee": "UKJIN CHOI",
+      "dueDate": "2027-02-12",
+      "historyCount": 15
     },
     {
       "key": "NSDT-2073",
@@ -391,20 +391,20 @@
       "historyCount": 18
     },
     {
-      "key": "NSDT-2075",
-      "section": "Host SW",
-      "title": "Deadline scheduling",
-      "created": "2026-07-09T15:17:27.740+0900",
-      "updated": "2026-09-16T18:56:10.756+0900",
+      "key": "PTTM-702",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for BOS-Compiler",
+      "created": "2026-07-09T12:58:46.080+0900",
+      "updated": "2026-09-16T18:50:32.467+0900",
       "currentStatus": "To Do",
-      "assignee": "UKJIN CHOI",
-      "dueDate": "2027-02-12",
-      "historyCount": 18
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-12-31",
+      "historyCount": 9
     },
     {
       "key": "PTTM-701",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for BOS-compiler",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for BOS-Compiler",
       "created": "2026-07-09T12:58:33.082+0900",
       "updated": "2026-09-16T18:50:32.154+0900",
       "currentStatus": "To Do",
@@ -414,8 +414,8 @@
     },
     {
       "key": "PTTM-700",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for BOS-compiler",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for BOS-Compiler",
       "created": "2026-07-09T12:58:20.371+0900",
       "updated": "2026-09-16T18:50:33.051+0900",
       "currentStatus": "To Do",
@@ -425,8 +425,8 @@
     },
     {
       "key": "PTTM-699",
-      "section": "SW Validation",
-      "title": "System Test Scenario for BOS-compiler",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for BOS-Compiler",
       "created": "2026-07-09T12:58:06.944+0900",
       "updated": "2026-09-16T18:50:32.562+0900",
       "currentStatus": "To Do",
@@ -436,30 +436,19 @@
     },
     {
       "key": "PTTM-686",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for TT-metal",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for TT-Metal-E2",
       "created": "2026-07-09T12:52:10.411+0900",
-      "updated": "2026-09-16T18:50:32.125+0900",
+      "updated": "2026-09-22T10:41:13.303+0900",
       "currentStatus": "To Do",
       "assignee": "Ngo Chi Kien",
       "dueDate": "2026-11-30",
-      "historyCount": 8
-    },
-    {
-      "key": "PTTM-684",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for KMD",
-      "created": "2026-07-09T12:51:43.389+0900",
-      "updated": "2026-09-16T18:50:32.144+0900",
-      "currentStatus": "To Do",
-      "assignee": "Ngo Chi Kien",
-      "dueDate": "2026-10-30",
-      "historyCount": 8
+      "historyCount": 9
     },
     {
       "key": "PTTM-685",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for BOS-SMI",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for BOS-SMI",
       "created": "2026-07-09T12:51:57.102+0900",
       "updated": "2026-09-16T18:50:32.006+0900",
       "currentStatus": "To Do",
@@ -468,22 +457,11 @@
       "historyCount": 8
     },
     {
-      "key": "PTTM-682",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for TT-metal",
-      "created": "2026-07-09T12:51:07.755+0900",
-      "updated": "2026-09-16T18:50:32.069+0900",
-      "currentStatus": "To Do",
-      "assignee": "Ngo Chi Kien",
-      "dueDate": "2026-10-30",
-      "historyCount": 8
-    },
-    {
-      "key": "PTTM-681",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for BOS-SMI",
-      "created": "2026-07-09T12:50:51.315+0900",
-      "updated": "2026-09-16T18:50:32.141+0900",
+      "key": "PTTM-684",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for KMD",
+      "created": "2026-07-09T12:51:43.389+0900",
+      "updated": "2026-09-16T18:50:32.144+0900",
       "currentStatus": "To Do",
       "assignee": "Ngo Chi Kien",
       "dueDate": "2026-10-30",
@@ -491,8 +469,8 @@
     },
     {
       "key": "PTTM-683",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for UMD",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for UMD ",
       "created": "2026-07-09T12:51:35.925+0900",
       "updated": "2026-09-16T18:50:31.965+0900",
       "currentStatus": "To Do",
@@ -501,9 +479,31 @@
       "historyCount": 8
     },
     {
+      "key": "PTTM-682",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for TT-Metal-E2",
+      "created": "2026-07-09T12:51:07.755+0900",
+      "updated": "2026-09-22T10:40:52.354+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-10-30",
+      "historyCount": 9
+    },
+    {
+      "key": "PTTM-681",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for BOS-SMI",
+      "created": "2026-07-09T12:50:51.315+0900",
+      "updated": "2026-09-16T18:50:32.141+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-10-30",
+      "historyCount": 8
+    },
+    {
       "key": "PTTM-680",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for KMD",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for KMD",
       "created": "2026-07-09T12:50:42.539+0900",
       "updated": "2026-09-16T18:50:31.952+0900",
       "currentStatus": "To Do",
@@ -512,53 +512,9 @@
       "historyCount": 8
     },
     {
-      "key": "PTTM-674",
-      "section": "SW Validation",
-      "title": "System Test Scenario for TT-metal",
-      "created": "2026-07-09T12:48:00.974+0900",
-      "updated": "2026-09-16T18:50:34.272+0900",
-      "currentStatus": "To Do",
-      "assignee": "Ngo Chi Kien",
-      "dueDate": "2026-09-30",
-      "historyCount": 8
-    },
-    {
-      "key": "PTTM-676",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for KMD",
-      "created": "2026-07-09T12:48:45.410+0900",
-      "updated": "2026-09-16T18:50:31.951+0900",
-      "currentStatus": "To Do",
-      "assignee": "Ngo Chi Kien",
-      "dueDate": "2026-09-30",
-      "historyCount": 7
-    },
-    {
-      "key": "PTTM-677",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for BOS-SMI",
-      "created": "2026-07-09T12:49:09.700+0900",
-      "updated": "2026-09-16T18:50:32.147+0900",
-      "currentStatus": "To Do",
-      "assignee": "Ngo Chi Kien",
-      "dueDate": "2026-09-30",
-      "historyCount": 7
-    },
-    {
-      "key": "PTTM-675",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for UMD",
-      "created": "2026-07-09T12:48:24.163+0900",
-      "updated": "2026-09-16T18:50:32.047+0900",
-      "currentStatus": "To Do",
-      "assignee": "Ngo Chi Kien",
-      "dueDate": "2026-09-30",
-      "historyCount": 7
-    },
-    {
       "key": "PTTM-679",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for UMD",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for UMD",
       "created": "2026-07-09T12:50:33.699+0900",
       "updated": "2026-09-16T18:50:32.280+0900",
       "currentStatus": "To Do",
@@ -568,8 +524,8 @@
     },
     {
       "key": "PTTM-678",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for TT-Metal",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for TT-Metal",
       "created": "2026-07-09T12:49:31.316+0900",
       "updated": "2026-09-16T18:50:34.699+0900",
       "currentStatus": "To Do",
@@ -578,20 +534,53 @@
       "historyCount": 8
     },
     {
-      "key": "PTTM-672",
-      "section": "SW Validation",
-      "title": "System Test Scenario for KMD",
-      "created": "2026-07-09T12:47:03.152+0900",
-      "updated": "2026-09-16T18:50:32.025+0900",
+      "key": "PTTM-677",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for BOS-SMI",
+      "created": "2026-07-09T12:49:09.700+0900",
+      "updated": "2026-09-16T18:50:32.147+0900",
       "currentStatus": "To Do",
       "assignee": "Ngo Chi Kien",
-      "dueDate": "2026-09-11",
+      "dueDate": "2026-09-30",
+      "historyCount": 7
+    },
+    {
+      "key": "PTTM-675",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for UMD",
+      "created": "2026-07-09T12:48:24.163+0900",
+      "updated": "2026-09-16T18:50:32.047+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-09-30",
+      "historyCount": 7
+    },
+    {
+      "key": "PTTM-676",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for KMD",
+      "created": "2026-07-09T12:48:45.410+0900",
+      "updated": "2026-09-16T18:50:31.951+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-09-30",
+      "historyCount": 7
+    },
+    {
+      "key": "PTTM-674",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for TT-Metal",
+      "created": "2026-07-09T12:48:00.974+0900",
+      "updated": "2026-09-16T18:50:34.272+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-09-30",
       "historyCount": 8
     },
     {
       "key": "PTTM-673",
-      "section": "SW Validation",
-      "title": "System Test Scenario for BOS-SMI",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for BOS-SMI",
       "created": "2026-07-09T12:47:30.223+0900",
       "updated": "2026-09-16T18:50:32.043+0900",
       "currentStatus": "To Do",
@@ -600,9 +589,20 @@
       "historyCount": 8
     },
     {
+      "key": "PTTM-672",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for KMD",
+      "created": "2026-07-09T12:47:03.152+0900",
+      "updated": "2026-09-16T18:50:32.025+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-09-11",
+      "historyCount": 8
+    },
+    {
       "key": "PTTM-671",
-      "section": "SW Validation",
-      "title": "System Test Scenario for UMD",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for UMD",
       "created": "2026-07-09T12:46:40.132+0900",
       "updated": "2026-09-16T18:50:33.954+0900",
       "currentStatus": "To Do",
@@ -612,8 +612,8 @@
     },
     {
       "key": "PTTM-670",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for Speculative decoding",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for Speculative decoding",
       "created": "2026-07-09T12:45:14.842+0900",
       "updated": "2026-09-16T18:50:33.480+0900",
       "currentStatus": "To Do",
@@ -623,8 +623,8 @@
     },
     {
       "key": "PTTM-669",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for Speculative decoding",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for Speculative decoding",
       "created": "2026-07-09T12:44:48.151+0900",
       "updated": "2026-09-16T18:50:32.156+0900",
       "currentStatus": "To Do",
@@ -634,8 +634,8 @@
     },
     {
       "key": "PTTM-668",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for LLM Compressor",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for LLM Compressor",
       "created": "2026-07-09T12:44:21.055+0900",
       "updated": "2026-09-16T18:50:31.996+0900",
       "currentStatus": "To Do",
@@ -644,20 +644,9 @@
       "historyCount": 9
     },
     {
-      "key": "PTTM-666",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for Quantization",
-      "created": "2026-07-09T12:43:31.708+0900",
-      "updated": "2026-09-16T18:50:33.136+0900",
-      "currentStatus": "To Do",
-      "assignee": "Ngo Chi Kien",
-      "dueDate": "2026-12-31",
-      "historyCount": 9
-    },
-    {
       "key": "PTTM-667",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for LLM Compressor",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for LLM Compressor",
       "created": "2026-07-09T12:43:57.735+0900",
       "updated": "2026-09-16T18:50:32.064+0900",
       "currentStatus": "To Do",
@@ -666,20 +655,20 @@
       "historyCount": 9
     },
     {
-      "key": "PTTM-664",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for Speculative decoding",
-      "created": "2026-07-09T12:32:46.696+0900",
-      "updated": "2026-09-16T18:50:32.259+0900",
+      "key": "PTTM-666",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for Quantization",
+      "created": "2026-07-09T12:43:31.708+0900",
+      "updated": "2026-09-16T18:50:33.136+0900",
       "currentStatus": "To Do",
       "assignee": "Ngo Chi Kien",
-      "dueDate": "2026-11-13",
+      "dueDate": "2026-12-31",
       "historyCount": 9
     },
     {
       "key": "PTTM-665",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for Quantization",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for Quantization",
       "created": "2026-07-09T12:43:04.465+0900",
       "updated": "2026-09-16T18:50:32.253+0900",
       "currentStatus": "To Do",
@@ -689,8 +678,8 @@
     },
     {
       "key": "PTTM-663",
-      "section": "SW Validation",
-      "title": "System Test Scenario for Speculative decoding",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for Speculative decoding",
       "created": "2026-07-09T12:32:16.400+0900",
       "updated": "2026-09-16T18:50:32.532+0900",
       "currentStatus": "To Do",
@@ -699,9 +688,20 @@
       "historyCount": 9
     },
     {
+      "key": "PTTM-664",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for Speculative decoding",
+      "created": "2026-07-09T12:32:46.696+0900",
+      "updated": "2026-09-16T18:50:32.259+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-11-13",
+      "historyCount": 9
+    },
+    {
       "key": "PTTM-662",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for LLM Compressor",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for LLM Compressor",
       "created": "2026-07-09T12:31:29.137+0900",
       "updated": "2026-09-16T18:50:36.091+0900",
       "currentStatus": "To Do",
@@ -711,8 +711,8 @@
     },
     {
       "key": "PTTM-661",
-      "section": "SW Validation",
-      "title": "System Test Scenario for LLM Compressor",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for LLM Compressor",
       "created": "2026-07-09T12:30:57.639+0900",
       "updated": "2026-09-16T18:50:31.968+0900",
       "currentStatus": "To Do",
@@ -722,8 +722,8 @@
     },
     {
       "key": "PTTM-660",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for Quantization",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for Quantization",
       "created": "2026-07-09T12:27:40.532+0900",
       "updated": "2026-09-16T18:50:32.414+0900",
       "currentStatus": "To Do",
@@ -732,20 +732,9 @@
       "historyCount": 10
     },
     {
-      "key": "NSDT-2063",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "created": "2026-07-08T17:11:10.538+0900",
-      "updated": "2026-09-16T18:56:10.677+0900",
-      "currentStatus": "To Do",
-      "assignee": "서정현",
-      "dueDate": "2026-11-30",
-      "historyCount": 10
-    },
-    {
       "key": "PTTM-659",
-      "section": "SW Validation",
-      "title": "System Test Scenario for Quantization",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for Quantization",
       "created": "2026-07-09T12:23:35.875+0900",
       "updated": "2026-09-16T18:50:32.452+0900",
       "currentStatus": "To Do",
@@ -754,180 +743,202 @@
       "historyCount": 18
     },
     {
-      "key": "NSDT-2062",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "created": "2026-07-08T17:10:49.357+0900",
-      "updated": "2026-09-16T18:56:10.730+0900",
+      "key": "NSDT-2063",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SUD Write",
+      "created": "2026-07-08T17:11:10.538+0900",
+      "updated": "2026-09-23T10:52:19.906+0900",
       "currentStatus": "To Do",
       "assignee": "서정현",
-      "dueDate": "2026-12-31",
-      "historyCount": 8
-    },
-    {
-      "key": "NSDT-2061",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "created": "2026-07-08T17:10:29.533+0900",
-      "updated": "2026-09-16T18:56:10.710+0900",
-      "currentStatus": "To Do",
-      "assignee": "서정현",
-      "dueDate": "2026-12-31",
-      "historyCount": 8
-    },
-    {
-      "key": "NSDT-2060",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "created": "2026-07-08T17:08:46.056+0900",
-      "updated": "2026-09-16T18:56:10.504+0900",
-      "currentStatus": "To Do",
-      "assignee": "Dang Thanh Huy",
-      "dueDate": "2026-11-30",
-      "historyCount": 15
-    },
-    {
-      "key": "NSDT-2057",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "created": "2026-07-08T17:06:46.919+0900",
-      "updated": "2026-09-16T18:56:11.214+0900",
-      "currentStatus": "To Do",
-      "assignee": "조민수",
-      "dueDate": "2026-11-30",
-      "historyCount": 13
-    },
-    {
-      "key": "NSDT-2059",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "created": "2026-07-08T17:08:25.849+0900",
-      "updated": "2026-09-16T18:56:10.553+0900",
-      "currentStatus": "To Do",
-      "assignee": "Dang Thanh Huy",
-      "dueDate": "2026-11-30",
-      "historyCount": 17
-    },
-    {
-      "key": "NSDT-2058",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "created": "2026-07-08T17:07:42.449+0900",
-      "updated": "2026-09-16T18:56:10.638+0900",
-      "currentStatus": "In Progress",
-      "assignee": "Dang Thanh Huy",
-      "dueDate": "2026-09-30",
-      "historyCount": 13
-    },
-    {
-      "key": "NSDT-2056",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "created": "2026-07-08T17:06:23.739+0900",
-      "updated": "2026-09-16T18:56:11.340+0900",
-      "currentStatus": "To Do",
-      "assignee": "조민수",
-      "dueDate": "2027-01-31",
-      "historyCount": 10
-    },
-    {
-      "key": "NSDT-2055",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "created": "2026-07-08T17:05:07.241+0900",
-      "updated": "2026-09-16T18:56:10.681+0900",
-      "currentStatus": "In Progress",
-      "assignee": "조민수",
-      "dueDate": "2026-09-30",
-      "historyCount": 13
-    },
-    {
-      "key": "NSDT-1961",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "created": "2026-07-06T14:55:34.867+0900",
-      "updated": "2026-09-16T18:56:11.140+0900",
-      "currentStatus": "To Do",
-      "assignee": "MyeongGI Jeong",
-      "dueDate": "2026-10-30",
-      "historyCount": 10
-    },
-    {
-      "key": "NSDT-1960",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "created": "2026-07-06T14:54:43.944+0900",
-      "updated": "2026-09-16T18:56:10.566+0900",
-      "currentStatus": "To Do",
-      "assignee": "MyeongGI Jeong",
-      "dueDate": "2026-11-27",
-      "historyCount": 10
-    },
-    {
-      "key": "NSDT-1958",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "created": "2026-07-06T14:49:34.700+0900",
-      "updated": "2026-09-16T18:56:11.926+0900",
-      "currentStatus": "To Do",
-      "assignee": "MyeongGI Jeong",
-      "dueDate": "2026-10-30",
-      "historyCount": 12
-    },
-    {
-      "key": "NSDT-1959",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "created": "2026-07-06T14:49:56.753+0900",
-      "updated": "2026-09-16T18:56:10.470+0900",
-      "currentStatus": "To Do",
-      "assignee": "MyeongGI Jeong",
-      "dueDate": "2026-11-27",
-      "historyCount": 12
-    },
-    {
-      "key": "NSDT-1954",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "created": "2026-07-06T14:47:12.041+0900",
-      "updated": "2026-09-16T18:56:11.170+0900",
-      "currentStatus": "In Progress",
-      "assignee": "MyeongGI Jeong",
-      "dueDate": "2026-10-30",
-      "historyCount": 12
-    },
-    {
-      "key": "NSDT-1957",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "created": "2026-07-06T14:48:39.940+0900",
-      "updated": "2026-09-16T18:56:11.813+0900",
-      "currentStatus": "To Do",
-      "assignee": "MyeongGI Jeong",
-      "dueDate": "2026-11-27",
-      "historyCount": 12
-    },
-    {
-      "key": "NSDT-1953",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "created": "2026-07-06T14:46:20.421+0900",
-      "updated": "2026-09-16T19:07:56.575+0900",
-      "currentStatus": "To Do",
-      "assignee": "MyeongGI Jeong",
-      "dueDate": "2026-09-30",
+      "dueDate": "",
       "historyCount": 11
     },
     {
+      "key": "NSDT-2062",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SAD Write",
+      "created": "2026-07-08T17:10:49.357+0900",
+      "updated": "2026-09-23T10:52:07.779+0900",
+      "currentStatus": "To Do",
+      "assignee": "서정현",
+      "dueDate": "",
+      "historyCount": 9
+    },
+    {
+      "key": "NSDT-2061",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SRS Write",
+      "created": "2026-07-08T17:10:29.533+0900",
+      "updated": "2026-09-23T10:51:51.869+0900",
+      "currentStatus": "To Do",
+      "assignee": "서정현",
+      "dueDate": "",
+      "historyCount": 10
+    },
+    {
+      "key": "NSDT-2060",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SUD Write",
+      "created": "2026-07-08T17:08:46.056+0900",
+      "updated": "2026-09-23T10:52:47.047+0900",
+      "currentStatus": "To Do",
+      "assignee": "Dang Thanh Huy",
+      "dueDate": "",
+      "historyCount": 16
+    },
+    {
+      "key": "NSDT-2059",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SAD Write",
+      "created": "2026-07-08T17:08:25.849+0900",
+      "updated": "2026-09-23T10:52:38.701+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Dang Thanh Huy",
+      "dueDate": "",
+      "historyCount": 23
+    },
+    {
+      "key": "NSDT-2058",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SRS Write",
+      "created": "2026-07-08T17:07:42.449+0900",
+      "updated": "2026-09-23T10:52:30.003+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Dang Thanh Huy",
+      "dueDate": "",
+      "historyCount": 17
+    },
+    {
+      "key": "NSDT-2057",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] LLM Quantization SUD Write",
+      "created": "2026-07-08T17:06:46.919+0900",
+      "updated": "2026-09-23T10:51:43.930+0900",
+      "currentStatus": "To Do",
+      "assignee": "조민수",
+      "dueDate": "",
+      "historyCount": 14
+    },
+    {
+      "key": "NSDT-2056",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] LLM Quantization SAD Write",
+      "created": "2026-07-08T17:06:23.739+0900",
+      "updated": "2026-09-23T10:50:06.640+0900",
+      "currentStatus": "To Do",
+      "assignee": "조민수",
+      "dueDate": "",
+      "historyCount": 13
+    },
+    {
+      "key": "NSDT-1960",
+      "section": "Unmapped Jira ticket",
+      "title": "  [HS] UMD/KMD SUD Write",
+      "created": "2026-07-06T14:54:43.944+0900",
+      "updated": "2026-09-23T10:39:21.728+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "",
+      "historyCount": 12
+    },
+    {
+      "key": "NSDT-2055",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Quantization SRS Write",
+      "created": "2026-07-08T17:05:07.241+0900",
+      "updated": "2026-09-23T10:49:59.383+0900",
+      "currentStatus": "In Progress",
+      "assignee": "조민수",
+      "dueDate": "",
+      "historyCount": 17
+    },
+    {
+      "key": "NSDT-1961",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SAD write (including multi-model scheduler)",
+      "created": "2026-07-06T14:55:34.867+0900",
+      "updated": "2026-09-23T10:40:18.354+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "",
+      "historyCount": 13
+    },
+    {
+      "key": "NSDT-1958",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SAD Write",
+      "created": "2026-07-06T14:49:34.700+0900",
+      "updated": "2026-09-23T10:49:48.872+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "",
+      "historyCount": 14
+    },
+    {
+      "key": "NSDT-1959",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SUD Write",
+      "created": "2026-07-06T14:49:56.753+0900",
+      "updated": "2026-09-23T10:41:52.501+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "",
+      "historyCount": 14
+    },
+    {
+      "key": "NSDT-1957",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SUD Write (including multi-model scheduler)",
+      "created": "2026-07-06T14:48:39.940+0900",
+      "updated": "2026-09-23T10:36:33.204+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "",
+      "historyCount": 15
+    },
+    {
+      "key": "NSDT-1954",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SAD Write",
+      "created": "2026-07-06T14:47:12.041+0900",
+      "updated": "2026-09-23T10:40:18.320+0900",
+      "currentStatus": "In Progress",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "",
+      "historyCount": 15
+    },
+    {
+      "key": "NSDT-1953",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SRS Write",
+      "created": "2026-07-06T14:46:20.421+0900",
+      "updated": "2026-09-23T10:41:00.153+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "",
+      "historyCount": 16
+    },
+    {
       "key": "NSDT-1952",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SRS Write",
       "created": "2026-07-06T14:45:43.084+0900",
-      "updated": "2026-09-16T19:07:55.667+0900",
+      "updated": "2026-09-21T10:36:04.042+0900",
       "currentStatus": "pre-silicon done",
       "assignee": "MyeongGI Jeong",
       "dueDate": "2026-09-25",
-      "historyCount": 14
+      "historyCount": 15
+    },
+    {
+      "key": "NSDT-1951",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SRS write (including multi-model scheduler)",
+      "created": "2026-07-06T14:44:42.232+0900",
+      "updated": "2026-09-23T10:35:30.710+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "",
+      "historyCount": 16
     },
     {
       "key": "NSDT-1949",
@@ -939,17 +950,6 @@
       "assignee": "Hoang Nhat Quang",
       "dueDate": "2026-12-31",
       "historyCount": 11
-    },
-    {
-      "key": "NSDT-1951",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "created": "2026-07-06T14:44:42.232+0900",
-      "updated": "2026-09-16T19:07:55.478+0900",
-      "currentStatus": "To Do",
-      "assignee": "MyeongGI Jeong",
-      "dueDate": "2026-09-30",
-      "historyCount": 14
     },
     {
       "key": "NSDT-1948",
@@ -974,6 +974,39 @@
       "historyCount": 9
     },
     {
+      "key": "NSDT-1944",
+      "section": "Host SW",
+      "title": "Vision Quantization scripts with Quandora (Symmetric / PTQ)",
+      "created": "2026-07-05T17:17:10.270+0900",
+      "updated": "2026-09-22T15:10:41.048+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Hoang Nhat Quang",
+      "dueDate": "2026-12-31",
+      "historyCount": 28
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Production-Ready Deployment Flow",
+      "created": "2026-07-05T14:13:41.528+0900",
+      "updated": "2026-09-16T19:07:55.542+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Dang Thanh Huy",
+      "dueDate": "2026-12-31",
+      "historyCount": 14
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Performance-Driven Data Formats",
+      "created": "2026-07-05T14:11:33.102+0900",
+      "updated": "2026-09-16T19:07:55.991+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Dang Thanh Huy",
+      "dueDate": "2026-12-31",
+      "historyCount": 17
+    },
+    {
       "key": "NSDT-1946",
       "section": "Ref. Models",
       "title": "Resnet50/Yolo Quantized",
@@ -996,41 +1029,8 @@
       "historyCount": 15
     },
     {
-      "key": "NSDT-1944",
-      "section": "SDK Packaging",
-      "title": "AIMET based - Vision Quantization Workflow for Customer Vision Model documentation",
-      "created": "2026-07-05T17:17:10.270+0900",
-      "updated": "2026-09-16T19:07:55.877+0900",
-      "currentStatus": "In Progress",
-      "assignee": "Hoang Nhat Quang",
-      "dueDate": "2026-12-31",
-      "historyCount": 20
-    },
-    {
-      "key": "NSDT-1943",
-      "section": "AI Model Dev. Tools",
-      "title": "Production-Ready Deployment Flow",
-      "created": "2026-07-05T14:13:41.528+0900",
-      "updated": "2026-09-16T19:07:55.542+0900",
-      "currentStatus": "In Progress",
-      "assignee": "Dang Thanh Huy",
-      "dueDate": "2026-12-31",
-      "historyCount": 14
-    },
-    {
-      "key": "NSDT-1942",
-      "section": "AI Model Dev. Tools",
-      "title": "Performance-Driven Data Formats",
-      "created": "2026-07-05T14:11:33.102+0900",
-      "updated": "2026-09-16T19:07:55.991+0900",
-      "currentStatus": "pre-silicon done",
-      "assignee": "Dang Thanh Huy",
-      "dueDate": "2026-12-31",
-      "historyCount": 17
-    },
-    {
       "key": "NSDT-1941",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "New Operation / Custom Operation Enablement",
       "created": "2026-07-05T14:10:14.608+0900",
       "updated": "2026-09-16T19:07:56.062+0900",
@@ -1041,7 +1041,7 @@
     },
     {
       "key": "NSDT-1940",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "High-Efficiency Operator Fusion",
       "created": "2026-07-05T14:07:42.094+0900",
       "updated": "2026-09-16T19:07:55.599+0900",
@@ -1051,19 +1051,8 @@
       "historyCount": 19
     },
     {
-      "key": "NSDT-1938",
-      "section": "AI Model Dev. Tools",
-      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
-      "created": "2026-07-05T14:02:30.071+0900",
-      "updated": "2026-09-16T19:07:55.592+0900",
-      "currentStatus": "In Progress",
-      "assignee": "Dang Thanh Huy",
-      "dueDate": "2026-12-31",
-      "historyCount": 21
-    },
-    {
       "key": "NSDT-1939",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "Graph Optimization",
       "created": "2026-07-05T14:06:00.420+0900",
       "updated": "2026-09-16T19:07:55.372+0900",
@@ -1071,6 +1060,17 @@
       "assignee": "Dang Thanh Huy",
       "dueDate": "2026-12-31",
       "historyCount": 20
+    },
+    {
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "created": "2026-07-05T14:02:30.071+0900",
+      "updated": "2026-09-16T19:07:55.592+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Dang Thanh Huy",
+      "dueDate": "2026-12-31",
+      "historyCount": 21
     },
     {
       "key": "NSDT-1934",
@@ -1117,42 +1117,6 @@
       "to": "Nguyen Viet Nhat"
     },
     {
-      "key": "NSDT-2292",
-      "section": "Ref. Models",
-      "title": "BOS: ResNet INT-8 Kernel OPs - Trinity",
-      "at": "2026-08-27T17:45:13.652+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2027-02-19 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2292",
-      "section": "Ref. Models",
-      "title": "BOS: ResNet INT-8 Kernel OPs - Trinity",
-      "at": "2026-08-12T10:19:09.793+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Nguyen Viet Nhat"
-    },
-    {
-      "key": "NSDT-2291",
-      "section": "AI Model Dev. Tools",
-      "title": "BOS: Llama INT8  Kernel OPs - Trinity",
-      "at": "2026-08-24T15:01:33.963+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2027-02-19 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2291",
-      "section": "AI Model Dev. Tools",
-      "title": "BOS: Llama INT8  Kernel OPs - Trinity",
-      "at": "2026-08-12T10:18:47.963+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "min.yi (이창민)"
-    },
-    {
       "key": "NSDT-2289",
       "section": "Host SW",
       "title": "Llama LLK for trinity",
@@ -1180,31 +1144,22 @@
       "to": "2026-12-15 00:00:00.0"
     },
     {
-      "key": "NSDT-2138",
+      "key": "NSDT-2292",
       "section": "Ref. Models",
-      "title": "ViT Quantized",
-      "at": "2026-08-24T10:30:44.301+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-2138",
-      "section": "Ref. Models",
-      "title": "ViT Quantized",
-      "at": "2026-08-24T10:26:20.002+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Hoang Nhat Quang"
-    },
-    {
-      "key": "NSDT-2138",
-      "section": "Ref. Models",
-      "title": "ViT Quantized",
-      "at": "2026-07-14T15:16:57.994+0900",
+      "title": "BOS: ResNet INT-8 Kernel OPs - Trinity",
+      "at": "2026-08-27T17:45:13.652+0900",
       "field": "duedate",
       "from": "Not recorded",
-      "to": "2026-12-31 00:00:00.0"
+      "to": "2027-02-19 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2292",
+      "section": "Ref. Models",
+      "title": "BOS: ResNet INT-8 Kernel OPs - Trinity",
+      "at": "2026-08-12T10:19:09.793+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Nguyen Viet Nhat"
     },
     {
       "key": "NSDT-2288",
@@ -1270,17 +1225,53 @@
       "to": "MyeongGI Jeong"
     },
     {
-      "key": "NSDT-2101",
-      "section": "AI Model Dev. Tools",
-      "title": "Debug-mode - NPU Register R & SRAM/DARM R/W",
-      "at": "2026-07-14T12:49:22.071+0900",
+      "key": "NSDT-2291",
+      "section": "Ref. Models",
+      "title": "BOS: Llama INT8 Kernel OPs - Trinity",
+      "at": "2026-08-24T15:01:33.963+0900",
       "field": "duedate",
       "from": "Not recorded",
-      "to": "2026-12-24 00:00:00.0"
+      "to": "2027-02-19 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2291",
+      "section": "Ref. Models",
+      "title": "BOS: Llama INT8 Kernel OPs - Trinity",
+      "at": "2026-08-12T10:18:47.963+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "min.yi (이창민)"
+    },
+    {
+      "key": "NSDT-2138",
+      "section": "Ref. Models",
+      "title": "ViT Quantized",
+      "at": "2026-08-24T10:30:44.301+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2138",
+      "section": "Ref. Models",
+      "title": "ViT Quantized",
+      "at": "2026-08-24T10:26:20.002+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Hoang Nhat Quang"
+    },
+    {
+      "key": "NSDT-2138",
+      "section": "Ref. Models",
+      "title": "ViT Quantized",
+      "at": "2026-07-14T15:16:57.994+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
     },
     {
       "key": "NSDT-2105",
-      "section": "SDK Installer",
+      "section": "SDK",
       "title": "Automated device binary fusing",
       "at": "2026-08-31T16:12:02.543+0900",
       "field": "status",
@@ -1289,7 +1280,7 @@
     },
     {
       "key": "NSDT-2105",
-      "section": "SDK Installer",
+      "section": "SDK",
       "title": "Automated device binary fusing",
       "at": "2026-08-31T16:11:59.610+0900",
       "field": "status",
@@ -1298,7 +1289,7 @@
     },
     {
       "key": "NSDT-2105",
-      "section": "SDK Installer",
+      "section": "SDK",
       "title": "Automated device binary fusing",
       "at": "2026-07-14T12:50:38.358+0900",
       "field": "duedate",
@@ -1306,17 +1297,8 @@
       "to": "2026-12-24 00:00:00.0"
     },
     {
-      "key": "NSDT-2103",
-      "section": "AI Model Dev. Tools",
-      "title": "Device Ctrl - Device Reset/NPU Reset",
-      "at": "2026-07-14T12:49:56.704+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-24 00:00:00.0"
-    },
-    {
       "key": "NSDT-2104",
-      "section": "SDK Installer",
+      "section": "SDK",
       "title": "Automated tt-metal installation and host memory access configuration",
       "at": "2026-08-31T16:11:16.981+0900",
       "field": "status",
@@ -1325,7 +1307,7 @@
     },
     {
       "key": "NSDT-2104",
-      "section": "SDK Installer",
+      "section": "SDK",
       "title": "Automated tt-metal installation and host memory access configuration",
       "at": "2026-08-31T16:11:13.701+0900",
       "field": "status",
@@ -1334,9 +1316,36 @@
     },
     {
       "key": "NSDT-2104",
-      "section": "SDK Installer",
+      "section": "SDK",
       "title": "Automated tt-metal installation and host memory access configuration",
       "at": "2026-07-14T12:50:18.379+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-24 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2103",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Device Ctrl - Device Reset/NPU Reset",
+      "at": "2026-07-14T12:49:56.704+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-24 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2102",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Device info - Device ID/SW Ver./Device Status/PCIE ID/Thermal Status",
+      "at": "2026-07-14T12:49:39.626+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-24 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2101",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Debug-mode - NPU Register R & SRAM/DARM R/W",
+      "at": "2026-07-14T12:49:22.071+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-12-24 00:00:00.0"
@@ -1369,10 +1378,28 @@
       "to": "2026-12-24 00:00:00.0"
     },
     {
-      "key": "NSDT-2102",
-      "section": "AI Model Dev. Tools",
-      "title": "Device info - Device ID/SW Ver./Device Status/PCIE ID/Thermal Status",
-      "at": "2026-07-14T12:49:39.626+0900",
+      "key": "NSDT-2099",
+      "section": "Host SW",
+      "title": "memory protection (isolation)",
+      "at": "2026-07-15T09:52:43.336+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2027-03-26 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2099",
+      "section": "Host SW",
+      "title": "memory protection (isolation)",
+      "at": "2026-07-14T13:52:47.000+0900",
+      "field": "duedate",
+      "from": "2026-12-24 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-2099",
+      "section": "Host SW",
+      "title": "memory protection (isolation)",
+      "at": "2026-07-14T12:47:58.535+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-12-24 00:00:00.0"
@@ -1405,31 +1432,31 @@
       "to": "2026-12-24 00:00:00.0"
     },
     {
-      "key": "NSDT-2099",
+      "key": "NSDT-2097",
       "section": "Host SW",
-      "title": "memory protection (isolation)",
-      "at": "2026-07-15T09:52:43.336+0900",
+      "title": "NPU statistics",
+      "at": "2026-07-15T09:52:10.401+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2027-03-26 00:00:00.0"
     },
     {
-      "key": "NSDT-2099",
+      "key": "NSDT-2097",
       "section": "Host SW",
-      "title": "memory protection (isolation)",
-      "at": "2026-07-14T13:52:47.000+0900",
+      "title": "NPU statistics",
+      "at": "2026-07-14T13:53:06.708+0900",
       "field": "duedate",
-      "from": "2026-12-24 00:00:00.0",
+      "from": "2026-12-18 00:00:00.0",
       "to": "Not recorded"
     },
     {
-      "key": "NSDT-2099",
+      "key": "NSDT-2097",
       "section": "Host SW",
-      "title": "memory protection (isolation)",
-      "at": "2026-07-14T12:47:58.535+0900",
+      "title": "NPU statistics",
+      "at": "2026-07-14T12:46:03.583+0900",
       "field": "duedate",
       "from": "Not recorded",
-      "to": "2026-12-24 00:00:00.0"
+      "to": "2026-12-18 00:00:00.0"
     },
     {
       "key": "NSDT-2095",
@@ -1468,31 +1495,13 @@
       "to": "2026-12-07 00:00:00.0"
     },
     {
-      "key": "NSDT-2097",
+      "key": "NSDT-2096",
       "section": "Host SW",
-      "title": "NPU statistics",
-      "at": "2026-07-15T09:52:10.401+0900",
+      "title": "Memory allocator for sharding, interleaving, etc",
+      "at": "2026-07-14T12:45:13.077+0900",
       "field": "duedate",
       "from": "Not recorded",
-      "to": "2027-03-26 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2097",
-      "section": "Host SW",
-      "title": "NPU statistics",
-      "at": "2026-07-14T13:53:06.708+0900",
-      "field": "duedate",
-      "from": "2026-12-18 00:00:00.0",
-      "to": "Not recorded"
-    },
-    {
-      "key": "NSDT-2097",
-      "section": "Host SW",
-      "title": "NPU statistics",
-      "at": "2026-07-14T12:46:03.583+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-18 00:00:00.0"
+      "to": "2026-12-10 00:00:00.0"
     },
     {
       "key": "NSDT-2094",
@@ -1502,15 +1511,6 @@
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-12-09 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2096",
-      "section": "Host SW",
-      "title": "Memory allocator for sharding, interleaving, etc",
-      "at": "2026-07-14T12:45:13.077+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-10 00:00:00.0"
     },
     {
       "key": "NSDT-2093",
@@ -1556,78 +1556,6 @@
       "field": "assignee",
       "from": "Not recorded",
       "to": "MyeongGI Jeong"
-    },
-    {
-      "key": "NSDT-2092",
-      "section": "Host SW",
-      "title": "Slow dispatch",
-      "at": "2026-08-06T15:51:57.322+0900",
-      "field": "status",
-      "from": "In Progress",
-      "to": "pre-silicon done"
-    },
-    {
-      "key": "NSDT-2092",
-      "section": "Host SW",
-      "title": "Slow dispatch",
-      "at": "2026-08-06T15:51:55.843+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-2092",
-      "section": "Host SW",
-      "title": "Slow dispatch",
-      "at": "2026-08-06T15:20:23.209+0900",
-      "field": "assignee",
-      "from": "MyeongGI Jeong",
-      "to": "Hyun Eun (은현)"
-    },
-    {
-      "key": "NSDT-2092",
-      "section": "Host SW",
-      "title": "Slow dispatch",
-      "at": "2026-07-14T12:42:44.346+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-09 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2090",
-      "section": "Host SW",
-      "title": "NPU firmware for Tensix boot-up",
-      "at": "2026-08-06T15:51:27.669+0900",
-      "field": "status",
-      "from": "In Progress",
-      "to": "pre-silicon done"
-    },
-    {
-      "key": "NSDT-2090",
-      "section": "Host SW",
-      "title": "NPU firmware for Tensix boot-up",
-      "at": "2026-08-06T15:51:25.755+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-2090",
-      "section": "Host SW",
-      "title": "NPU firmware for Tensix boot-up",
-      "at": "2026-08-06T15:20:23.204+0900",
-      "field": "assignee",
-      "from": "MyeongGI Jeong",
-      "to": "Hyun Eun (은현)"
-    },
-    {
-      "key": "NSDT-2090",
-      "section": "Host SW",
-      "title": "NPU firmware for Tensix boot-up",
-      "at": "2026-07-14T12:42:20.412+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-09 00:00:00.0"
     },
     {
       "key": "NSDT-2091",
@@ -1693,6 +1621,42 @@
       "to": "[ Host SW - Runtime ] YOLO LLK for Trinity"
     },
     {
+      "key": "NSDT-2092",
+      "section": "Host SW",
+      "title": "Slow dispatch",
+      "at": "2026-08-06T15:51:57.322+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-2092",
+      "section": "Host SW",
+      "title": "Slow dispatch",
+      "at": "2026-08-06T15:51:55.843+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2092",
+      "section": "Host SW",
+      "title": "Slow dispatch",
+      "at": "2026-08-06T15:20:23.209+0900",
+      "field": "assignee",
+      "from": "MyeongGI Jeong",
+      "to": "Hyun Eun (은현)"
+    },
+    {
+      "key": "NSDT-2092",
+      "section": "Host SW",
+      "title": "Slow dispatch",
+      "at": "2026-07-14T12:42:44.346+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-09 00:00:00.0"
+    },
+    {
       "key": "NSDT-2089",
       "section": "Host SW",
       "title": "PCIe interface",
@@ -1729,6 +1693,42 @@
       "to": "2026-12-08 00:00:00.0"
     },
     {
+      "key": "NSDT-2090",
+      "section": "Host SW",
+      "title": "NPU firmware for Tensix boot-up",
+      "at": "2026-08-06T15:51:27.669+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-2090",
+      "section": "Host SW",
+      "title": "NPU firmware for Tensix boot-up",
+      "at": "2026-08-06T15:51:25.755+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2090",
+      "section": "Host SW",
+      "title": "NPU firmware for Tensix boot-up",
+      "at": "2026-08-06T15:20:23.204+0900",
+      "field": "assignee",
+      "from": "MyeongGI Jeong",
+      "to": "Hyun Eun (은현)"
+    },
+    {
+      "key": "NSDT-2090",
+      "section": "Host SW",
+      "title": "NPU firmware for Tensix boot-up",
+      "at": "2026-07-14T12:42:20.412+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-09 00:00:00.0"
+    },
+    {
       "key": "NSDT-2088",
       "section": "Host SW",
       "title": "NPU reset scenario",
@@ -1763,15 +1763,6 @@
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-12-08 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2085",
-      "section": "Host SW",
-      "title": "INT-8 Runtime Format",
-      "at": "2026-07-14T11:56:26.128+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-11 00:00:00.0"
     },
     {
       "key": "NSDT-2087",
@@ -1837,69 +1828,6 @@
       "to": "2026-12-08 00:00:00.0"
     },
     {
-      "key": "NSDT-2084",
-      "section": "Host SW",
-      "title": "MXINT4 a8 Runtime Format",
-      "at": "2026-07-14T13:54:51.506+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2027-01-29 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2084",
-      "section": "Host SW",
-      "title": "MXINT4 a8 Runtime Format",
-      "at": "2026-07-14T13:36:20.801+0900",
-      "field": "duedate",
-      "from": "2026-12-11 00:00:00.0",
-      "to": "Not recorded"
-    },
-    {
-      "key": "NSDT-2084",
-      "section": "Host SW",
-      "title": "MXINT4 a8 Runtime Format",
-      "at": "2026-07-14T11:55:39.322+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-11 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2084",
-      "section": "Host SW",
-      "title": "MXINT4 a8 Runtime Format",
-      "at": "2026-07-09T15:43:29.616+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "MyeongGI Jeong"
-    },
-    {
-      "key": "NSDT-2078",
-      "section": "Host SW",
-      "title": "Statistics tracking",
-      "at": "2026-08-21T09:23:59.973+0900",
-      "field": "duedate",
-      "from": "2027-02-26 00:00:00.0",
-      "to": "2027-02-12 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2078",
-      "section": "Host SW",
-      "title": "Statistics tracking",
-      "at": "2026-08-19T10:51:46.399+0900",
-      "field": "duedate",
-      "from": "2026-10-30 00:00:00.0",
-      "to": "2027-02-26 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2078",
-      "section": "Host SW",
-      "title": "Statistics tracking",
-      "at": "2026-07-09T15:25:44.718+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-10-30 00:00:00.0"
-    },
-    {
       "key": "NSDT-2086",
       "section": "Host SW",
       "title": "NPU boot-up",
@@ -1963,6 +1891,78 @@
       "to": "2026-12-08 00:00:00.0"
     },
     {
+      "key": "NSDT-2085",
+      "section": "Host SW",
+      "title": "INT-8 Runtime Format",
+      "at": "2026-07-14T11:56:26.128+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-11 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2084",
+      "section": "Host SW",
+      "title": "MXINT4 a8 Runtime Format",
+      "at": "2026-07-14T13:54:51.506+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2027-01-29 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2084",
+      "section": "Host SW",
+      "title": "MXINT4 a8 Runtime Format",
+      "at": "2026-07-14T13:36:20.801+0900",
+      "field": "duedate",
+      "from": "2026-12-11 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-2084",
+      "section": "Host SW",
+      "title": "MXINT4 a8 Runtime Format",
+      "at": "2026-07-14T11:55:39.322+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-11 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2084",
+      "section": "Host SW",
+      "title": "MXINT4 a8 Runtime Format",
+      "at": "2026-07-09T15:43:29.616+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "MyeongGI Jeong"
+    },
+    {
+      "key": "NSDT-2078",
+      "section": "Host SW",
+      "title": "Statistics tracking",
+      "at": "2026-08-21T09:23:59.973+0900",
+      "field": "duedate",
+      "from": "2027-02-26 00:00:00.0",
+      "to": "2027-02-12 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2078",
+      "section": "Host SW",
+      "title": "Statistics tracking",
+      "at": "2026-08-19T10:51:46.399+0900",
+      "field": "duedate",
+      "from": "2026-10-30 00:00:00.0",
+      "to": "2027-02-26 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2078",
+      "section": "Host SW",
+      "title": "Statistics tracking",
+      "at": "2026-07-09T15:25:44.718+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
       "key": "NSDT-2079",
       "section": "Host SW",
       "title": "Diagnostics",
@@ -2008,105 +2008,6 @@
       "to": "2026-10-30 00:00:00.0"
     },
     {
-      "key": "NSDT-2074",
-      "section": "Host SW",
-      "title": "Real-time scheduling",
-      "at": "2026-08-21T09:24:54.425+0900",
-      "field": "duedate",
-      "from": "2027-02-26 00:00:00.0",
-      "to": "2027-02-12 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2074",
-      "section": "Host SW",
-      "title": "Real-time scheduling",
-      "at": "2026-08-19T10:50:34.378+0900",
-      "field": "duedate",
-      "from": "2026-09-30 00:00:00.0",
-      "to": "2027-02-26 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2074",
-      "section": "Host SW",
-      "title": "Real-time scheduling",
-      "at": "2026-07-09T15:24:02.170+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-30 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2076",
-      "section": "Host SW",
-      "title": "Preemption",
-      "at": "2026-08-21T09:24:37.703+0900",
-      "field": "duedate",
-      "from": "2027-02-26 00:00:00.0",
-      "to": "2027-02-12 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2076",
-      "section": "Host SW",
-      "title": "Preemption",
-      "at": "2026-08-19T10:51:10.181+0900",
-      "field": "duedate",
-      "from": "2026-10-30 00:00:00.0",
-      "to": "2027-02-26 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2076",
-      "section": "Host SW",
-      "title": "Preemption",
-      "at": "2026-07-09T15:25:02.205+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-10-30 00:00:00.0"
-    },
-    {
-      "key": "PTTM-702",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for BOS-compiler",
-      "at": "2026-08-04T16:52:11.983+0900",
-      "field": "duedate",
-      "from": "2026-10-16 00:00:00.0",
-      "to": "2026-12-31 00:00:00.0"
-    },
-    {
-      "key": "PTTM-702",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for BOS-compiler",
-      "at": "2026-07-09T15:54:13.454+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-10-16 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2073",
-      "section": "Host SW",
-      "title": "Fair scheduling",
-      "at": "2026-08-21T09:25:00.426+0900",
-      "field": "duedate",
-      "from": "2027-02-26 00:00:00.0",
-      "to": "2027-02-12 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2073",
-      "section": "Host SW",
-      "title": "Fair scheduling",
-      "at": "2026-08-19T10:50:53.030+0900",
-      "field": "duedate",
-      "from": "2026-09-30 00:00:00.0",
-      "to": "2027-02-26 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2073",
-      "section": "Host SW",
-      "title": "Fair scheduling",
-      "at": "2026-07-09T15:23:46.408+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-30 00:00:00.0"
-    },
-    {
       "key": "NSDT-2075",
       "section": "Host SW",
       "title": "Deadline scheduling",
@@ -2143,9 +2044,108 @@
       "to": "2026-09-30 00:00:00.0"
     },
     {
+      "key": "NSDT-2076",
+      "section": "Host SW",
+      "title": "Preemption",
+      "at": "2026-08-21T09:24:37.703+0900",
+      "field": "duedate",
+      "from": "2027-02-26 00:00:00.0",
+      "to": "2027-02-12 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2076",
+      "section": "Host SW",
+      "title": "Preemption",
+      "at": "2026-08-19T10:51:10.181+0900",
+      "field": "duedate",
+      "from": "2026-10-30 00:00:00.0",
+      "to": "2027-02-26 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2076",
+      "section": "Host SW",
+      "title": "Preemption",
+      "at": "2026-07-09T15:25:02.205+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2074",
+      "section": "Host SW",
+      "title": "Real-time scheduling",
+      "at": "2026-08-21T09:24:54.425+0900",
+      "field": "duedate",
+      "from": "2027-02-26 00:00:00.0",
+      "to": "2027-02-12 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2074",
+      "section": "Host SW",
+      "title": "Real-time scheduling",
+      "at": "2026-08-19T10:50:34.378+0900",
+      "field": "duedate",
+      "from": "2026-09-30 00:00:00.0",
+      "to": "2027-02-26 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2074",
+      "section": "Host SW",
+      "title": "Real-time scheduling",
+      "at": "2026-07-09T15:24:02.170+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2073",
+      "section": "Host SW",
+      "title": "Fair scheduling",
+      "at": "2026-08-21T09:25:00.426+0900",
+      "field": "duedate",
+      "from": "2027-02-26 00:00:00.0",
+      "to": "2027-02-12 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2073",
+      "section": "Host SW",
+      "title": "Fair scheduling",
+      "at": "2026-08-19T10:50:53.030+0900",
+      "field": "duedate",
+      "from": "2026-09-30 00:00:00.0",
+      "to": "2027-02-26 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2073",
+      "section": "Host SW",
+      "title": "Fair scheduling",
+      "at": "2026-07-09T15:23:46.408+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-702",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for BOS-Compiler",
+      "at": "2026-08-04T16:52:11.983+0900",
+      "field": "duedate",
+      "from": "2026-10-16 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "PTTM-702",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for BOS-Compiler",
+      "at": "2026-07-09T15:54:13.454+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-10-16 00:00:00.0"
+    },
+    {
       "key": "PTTM-701",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for BOS-compiler",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for BOS-Compiler",
       "at": "2026-08-04T16:51:59.641+0900",
       "field": "duedate",
       "from": "2026-10-02 00:00:00.0",
@@ -2153,8 +2153,8 @@
     },
     {
       "key": "PTTM-701",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for BOS-compiler",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for BOS-Compiler",
       "at": "2026-07-09T15:54:13.455+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2162,8 +2162,8 @@
     },
     {
       "key": "PTTM-700",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for BOS-compiler",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for BOS-Compiler",
       "at": "2026-08-04T16:46:51.218+0900",
       "field": "duedate",
       "from": "2026-10-30 00:00:00.0",
@@ -2171,8 +2171,8 @@
     },
     {
       "key": "PTTM-700",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for BOS-compiler",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for BOS-Compiler",
       "at": "2026-07-09T15:54:13.438+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2180,8 +2180,8 @@
     },
     {
       "key": "PTTM-699",
-      "section": "SW Validation",
-      "title": "System Test Scenario for BOS-compiler",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for BOS-Compiler",
       "at": "2026-08-04T16:46:13.896+0900",
       "field": "duedate",
       "from": "2026-09-18 00:00:00.0",
@@ -2189,8 +2189,8 @@
     },
     {
       "key": "PTTM-699",
-      "section": "SW Validation",
-      "title": "System Test Scenario for BOS-compiler",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for BOS-Compiler",
       "at": "2026-07-09T15:54:13.987+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2198,35 +2198,62 @@
     },
     {
       "key": "PTTM-686",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for TT-metal",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for TT-Metal-E2",
+      "at": "2026-09-22T10:41:13.303+0900",
+      "field": "summary",
+      "from": "[N1 B0] Develop IT Test automation for TT-Metal",
+      "to": "[N1 B0] Develop IT Test automation for TT-Metal-E2"
+    },
+    {
+      "key": "PTTM-686",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for TT-Metal-E2",
       "at": "2026-08-04T16:40:04.449+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-11-30 00:00:00.0"
     },
     {
-      "key": "PTTM-684",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for KMD",
-      "at": "2026-08-04T16:38:16.775+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-10-30 00:00:00.0"
-    },
-    {
       "key": "PTTM-685",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for BOS-SMI",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for BOS-SMI",
       "at": "2026-08-04T16:37:01.361+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-10-30 00:00:00.0"
     },
     {
+      "key": "PTTM-684",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for KMD",
+      "at": "2026-08-04T16:38:16.775+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-683",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for UMD ",
+      "at": "2026-08-04T16:37:42.718+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
       "key": "PTTM-682",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for TT-metal",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for TT-Metal-E2",
+      "at": "2026-09-22T10:40:52.354+0900",
+      "field": "summary",
+      "from": "[N1 B0] Develop IT TCs for TT-Metal",
+      "to": "[N1 B0] Develop IT TCs for TT-Metal-E2"
+    },
+    {
+      "key": "PTTM-682",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for TT-Metal-E2",
       "at": "2026-08-04T16:39:30.374+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2234,71 +2261,26 @@
     },
     {
       "key": "PTTM-681",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for BOS-SMI",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for BOS-SMI",
       "at": "2026-08-04T16:36:42.212+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-10-30 00:00:00.0"
     },
     {
-      "key": "PTTM-683",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for UMD",
-      "at": "2026-08-04T16:37:42.718+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-10-30 00:00:00.0"
-    },
-    {
       "key": "PTTM-680",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for KMD",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for KMD",
       "at": "2026-08-04T16:38:02.778+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-10-30 00:00:00.0"
     },
     {
-      "key": "PTTM-674",
-      "section": "SW Validation",
-      "title": "System Test Scenario for TT-metal",
-      "at": "2026-08-04T16:24:46.743+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-30 00:00:00.0"
-    },
-    {
-      "key": "PTTM-676",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for KMD",
-      "at": "2026-08-04T16:22:39.892+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-30 00:00:00.0"
-    },
-    {
-      "key": "PTTM-677",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for BOS-SMI",
-      "at": "2026-08-04T16:19:10.967+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-30 00:00:00.0"
-    },
-    {
-      "key": "PTTM-675",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for UMD",
-      "at": "2026-08-04T16:22:19.825+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-30 00:00:00.0"
-    },
-    {
       "key": "PTTM-679",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for UMD",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for UMD",
       "at": "2026-08-04T16:37:28.855+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2306,26 +2288,53 @@
     },
     {
       "key": "PTTM-678",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for TT-Metal",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for TT-Metal",
       "at": "2026-08-04T16:25:12.026+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-10-30 00:00:00.0"
     },
     {
-      "key": "PTTM-672",
-      "section": "SW Validation",
-      "title": "System Test Scenario for KMD",
-      "at": "2026-08-04T16:21:39.263+0900",
+      "key": "PTTM-677",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for BOS-SMI",
+      "at": "2026-08-04T16:19:10.967+0900",
       "field": "duedate",
       "from": "Not recorded",
-      "to": "2026-09-11 00:00:00.0"
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-675",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for UMD",
+      "at": "2026-08-04T16:22:19.825+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-676",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for KMD",
+      "at": "2026-08-04T16:22:39.892+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-674",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for TT-Metal",
+      "at": "2026-08-04T16:24:46.743+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-30 00:00:00.0"
     },
     {
       "key": "PTTM-673",
-      "section": "SW Validation",
-      "title": "System Test Scenario for BOS-SMI",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for BOS-SMI",
       "at": "2026-08-04T16:17:41.166+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2333,17 +2342,26 @@
     },
     {
       "key": "PTTM-673",
-      "section": "SW Validation",
-      "title": "System Test Scenario for BOS-SMI",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for BOS-SMI",
       "at": "2026-07-09T12:47:35.891+0900",
       "field": "assignee",
       "from": "Not recorded",
       "to": "Ngo Chi Kien"
     },
     {
+      "key": "PTTM-672",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for KMD",
+      "at": "2026-08-04T16:21:39.263+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-11 00:00:00.0"
+    },
+    {
       "key": "PTTM-671",
-      "section": "SW Validation",
-      "title": "System Test Scenario for UMD",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for UMD",
       "at": "2026-08-04T16:21:48.413+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2351,8 +2369,8 @@
     },
     {
       "key": "PTTM-670",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for Speculative decoding",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for Speculative decoding",
       "at": "2026-08-04T16:51:12.232+0900",
       "field": "duedate",
       "from": "2026-10-09 00:00:00.0",
@@ -2360,8 +2378,8 @@
     },
     {
       "key": "PTTM-670",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for Speculative decoding",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for Speculative decoding",
       "at": "2026-07-09T16:00:16.074+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2369,8 +2387,8 @@
     },
     {
       "key": "PTTM-669",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for Speculative decoding",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for Speculative decoding",
       "at": "2026-08-04T16:50:17.837+0900",
       "field": "duedate",
       "from": "2026-09-25 00:00:00.0",
@@ -2378,8 +2396,8 @@
     },
     {
       "key": "PTTM-669",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for Speculative decoding",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for Speculative decoding",
       "at": "2026-07-09T16:00:16.069+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2387,8 +2405,8 @@
     },
     {
       "key": "PTTM-668",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for LLM Compressor",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for LLM Compressor",
       "at": "2026-08-04T16:50:57.388+0900",
       "field": "duedate",
       "from": "2026-09-25 00:00:00.0",
@@ -2396,35 +2414,17 @@
     },
     {
       "key": "PTTM-668",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for LLM Compressor",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for LLM Compressor",
       "at": "2026-07-09T15:56:32.340+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-09-25 00:00:00.0"
     },
     {
-      "key": "PTTM-666",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for Quantization",
-      "at": "2026-08-04T16:50:39.177+0900",
-      "field": "duedate",
-      "from": "2026-09-25 00:00:00.0",
-      "to": "2026-12-31 00:00:00.0"
-    },
-    {
-      "key": "PTTM-666",
-      "section": "SW Validation",
-      "title": "IT Test Case Automation (incl. Test Code) for Quantization",
-      "at": "2026-07-09T15:59:07.093+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-25 00:00:00.0"
-    },
-    {
       "key": "PTTM-667",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for LLM Compressor",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for LLM Compressor",
       "at": "2026-08-04T16:49:59.640+0900",
       "field": "duedate",
       "from": "2026-08-28 00:00:00.0",
@@ -2432,35 +2432,35 @@
     },
     {
       "key": "PTTM-667",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for LLM Compressor",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for LLM Compressor",
       "at": "2026-07-09T15:56:32.354+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-08-28 00:00:00.0"
     },
     {
-      "key": "PTTM-664",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for Speculative decoding",
-      "at": "2026-08-04T16:45:45.566+0900",
+      "key": "PTTM-666",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for Quantization",
+      "at": "2026-08-04T16:50:39.177+0900",
       "field": "duedate",
-      "from": "2026-10-23 00:00:00.0",
-      "to": "2026-11-13 00:00:00.0"
+      "from": "2026-09-25 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
     },
     {
-      "key": "PTTM-664",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for Speculative decoding",
-      "at": "2026-07-09T16:00:16.056+0900",
+      "key": "PTTM-666",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT Test automation for Quantization",
+      "at": "2026-07-09T15:59:07.093+0900",
       "field": "duedate",
       "from": "Not recorded",
-      "to": "2026-10-23 00:00:00.0"
+      "to": "2026-09-25 00:00:00.0"
     },
     {
       "key": "PTTM-665",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for Quantization",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for Quantization",
       "at": "2026-08-04T16:49:33.057+0900",
       "field": "duedate",
       "from": "2026-08-28 00:00:00.0",
@@ -2468,8 +2468,8 @@
     },
     {
       "key": "PTTM-665",
-      "section": "SW Validation",
-      "title": "Integration Test Scenario for Quantization",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for Quantization",
       "at": "2026-07-09T15:59:07.077+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2477,8 +2477,8 @@
     },
     {
       "key": "PTTM-663",
-      "section": "SW Validation",
-      "title": "System Test Scenario for Speculative decoding",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for Speculative decoding",
       "at": "2026-08-04T16:43:56.093+0900",
       "field": "duedate",
       "from": "2026-09-11 00:00:00.0",
@@ -2486,17 +2486,35 @@
     },
     {
       "key": "PTTM-663",
-      "section": "SW Validation",
-      "title": "System Test Scenario for Speculative decoding",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for Speculative decoding",
       "at": "2026-07-09T16:00:16.420+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-09-11 00:00:00.0"
     },
     {
+      "key": "PTTM-664",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for Speculative decoding",
+      "at": "2026-08-04T16:45:45.566+0900",
+      "field": "duedate",
+      "from": "2026-10-23 00:00:00.0",
+      "to": "2026-11-13 00:00:00.0"
+    },
+    {
+      "key": "PTTM-664",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for Speculative decoding",
+      "at": "2026-07-09T16:00:16.056+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-10-23 00:00:00.0"
+    },
+    {
       "key": "PTTM-662",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for LLM Compressor",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for LLM Compressor",
       "at": "2026-08-04T16:45:27.214+0900",
       "field": "duedate",
       "from": "2026-09-11 00:00:00.0",
@@ -2504,8 +2522,8 @@
     },
     {
       "key": "PTTM-662",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for LLM Compressor",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for LLM Compressor",
       "at": "2026-07-09T15:56:32.354+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2513,8 +2531,8 @@
     },
     {
       "key": "PTTM-661",
-      "section": "SW Validation",
-      "title": "System Test Scenario for LLM Compressor",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for LLM Compressor",
       "at": "2026-08-04T16:43:41.203+0900",
       "field": "duedate",
       "from": "2026-08-14 00:00:00.0",
@@ -2522,8 +2540,8 @@
     },
     {
       "key": "PTTM-661",
-      "section": "SW Validation",
-      "title": "System Test Scenario for LLM Compressor",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for LLM Compressor",
       "at": "2026-07-09T15:56:32.706+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2531,8 +2549,8 @@
     },
     {
       "key": "PTTM-660",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for Quantization",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for Quantization",
       "at": "2026-08-04T16:44:58.144+0900",
       "field": "duedate",
       "from": "2026-09-11 00:00:00.0",
@@ -2540,8 +2558,8 @@
     },
     {
       "key": "PTTM-660",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for Quantization",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for Quantization",
       "at": "2026-07-09T15:59:07.094+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2549,53 +2567,17 @@
     },
     {
       "key": "PTTM-660",
-      "section": "SW Validation",
-      "title": "ST Test Case Automation (incl. Test Code) for Quantization",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System Test automation for Quantization",
       "at": "2026-07-09T12:27:48.232+0900",
       "field": "assignee",
       "from": "Not recorded",
       "to": "Ngo Chi Kien"
     },
     {
-      "key": "NSDT-2063",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-09-15T13:07:30.406+0900",
-      "field": "duedate",
-      "from": "2026-12-31 00:00:00.0",
-      "to": "2026-11-30 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2063",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-31T14:58:24.428+0900",
-      "field": "summary",
-      "from": "[N1-B0] Speculative Decoding SUD Write",
-      "to": "[HS] Speculative Decoding SUD Write"
-    },
-    {
-      "key": "NSDT-2063",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-30T15:25:51.400+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2063",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-30T15:25:26.029+0900",
-      "field": "assignee",
-      "from": "Ted Kim(김태현)",
-      "to": "서정현"
-    },
-    {
       "key": "PTTM-659",
-      "section": "SW Validation",
-      "title": "System Test Scenario for Quantization",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for Quantization",
       "at": "2026-08-04T16:42:45.842+0900",
       "field": "duedate",
       "from": "2026-08-14 00:00:00.0",
@@ -2603,8 +2585,8 @@
     },
     {
       "key": "PTTM-659",
-      "section": "SW Validation",
-      "title": "System Test Scenario for Quantization",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for Quantization",
       "at": "2026-07-15T15:26:41.311+0900",
       "field": "status",
       "from": "Backlogged",
@@ -2612,8 +2594,8 @@
     },
     {
       "key": "PTTM-659",
-      "section": "SW Validation",
-      "title": "System Test Scenario for Quantization",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for Quantization",
       "at": "2026-07-15T15:26:35.197+0900",
       "field": "status",
       "from": "In Progress",
@@ -2621,8 +2603,8 @@
     },
     {
       "key": "PTTM-659",
-      "section": "SW Validation",
-      "title": "System Test Scenario for Quantization",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for Quantization",
       "at": "2026-07-10T15:55:54.152+0900",
       "field": "status",
       "from": "To Do",
@@ -2630,8 +2612,8 @@
     },
     {
       "key": "PTTM-659",
-      "section": "SW Validation",
-      "title": "System Test Scenario for Quantization",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for Quantization",
       "at": "2026-07-09T15:59:07.473+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2639,17 +2621,71 @@
     },
     {
       "key": "PTTM-659",
-      "section": "SW Validation",
-      "title": "System Test Scenario for Quantization",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for Quantization",
       "at": "2026-07-09T12:23:45.080+0900",
       "field": "assignee",
       "from": "Not recorded",
       "to": "Ngo Chi Kien"
     },
     {
+      "key": "NSDT-2063",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SUD Write",
+      "at": "2026-09-23T10:52:19.906+0900",
+      "field": "duedate",
+      "from": "2026-11-30 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-2063",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SUD Write",
+      "at": "2026-09-15T13:07:30.406+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-11-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2063",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SUD Write",
+      "at": "2026-07-31T14:58:24.428+0900",
+      "field": "summary",
+      "from": "[N1-B0] Speculative Decoding SUD Write",
+      "to": "[HS] Speculative Decoding SUD Write"
+    },
+    {
+      "key": "NSDT-2063",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SUD Write",
+      "at": "2026-07-30T15:25:51.400+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2063",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SUD Write",
+      "at": "2026-07-30T15:25:26.029+0900",
+      "field": "assignee",
+      "from": "Ted Kim(김태현)",
+      "to": "서정현"
+    },
+    {
       "key": "NSDT-2062",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SAD Write",
+      "at": "2026-09-23T10:52:07.779+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-2062",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SAD Write",
       "at": "2026-07-31T14:58:39.955+0900",
       "field": "summary",
       "from": "[N1-B0] Speculative Decoding SAD Write",
@@ -2657,8 +2693,8 @@
     },
     {
       "key": "NSDT-2062",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SAD Write",
       "at": "2026-07-30T15:25:14.960+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2666,8 +2702,8 @@
     },
     {
       "key": "NSDT-2062",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SAD Write",
       "at": "2026-07-30T15:24:52.396+0900",
       "field": "assignee",
       "from": "Ted Kim(김태현)",
@@ -2675,8 +2711,26 @@
     },
     {
       "key": "NSDT-2061",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SRS Write",
+      "at": "2026-09-23T10:51:51.869+0900",
+      "field": "duedate",
+      "from": "2026-09-30 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-2061",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SRS Write",
+      "at": "2026-09-21T10:37:59.753+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2061",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SRS Write",
       "at": "2026-07-31T14:58:49.507+0900",
       "field": "summary",
       "from": "[N1-B0] Speculative Decoding SRS Write",
@@ -2684,8 +2738,8 @@
     },
     {
       "key": "NSDT-2061",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SRS Write",
       "at": "2026-07-30T15:24:09.894+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2693,8 +2747,8 @@
     },
     {
       "key": "NSDT-2061",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SRS Write",
       "at": "2026-07-30T15:23:42.358+0900",
       "field": "assignee",
       "from": "정영주",
@@ -2702,8 +2756,8 @@
     },
     {
       "key": "NSDT-2061",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SRS Write",
       "at": "2026-07-28T17:06:19.405+0900",
       "field": "assignee",
       "from": "Ted Kim(김태현)",
@@ -2711,8 +2765,17 @@
     },
     {
       "key": "NSDT-2060",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SUD Write",
+      "at": "2026-09-23T10:52:47.047+0900",
+      "field": "duedate",
+      "from": "2026-11-30 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-2060",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SUD Write",
       "at": "2026-09-15T13:09:41.852+0900",
       "field": "duedate",
       "from": "2027-01-31 00:00:00.0",
@@ -2720,8 +2783,8 @@
     },
     {
       "key": "NSDT-2060",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SUD Write",
       "at": "2026-08-24T17:40:25.327+0900",
       "field": "duedate",
       "from": "2026-09-30 00:00:00.0",
@@ -2729,8 +2792,8 @@
     },
     {
       "key": "NSDT-2060",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SUD Write",
       "at": "2026-08-24T17:37:20.991+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2738,8 +2801,8 @@
     },
     {
       "key": "NSDT-2060",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SUD Write",
       "at": "2026-08-18T14:30:49.912+0900",
       "field": "assignee",
       "from": "Ted Kim(김태현)",
@@ -2747,80 +2810,35 @@
     },
     {
       "key": "NSDT-2060",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SUD Write",
       "at": "2026-07-31T14:59:07.548+0900",
       "field": "summary",
       "from": "[N1-B0] Compiler SUD Write",
       "to": "[HS] Compiler SUD Write"
     },
     {
-      "key": "NSDT-2057",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-09-16T08:10:45.122+0900",
-      "field": "assignee",
-      "from": "SungminLee",
-      "to": "조민수"
-    },
-    {
-      "key": "NSDT-2057",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-09-15T16:53:29.175+0900",
+      "key": "NSDT-2059",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SAD Write",
+      "at": "2026-09-23T10:52:38.701+0900",
       "field": "duedate",
-      "from": "2027-01-31 00:00:00.0",
-      "to": "2026-11-30 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2057",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-31T14:57:59.014+0900",
-      "field": "summary",
-      "from": "[N1-B0] LLM Quantization SUD Write",
-      "to": "[HS] LLM Quantization SUD Write"
-    },
-    {
-      "key": "NSDT-2057",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-30T15:26:39.763+0900",
-      "field": "summary",
-      "from": "[N1-B0] Quantization SUD Write",
-      "to": "[N1-B0] LLM Quantization SUD Write"
-    },
-    {
-      "key": "NSDT-2057",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-30T15:23:09.911+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2027-01-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2057",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-30T15:22:49.600+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "SungminLee"
-    },
-    {
-      "key": "NSDT-2057",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
-      "at": "2026-07-30T15:22:43.833+0900",
-      "field": "assignee",
-      "from": "Ted Kim(김태현)",
+      "from": "2026-11-30 00:00:00.0",
       "to": "Not recorded"
     },
     {
       "key": "NSDT-2059",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SAD Write",
+      "at": "2026-09-18T12:31:37.264+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2059",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SAD Write",
       "at": "2026-08-24T17:40:04.292+0900",
       "field": "duedate",
       "from": "2027-01-29 00:00:00.0",
@@ -2828,8 +2846,8 @@
     },
     {
       "key": "NSDT-2059",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SAD Write",
       "at": "2026-08-24T17:39:15.026+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2837,8 +2855,8 @@
     },
     {
       "key": "NSDT-2059",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SAD Write",
       "at": "2026-08-18T14:31:22.730+0900",
       "field": "assignee",
       "from": "Ted Kim(김태현)",
@@ -2846,8 +2864,8 @@
     },
     {
       "key": "NSDT-2059",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SAD Write",
       "at": "2026-07-31T14:59:17.544+0900",
       "field": "summary",
       "from": "[N1-B0] Compiler SAD Write",
@@ -2855,8 +2873,17 @@
     },
     {
       "key": "NSDT-2058",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SRS Write",
+      "at": "2026-09-23T10:52:30.003+0900",
+      "field": "duedate",
+      "from": "2026-09-30 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-2058",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SRS Write",
       "at": "2026-08-24T17:57:00.843+0900",
       "field": "status",
       "from": "To Do",
@@ -2864,8 +2891,8 @@
     },
     {
       "key": "NSDT-2058",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SRS Write",
       "at": "2026-08-24T17:38:17.207+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2873,8 +2900,8 @@
     },
     {
       "key": "NSDT-2058",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SRS Write",
       "at": "2026-08-18T14:31:52.466+0900",
       "field": "assignee",
       "from": "Ted Kim(김태현)",
@@ -2882,17 +2909,107 @@
     },
     {
       "key": "NSDT-2058",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Compiler SRS Write",
       "at": "2026-07-31T14:58:16.320+0900",
       "field": "summary",
       "from": "[N1-B0] Compiler SRS Write",
       "to": "[HS] Compiler SRS Write"
     },
     {
+      "key": "NSDT-2057",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] LLM Quantization SUD Write",
+      "at": "2026-09-23T10:51:43.930+0900",
+      "field": "duedate",
+      "from": "2026-11-30 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-2057",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] LLM Quantization SUD Write",
+      "at": "2026-09-16T08:10:45.122+0900",
+      "field": "assignee",
+      "from": "SungminLee",
+      "to": "조민수"
+    },
+    {
+      "key": "NSDT-2057",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] LLM Quantization SUD Write",
+      "at": "2026-09-15T16:53:29.175+0900",
+      "field": "duedate",
+      "from": "2027-01-31 00:00:00.0",
+      "to": "2026-11-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2057",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] LLM Quantization SUD Write",
+      "at": "2026-07-31T14:57:59.014+0900",
+      "field": "summary",
+      "from": "[N1-B0] LLM Quantization SUD Write",
+      "to": "[HS] LLM Quantization SUD Write"
+    },
+    {
+      "key": "NSDT-2057",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] LLM Quantization SUD Write",
+      "at": "2026-07-30T15:26:39.763+0900",
+      "field": "summary",
+      "from": "[N1-B0] Quantization SUD Write",
+      "to": "[N1-B0] LLM Quantization SUD Write"
+    },
+    {
+      "key": "NSDT-2057",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] LLM Quantization SUD Write",
+      "at": "2026-07-30T15:23:09.911+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2057",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] LLM Quantization SUD Write",
+      "at": "2026-07-30T15:22:49.600+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "SungminLee"
+    },
+    {
+      "key": "NSDT-2057",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] LLM Quantization SUD Write",
+      "at": "2026-07-30T15:22:43.833+0900",
+      "field": "assignee",
+      "from": "Ted Kim(김태현)",
+      "to": "Not recorded"
+    },
+    {
       "key": "NSDT-2056",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] LLM Quantization SAD Write",
+      "at": "2026-09-23T10:50:06.640+0900",
+      "field": "duedate",
+      "from": "2026-10-30 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-2056",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] LLM Quantization SAD Write",
+      "at": "2026-09-22T13:59:51.239+0900",
+      "field": "duedate",
+      "from": "2027-01-31 00:00:00.0",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2056",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] LLM Quantization SAD Write",
       "at": "2026-09-16T08:09:53.444+0900",
       "field": "assignee",
       "from": "SungminLee",
@@ -2900,8 +3017,8 @@
     },
     {
       "key": "NSDT-2056",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] LLM Quantization SAD Write",
       "at": "2026-07-31T14:57:19.928+0900",
       "field": "summary",
       "from": "[N1-B0] LLM Quantization SAD Write",
@@ -2909,8 +3026,8 @@
     },
     {
       "key": "NSDT-2056",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] LLM Quantization SAD Write",
       "at": "2026-07-30T15:26:25.919+0900",
       "field": "summary",
       "from": "[N1-B0] Quantization SAD Write",
@@ -2918,8 +3035,8 @@
     },
     {
       "key": "NSDT-2056",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] LLM Quantization SAD Write",
       "at": "2026-07-30T15:22:24.831+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -2927,134 +3044,26 @@
     },
     {
       "key": "NSDT-2056",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] LLM Quantization SAD Write",
       "at": "2026-07-30T15:21:51.650+0900",
       "field": "assignee",
       "from": "Ted Kim(김태현)",
       "to": "SungminLee"
     },
     {
-      "key": "NSDT-2055",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "at": "2026-09-16T13:24:13.378+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-2055",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "at": "2026-09-16T08:10:30.847+0900",
-      "field": "assignee",
-      "from": "SungminLee",
-      "to": "조민수"
-    },
-    {
-      "key": "NSDT-2055",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "at": "2026-07-31T14:57:40.437+0900",
-      "field": "summary",
-      "from": "[N1-B0] LLM Quantization SRS Write",
-      "to": "[HS] LLM Quantization SRS Write"
-    },
-    {
-      "key": "NSDT-2055",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "at": "2026-07-31T08:20:57.058+0900",
+      "key": "NSDT-1960",
+      "section": "Unmapped Jira ticket",
+      "title": "  [HS] UMD/KMD SUD Write",
+      "at": "2026-09-23T10:39:21.728+0900",
       "field": "duedate",
-      "from": "2027-01-31 00:00:00.0",
-      "to": "2026-09-30 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2055",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "at": "2026-07-30T15:26:09.748+0900",
-      "field": "summary",
-      "from": "[N1-B0] Quantization SRS Write",
-      "to": "[N1-B0] LLM Quantization SRS Write"
-    },
-    {
-      "key": "NSDT-2055",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "at": "2026-07-30T15:21:13.111+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2027-01-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2055",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "at": "2026-07-30T15:20:19.857+0900",
-      "field": "assignee",
-      "from": "Ted Kim(김태현)",
-      "to": "SungminLee"
-    },
-    {
-      "key": "NSDT-2055",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "at": "2026-07-08T17:05:37.575+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Ted Kim(김태현)"
-    },
-    {
-      "key": "NSDT-1961",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-31T14:57:10.400+0900",
-      "field": "summary",
-      "from": "[N1-B0] TT-metal-E2 SAD write (including multi-model scheduler)",
-      "to": "[HS] TT-metal-E2 SAD write (including multi-model scheduler)"
-    },
-    {
-      "key": "NSDT-1961",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-30T15:26:43.923+0900",
-      "field": "duedate",
-      "from": "2026-09-25 00:00:00.0",
-      "to": "2026-10-30 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1961",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-30T15:21:28.299+0900",
-      "field": "assignee",
-      "from": "Nagoo Sung(성낙우)",
-      "to": "MyeongGI Jeong"
-    },
-    {
-      "key": "NSDT-1961",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-30T15:21:28.299+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-25 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1961",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-06T15:02:38.783+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Nagoo Sung(성낙우)"
+      "from": "2026-11-27 00:00:00.0",
+      "to": "Not recorded"
     },
     {
       "key": "NSDT-1960",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "  [HS] UMD/KMD SUD Write",
       "at": "2026-07-31T14:56:48.159+0900",
       "field": "summary",
       "from": "  [N1-B0] UMD/KMD SUD Write",
@@ -3062,8 +3071,8 @@
     },
     {
       "key": "NSDT-1960",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "  [HS] UMD/KMD SUD Write",
       "at": "2026-07-30T15:27:54.810+0900",
       "field": "duedate",
       "from": "2026-10-30 00:00:00.0",
@@ -3071,8 +3080,8 @@
     },
     {
       "key": "NSDT-1960",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "  [HS] UMD/KMD SUD Write",
       "at": "2026-07-30T15:21:28.301+0900",
       "field": "assignee",
       "from": "Nagoo Sung(성낙우)",
@@ -3080,8 +3089,8 @@
     },
     {
       "key": "NSDT-1960",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "  [HS] UMD/KMD SUD Write",
       "at": "2026-07-30T15:21:28.301+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -3089,17 +3098,170 @@
     },
     {
       "key": "NSDT-1960",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "  [HS] UMD/KMD SUD Write",
       "at": "2026-07-06T15:02:06.361+0900",
       "field": "assignee",
       "from": "Not recorded",
       "to": "Nagoo Sung(성낙우)"
     },
     {
+      "key": "NSDT-2055",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Quantization SRS Write",
+      "at": "2026-09-23T10:49:59.383+0900",
+      "field": "duedate",
+      "from": "2026-09-30 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-2055",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Quantization SRS Write",
+      "at": "2026-09-22T15:14:19.188+0900",
+      "field": "summary",
+      "from": "[HS] LLM Quantization SRS Write",
+      "to": "[HS] Quantization SRS Write"
+    },
+    {
+      "key": "NSDT-2055",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Quantization SRS Write",
+      "at": "2026-09-16T13:24:13.378+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2055",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Quantization SRS Write",
+      "at": "2026-09-16T08:10:30.847+0900",
+      "field": "assignee",
+      "from": "SungminLee",
+      "to": "조민수"
+    },
+    {
+      "key": "NSDT-2055",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Quantization SRS Write",
+      "at": "2026-07-31T14:57:40.437+0900",
+      "field": "summary",
+      "from": "[N1-B0] LLM Quantization SRS Write",
+      "to": "[HS] LLM Quantization SRS Write"
+    },
+    {
+      "key": "NSDT-2055",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Quantization SRS Write",
+      "at": "2026-07-31T08:20:57.058+0900",
+      "field": "duedate",
+      "from": "2027-01-31 00:00:00.0",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2055",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Quantization SRS Write",
+      "at": "2026-07-30T15:26:09.748+0900",
+      "field": "summary",
+      "from": "[N1-B0] Quantization SRS Write",
+      "to": "[N1-B0] LLM Quantization SRS Write"
+    },
+    {
+      "key": "NSDT-2055",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Quantization SRS Write",
+      "at": "2026-07-30T15:21:13.111+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2055",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Quantization SRS Write",
+      "at": "2026-07-30T15:20:19.857+0900",
+      "field": "assignee",
+      "from": "Ted Kim(김태현)",
+      "to": "SungminLee"
+    },
+    {
+      "key": "NSDT-2055",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Quantization SRS Write",
+      "at": "2026-07-08T17:05:37.575+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Ted Kim(김태현)"
+    },
+    {
+      "key": "NSDT-1961",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SAD write (including multi-model scheduler)",
+      "at": "2026-09-23T10:35:45.810+0900",
+      "field": "duedate",
+      "from": "2026-10-30 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1961",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SAD write (including multi-model scheduler)",
+      "at": "2026-07-31T14:57:10.400+0900",
+      "field": "summary",
+      "from": "[N1-B0] TT-metal-E2 SAD write (including multi-model scheduler)",
+      "to": "[HS] TT-metal-E2 SAD write (including multi-model scheduler)"
+    },
+    {
+      "key": "NSDT-1961",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SAD write (including multi-model scheduler)",
+      "at": "2026-07-30T15:26:43.923+0900",
+      "field": "duedate",
+      "from": "2026-09-25 00:00:00.0",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1961",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SAD write (including multi-model scheduler)",
+      "at": "2026-07-30T15:21:28.299+0900",
+      "field": "assignee",
+      "from": "Nagoo Sung(성낙우)",
+      "to": "MyeongGI Jeong"
+    },
+    {
+      "key": "NSDT-1961",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SAD write (including multi-model scheduler)",
+      "at": "2026-07-30T15:21:28.299+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-25 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1961",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SAD write (including multi-model scheduler)",
+      "at": "2026-07-06T15:02:38.783+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Nagoo Sung(성낙우)"
+    },
+    {
       "key": "NSDT-1958",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SAD Write",
+      "at": "2026-09-23T10:49:48.872+0900",
+      "field": "duedate",
+      "from": "2026-10-30 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1958",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SAD Write",
       "at": "2026-09-15T13:03:47.168+0900",
       "field": "duedate",
       "from": "2026-11-27 00:00:00.0",
@@ -3107,8 +3269,8 @@
     },
     {
       "key": "NSDT-1958",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SAD Write",
       "at": "2026-07-31T14:56:35.245+0900",
       "field": "summary",
       "from": "[N1-B0] BOS-SMI SAD Write",
@@ -3116,8 +3278,8 @@
     },
     {
       "key": "NSDT-1958",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SAD Write",
       "at": "2026-07-30T15:26:21.816+0900",
       "field": "duedate",
       "from": "2026-10-30 00:00:00.0",
@@ -3125,8 +3287,8 @@
     },
     {
       "key": "NSDT-1958",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SAD Write",
       "at": "2026-07-30T15:21:28.722+0900",
       "field": "assignee",
       "from": "Nagoo Sung(성낙우)",
@@ -3134,8 +3296,8 @@
     },
     {
       "key": "NSDT-1958",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SAD Write",
       "at": "2026-07-30T15:21:28.722+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -3143,8 +3305,8 @@
     },
     {
       "key": "NSDT-1958",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SAD Write",
       "at": "2026-07-06T15:02:17.452+0900",
       "field": "assignee",
       "from": "Not recorded",
@@ -3152,8 +3314,8 @@
     },
     {
       "key": "NSDT-1958",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SAD Write",
       "at": "2026-07-06T14:53:30.164+0900",
       "field": "summary",
       "from": "Eagle-N BOS-SMI SAD Write",
@@ -3161,8 +3323,17 @@
     },
     {
       "key": "NSDT-1959",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SUD Write",
+      "at": "2026-09-23T10:41:52.501+0900",
+      "field": "duedate",
+      "from": "2026-11-27 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1959",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SUD Write",
       "at": "2026-09-15T13:04:50.988+0900",
       "field": "duedate",
       "from": "2026-12-24 00:00:00.0",
@@ -3170,8 +3341,8 @@
     },
     {
       "key": "NSDT-1959",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SUD Write",
       "at": "2026-07-31T14:56:03.367+0900",
       "field": "summary",
       "from": "[N1-B0] BOS-SMI SUD Write",
@@ -3179,8 +3350,8 @@
     },
     {
       "key": "NSDT-1959",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SUD Write",
       "at": "2026-07-30T15:28:15.450+0900",
       "field": "duedate",
       "from": "2026-11-27 00:00:00.0",
@@ -3188,8 +3359,8 @@
     },
     {
       "key": "NSDT-1959",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SUD Write",
       "at": "2026-07-30T15:21:28.300+0900",
       "field": "assignee",
       "from": "Nagoo Sung(성낙우)",
@@ -3197,8 +3368,8 @@
     },
     {
       "key": "NSDT-1959",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SUD Write",
       "at": "2026-07-30T15:21:28.300+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -3206,8 +3377,8 @@
     },
     {
       "key": "NSDT-1959",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SUD Write",
       "at": "2026-07-06T15:02:32.177+0900",
       "field": "assignee",
       "from": "Not recorded",
@@ -3215,80 +3386,26 @@
     },
     {
       "key": "NSDT-1959",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SUD Write",
       "at": "2026-07-06T14:53:39.527+0900",
       "field": "summary",
       "from": "Eagle-N BOS-SMI SUD Write",
       "to": "[N1-B0] BOS-SMI SUD Write"
     },
     {
-      "key": "NSDT-1954",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-09-07T14:08:08.990+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-1954",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-31T14:56:17.316+0900",
-      "field": "summary",
-      "from": "[N1-B0] UMD/KMD SAD Write",
-      "to": "[HS] UMD/KMD SAD Write"
-    },
-    {
-      "key": "NSDT-1954",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-30T15:25:54.094+0900",
+      "key": "NSDT-1957",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SUD Write (including multi-model scheduler)",
+      "at": "2026-09-23T10:36:21.002+0900",
       "field": "duedate",
-      "from": "2026-09-25 00:00:00.0",
-      "to": "2026-10-30 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1954",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-30T15:21:29.619+0900",
-      "field": "assignee",
-      "from": "Nagoo Sung(성낙우)",
-      "to": "MyeongGI Jeong"
-    },
-    {
-      "key": "NSDT-1954",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-30T15:21:29.619+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-25 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1954",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-06T15:03:01.455+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Nagoo Sung(성낙우)"
-    },
-    {
-      "key": "NSDT-1954",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Arch. Specification (SAD)",
-      "at": "2026-07-06T14:53:05.437+0900",
-      "field": "summary",
-      "from": "Eagle-N UMD/KMD SAD Write",
-      "to": "[N1-B0] UMD/KMD SAD Write"
+      "from": "2026-11-27 00:00:00.0",
+      "to": "Not recorded"
     },
     {
       "key": "NSDT-1957",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SUD Write (including multi-model scheduler)",
       "at": "2026-07-31T14:55:22.002+0900",
       "field": "summary",
       "from": "[N1-B0] TT-metal-E2 SUD Write (including multi-model scheduler)",
@@ -3296,8 +3413,8 @@
     },
     {
       "key": "NSDT-1957",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SUD Write (including multi-model scheduler)",
       "at": "2026-07-30T15:27:28.312+0900",
       "field": "duedate",
       "from": "2026-10-30 00:00:00.0",
@@ -3305,8 +3422,8 @@
     },
     {
       "key": "NSDT-1957",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SUD Write (including multi-model scheduler)",
       "at": "2026-07-30T15:21:28.725+0900",
       "field": "assignee",
       "from": "Nagoo Sung(성낙우)",
@@ -3314,8 +3431,8 @@
     },
     {
       "key": "NSDT-1957",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SUD Write (including multi-model scheduler)",
       "at": "2026-07-30T15:21:28.725+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -3323,8 +3440,8 @@
     },
     {
       "key": "NSDT-1957",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SUD Write (including multi-model scheduler)",
       "at": "2026-07-06T15:02:52.814+0900",
       "field": "assignee",
       "from": "Not recorded",
@@ -3332,17 +3449,98 @@
     },
     {
       "key": "NSDT-1957",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Unit Design (SUD)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SUD Write (including multi-model scheduler)",
       "at": "2026-07-06T14:53:22.576+0900",
       "field": "summary",
       "from": "Eagle-N TT-metal-E2 SUD Write (including multi-model scheduler)",
       "to": "[N1-B0] TT-metal-E2 SUD Write (including multi-model scheduler)"
     },
     {
+      "key": "NSDT-1954",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SAD Write",
+      "at": "2026-09-23T10:37:02.061+0900",
+      "field": "duedate",
+      "from": "2026-10-30 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1954",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SAD Write",
+      "at": "2026-09-07T14:08:08.990+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1954",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SAD Write",
+      "at": "2026-07-31T14:56:17.316+0900",
+      "field": "summary",
+      "from": "[N1-B0] UMD/KMD SAD Write",
+      "to": "[HS] UMD/KMD SAD Write"
+    },
+    {
+      "key": "NSDT-1954",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SAD Write",
+      "at": "2026-07-30T15:25:54.094+0900",
+      "field": "duedate",
+      "from": "2026-09-25 00:00:00.0",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1954",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SAD Write",
+      "at": "2026-07-30T15:21:29.619+0900",
+      "field": "assignee",
+      "from": "Nagoo Sung(성낙우)",
+      "to": "MyeongGI Jeong"
+    },
+    {
+      "key": "NSDT-1954",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SAD Write",
+      "at": "2026-07-30T15:21:29.619+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-25 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1954",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SAD Write",
+      "at": "2026-07-06T15:03:01.455+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Nagoo Sung(성낙우)"
+    },
+    {
+      "key": "NSDT-1954",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SAD Write",
+      "at": "2026-07-06T14:53:05.437+0900",
+      "field": "summary",
+      "from": "Eagle-N UMD/KMD SAD Write",
+      "to": "[N1-B0] UMD/KMD SAD Write"
+    },
+    {
       "key": "NSDT-1953",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SRS Write",
+      "at": "2026-09-23T10:27:28.607+0900",
+      "field": "duedate",
+      "from": "2026-09-30 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1953",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SRS Write",
       "at": "2026-09-15T13:03:20.825+0900",
       "field": "duedate",
       "from": "2026-10-30 00:00:00.0",
@@ -3350,8 +3548,8 @@
     },
     {
       "key": "NSDT-1953",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SRS Write",
       "at": "2026-07-31T14:55:53.109+0900",
       "field": "summary",
       "from": "[N1-B0] BOS-SMI SRS Write",
@@ -3359,8 +3557,8 @@
     },
     {
       "key": "NSDT-1953",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SRS Write",
       "at": "2026-07-30T15:25:15.279+0900",
       "field": "duedate",
       "from": "2026-09-25 00:00:00.0",
@@ -3368,8 +3566,8 @@
     },
     {
       "key": "NSDT-1953",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SRS Write",
       "at": "2026-07-30T15:21:29.622+0900",
       "field": "assignee",
       "from": "Nagoo Sung(성낙우)",
@@ -3377,8 +3575,8 @@
     },
     {
       "key": "NSDT-1953",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SRS Write",
       "at": "2026-07-30T15:21:29.622+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -3386,8 +3584,8 @@
     },
     {
       "key": "NSDT-1953",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SRS Write",
       "at": "2026-07-06T15:02:24.830+0900",
       "field": "assignee",
       "from": "Not recorded",
@@ -3395,8 +3593,8 @@
     },
     {
       "key": "NSDT-1953",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SRS Write",
       "at": "2026-07-06T14:52:56.386+0900",
       "field": "summary",
       "from": "Eagle-N BOS-SMI SRS Write",
@@ -3404,8 +3602,8 @@
     },
     {
       "key": "NSDT-1952",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SRS Write",
       "at": "2026-09-03T10:06:44.589+0900",
       "field": "status",
       "from": "In Progress",
@@ -3413,8 +3611,8 @@
     },
     {
       "key": "NSDT-1952",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SRS Write",
       "at": "2026-08-20T14:30:28.035+0900",
       "field": "status",
       "from": "To Do",
@@ -3422,8 +3620,8 @@
     },
     {
       "key": "NSDT-1952",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SRS Write",
       "at": "2026-07-31T14:55:37.897+0900",
       "field": "summary",
       "from": "[N1-B0] UMD/KMD SRS Write",
@@ -3431,8 +3629,8 @@
     },
     {
       "key": "NSDT-1952",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SRS Write",
       "at": "2026-07-30T15:24:54.416+0900",
       "field": "duedate",
       "from": "2026-08-28 00:00:00.0",
@@ -3440,8 +3638,8 @@
     },
     {
       "key": "NSDT-1952",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SRS Write",
       "at": "2026-07-30T15:21:29.617+0900",
       "field": "assignee",
       "from": "Nagoo Sung(성낙우)",
@@ -3449,8 +3647,8 @@
     },
     {
       "key": "NSDT-1952",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SRS Write",
       "at": "2026-07-30T15:21:29.617+0900",
       "field": "duedate",
       "from": "Not recorded",
@@ -3458,8 +3656,8 @@
     },
     {
       "key": "NSDT-1952",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SRS Write",
       "at": "2026-07-06T15:03:10.213+0900",
       "field": "assignee",
       "from": "Not recorded",
@@ -3467,12 +3665,84 @@
     },
     {
       "key": "NSDT-1952",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SRS Write",
       "at": "2026-07-06T14:52:44.991+0900",
       "field": "summary",
       "from": "Eagle-N UMD/KMD SRS Write",
       "to": "[N1-B0] UMD/KMD SRS Write"
+    },
+    {
+      "key": "NSDT-1951",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SRS write (including multi-model scheduler)",
+      "at": "2026-09-23T10:35:30.710+0900",
+      "field": "duedate",
+      "from": "2026-09-30 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1951",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SRS write (including multi-model scheduler)",
+      "at": "2026-09-15T16:49:48.640+0900",
+      "field": "duedate",
+      "from": "2026-09-25 00:00:00.0",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1951",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SRS write (including multi-model scheduler)",
+      "at": "2026-07-31T14:54:53.691+0900",
+      "field": "summary",
+      "from": "[N1-B0] TT-metal-E2 SRS write (including multi-model scheduler)",
+      "to": "[HS] TT-metal-E2 SRS write (including multi-model scheduler)"
+    },
+    {
+      "key": "NSDT-1951",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SRS write (including multi-model scheduler)",
+      "at": "2026-07-30T15:24:30.032+0900",
+      "field": "duedate",
+      "from": "2026-08-28 00:00:00.0",
+      "to": "2026-09-25 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1951",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SRS write (including multi-model scheduler)",
+      "at": "2026-07-30T15:21:30.035+0900",
+      "field": "assignee",
+      "from": "Nagoo Sung(성낙우)",
+      "to": "MyeongGI Jeong"
+    },
+    {
+      "key": "NSDT-1951",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SRS write (including multi-model scheduler)",
+      "at": "2026-07-30T15:21:30.035+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-08-28 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1951",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SRS write (including multi-model scheduler)",
+      "at": "2026-07-06T15:02:45.424+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Nagoo Sung(성낙우)"
+    },
+    {
+      "key": "NSDT-1951",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SRS write (including multi-model scheduler)",
+      "at": "2026-07-06T14:52:35.254+0900",
+      "field": "summary",
+      "from": "TT-metal-E2 SRS write (including multi-model scheduler)",
+      "to": "[N1-B0] TT-metal-E2 SRS write (including multi-model scheduler)"
     },
     {
       "key": "NSDT-1949",
@@ -3500,69 +3770,6 @@
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-12-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1951",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "at": "2026-09-15T16:49:48.640+0900",
-      "field": "duedate",
-      "from": "2026-09-25 00:00:00.0",
-      "to": "2026-09-30 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1951",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "at": "2026-07-31T14:54:53.691+0900",
-      "field": "summary",
-      "from": "[N1-B0] TT-metal-E2 SRS write (including multi-model scheduler)",
-      "to": "[HS] TT-metal-E2 SRS write (including multi-model scheduler)"
-    },
-    {
-      "key": "NSDT-1951",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "at": "2026-07-30T15:24:30.032+0900",
-      "field": "duedate",
-      "from": "2026-08-28 00:00:00.0",
-      "to": "2026-09-25 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1951",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "at": "2026-07-30T15:21:30.035+0900",
-      "field": "assignee",
-      "from": "Nagoo Sung(성낙우)",
-      "to": "MyeongGI Jeong"
-    },
-    {
-      "key": "NSDT-1951",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "at": "2026-07-30T15:21:30.035+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-08-28 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1951",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "at": "2026-07-06T15:02:45.424+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Nagoo Sung(성낙우)"
-    },
-    {
-      "key": "NSDT-1951",
-      "section": "Dev. Spec. Documents",
-      "title": "SW Req. Specification (SRS)",
-      "at": "2026-07-06T14:52:35.254+0900",
-      "field": "summary",
-      "from": "TT-metal-E2 SRS write (including multi-model scheduler)",
-      "to": "[N1-B0] TT-metal-E2 SRS write (including multi-model scheduler)"
     },
     {
       "key": "NSDT-1948",
@@ -3646,6 +3853,204 @@
       "to": "Nguyen Dang Thoi Toan"
     },
     {
+      "key": "NSDT-1944",
+      "section": "Host SW",
+      "title": "Vision Quantization scripts with Quandora (Symmetric / PTQ)",
+      "at": "2026-09-22T15:09:57.902+0900",
+      "field": "status",
+      "from": "RE-OPEN",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1944",
+      "section": "Host SW",
+      "title": "Vision Quantization scripts with Quandora (Symmetric / PTQ)",
+      "at": "2026-09-22T15:09:55.156+0900",
+      "field": "status",
+      "from": "pre-silicon done",
+      "to": "RE-OPEN"
+    },
+    {
+      "key": "NSDT-1944",
+      "section": "Host SW",
+      "title": "Vision Quantization scripts with Quandora (Symmetric / PTQ)",
+      "at": "2026-09-18T00:49:40.999+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1944",
+      "section": "Host SW",
+      "title": "Vision Quantization scripts with Quandora (Symmetric / PTQ)",
+      "at": "2026-09-04T15:00:10.672+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Doc] Vision Quantization Workflow for Customer Vision Model documentation",
+      "to": "[N1-B0][AISW][Doc] AIMET-based Vision Quantization Workflow for Customer Vision Model documentation"
+    },
+    {
+      "key": "NSDT-1944",
+      "section": "Host SW",
+      "title": "Vision Quantization scripts with Quandora (Symmetric / PTQ)",
+      "at": "2026-09-02T16:59:38.318+0900",
+      "field": "assignee",
+      "from": "Nguyen Viet Nhat",
+      "to": "Hoang Nhat Quang"
+    },
+    {
+      "key": "NSDT-1944",
+      "section": "Host SW",
+      "title": "Vision Quantization scripts with Quandora (Symmetric / PTQ)",
+      "at": "2026-08-24T10:30:27.313+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1944",
+      "section": "Host SW",
+      "title": "Vision Quantization scripts with Quandora (Symmetric / PTQ)",
+      "at": "2026-08-18T14:29:52.185+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Nguyen Viet Nhat"
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Production-Ready Deployment Flow",
+      "at": "2026-07-15T13:21:38.222+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Production-Ready Deployment Flow",
+      "at": "2026-07-15T13:21:32.551+0900",
+      "field": "duedate",
+      "from": "2026-09-30 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Production-Ready Deployment Flow",
+      "at": "2026-07-08T11:56:01.549+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Production-Ready Deployment Flow",
+      "at": "2026-07-05T14:41:24.374+0900",
+      "field": "duedate",
+      "from": "2026-08-31 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Production-Ready Deployment Flow",
+      "at": "2026-07-05T14:13:58.851+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-08-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Production-Ready Deployment Flow",
+      "at": "2026-07-05T14:13:48.017+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Dang Thanh Huy"
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Performance-Driven Data Formats",
+      "at": "2026-09-01T16:26:07.882+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Performance-Driven Data Formats",
+      "at": "2026-07-15T13:21:19.698+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Performance-Driven Data Formats",
+      "at": "2026-07-15T13:21:14.990+0900",
+      "field": "duedate",
+      "from": "2026-08-31 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Performance-Driven Data Formats",
+      "at": "2026-07-08T11:55:51.417+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-08-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Performance-Driven Data Formats",
+      "at": "2026-07-05T14:41:12.773+0900",
+      "field": "duedate",
+      "from": "2026-08-31 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Performance-Driven Data Formats",
+      "at": "2026-07-05T14:40:53.909+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "To Do"
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Performance-Driven Data Formats",
+      "at": "2026-07-05T14:13:17.689+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Performance-Driven Data Formats",
+      "at": "2026-07-05T14:12:53.265+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-08-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Performance-Driven Data Formats",
+      "at": "2026-07-05T14:11:42.530+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Dang Thanh Huy"
+    },
+    {
       "key": "NSDT-1946",
       "section": "Ref. Models",
       "title": "Resnet50/Yolo Quantized",
@@ -3700,179 +4105,8 @@
       "to": "[N1-B0][AISW][Quantization] INT8 w8a8 quantization for Vision models (ResNet50, YOLOv8s, ViT, PDL, OFT/FastOFT, SSR) "
     },
     {
-      "key": "NSDT-1944",
-      "section": "SDK Packaging",
-      "title": "AIMET based - Vision Quantization Workflow for Customer Vision Model documentation",
-      "at": "2026-09-04T15:00:10.672+0900",
-      "field": "summary",
-      "from": "[N1-B0][AISW][Doc] Vision Quantization Workflow for Customer Vision Model documentation",
-      "to": "[N1-B0][AISW][Doc] AIMET-based Vision Quantization Workflow for Customer Vision Model documentation"
-    },
-    {
-      "key": "NSDT-1944",
-      "section": "SDK Packaging",
-      "title": "AIMET based - Vision Quantization Workflow for Customer Vision Model documentation",
-      "at": "2026-09-02T16:59:38.318+0900",
-      "field": "assignee",
-      "from": "Nguyen Viet Nhat",
-      "to": "Hoang Nhat Quang"
-    },
-    {
-      "key": "NSDT-1944",
-      "section": "SDK Packaging",
-      "title": "AIMET based - Vision Quantization Workflow for Customer Vision Model documentation",
-      "at": "2026-08-24T10:30:27.313+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-1944",
-      "section": "SDK Packaging",
-      "title": "AIMET based - Vision Quantization Workflow for Customer Vision Model documentation",
-      "at": "2026-08-18T14:29:52.185+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Nguyen Viet Nhat"
-    },
-    {
-      "key": "NSDT-1943",
-      "section": "AI Model Dev. Tools",
-      "title": "Production-Ready Deployment Flow",
-      "at": "2026-07-15T13:21:38.222+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-1943",
-      "section": "AI Model Dev. Tools",
-      "title": "Production-Ready Deployment Flow",
-      "at": "2026-07-15T13:21:32.551+0900",
-      "field": "duedate",
-      "from": "2026-09-30 00:00:00.0",
-      "to": "2026-12-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1943",
-      "section": "AI Model Dev. Tools",
-      "title": "Production-Ready Deployment Flow",
-      "at": "2026-07-08T11:56:01.549+0900",
-      "field": "duedate",
-      "from": "2026-12-31 00:00:00.0",
-      "to": "2026-09-30 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1943",
-      "section": "AI Model Dev. Tools",
-      "title": "Production-Ready Deployment Flow",
-      "at": "2026-07-05T14:41:24.374+0900",
-      "field": "duedate",
-      "from": "2026-08-31 00:00:00.0",
-      "to": "2026-12-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1943",
-      "section": "AI Model Dev. Tools",
-      "title": "Production-Ready Deployment Flow",
-      "at": "2026-07-05T14:13:58.851+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-08-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1943",
-      "section": "AI Model Dev. Tools",
-      "title": "Production-Ready Deployment Flow",
-      "at": "2026-07-05T14:13:48.017+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Dang Thanh Huy"
-    },
-    {
-      "key": "NSDT-1942",
-      "section": "AI Model Dev. Tools",
-      "title": "Performance-Driven Data Formats",
-      "at": "2026-09-01T16:26:07.882+0900",
-      "field": "status",
-      "from": "In Progress",
-      "to": "pre-silicon done"
-    },
-    {
-      "key": "NSDT-1942",
-      "section": "AI Model Dev. Tools",
-      "title": "Performance-Driven Data Formats",
-      "at": "2026-07-15T13:21:19.698+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-1942",
-      "section": "AI Model Dev. Tools",
-      "title": "Performance-Driven Data Formats",
-      "at": "2026-07-15T13:21:14.990+0900",
-      "field": "duedate",
-      "from": "2026-08-31 00:00:00.0",
-      "to": "2026-12-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1942",
-      "section": "AI Model Dev. Tools",
-      "title": "Performance-Driven Data Formats",
-      "at": "2026-07-08T11:55:51.417+0900",
-      "field": "duedate",
-      "from": "2026-12-31 00:00:00.0",
-      "to": "2026-08-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1942",
-      "section": "AI Model Dev. Tools",
-      "title": "Performance-Driven Data Formats",
-      "at": "2026-07-05T14:41:12.773+0900",
-      "field": "duedate",
-      "from": "2026-08-31 00:00:00.0",
-      "to": "2026-12-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1942",
-      "section": "AI Model Dev. Tools",
-      "title": "Performance-Driven Data Formats",
-      "at": "2026-07-05T14:40:53.909+0900",
-      "field": "status",
-      "from": "In Progress",
-      "to": "To Do"
-    },
-    {
-      "key": "NSDT-1942",
-      "section": "AI Model Dev. Tools",
-      "title": "Performance-Driven Data Formats",
-      "at": "2026-07-05T14:13:17.689+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-1942",
-      "section": "AI Model Dev. Tools",
-      "title": "Performance-Driven Data Formats",
-      "at": "2026-07-05T14:12:53.265+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-08-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1942",
-      "section": "AI Model Dev. Tools",
-      "title": "Performance-Driven Data Formats",
-      "at": "2026-07-05T14:11:42.530+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Dang Thanh Huy"
-    },
-    {
       "key": "NSDT-1941",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "New Operation / Custom Operation Enablement",
       "at": "2026-07-15T13:21:00.639+0900",
       "field": "status",
@@ -3881,7 +4115,7 @@
     },
     {
       "key": "NSDT-1941",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "New Operation / Custom Operation Enablement",
       "at": "2026-07-15T13:20:52.662+0900",
       "field": "duedate",
@@ -3890,7 +4124,7 @@
     },
     {
       "key": "NSDT-1941",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "New Operation / Custom Operation Enablement",
       "at": "2026-07-08T11:55:37.279+0900",
       "field": "duedate",
@@ -3899,7 +4133,7 @@
     },
     {
       "key": "NSDT-1941",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "New Operation / Custom Operation Enablement",
       "at": "2026-07-05T14:41:03.643+0900",
       "field": "duedate",
@@ -3908,7 +4142,7 @@
     },
     {
       "key": "NSDT-1941",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "New Operation / Custom Operation Enablement",
       "at": "2026-07-05T14:14:51.635+0900",
       "field": "duedate",
@@ -3917,7 +4151,7 @@
     },
     {
       "key": "NSDT-1941",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "New Operation / Custom Operation Enablement",
       "at": "2026-07-05T14:11:05.370+0900",
       "field": "duedate",
@@ -3926,7 +4160,7 @@
     },
     {
       "key": "NSDT-1941",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "New Operation / Custom Operation Enablement",
       "at": "2026-07-05T14:10:37.024+0900",
       "field": "assignee",
@@ -3935,7 +4169,7 @@
     },
     {
       "key": "NSDT-1941",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "New Operation / Custom Operation Enablement",
       "at": "2026-07-05T14:10:35.306+0900",
       "field": "summary",
@@ -3944,7 +4178,7 @@
     },
     {
       "key": "NSDT-1940",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "High-Efficiency Operator Fusion",
       "at": "2026-09-01T16:25:51.005+0900",
       "field": "status",
@@ -3953,7 +4187,7 @@
     },
     {
       "key": "NSDT-1940",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "High-Efficiency Operator Fusion",
       "at": "2026-07-15T13:20:40.127+0900",
       "field": "status",
@@ -3962,7 +4196,7 @@
     },
     {
       "key": "NSDT-1940",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "High-Efficiency Operator Fusion",
       "at": "2026-07-15T13:20:37.815+0900",
       "field": "duedate",
@@ -3971,7 +4205,7 @@
     },
     {
       "key": "NSDT-1940",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "High-Efficiency Operator Fusion",
       "at": "2026-07-08T11:55:22.850+0900",
       "field": "duedate",
@@ -3980,7 +4214,7 @@
     },
     {
       "key": "NSDT-1940",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "High-Efficiency Operator Fusion",
       "at": "2026-07-05T14:40:47.497+0900",
       "field": "status",
@@ -3989,7 +4223,7 @@
     },
     {
       "key": "NSDT-1940",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "High-Efficiency Operator Fusion",
       "at": "2026-07-05T14:40:43.641+0900",
       "field": "duedate",
@@ -3998,7 +4232,7 @@
     },
     {
       "key": "NSDT-1940",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "High-Efficiency Operator Fusion",
       "at": "2026-07-05T14:09:33.110+0900",
       "field": "duedate",
@@ -4007,7 +4241,7 @@
     },
     {
       "key": "NSDT-1940",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "High-Efficiency Operator Fusion",
       "at": "2026-07-05T14:07:52.608+0900",
       "field": "assignee",
@@ -4016,7 +4250,7 @@
     },
     {
       "key": "NSDT-1940",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "High-Efficiency Operator Fusion",
       "at": "2026-07-05T14:07:48.229+0900",
       "field": "status",
@@ -4024,107 +4258,8 @@
       "to": "In Progress"
     },
     {
-      "key": "NSDT-1938",
-      "section": "AI Model Dev. Tools",
-      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
-      "at": "2026-07-15T13:20:02.473+0900",
-      "field": "duedate",
-      "from": "2026-09-30 00:00:00.0",
-      "to": "2026-12-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1938",
-      "section": "AI Model Dev. Tools",
-      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
-      "at": "2026-07-15T13:19:37.330+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-1938",
-      "section": "AI Model Dev. Tools",
-      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
-      "at": "2026-07-08T11:55:08.434+0900",
-      "field": "duedate",
-      "from": "2026-08-31 00:00:00.0",
-      "to": "2026-09-30 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1938",
-      "section": "AI Model Dev. Tools",
-      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
-      "at": "2026-07-08T11:54:34.778+0900",
-      "field": "duedate",
-      "from": "2026-12-31 00:00:00.0",
-      "to": "2026-08-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1938",
-      "section": "AI Model Dev. Tools",
-      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
-      "at": "2026-07-05T14:40:50.228+0900",
-      "field": "status",
-      "from": "In Progress",
-      "to": "To Do"
-    },
-    {
-      "key": "NSDT-1938",
-      "section": "AI Model Dev. Tools",
-      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
-      "at": "2026-07-05T14:40:14.530+0900",
-      "field": "duedate",
-      "from": "2026-08-31 00:00:00.0",
-      "to": "2026-12-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1938",
-      "section": "AI Model Dev. Tools",
-      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
-      "at": "2026-07-05T14:09:57.815+0900",
-      "field": "duedate",
-      "from": "2026-07-31 00:00:00.0",
-      "to": "2026-08-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1938",
-      "section": "AI Model Dev. Tools",
-      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
-      "at": "2026-07-05T14:06:23.548+0900",
-      "field": "summary",
-      "from": "[N1-B0][AISW][BOS Compiler] Graph Optimization ",
-      "to": "[N1-B0][AISW][BOS Compiler] Graph-Aware Memory, layout, and Sharding Optimization"
-    },
-    {
-      "key": "NSDT-1938",
-      "section": "AI Model Dev. Tools",
-      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
-      "at": "2026-07-05T14:04:56.053+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-1938",
-      "section": "AI Model Dev. Tools",
-      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
-      "at": "2026-07-05T14:04:52.703+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Dang Thanh Huy"
-    },
-    {
-      "key": "NSDT-1938",
-      "section": "AI Model Dev. Tools",
-      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
-      "at": "2026-07-05T14:04:31.343+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-07-31 00:00:00.0"
-    },
-    {
       "key": "NSDT-1939",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "Graph Optimization",
       "at": "2026-09-01T16:25:04.642+0900",
       "field": "status",
@@ -4133,7 +4268,7 @@
     },
     {
       "key": "NSDT-1939",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "Graph Optimization",
       "at": "2026-07-15T13:20:21.784+0900",
       "field": "status",
@@ -4142,7 +4277,7 @@
     },
     {
       "key": "NSDT-1939",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "Graph Optimization",
       "at": "2026-07-15T13:20:18.190+0900",
       "field": "duedate",
@@ -4151,7 +4286,7 @@
     },
     {
       "key": "NSDT-1939",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "Graph Optimization",
       "at": "2026-07-08T11:54:56.420+0900",
       "field": "duedate",
@@ -4160,7 +4295,7 @@
     },
     {
       "key": "NSDT-1939",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "Graph Optimization",
       "at": "2026-07-05T14:40:48.935+0900",
       "field": "status",
@@ -4169,7 +4304,7 @@
     },
     {
       "key": "NSDT-1939",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "Graph Optimization",
       "at": "2026-07-05T14:40:30.090+0900",
       "field": "duedate",
@@ -4178,7 +4313,7 @@
     },
     {
       "key": "NSDT-1939",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "Graph Optimization",
       "at": "2026-07-05T14:09:48.272+0900",
       "field": "duedate",
@@ -4187,7 +4322,7 @@
     },
     {
       "key": "NSDT-1939",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "Graph Optimization",
       "at": "2026-07-05T14:06:49.256+0900",
       "field": "duedate",
@@ -4196,7 +4331,7 @@
     },
     {
       "key": "NSDT-1939",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "Graph Optimization",
       "at": "2026-07-05T14:06:35.565+0900",
       "field": "assignee",
@@ -4205,12 +4340,111 @@
     },
     {
       "key": "NSDT-1939",
-      "section": "AI Model Dev. Tools",
+      "section": "AI Model Dev. Tools for Eagle N",
       "title": "Graph Optimization",
       "at": "2026-07-05T14:06:32.964+0900",
       "field": "status",
       "from": "To Do",
       "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-15T13:20:02.473+0900",
+      "field": "duedate",
+      "from": "2026-09-30 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-15T13:19:37.330+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-08T11:55:08.434+0900",
+      "field": "duedate",
+      "from": "2026-08-31 00:00:00.0",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-08T11:54:34.778+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-08-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-05T14:40:50.228+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "To Do"
+    },
+    {
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-05T14:40:14.530+0900",
+      "field": "duedate",
+      "from": "2026-08-31 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-05T14:09:57.815+0900",
+      "field": "duedate",
+      "from": "2026-07-31 00:00:00.0",
+      "to": "2026-08-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-05T14:06:23.548+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][BOS Compiler] Graph Optimization ",
+      "to": "[N1-B0][AISW][BOS Compiler] Graph-Aware Memory, layout, and Sharding Optimization"
+    },
+    {
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-05T14:04:56.053+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-05T14:04:52.703+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Dang Thanh Huy"
+    },
+    {
+      "key": "NSDT-1938",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Graph-Aware Memory, Layout, and Sharding Optimization",
+      "at": "2026-07-05T14:04:31.343+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-07-31 00:00:00.0"
     },
     {
       "key": "NSDT-1934",

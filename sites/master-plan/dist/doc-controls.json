@@ -1,0 +1,3234 @@
+{
+  "source": "SharePoint workbook documentation sheet + direct Jira issue reads",
+  "observedAt": "2026-09-23T02:50:18.240176+00:00",
+  "documentationSheet": "Eagle-N B0 Doc Delivery Plan",
+  "pairs": [
+    {
+      "writing": {
+        "id": "documentation-row-23",
+        "row": 23,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "BSP",
+        "title": "SW Req. Specification (SRS)",
+        "team": "BHRC",
+        "owner": "Tung/Vu",
+        "ticket": "[NSDT-1306]",
+        "key": "NSDT-1306",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-1306",
+        "status": "P-D",
+        "preTarget": "2026-05-15",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-05-15",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "[NSDT-1306]",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-1306"
+          }
+        ],
+        "raw": [
+          "Dev. Spec.",
+          "BSP",
+          "SW Req. Specification (SRS)",
+          "BHRC",
+          "Tung/Vu",
+          "[NSDT-1306]",
+          "P-D",
+          "5/15/26",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SRS",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-1306",
+          "summary": "[SFI][SRS] Specify SRS for SafetyIsland",
+          "status": "Done",
+          "assignee": "Tung Vo",
+          "dueDate": "2026-05-15",
+          "created": "2026-05-15T07:23:02.825+0900",
+          "updated": "2026-09-22T09:05:35.292+0900",
+          "labels": [
+            "EN-Dev-Spec-Doc"
+          ],
+          "parent": "NSDT-1434"
+        },
+        "jiraStatus": "Done"
+      },
+      "review": {
+        "id": "documentation-row-24",
+        "row": 24,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "BSP",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "NSDT-1598",
+        "key": "NSDT-1598",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-1598",
+        "status": "P-D",
+        "preTarget": "2026-05-15",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-05-15",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "NSDT-1598",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-1598"
+          }
+        ],
+        "raw": [
+          "Documents",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "NSDT-1598",
+          "P-D",
+          "5/15/26",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-1598",
+          "summary": "ML SRS Review by SE",
+          "status": "Done",
+          "assignee": "Ngo Chi Kien",
+          "dueDate": "2026-06-30",
+          "created": "2026-06-04T13:09:32.979+0900",
+          "updated": "2026-09-21T15:23:55.574+0900",
+          "labels": [],
+          "parent": "NSDT-1091"
+        },
+        "jiraStatus": "Done"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-25",
+        "row": 25,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "BSP",
+        "title": "SW Arch. Specification (SAD)",
+        "team": "BHRC",
+        "owner": "Tung/Vu",
+        "ticket": "[NSDT-1308]",
+        "key": "NSDT-1308",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-1308",
+        "status": "G",
+        "preTarget": "2026-10-02",
+        "summary": "22-Sep: Dynamic View has been completed for both SFI and MainLand. However, there are some corrections and traceability mapping request to be done by 23-Sep. Then, proceed with official review.",
+        "sdk": "",
+        "preDue": "2026-10-02",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "[NSDT-1308]",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-1308"
+          }
+        ],
+        "raw": [
+          "",
+          "",
+          "SW Arch. Specification (SAD)",
+          "BHRC",
+          "Tung/Vu",
+          "[NSDT-1308]",
+          "G",
+          "10/2/26",
+          "",
+          "",
+          "22-Sep: Dynamic View has been completed for both SFI and MainLand. However, there are some corrections and traceability mapping request to be done by 23-Sep. Then, proceed with official review.",
+          ""
+        ],
+        "review": false,
+        "documentType": "SAD",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-1308",
+          "summary": "[SFI][SAD] Specify SAD for SafetyIsland",
+          "status": "RE-OPEN",
+          "assignee": "Tung Vo",
+          "dueDate": "",
+          "created": "2026-05-15T07:24:44.376+0900",
+          "updated": "2026-09-21T15:30:29.819+0900",
+          "labels": [
+            "EN-Dev-Spec-Doc",
+            "eaglenb0-sw-dev"
+          ],
+          "parent": "NSDT-1434"
+        },
+        "jiraStatus": "To Do"
+      },
+      "review": {
+        "id": "documentation-row-26",
+        "row": 26,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "BSP",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "NSDT-1599",
+        "key": "NSDT-1599",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-1599",
+        "status": "Unknown",
+        "preTarget": "2026-10-09",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-10-09",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "NSDT-1599",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-1599"
+          }
+        ],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "NSDT-1599",
+          "",
+          "10/9/26",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-1599",
+          "summary": "ML and SFI SAD Review by SE (except Security Part)",
+          "status": "To Do",
+          "assignee": "Ngo Chi Kien",
+          "dueDate": "",
+          "created": "2026-06-04T13:09:40.087+0900",
+          "updated": "2026-09-15T16:53:07.930+0900",
+          "labels": [],
+          "parent": "NSDT-1091"
+        },
+        "jiraStatus": "To Do"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-27",
+        "row": 27,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "BSP",
+        "title": "SW Unit Design (SUD)",
+        "team": "BHRC",
+        "owner": "Tung/Vu",
+        "ticket": "[NSDT-1861]",
+        "key": "NSDT-1861",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-1861",
+        "status": "TBD",
+        "preTarget": "",
+        "summary": "22-Sep: Extended discussion with Dev. Leaders about redundancies in SUD template, and scope of work. Conclusion requires decisions from HQ PM team and Process Team via Email.",
+        "sdk": "",
+        "preDue": "",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "[NSDT-1861]",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-1861"
+          }
+        ],
+        "raw": [
+          "",
+          "",
+          "SW Unit Design (SUD)",
+          "BHRC",
+          "Tung/Vu",
+          "[NSDT-1861]",
+          "TBD",
+          "",
+          "",
+          "",
+          "22-Sep: Extended discussion with Dev. Leaders about redundancies in SUD template, and scope of work. Conclusion requires decisions from HQ PM team and Process Team via Email.",
+          ""
+        ],
+        "review": false,
+        "documentType": "SUD",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-1861",
+          "summary": "[SFI][SUD] Specify SUD for SafetyIsland",
+          "status": "Done",
+          "assignee": "Tung Vo",
+          "dueDate": "2026-06-12",
+          "created": "2026-06-22T16:10:31.629+0900",
+          "updated": "2026-09-22T09:03:57.485+0900",
+          "labels": [
+            "EN-Dev-Spec-Doc"
+          ],
+          "parent": "NSDT-1434"
+        },
+        "jiraStatus": "Done"
+      },
+      "review": {
+        "id": "documentation-row-28",
+        "row": 28,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "BSP",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "NSDT-2615",
+        "key": "NSDT-2615",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2615",
+        "status": "TBD",
+        "preTarget": "",
+        "summary": "",
+        "sdk": "",
+        "preDue": "",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "NSDT-2615",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-2615"
+          }
+        ],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "NSDT-2615",
+          "TBD",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-2615",
+          "summary": "BSP SUD Review",
+          "status": "To Do",
+          "assignee": "",
+          "dueDate": "",
+          "created": "2026-09-21T18:57:45.367+0900",
+          "updated": "2026-09-21T18:57:45.719+0900",
+          "labels": [],
+          "parent": "NSDT-1091"
+        },
+        "jiraStatus": "To Do"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-29",
+        "row": 29,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "NPU Virtualization",
+        "title": "SW Req. Specification (SRS)",
+        "team": "CoreSW",
+        "owner": "??",
+        "ticket": "?",
+        "key": "",
+        "url": "",
+        "status": "TBD",
+        "preTarget": "",
+        "summary": "Hw virtualization possibility under confirmation by Hw team, SW partitionin in tt-metal-e2 runtime.",
+        "sdk": "",
+        "preDue": "",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "NPU Virtualization",
+          "SW Req. Specification (SRS)",
+          "CoreSW",
+          "??",
+          "?",
+          "TBD",
+          "",
+          "",
+          "",
+          "Hw virtualization possibility under confirmation by Hw team, SW partitionin in tt-metal-e2 runtime.",
+          ""
+        ],
+        "review": false,
+        "documentType": "SRS",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "",
+          "error": "No Jira key"
+        },
+        "jiraStatus": "Unknown"
+      },
+      "review": {
+        "id": "documentation-row-30",
+        "row": 30,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "NPU Virtualization",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "conf. page??",
+        "key": "",
+        "url": "",
+        "status": "TBD",
+        "preTarget": "",
+        "summary": "",
+        "sdk": "",
+        "preDue": "",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "conf. page??",
+          "TBD",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": false,
+        "jira": {
+          "key": "",
+          "error": "No Jira key"
+        },
+        "jiraStatus": "Unknown"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-31",
+        "row": 31,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "NPU Virtualization",
+        "title": "SW Arch. Specification (SAD)",
+        "team": "CoreSW",
+        "owner": "??",
+        "ticket": "?",
+        "key": "",
+        "url": "",
+        "status": "TBD",
+        "preTarget": "",
+        "summary": "",
+        "sdk": "",
+        "preDue": "",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "SW Arch. Specification (SAD)",
+          "CoreSW",
+          "??",
+          "?",
+          "TBD",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SAD",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "",
+          "error": "No Jira key"
+        },
+        "jiraStatus": "Unknown"
+      },
+      "review": {
+        "id": "documentation-row-32",
+        "row": 32,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "NPU Virtualization",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "conf. page??",
+        "key": "",
+        "url": "",
+        "status": "TBD",
+        "preTarget": "",
+        "summary": "",
+        "sdk": "",
+        "preDue": "",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "conf. page??",
+          "TBD",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": false,
+        "jira": {
+          "key": "",
+          "error": "No Jira key"
+        },
+        "jiraStatus": "Unknown"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-33",
+        "row": 33,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "NPU Virtualization",
+        "title": "SW Unit Design (SUD)",
+        "team": "CoreSW",
+        "owner": "??",
+        "ticket": "?",
+        "key": "",
+        "url": "",
+        "status": "TBD",
+        "preTarget": "",
+        "summary": "",
+        "sdk": "",
+        "preDue": "",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "SW Unit Design (SUD)",
+          "CoreSW",
+          "??",
+          "?",
+          "TBD",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SUD",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "",
+          "error": "No Jira key"
+        },
+        "jiraStatus": "Unknown"
+      },
+      "review": {
+        "id": "documentation-row-34",
+        "row": 34,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "NPU Virtualization",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "conf. page??",
+        "key": "",
+        "url": "",
+        "status": "TBD",
+        "preTarget": "",
+        "summary": "",
+        "sdk": "",
+        "preDue": "",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "conf. page??",
+          "TBD",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": false,
+        "jira": {
+          "key": "",
+          "error": "No Jira key"
+        },
+        "jiraStatus": "Unknown"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-35",
+        "row": 35,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "TT-metal-e2",
+        "title": "SW Req. Specification (SRS)",
+        "team": "CoreSW",
+        "owner": "MyeongGI Jeong",
+        "ticket": "[NSDT-1951]",
+        "key": "NSDT-1951",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-1951",
+        "status": "D",
+        "preTarget": "2026-09-30",
+        "summary": "Mid October for NPU Sw virtualization/partitioning part",
+        "sdk": "",
+        "preDue": "2026-09-30",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "[NSDT-1951]",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-1951"
+          }
+        ],
+        "raw": [
+          "",
+          "TT-metal-e2",
+          "SW Req. Specification (SRS)",
+          "CoreSW",
+          "MyeongGI Jeong",
+          "[NSDT-1951]",
+          "D",
+          "2026-09-30",
+          "",
+          "",
+          "Mid October for NPU Sw virtualization/partitioning part",
+          ""
+        ],
+        "review": false,
+        "documentType": "SRS",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-1951",
+          "summary": "[HS] TT-metal-E2 SRS write (including multi-model scheduler)",
+          "status": "To Do",
+          "assignee": "MyeongGI Jeong",
+          "dueDate": "",
+          "created": "2026-07-06T14:44:42.232+0900",
+          "updated": "2026-09-23T10:35:30.710+0900",
+          "labels": [
+            "EN-Dev-Spec-Doc",
+            "HOST_SW_Req",
+            "host_sw_master_plan"
+          ],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "review": {
+        "id": "documentation-row-36",
+        "row": 36,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "incl. UMD/KMD,",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "NSDT-2600",
+        "key": "NSDT-2600",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2600",
+        "status": "TBD",
+        "preTarget": "2026-10-14",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-10-14",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "incl. UMD/KMD,",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "NSDT-2600",
+          "TBD",
+          "2026-10-14",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-2600",
+          "summary": "[Review][HS] TT-metal-E2 SRS write (including multi-model scheduler)",
+          "status": "To Do",
+          "assignee": "Simon Jacqmart",
+          "dueDate": "",
+          "created": "2026-09-21T17:45:29.403+0900",
+          "updated": "2026-09-23T10:24:17.765+0900",
+          "labels": [],
+          "parent": "NSDT-1951"
+        },
+        "jiraStatus": "To Do"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-37",
+        "row": 37,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "multi-model scheduler",
+        "title": "SW Arch. Specification (SAD)",
+        "team": "CoreSW",
+        "owner": "MyeongGI Jeong",
+        "ticket": "[NSDT-1961]",
+        "key": "NSDT-1961",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-1961",
+        "status": "Unknown",
+        "preTarget": "2026-10-16",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-10-16",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "[NSDT-1961]",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-1961"
+          }
+        ],
+        "raw": [
+          "",
+          "multi-model scheduler",
+          "SW Arch. Specification (SAD)",
+          "CoreSW",
+          "MyeongGI Jeong",
+          "[NSDT-1961]",
+          "",
+          "2026-10-16",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SAD",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-1961",
+          "summary": "[HS] TT-metal-E2 SAD write (including multi-model scheduler)",
+          "status": "To Do",
+          "assignee": "MyeongGI Jeong",
+          "dueDate": "",
+          "created": "2026-07-06T14:55:34.867+0900",
+          "updated": "2026-09-23T10:40:18.354+0900",
+          "labels": [
+            "EN-Dev-Spec-Doc",
+            "HOST_SW_Req",
+            "host_sw_master_plan"
+          ],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "review": {
+        "id": "documentation-row-38",
+        "row": 38,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Virtualization",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "NSDT-2601",
+        "key": "NSDT-2601",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2601",
+        "status": "Unknown",
+        "preTarget": "2026-11-11",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-11-11",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "Virtualization",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "NSDT-2601",
+          "",
+          "2026-11-11",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-2601",
+          "summary": "[Review][HS] TT-metal-E2 SAD write (including multi-model scheduler)",
+          "status": "To Do",
+          "assignee": "Simon Jacqmart",
+          "dueDate": "",
+          "created": "2026-09-21T17:47:28.155+0900",
+          "updated": "2026-09-23T10:24:54.867+0900",
+          "labels": [],
+          "parent": "NSDT-1961"
+        },
+        "jiraStatus": "To Do"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-39",
+        "row": 39,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Virtualization",
+        "title": "SW Unit Design (SUD)",
+        "team": "CoreSW",
+        "owner": "MyeongGI Jeong",
+        "ticket": "[NSDT-1957]",
+        "key": "NSDT-1957",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-1957",
+        "status": "Unknown",
+        "preTarget": "2026-10-30",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-10-30",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "[NSDT-1957]",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-1957"
+          }
+        ],
+        "raw": [
+          "",
+          "",
+          "SW Unit Design (SUD)",
+          "CoreSW",
+          "MyeongGI Jeong",
+          "[NSDT-1957]",
+          "",
+          "2026-10-30",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SUD",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-1957",
+          "summary": "[HS] TT-metal-E2 SUD Write (including multi-model scheduler)",
+          "status": "To Do",
+          "assignee": "MyeongGI Jeong",
+          "dueDate": "",
+          "created": "2026-07-06T14:48:39.940+0900",
+          "updated": "2026-09-23T10:36:33.204+0900",
+          "labels": [
+            "EN-Dev-Spec-Doc",
+            "HOST_SW_Req",
+            "host_sw_master_plan"
+          ],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "review": {
+        "id": "documentation-row-40",
+        "row": 40,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Virtualization",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "NSDT-2602",
+        "key": "NSDT-2602",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2602",
+        "status": "Unknown",
+        "preTarget": "2026-12-16",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-12-16",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "NSDT-2602",
+          "",
+          "2026-12-16",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-2602",
+          "summary": "[Review][HS] TT-metal-E2 SUD Write (including multi-model scheduler)",
+          "status": "To Do",
+          "assignee": "Simon Jacqmart",
+          "dueDate": "",
+          "created": "2026-09-21T17:53:12.184+0900",
+          "updated": "2026-09-23T10:25:20.855+0900",
+          "labels": [],
+          "parent": "NSDT-1957"
+        },
+        "jiraStatus": "To Do"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-41",
+        "row": 41,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "BOS-SMI",
+        "title": "SW Req. Specification (SRS)",
+        "team": "CoreSW",
+        "owner": "MyeongGI Jeong",
+        "ticket": "[NSDT-1953]",
+        "key": "NSDT-1953",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-1953",
+        "status": "Unknown",
+        "preTarget": "2026-10-16",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-10-16",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "[NSDT-1953]",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-1953"
+          }
+        ],
+        "raw": [
+          "",
+          "BOS-SMI",
+          "SW Req. Specification (SRS)",
+          "CoreSW",
+          "MyeongGI Jeong",
+          "[NSDT-1953]",
+          "",
+          "2026-10-16",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SRS",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-1953",
+          "summary": "[HS] BOS-SMI SRS Write",
+          "status": "To Do",
+          "assignee": "MyeongGI Jeong",
+          "dueDate": "",
+          "created": "2026-07-06T14:46:20.421+0900",
+          "updated": "2026-09-23T10:41:00.153+0900",
+          "labels": [
+            "EN-Dev-Spec-Doc",
+            "HOST_SW_Req",
+            "host_sw_master_plan"
+          ],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "review": {
+        "id": "documentation-row-42",
+        "row": 42,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "BOS-SMI",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "NSDT-2603",
+        "key": "NSDT-2603",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2603",
+        "status": "Unknown",
+        "preTarget": "2026-10-28",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-10-28",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "NSDT-2603",
+          "",
+          "2026-10-28",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-2603",
+          "summary": "[Review][HS] BOS-SMI SRS Write",
+          "status": "To Do",
+          "assignee": "Simon Jacqmart",
+          "dueDate": "",
+          "created": "2026-09-21T17:53:44.997+0900",
+          "updated": "2026-09-23T10:27:14.130+0900",
+          "labels": [],
+          "parent": "NSDT-1953"
+        },
+        "jiraStatus": "To Do"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-43",
+        "row": 43,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "BOS-SMI",
+        "title": "SW Arch. Specification (SAD)",
+        "team": "CoreSW",
+        "owner": "MyeongGI Jeong",
+        "ticket": "[NSDT-1958]",
+        "key": "NSDT-1958",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-1958",
+        "status": "Unknown",
+        "preTarget": "2026-11-13",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-11-13",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "[NSDT-1958]",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-1958"
+          }
+        ],
+        "raw": [
+          "",
+          "",
+          "SW Arch. Specification (SAD)",
+          "CoreSW",
+          "MyeongGI Jeong",
+          "[NSDT-1958]",
+          "",
+          "2026-11-13",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SAD",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-1958",
+          "summary": "[HS] BOS-SMI SAD Write",
+          "status": "To Do",
+          "assignee": "MyeongGI Jeong",
+          "dueDate": "",
+          "created": "2026-07-06T14:49:34.700+0900",
+          "updated": "2026-09-23T10:49:48.872+0900",
+          "labels": [
+            "EN-Dev-Spec-Doc",
+            "HOST_SW_Req",
+            "host_sw_master_plan"
+          ],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "review": {
+        "id": "documentation-row-44",
+        "row": 44,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "BOS-SMI",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "NSDT-2604",
+        "key": "NSDT-2604",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2604",
+        "status": "Unknown",
+        "preTarget": "2026-11-27",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-11-27",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "NSDT-2604",
+          "",
+          "2026-11-27",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-2604",
+          "summary": "[Review][HS] BOS-SMI SAD Write",
+          "status": "To Do",
+          "assignee": "Simon Jacqmart",
+          "dueDate": "",
+          "created": "2026-09-21T17:53:47.351+0900",
+          "updated": "2026-09-23T10:30:03.619+0900",
+          "labels": [],
+          "parent": "NSDT-1958"
+        },
+        "jiraStatus": "To Do"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-45",
+        "row": 45,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "BOS-SMI",
+        "title": "SW Unit Design (SUD)",
+        "team": "CoreSW",
+        "owner": "MyeongGI Jeong",
+        "ticket": "[NSDT-1959]",
+        "key": "NSDT-1959",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-1959",
+        "status": "Unknown",
+        "preTarget": "2026-11-27",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-11-27",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "[NSDT-1959]",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-1959"
+          }
+        ],
+        "raw": [
+          "",
+          "",
+          "SW Unit Design (SUD)",
+          "CoreSW",
+          "MyeongGI Jeong",
+          "[NSDT-1959]",
+          "",
+          "2026-11-27",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SUD",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-1959",
+          "summary": "[HS] BOS-SMI SUD Write",
+          "status": "To Do",
+          "assignee": "MyeongGI Jeong",
+          "dueDate": "",
+          "created": "2026-07-06T14:49:56.753+0900",
+          "updated": "2026-09-23T10:41:52.501+0900",
+          "labels": [
+            "EN-Dev-Spec-Doc",
+            "HOST_SW_Req",
+            "host_sw_master_plan"
+          ],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "review": {
+        "id": "documentation-row-46",
+        "row": 46,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "BOS-SMI",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "NSDT-2605",
+        "key": "NSDT-2605",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2605",
+        "status": "Unknown",
+        "preTarget": "2026-12-11",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-12-11",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "NSDT-2605",
+          "",
+          "2026-12-11",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-2605",
+          "summary": "[Review][HS] BOS-SMI SUD Write",
+          "status": "To Do",
+          "assignee": "Simon Jacqmart",
+          "dueDate": "",
+          "created": "2026-09-21T17:53:50.431+0900",
+          "updated": "2026-09-23T10:31:38.391+0900",
+          "labels": [],
+          "parent": "NSDT-1959"
+        },
+        "jiraStatus": "To Do"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-47",
+        "row": 47,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Quantization",
+        "title": "SW Req. Specification (SRS)",
+        "team": "AIMM",
+        "owner": "SungminLee",
+        "ticket": "[NSDT-2055]",
+        "key": "NSDT-2055",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2055",
+        "status": "P-D",
+        "preTarget": "2026-09-23",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-09-23",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "[NSDT-2055]",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-2055"
+          }
+        ],
+        "raw": [
+          "",
+          "Quantization",
+          "SW Req. Specification (SRS)",
+          "AIMM",
+          "SungminLee",
+          "[NSDT-2055]",
+          "P-D",
+          "2026-09-23",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SRS",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-2055",
+          "summary": "[HS] Quantization SRS Write",
+          "status": "In Progress",
+          "assignee": "조민수",
+          "dueDate": "",
+          "created": "2026-07-08T17:05:07.241+0900",
+          "updated": "2026-09-23T10:49:59.383+0900",
+          "labels": [
+            "B0_AISW_HQ",
+            "EN-Dev-Spec-Doc",
+            "HOST_SW_Req",
+            "host_sw_master_plan"
+          ],
+          "parent": ""
+        },
+        "jiraStatus": "In Progress"
+      },
+      "review": {
+        "id": "documentation-row-48",
+        "row": 48,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Quantization",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "NSDT-2606",
+        "key": "NSDT-2606",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2606",
+        "status": "G",
+        "preTarget": "2026-10-07",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-10-07",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "NSDT-2606",
+          "G",
+          "2026-10-07",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-2606",
+          "summary": "[Review][HS] LLM Quantization SRS Write",
+          "status": "In Progress",
+          "assignee": "Ngo Chi Kien",
+          "dueDate": "",
+          "created": "2026-09-21T17:54:19.850+0900",
+          "updated": "2026-09-23T10:32:15.682+0900",
+          "labels": [],
+          "parent": "NSDT-2055"
+        },
+        "jiraStatus": "In Progress"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-49",
+        "row": 49,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Quantization",
+        "title": "SW Arch. Specification (SAD)",
+        "team": "AIMM",
+        "owner": "SungminLee",
+        "ticket": "[NSDT-2056]",
+        "key": "NSDT-2056",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2056",
+        "status": "D",
+        "preTarget": "2026-10-16",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-10-16",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "[NSDT-2056]",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-2056"
+          }
+        ],
+        "raw": [
+          "",
+          "",
+          "SW Arch. Specification (SAD)",
+          "AIMM",
+          "SungminLee",
+          "[NSDT-2056]",
+          "D",
+          "2026-10-16",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SAD",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-2056",
+          "summary": "[HS] LLM Quantization SAD Write",
+          "status": "To Do",
+          "assignee": "조민수",
+          "dueDate": "",
+          "created": "2026-07-08T17:06:23.739+0900",
+          "updated": "2026-09-23T10:50:06.640+0900",
+          "labels": [
+            "B0_AISW_HQ",
+            "EN-Dev-Spec-Doc",
+            "HOST_SW_Req",
+            "host_sw_master_plan"
+          ],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "review": {
+        "id": "documentation-row-50",
+        "row": 50,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Quantization",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "NSDT-2607",
+        "key": "NSDT-2607",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2607",
+        "status": "Unknown",
+        "preTarget": "2026-10-23",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-10-23",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "NSDT-2607",
+          "",
+          "2026-10-23",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-2607",
+          "summary": "[Review][HS] LLM Quantization SAD Write",
+          "status": "To Do",
+          "assignee": "Simon Jacqmart",
+          "dueDate": "",
+          "created": "2026-09-21T17:54:23.887+0900",
+          "updated": "2026-09-23T10:50:24.572+0900",
+          "labels": [],
+          "parent": "NSDT-2056"
+        },
+        "jiraStatus": "To Do"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-51",
+        "row": 51,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Quantization",
+        "title": "SW Unit Design (SUD)",
+        "team": "AIMM",
+        "owner": "SungminLee",
+        "ticket": "[NSDT-2057]",
+        "key": "NSDT-2057",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2057",
+        "status": "D",
+        "preTarget": "2026-11-16",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-11-16",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "[NSDT-2057]",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-2057"
+          }
+        ],
+        "raw": [
+          "",
+          "",
+          "SW Unit Design (SUD)",
+          "AIMM",
+          "SungminLee",
+          "[NSDT-2057]",
+          "D",
+          "2026-11-16",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SUD",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-2057",
+          "summary": "[HS] LLM Quantization SUD Write",
+          "status": "To Do",
+          "assignee": "조민수",
+          "dueDate": "",
+          "created": "2026-07-08T17:06:46.919+0900",
+          "updated": "2026-09-23T10:51:43.930+0900",
+          "labels": [
+            "B0_AISW_HQ",
+            "EN-Dev-Spec-Doc",
+            "HOST_SW_Req",
+            "host_sw_master_plan"
+          ],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "review": {
+        "id": "documentation-row-52",
+        "row": 52,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Quantization",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "NSDT-2608",
+        "key": "NSDT-2608",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2608",
+        "status": "Unknown",
+        "preTarget": "2026-12-09",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-12-09",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "NSDT-2608",
+          "",
+          "2026-12-09",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-2608",
+          "summary": "[Review][HS] LLM Quantization SUD Write",
+          "status": "To Do",
+          "assignee": "Simon Jacqmart",
+          "dueDate": "",
+          "created": "2026-09-21T17:54:26.997+0900",
+          "updated": "2026-09-23T10:33:24.713+0900",
+          "labels": [],
+          "parent": "NSDT-2057"
+        },
+        "jiraStatus": "To Do"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-53",
+        "row": 53,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Speculative decoding",
+        "title": "SW Req. Specification (SRS)",
+        "team": "AIMM",
+        "owner": "서정현",
+        "ticket": "[NSDT-2061]",
+        "key": "NSDT-2061",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2061",
+        "status": "Unknown",
+        "preTarget": "2026-09-30",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-09-30",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "[NSDT-2061]",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-2061"
+          }
+        ],
+        "raw": [
+          "",
+          "Speculative decoding",
+          "SW Req. Specification (SRS)",
+          "AIMM",
+          "서정현",
+          "[NSDT-2061]",
+          "",
+          "2026-09-30",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SRS",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-2061",
+          "summary": "[HS] Speculative Decoding SRS Write",
+          "status": "To Do",
+          "assignee": "서정현",
+          "dueDate": "",
+          "created": "2026-07-08T17:10:29.533+0900",
+          "updated": "2026-09-23T10:51:51.869+0900",
+          "labels": [
+            "B0_AISW_HQ",
+            "EN-Dev-Spec-Doc",
+            "HOST_SW_Req",
+            "host_sw_master_plan"
+          ],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "review": {
+        "id": "documentation-row-54",
+        "row": 54,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Speculative decoding",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "NSDT-2609",
+        "key": "NSDT-2609",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2609",
+        "status": "Unknown",
+        "preTarget": "2026-10-07",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-10-07",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "NSDT-2609",
+          "",
+          "2026-10-07",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-2609",
+          "summary": "[Review][HS] Speculative Decoding SRS Write",
+          "status": "In Progress",
+          "assignee": "Ngo Chi Kien",
+          "dueDate": "",
+          "created": "2026-09-21T17:54:55.642+0900",
+          "updated": "2026-09-23T11:06:15.033+0900",
+          "labels": [],
+          "parent": "NSDT-2061"
+        },
+        "jiraStatus": "In Progress"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-55",
+        "row": 55,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Speculative decoding",
+        "title": "SW Arch. Specification (SAD)",
+        "team": "AIMM",
+        "owner": "서정현",
+        "ticket": "[NSDT-2062]",
+        "key": "NSDT-2062",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2062",
+        "status": "D",
+        "preTarget": "2026-10-30",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-10-30",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "[NSDT-2062]",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-2062"
+          }
+        ],
+        "raw": [
+          "",
+          "",
+          "SW Arch. Specification (SAD)",
+          "AIMM",
+          "서정현",
+          "[NSDT-2062]",
+          "D",
+          "2026-10-30",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SAD",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-2062",
+          "summary": "[HS] Speculative Decoding SAD Write",
+          "status": "To Do",
+          "assignee": "서정현",
+          "dueDate": "",
+          "created": "2026-07-08T17:10:49.357+0900",
+          "updated": "2026-09-23T10:52:07.779+0900",
+          "labels": [
+            "B0_AISW_HQ",
+            "EN-Dev-Spec-Doc",
+            "HOST_SW_Req",
+            "host_sw_master_plan"
+          ],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "review": {
+        "id": "documentation-row-56",
+        "row": 56,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Speculative decoding",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "NSDT-2610",
+        "key": "NSDT-2610",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2610",
+        "status": "Unknown",
+        "preTarget": "2026-11-11",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-11-11",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "NSDT-2610",
+          "",
+          "2026-11-11",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-2610",
+          "summary": "[Review][HS] Speculative Decoding SAD Write",
+          "status": "To Do",
+          "assignee": "Simon Jacqmart",
+          "dueDate": "",
+          "created": "2026-09-21T17:54:58.891+0900",
+          "updated": "2026-09-23T10:34:30.259+0900",
+          "labels": [],
+          "parent": "NSDT-2062"
+        },
+        "jiraStatus": "To Do"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-57",
+        "row": 57,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Speculative decoding",
+        "title": "SW Unit Design (SUD)",
+        "team": "AIMM",
+        "owner": "서정현",
+        "ticket": "[NSDT-2063]",
+        "key": "NSDT-2063",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2063",
+        "status": "D",
+        "preTarget": "2026-11-16",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-11-16",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "[NSDT-2063]",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-2063"
+          }
+        ],
+        "raw": [
+          "",
+          "",
+          "SW Unit Design (SUD)",
+          "AIMM",
+          "서정현",
+          "[NSDT-2063]",
+          "D",
+          "2026-11-16",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SUD",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-2063",
+          "summary": "[HS] Speculative Decoding SUD Write",
+          "status": "To Do",
+          "assignee": "서정현",
+          "dueDate": "",
+          "created": "2026-07-08T17:11:10.538+0900",
+          "updated": "2026-09-23T10:52:19.906+0900",
+          "labels": [
+            "B0_AISW_HQ",
+            "EN-Dev-Spec-Doc",
+            "HOST_SW_Req",
+            "host_sw_master_plan"
+          ],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "review": {
+        "id": "documentation-row-58",
+        "row": 58,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Speculative decoding",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "NSDT-2611",
+        "key": "NSDT-2611",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2611",
+        "status": "Unknown",
+        "preTarget": "2026-12-09",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-12-09",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "NSDT-2611",
+          "",
+          "2026-12-09",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-2611",
+          "summary": "[Review][HS] Speculative Decoding SUD Write",
+          "status": "To Do",
+          "assignee": "Simon Jacqmart",
+          "dueDate": "",
+          "created": "2026-09-21T17:55:01.401+0900",
+          "updated": "2026-09-23T10:34:47.244+0900",
+          "labels": [],
+          "parent": "NSDT-2063"
+        },
+        "jiraStatus": "To Do"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-59",
+        "row": 59,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "BOS-Compiler (Viterbi)",
+        "title": "SW Req. Specification (SRS)",
+        "team": "AIMM",
+        "owner": "Dang Thanh Huy",
+        "ticket": "[NSDT-2058]",
+        "key": "NSDT-2058",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2058",
+        "status": "Unknown",
+        "preTarget": "2026-09-23",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-09-23",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "[NSDT-2058]",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-2058"
+          }
+        ],
+        "raw": [
+          "",
+          "BOS-Compiler (Viterbi)",
+          "SW Req. Specification (SRS)",
+          "AIMM",
+          "Dang Thanh Huy",
+          "[NSDT-2058]",
+          "",
+          "2026-09-23",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SRS",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-2058",
+          "summary": "[HS] Compiler SRS Write",
+          "status": "In Progress",
+          "assignee": "Dang Thanh Huy",
+          "dueDate": "",
+          "created": "2026-07-08T17:07:42.449+0900",
+          "updated": "2026-09-23T10:52:30.003+0900",
+          "labels": [
+            "EN-Dev-Spec-Doc",
+            "HOST_SW_Req",
+            "host_sw_master_plan"
+          ],
+          "parent": ""
+        },
+        "jiraStatus": "In Progress"
+      },
+      "review": {
+        "id": "documentation-row-60",
+        "row": 60,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "BOS-Compiler (Viterbi)",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "[NSDT-2085]",
+        "key": "NSDT-2085",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2085",
+        "status": "Unknown",
+        "preTarget": "2026-10-30",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-10-30",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "[NSDT-2085]",
+          "",
+          "2026-10-30",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-2085",
+          "summary": "[ Host SW - Quantization ] INT8 Runtime Format",
+          "status": "To Do",
+          "assignee": "MyeongGI Jeong",
+          "dueDate": "2026-12-11",
+          "created": "2026-07-09T15:43:21.220+0900",
+          "updated": "2026-09-23T10:59:22.221+0900",
+          "labels": [
+            "Host_SW_Dev",
+            "eaglenb0-sw-dev",
+            "host_sw_master_plan"
+          ],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-61",
+        "row": 61,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "BOS-Compiler (Viterbi)",
+        "title": "SW Arch. Specification (SAD)",
+        "team": "AIMM",
+        "owner": "Dang Thanh Huy",
+        "ticket": "[NSDT-2059]",
+        "key": "NSDT-2059",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2059",
+        "status": "Unknown",
+        "preTarget": "2026-11-16",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-11-16",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "[NSDT-2059]",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-2059"
+          }
+        ],
+        "raw": [
+          "",
+          "",
+          "SW Arch. Specification (SAD)",
+          "AIMM",
+          "Dang Thanh Huy",
+          "[NSDT-2059]",
+          "",
+          "2026-11-16",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SAD",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-2059",
+          "summary": "[HS] Compiler SAD Write",
+          "status": "In Progress",
+          "assignee": "Dang Thanh Huy",
+          "dueDate": "",
+          "created": "2026-07-08T17:08:25.849+0900",
+          "updated": "2026-09-23T10:52:38.701+0900",
+          "labels": [
+            "EN-Dev-Spec-Doc",
+            "HOST_SW_Req",
+            "host_sw_master_plan"
+          ],
+          "parent": ""
+        },
+        "jiraStatus": "In Progress"
+      },
+      "review": {
+        "id": "documentation-row-62",
+        "row": 62,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "BOS-Compiler (Viterbi)",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "conf. page??",
+        "key": "",
+        "url": "",
+        "status": "Unknown",
+        "preTarget": "?",
+        "summary": "",
+        "sdk": "",
+        "preDue": "?",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "conf. page??",
+          "",
+          "?",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": false,
+        "jira": {
+          "key": "",
+          "error": "No Jira key"
+        },
+        "jiraStatus": "Unknown"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-63",
+        "row": 63,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "BOS-Compiler (Viterbi)",
+        "title": "SW Unit Design (SUD)",
+        "team": "AIMM",
+        "owner": "Dang Thanh Huy",
+        "ticket": "[NSDT-2060]",
+        "key": "NSDT-2060",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2060",
+        "status": "Unknown",
+        "preTarget": "2026-11-16",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-11-16",
+        "due": "",
+        "timeline": [],
+        "links": [
+          {
+            "column": "F",
+            "text": "[NSDT-2060]",
+            "url": "https://bos-semi.atlassian.net/browse/NSDT-2060"
+          }
+        ],
+        "raw": [
+          "",
+          "",
+          "SW Unit Design (SUD)",
+          "AIMM",
+          "Dang Thanh Huy",
+          "[NSDT-2060]",
+          "",
+          "2026-11-16",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SUD",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-2060",
+          "summary": "[HS] Compiler SUD Write",
+          "status": "To Do",
+          "assignee": "Dang Thanh Huy",
+          "dueDate": "",
+          "created": "2026-07-08T17:08:46.056+0900",
+          "updated": "2026-09-23T10:52:47.047+0900",
+          "labels": [
+            "EN-Dev-Spec-Doc",
+            "HOST_SW_Req",
+            "host_sw_master_plan"
+          ],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "review": {
+        "id": "documentation-row-64",
+        "row": 64,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "BOS-Compiler (Viterbi)",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Phu",
+        "ticket": "conf. page??",
+        "key": "",
+        "url": "",
+        "status": "Unknown",
+        "preTarget": "?",
+        "summary": "",
+        "sdk": "",
+        "preDue": "?",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Phu",
+          "conf. page??",
+          "",
+          "?",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": false,
+        "jira": {
+          "key": "",
+          "error": "No Jira key"
+        },
+        "jiraStatus": "Unknown"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-65",
+        "row": 65,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Python-to-MLIR converter",
+        "title": "SW Req. Specification (SRS)",
+        "team": "AIMM",
+        "owner": "박세희",
+        "ticket": "NSDT-2627",
+        "key": "NSDT-2627",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2627",
+        "status": "Unknown",
+        "preTarget": "2026-10-14",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-10-14",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "Python-to-MLIR converter",
+          "SW Req. Specification (SRS)",
+          "AIMM",
+          "박세희",
+          "NSDT-2627",
+          "",
+          "2026-10-14",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SRS",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-2627",
+          "summary": "[HS] Python-to-MLIR converter SRS Write",
+          "status": "To Do",
+          "assignee": "박세희",
+          "dueDate": "",
+          "created": "2026-09-23T11:12:33.276+0900",
+          "updated": "2026-09-23T11:16:27.724+0900",
+          "labels": [],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "review": {
+        "id": "documentation-row-66",
+        "row": 66,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Python-to-MLIR converter",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Simon Jacqmart",
+        "ticket": "NSDT-2630",
+        "key": "NSDT-2630",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2630",
+        "status": "Unknown",
+        "preTarget": "2026-10-28",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-10-28",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Simon Jacqmart",
+          "NSDT-2630",
+          "",
+          "2026-10-28",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-2630",
+          "summary": "[Review] [HS] Python-to-MLIR SRS",
+          "status": "To Do",
+          "assignee": "",
+          "dueDate": "",
+          "created": "2026-09-23T11:19:16.023+0900",
+          "updated": "2026-09-23T11:22:38.374+0900",
+          "labels": [],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-67",
+        "row": 67,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Python-to-MLIR converter",
+        "title": "SW Arch. Specification (SAD)",
+        "team": "AIMM",
+        "owner": "박세희",
+        "ticket": "NSDT-2628",
+        "key": "NSDT-2628",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2628",
+        "status": "Unknown",
+        "preTarget": "2026-11-12",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-11-12",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "SW Arch. Specification (SAD)",
+          "AIMM",
+          "박세희",
+          "NSDT-2628",
+          "",
+          "2026-11-12",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SAD",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-2628",
+          "summary": "[HS] Python-to-MLIR converter SAD Write",
+          "status": "To Do",
+          "assignee": "박세희",
+          "dueDate": "",
+          "created": "2026-09-23T11:13:48.514+0900",
+          "updated": "2026-09-23T11:16:00.095+0900",
+          "labels": [],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "review": {
+        "id": "documentation-row-68",
+        "row": 68,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Python-to-MLIR converter",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Simon Jacqmart",
+        "ticket": "NSDT-2631",
+        "key": "NSDT-2631",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2631",
+        "status": "Unknown",
+        "preTarget": "2026-11-26",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-11-26",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Simon Jacqmart",
+          "NSDT-2631",
+          "",
+          "2026-11-26",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-2631",
+          "summary": "[Review] [HS] Python-to-MLIR SAD",
+          "status": "To Do",
+          "assignee": "",
+          "dueDate": "",
+          "created": "2026-09-23T11:19:55.764+0900",
+          "updated": "2026-09-23T11:21:25.369+0900",
+          "labels": [],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    },
+    {
+      "writing": {
+        "id": "documentation-row-69",
+        "row": 69,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Python-to-MLIR converter",
+        "title": "SW Unit Design (SUD)",
+        "team": "AIMM",
+        "owner": "박세희",
+        "ticket": "NSDT-2629",
+        "key": "NSDT-2629",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2629",
+        "status": "Unknown",
+        "preTarget": "2026-12-14",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-12-14",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "SW Unit Design (SUD)",
+          "AIMM",
+          "박세희",
+          "NSDT-2629",
+          "",
+          "2026-12-14",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": false,
+        "documentType": "SUD",
+        "writingTicket": true,
+        "reviewTicket": false,
+        "jira": {
+          "key": "NSDT-2629",
+          "summary": "[HS] Python-to-MLIR converter SUD Write",
+          "status": "To Do",
+          "assignee": "박세희",
+          "dueDate": "",
+          "created": "2026-09-23T11:14:51.894+0900",
+          "updated": "2026-09-23T11:16:58.580+0900",
+          "labels": [],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "review": {
+        "id": "documentation-row-70",
+        "row": 70,
+        "sheet": "Eagle-N B0 Doc Delivery Plan",
+        "kind": "documentation",
+        "section": "Dev. Spec. Documents",
+        "group": "Python-to-MLIR converter",
+        "title": "Work product Review",
+        "team": "PM/SE",
+        "owner": "Simon Jacqmart",
+        "ticket": "NSDT-2632",
+        "key": "NSDT-2632",
+        "url": "https://bos-semi.atlassian.net/browse/NSDT-2632",
+        "status": "Unknown",
+        "preTarget": "2026-12-23",
+        "summary": "",
+        "sdk": "",
+        "preDue": "2026-12-23",
+        "due": "",
+        "timeline": [],
+        "links": [],
+        "raw": [
+          "",
+          "",
+          "Work product Review",
+          "PM/SE",
+          "Simon Jacqmart",
+          "NSDT-2632",
+          "",
+          "2026-12-23",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "review": true,
+        "documentType": "",
+        "writingTicket": false,
+        "reviewTicket": true,
+        "jira": {
+          "key": "NSDT-2632",
+          "summary": "[Review] [HS] Python-to-MLIR SUD",
+          "status": "To Do",
+          "assignee": "",
+          "dueDate": "",
+          "created": "2026-09-23T11:20:37.646+0900",
+          "updated": "2026-09-23T11:21:06.152+0900",
+          "labels": [],
+          "parent": ""
+        },
+        "jiraStatus": "To Do"
+      },
+      "reviewControl": {
+        "required": false,
+        "statusOk": true,
+        "assigneeOk": true,
+        "action": false
+      }
+    }
+  ],
+  "tests": {
+    "parent": {
+      "key": "ITCP-47",
+      "summary": "SQE Test Request",
+      "status": "Open",
+      "assignee": "Jeong Park",
+      "dueDate": "",
+      "created": "2026-06-10T10:56:50.482+0900",
+      "updated": "2026-07-24T08:57:28.095+0900",
+      "labels": [],
+      "parent": ""
+    },
+    "children": [
+      {
+        "key": "ITCP-48",
+        "summary": "Test Request - LLM Quantized Model Execution on A0",
+        "status": "Closed",
+        "assignee": "Ngo Chi Kien"
+      },
+      {
+        "key": "ITCP-50",
+        "summary": "Test Request - Vision Quantized Models on A0 (QDQ)",
+        "status": "Closed",
+        "assignee": "Ngo Chi Kien"
+      },
+      {
+        "key": "ITCP-51",
+        "summary": "Test Request - BOS-Installer",
+        "status": "Closed",
+        "assignee": "Bui Khanh Hoang"
+      },
+      {
+        "key": "ITCP-52",
+        "summary": "Test Request - BOS-Installer (v1.0.2-rc1-phase1)",
+        "status": "Closed",
+        "assignee": "Ngo Chi Kien"
+      },
+      {
+        "key": "ITCP-53",
+        "summary": "Test Request for SDK v0.2.0 - July release",
+        "status": "Closed",
+        "assignee": "Ngo Chi Kien"
+      },
+      {
+        "key": "ITCP-54",
+        "summary": "Test Request - Vision Quantized Models on A0 (RQ)",
+        "status": "Closed",
+        "assignee": "Ngo Chi Kien"
+      },
+      {
+        "key": "ITCP-55",
+        "summary": "Test Request - Scarthgap bos-yocto",
+        "status": "Resolved",
+        "assignee": "Tran Quoc Hung"
+      }
+    ]
+  },
+  "pdFeatures": [
+    {
+      "key": "NSDT-2104",
+      "title": "Automated tt-metal installation and host memory access configuration",
+      "section": "SDK",
+      "tests": [
+        {
+          "key": "ITCP-51",
+          "summary": "Test Request - BOS-Installer",
+          "status": "Closed",
+          "assignee": "Bui Khanh Hoang"
+        },
+        {
+          "key": "ITCP-52",
+          "summary": "Test Request - BOS-Installer (v1.0.2-rc1-phase1)",
+          "status": "Closed",
+          "assignee": "Ngo Chi Kien"
+        },
+        {
+          "key": "ITCP-53",
+          "summary": "Test Request for SDK v0.2.0 - July release",
+          "status": "Closed",
+          "assignee": "Ngo Chi Kien"
+        }
+      ]
+    },
+    {
+      "key": "NSDT-2105",
+      "title": "Automated device binary fusing",
+      "section": "SDK",
+      "tests": [
+        {
+          "key": "ITCP-51",
+          "summary": "Test Request - BOS-Installer",
+          "status": "Closed",
+          "assignee": "Bui Khanh Hoang"
+        },
+        {
+          "key": "ITCP-52",
+          "summary": "Test Request - BOS-Installer (v1.0.2-rc1-phase1)",
+          "status": "Closed",
+          "assignee": "Ngo Chi Kien"
+        }
+      ]
+    },
+    {
+      "key": "NSDT-2086",
+      "title": "NPU boot-up",
+      "section": "Host SW",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
+        }
+      ]
+    },
+    {
+      "key": "NSDT-2087",
+      "title": "Device Access",
+      "section": "Host SW",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
+        }
+      ]
+    },
+    {
+      "key": "NSDT-2089",
+      "title": "PCIe interface",
+      "section": "Host SW",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
+        }
+      ]
+    },
+    {
+      "key": "NSDT-2090",
+      "title": "NPU firmware for Tensix boot-up",
+      "section": "Host SW",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
+        }
+      ]
+    },
+    {
+      "key": "NSDT-2288",
+      "title": "ResNet LLK for trinity",
+      "section": "Host SW",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
+        }
+      ]
+    },
+    {
+      "key": "NSDT-2091",
+      "title": "Yolo LLK for trinity",
+      "section": "Host SW",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
+        }
+      ]
+    },
+    {
+      "key": "NSDT-2289",
+      "title": "Llama LLK for trinity",
+      "section": "Host SW",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
+        }
+      ]
+    },
+    {
+      "key": "NSDT-2092",
+      "title": "Slow dispatch",
+      "section": "Host SW",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
+        }
+      ]
+    },
+    {
+      "key": "NSDT-2093",
+      "title": "Fast dispatch",
+      "section": "Host SW",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
+        }
+      ]
+    },
+    {
+      "key": "NSDT-1939",
+      "title": "Graph Optimization",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
+        }
+      ]
+    },
+    {
+      "key": "NSDT-1940",
+      "title": "High-Efficiency Operator Fusion",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
+        }
+      ]
+    },
+    {
+      "key": "NSDT-1942",
+      "title": "Performance-Driven Data Formats",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
+        }
+      ]
+    },
+    {
+      "key": "NSDT-1932",
+      "title": "ViT",
+      "section": "Ref. Models",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
+        }
+      ]
+    },
+    {
+      "key": "NSDT-1933",
+      "title": "Resnet50/Yolo",
+      "section": "Ref. Models",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
+        }
+      ]
+    },
+    {
+      "key": "NSDT-1934",
+      "title": "OFT/PDL",
+      "section": "Ref. Models",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
+        }
+      ]
+    },
+    {
+      "key": "NSDT-1948",
+      "title": "SSR",
+      "section": "Ref. Models",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
+        }
+      ]
+    }
+  ],
+  "policy": "When a writing ticket is Jira P-D, its adjacent review ticket must be In Progress and assigned. This dashboard reports the exception; it does not mutate Jira."
+}
