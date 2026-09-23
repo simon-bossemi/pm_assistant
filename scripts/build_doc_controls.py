@@ -28,13 +28,47 @@ def normal(v):
 
 def match_tests(text,tests):
     x=text.lower()
+    # The Quantization feature has two distinct requests under ITCP-47:
+    # LLM execution and Vision QDQ execution. Keep this mapping explicit so
+    # the validation board does not collapse the feature into one request.
+    if 'quantization' in x or 'quantized' in x:
+        keys = ['ITCP-48','ITCP-50']
+        return [k for k in keys if k in tests]
     keys=[]
     if 'installer' in x or 'install' in x: keys += ['ITCP-51','ITCP-52']
     if 'vision' in x: keys += ['ITCP-50','ITCP-54']
     if 'llm' in x or 'quant' in x: keys += ['ITCP-48']
-    if 'sdk' in x or 'model' in x or 'host' in x: keys += ['ITCP-53']
+    if 'sdk' in x: keys += ['ITCP-53']
+    if 'scarthgap' in x or 'yocto' in x: keys += ['ITCP-55']
     keys=[k for k in dict.fromkeys(keys) if k in tests]
     return keys or ['ITCP-47']
+
+def validation_features(source,tests):
+    """Return feature-level test coverage from the workbook's Spec. rows.
+
+    These rows are supporting feature labels only. Test requests are read
+    directly from the ITCP-47 Jira hierarchy and an empty match is preserved
+    as a coverage gap rather than represented by the parent epic itself.
+    """
+    features=[]
+    seen=set()
+    for r in source.get('docRows',[]):
+        if r.get('section')!='Spec.' or r.get('review') or not r.get('title'):
+            continue
+        label=(r.get('title') or '').strip()
+        if label in seen:
+            continue
+        seen.add(label)
+        keys=match_tests(label+' '+(r.get('group') or ''),tests)
+        if keys==['ITCP-47']:
+            keys=[]
+        features.append({
+            'feature':label,
+            'group':r.get('group',''),
+            'sourceKey':r.get('key',''),
+            'tests':[tests[k] for k in keys if k in tests],
+        })
+    return features
 
 def main():
     source=json.loads((SITE/'source.json').read_text(encoding='utf-8'))
@@ -68,8 +102,9 @@ def main():
         if i and normal(i.get('currentStatus'))=='P-D':
             ks=match_tests((r.get('title','')+' '+r.get('group','')),tests)
             pd.append({'key':r.get('key'),'title':r.get('title'),'section':r.get('section'),'tests':[tests.get(k,{'key':k,'error':'Not retrieved'}) for k in ks]})
-    out={'source':'SharePoint workbook documentation sheet + direct Jira issue reads','observedAt':datetime.now(timezone.utc).isoformat(),'documentationSheet':source.get('documentationSheet'),'pairs':pairs,'tests':{'parent':parent,'children':[v for k,v in tests.items() if k!='ITCP-47']},'pdFeatures':pd,'policy':'When a writing ticket is Jira P-D, its adjacent review ticket must be In Progress and assigned. This dashboard reports the exception; it does not mutate Jira.'}
+    validation=validation_features(source,tests)
+    out={'source':'SharePoint workbook documentation sheet + direct Jira issue reads','observedAt':datetime.now(timezone.utc).isoformat(),'documentationSheet':source.get('documentationSheet'),'pairs':pairs,'tests':{'parent':parent,'children':[v for k,v in tests.items() if k!='ITCP-47']},'pdFeatures':pd,'validationFeatures':validation,'policy':'When a writing ticket is Jira P-D, its adjacent review ticket must be In Progress and assigned. This dashboard reports the exception; it does not mutate Jira.'}
     (SITE/'doc-controls.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
-    print(json.dumps({'pairs':len(pairs),'reviewActions':sum(1 for p in pairs if p['reviewControl']['action']),'pdFeatures':len(pd),'tests':len(tests)}))
+    print(json.dumps({'pairs':len(pairs),'reviewActions':sum(1 for p in pairs if p['reviewControl']['action']),'pdFeatures':len(pd),'validationFeatures':len(validation),'tests':len(tests)}))
 
 if __name__=='__main__': main()
