@@ -1,6 +1,6 @@
 {
   "source": "SharePoint workbook documentation sheet + direct Jira issue reads",
-  "observedAt": "2026-09-23T02:50:18.240176+00:00",
+  "observedAt": "2026-09-23T04:07:57.206734+00:00",
   "documentationSheet": "Eagle-N B0 Doc Delivery Plan",
   "pairs": [
     {
@@ -725,11 +725,11 @@
         "jira": {
           "key": "NSDT-1951",
           "summary": "[HS] TT-metal-E2 SRS write (including multi-model scheduler)",
-          "status": "To Do",
+          "status": "In Progress",
           "assignee": "MyeongGI Jeong",
           "dueDate": "",
           "created": "2026-07-06T14:44:42.232+0900",
-          "updated": "2026-09-23T10:35:30.710+0900",
+          "updated": "2026-09-23T11:56:37.364+0900",
           "labels": [
             "EN-Dev-Spec-Doc",
             "HOST_SW_Req",
@@ -737,7 +737,7 @@
           ],
           "parent": ""
         },
-        "jiraStatus": "To Do"
+        "jiraStatus": "In Progress"
       },
       "review": {
         "id": "documentation-row-36",
@@ -782,10 +782,10 @@
           "key": "NSDT-2600",
           "summary": "[Review][HS] TT-metal-E2 SRS write (including multi-model scheduler)",
           "status": "To Do",
-          "assignee": "Simon Jacqmart",
+          "assignee": "Ngo Chi Kien",
           "dueDate": "",
           "created": "2026-09-21T17:45:29.403+0900",
-          "updated": "2026-09-23T10:24:17.765+0900",
+          "updated": "2026-09-23T11:57:59.742+0900",
           "labels": [],
           "parent": "NSDT-1951"
         },
@@ -2898,6 +2898,19 @@
   },
   "pdFeatures": [
     {
+      "key": "NSDT-1920",
+      "title": "W8A8 LLM quantization workflow documentation",
+      "section": "SDK",
+      "tests": [
+        {
+          "key": "ITCP-48",
+          "summary": "Test Request - LLM Quantized Model Execution on A0",
+          "status": "Closed",
+          "assignee": "Ngo Chi Kien"
+        }
+      ]
+    },
+    {
       "key": "NSDT-2104",
       "title": "Automated tt-metal installation and host memory access configuration",
       "section": "SDK",
@@ -2938,6 +2951,86 @@
           "summary": "Test Request - BOS-Installer (v1.0.2-rc1-phase1)",
           "status": "Closed",
           "assignee": "Ngo Chi Kien"
+        }
+      ]
+    },
+    {
+      "key": "NSDT-1921",
+      "title": "INT8 w8a8 quantization for LLM/VLM",
+      "section": "Host SW",
+      "tests": [
+        {
+          "key": "ITCP-48",
+          "summary": "Test Request - LLM Quantized Model Execution on A0",
+          "status": "Closed",
+          "assignee": "Ngo Chi Kien"
+        }
+      ]
+    },
+    {
+      "key": "NSDT-1919",
+      "title": "W8A8 LLM quantization recipes/scripts",
+      "section": "Host SW",
+      "tests": [
+        {
+          "key": "ITCP-48",
+          "summary": "Test Request - LLM Quantized Model Execution on A0",
+          "status": "Closed",
+          "assignee": "Ngo Chi Kien"
+        }
+      ]
+    },
+    {
+      "key": "NSDT-1922",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "section": "Host SW",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
+        }
+      ]
+    },
+    {
+      "key": "NSDT-1923",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "section": "Host SW",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
+        }
+      ]
+    },
+    {
+      "key": "NSDT-1924",
+      "title": "Sliding Window Attention/Attention sync",
+      "section": "Host SW",
+      "tests": [
+        {
+          "key": "ITCP-47",
+          "summary": "SQE Test Request",
+          "status": "Open",
+          "assignee": "Jeong Park",
+          "dueDate": "",
+          "created": "2026-06-10T10:56:50.482+0900",
+          "updated": "2026-07-24T08:57:28.095+0900",
+          "labels": [],
+          "parent": ""
         }
       ]
     },
@@ -3154,6 +3247,71 @@
           "updated": "2026-07-24T08:57:28.095+0900",
           "labels": [],
           "parent": ""
+        }
+      ]
+    },
+    {
+      "key": "NSDT-1926",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B",
+      "section": "Ref. Models",
+      "tests": [
+        {
+          "key": "ITCP-48",
+          "summary": "Test Request - LLM Quantized Model Execution on A0",
+          "status": "Closed",
+          "assignee": "Ngo Chi Kien"
+        }
+      ]
+    },
+    {
+      "key": "NSDT-1929",
+      "title": "Qwen 2.5VL 3B/7B",
+      "section": "Ref. Models",
+      "tests": [
+        {
+          "key": "ITCP-48",
+          "summary": "Test Request - LLM Quantized Model Execution on A0",
+          "status": "Closed",
+          "assignee": "Ngo Chi Kien"
+        }
+      ]
+    },
+    {
+      "key": "NSDT-1927",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Quantized",
+      "section": "Ref. Models",
+      "tests": [
+        {
+          "key": "ITCP-48",
+          "summary": "Test Request - LLM Quantized Model Execution on A0",
+          "status": "Closed",
+          "assignee": "Ngo Chi Kien"
+        }
+      ]
+    },
+    {
+      "key": "NSDT-1930",
+      "title": "Qwen 2.5VL 3B/7B Quantized",
+      "section": "Ref. Models",
+      "tests": [
+        {
+          "key": "ITCP-48",
+          "summary": "Test Request - LLM Quantized Model Execution on A0",
+          "status": "Closed",
+          "assignee": "Ngo Chi Kien"
+        }
+      ]
+    },
+    {
+      "key": "NSDT-1928",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Speculative decoding",
+      "section": "Ref. Models",
+      "tests": [
+        {
+          "key": "ITCP-48",
+          "summary": "Test Request - LLM Quantized Model Execution on A0",
+          "status": "Closed",
+          "assignee": "Ngo Chi Kien"
         }
       ]
     },

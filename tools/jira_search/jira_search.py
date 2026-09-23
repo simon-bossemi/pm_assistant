@@ -73,11 +73,14 @@ def list_projects() -> dict[str, Any]:
 
 def search_issues(jql: str, max_results: int) -> dict[str, Any]:
     s = session()
-    response = s.post(
-        f"{s.base_url}/rest/api/3/search/jql",
-        json={
+    page_size = min(max(int(max_results), 1), 100)
+    issues: list[dict[str, Any]] = []
+    next_page_token: str | None = None
+    last: dict[str, Any] = {}
+    while len(issues) < max_results:
+        body: dict[str, Any] = {
             "jql": jql,
-            "maxResults": max_results,
+            "maxResults": min(page_size, max_results - len(issues)),
             "fields": [
                 "summary",
                 "status",
@@ -87,11 +90,22 @@ def search_issues(jql: str, max_results: int) -> dict[str, Any]:
                 "priority",
                 "updated",
             ],
-        },
-        timeout=60,
-    )
-    response.raise_for_status()
-    return response.json()
+        }
+        if next_page_token:
+            body["nextPageToken"] = next_page_token
+        response = s.post(
+            f"{s.base_url}/rest/api/3/search/jql",
+            json=body,
+            timeout=60,
+        )
+        response.raise_for_status()
+        last = response.json()
+        batch = last.get("issues", [])
+        issues.extend(batch)
+        next_page_token = last.get("nextPageToken")
+        if last.get("isLast") or not batch or not next_page_token:
+            break
+    return {**last, "issues": issues[:max_results], "isLast": not next_page_token, "nextPageToken": None if not next_page_token else next_page_token}
 
 
 def get_issue(issue_key: str) -> dict[str, Any]:
@@ -113,6 +127,7 @@ def get_issue(issue_key: str) -> dict[str, Any]:
                     "created",
                     "comment",
                     "labels",
+                    "parent",
                 ]
             )
         },
@@ -125,7 +140,7 @@ def get_issue(issue_key: str) -> dict[str, Any]:
 def adf_paragraph(text: str) -> dict[str, Any]:
     return {
         "type": "paragraph",
-        "content": [{"type": "text", "text": line}] if line else [],
+        "content": [{"type": "text", "text": text}] if text else [],
     }
 
 
@@ -138,18 +153,28 @@ def text_to_adf(text: str) -> dict[str, Any]:
     }
 
 
-def create_issue(project_key: str, issue_type: str, summary: str, description: str) -> dict[str, Any]:
+def create_issue(
+    project_key: str,
+    issue_type: str,
+    summary: str,
+    description: str,
+    parent_key: str | None = None,
+    assignee_account_id: str | None = None,
+) -> dict[str, Any]:
     s = session()
+    fields: dict[str, Any] = {
+        "project": {"key": project_key},
+        "issuetype": {"name": issue_type},
+        "summary": summary,
+        "description": text_to_adf(description),
+    }
+    if parent_key:
+        fields["parent"] = {"key": parent_key}
+    if assignee_account_id:
+        fields["assignee"] = {"accountId": assignee_account_id}
     response = s.post(
         f"{s.base_url}/rest/api/3/issue",
-        json={
-            "fields": {
-                "project": {"key": project_key},
-                "issuetype": {"name": issue_type},
-                "summary": summary,
-                "description": text_to_adf(description),
-            }
-        },
+        json={"fields": fields},
         headers={"Accept": "application/json", "Content-Type": "application/json"},
         timeout=60,
     )
@@ -274,6 +299,8 @@ def main() -> int:
     create.add_argument("--issue-type", required=True)
     create.add_argument("--summary", required=True)
     create.add_argument("--description", required=True)
+    create.add_argument("--parent-key")
+    create.add_argument("--assignee-account-id")
 
     args = parser.parse_args()
 
@@ -295,7 +322,14 @@ def main() -> int:
             return 0
 
         if args.command == "create":
-            payload = create_issue(args.project_key, args.issue_type, args.summary, args.description)
+            payload = create_issue(
+                args.project_key,
+                args.issue_type,
+                args.summary,
+                args.description,
+                args.parent_key,
+                args.assignee_account_id,
+            )
             json_path = write_json("jira-create-issue.json", payload)
             print(json.dumps({"json_path": str(json_path), "id": payload.get("id"), "key": payload.get("key"), "self": payload.get("self")}, indent=2))
             return 0

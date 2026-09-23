@@ -2,7 +2,7 @@
   "source": "Jira filter 19455 · labels = \"host_sw_master_plan\" ORDER BY created DESC · REST issue changelog",
   "filterId": "19455",
   "jql": "labels = \"host_sw_master_plan\" ORDER BY created DESC",
-  "observedAt": "2026-09-23T02:51:06.016556+00:00",
+  "observedAt": "2026-09-23T04:07:45.829078+00:00",
   "mappingNotice": "Only tickets returned by Jira filter 19455 are included. Categories use the currently displayed workbook section when available; otherwise they are marked Unmapped Jira ticket.",
   "issues": [
     {
@@ -28,6 +28,17 @@
       "historyCount": 8
     },
     {
+      "key": "NSDT-2138",
+      "section": "Ref. Models",
+      "title": "ViT Quantized",
+      "created": "2026-07-14T15:16:38.613+0900",
+      "updated": "2026-09-16T18:56:10.663+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Hoang Nhat Quang",
+      "dueDate": "2026-12-31",
+      "historyCount": 11
+    },
+    {
       "key": "NSDT-2292",
       "section": "Ref. Models",
       "title": "BOS: ResNet INT-8 Kernel OPs - Trinity",
@@ -37,17 +48,6 @@
       "assignee": "Nguyen Viet Nhat",
       "dueDate": "2027-02-19",
       "historyCount": 6
-    },
-    {
-      "key": "NSDT-2288",
-      "section": "Host SW",
-      "title": "ResNet LLK for trinity",
-      "created": "2026-08-11T17:21:05.956+0900",
-      "updated": "2026-09-16T18:56:10.783+0900",
-      "currentStatus": "pre-silicon done",
-      "assignee": "MyeongGI Jeong",
-      "dueDate": "2026-12-15",
-      "historyCount": 10
     },
     {
       "key": "NSDT-2291",
@@ -61,15 +61,15 @@
       "historyCount": 9
     },
     {
-      "key": "NSDT-2138",
-      "section": "Ref. Models",
-      "title": "ViT Quantized",
-      "created": "2026-07-14T15:16:38.613+0900",
-      "updated": "2026-09-16T18:56:10.663+0900",
-      "currentStatus": "In Progress",
-      "assignee": "Hoang Nhat Quang",
-      "dueDate": "2026-12-31",
-      "historyCount": 11
+      "key": "NSDT-2288",
+      "section": "Host SW",
+      "title": "ResNet LLK for trinity",
+      "created": "2026-08-11T17:21:05.956+0900",
+      "updated": "2026-09-16T18:56:10.783+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2026-12-15",
+      "historyCount": 10
     },
     {
       "key": "NSDT-2105",
@@ -138,6 +138,17 @@
       "historyCount": 11
     },
     {
+      "key": "NSDT-2098",
+      "section": "Host SW",
+      "title": "Partition manager",
+      "created": "2026-07-09T15:55:44.536+0900",
+      "updated": "2026-09-16T18:56:11.311+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "2027-03-26",
+      "historyCount": 9
+    },
+    {
       "key": "NSDT-2099",
       "section": "Host SW",
       "title": "memory protection (isolation)",
@@ -149,15 +160,15 @@
       "historyCount": 9
     },
     {
-      "key": "NSDT-2098",
+      "key": "NSDT-2096",
       "section": "Host SW",
-      "title": "Partition manager",
-      "created": "2026-07-09T15:55:44.536+0900",
-      "updated": "2026-09-16T18:56:11.311+0900",
+      "title": "Memory allocator for sharding, interleaving, etc",
+      "created": "2026-07-09T15:51:33.072+0900",
+      "updated": "2026-09-16T18:56:10.621+0900",
       "currentStatus": "To Do",
       "assignee": "MyeongGI Jeong",
-      "dueDate": "2027-03-26",
-      "historyCount": 9
+      "dueDate": "2026-12-10",
+      "historyCount": 7
     },
     {
       "key": "NSDT-2097",
@@ -182,17 +193,6 @@
       "historyCount": 10
     },
     {
-      "key": "NSDT-2096",
-      "section": "Host SW",
-      "title": "Memory allocator for sharding, interleaving, etc",
-      "created": "2026-07-09T15:51:33.072+0900",
-      "updated": "2026-09-16T18:56:10.621+0900",
-      "currentStatus": "To Do",
-      "assignee": "MyeongGI Jeong",
-      "dueDate": "2026-12-10",
-      "historyCount": 7
-    },
-    {
       "key": "NSDT-2094",
       "section": "Host SW",
       "title": "Trace",
@@ -215,17 +215,6 @@
       "historyCount": 11
     },
     {
-      "key": "NSDT-2091",
-      "section": "Host SW",
-      "title": "Yolo LLK for trinity",
-      "created": "2026-07-09T15:49:42.909+0900",
-      "updated": "2026-09-16T18:56:11.136+0900",
-      "currentStatus": "pre-silicon done",
-      "assignee": "Hyun Eun (은현)",
-      "dueDate": "2026-12-15",
-      "historyCount": 11
-    },
-    {
       "key": "NSDT-2092",
       "section": "Host SW",
       "title": "Slow dispatch",
@@ -237,15 +226,15 @@
       "historyCount": 9
     },
     {
-      "key": "NSDT-2089",
+      "key": "NSDT-2091",
       "section": "Host SW",
-      "title": "PCIe interface",
-      "created": "2026-07-09T15:47:26.863+0900",
-      "updated": "2026-09-16T18:56:10.597+0900",
+      "title": "Yolo LLK for trinity",
+      "created": "2026-07-09T15:49:42.909+0900",
+      "updated": "2026-09-16T18:56:11.136+0900",
       "currentStatus": "pre-silicon done",
       "assignee": "Hyun Eun (은현)",
-      "dueDate": "2026-12-08",
-      "historyCount": 9
+      "dueDate": "2026-12-15",
+      "historyCount": 11
     },
     {
       "key": "NSDT-2090",
@@ -259,6 +248,17 @@
       "historyCount": 8
     },
     {
+      "key": "NSDT-2089",
+      "section": "Host SW",
+      "title": "PCIe interface",
+      "created": "2026-07-09T15:47:26.863+0900",
+      "updated": "2026-09-16T18:56:10.597+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Hyun Eun (은현)",
+      "dueDate": "2026-12-08",
+      "historyCount": 9
+    },
+    {
       "key": "NSDT-2088",
       "section": "Host SW",
       "title": "NPU reset scenario",
@@ -270,22 +270,22 @@
       "historyCount": 11
     },
     {
-      "key": "NSDT-2087",
+      "key": "NSDT-2086",
       "section": "Host SW",
-      "title": "Device Access",
-      "created": "2026-07-09T15:46:25.210+0900",
-      "updated": "2026-09-16T18:56:10.558+0900",
+      "title": "NPU boot-up",
+      "created": "2026-07-09T15:45:35.815+0900",
+      "updated": "2026-09-16T18:56:11.301+0900",
       "currentStatus": "pre-silicon done",
       "assignee": "Hyun Eun (은현)",
       "dueDate": "2026-12-08",
       "historyCount": 12
     },
     {
-      "key": "NSDT-2086",
+      "key": "NSDT-2087",
       "section": "Host SW",
-      "title": "NPU boot-up",
-      "created": "2026-07-09T15:45:35.815+0900",
-      "updated": "2026-09-16T18:56:11.301+0900",
+      "title": "Device Access",
+      "created": "2026-07-09T15:46:25.210+0900",
+      "updated": "2026-09-16T18:56:10.558+0900",
       "currentStatus": "pre-silicon done",
       "assignee": "Hyun Eun (은현)",
       "dueDate": "2026-12-08",
@@ -301,6 +301,17 @@
       "assignee": "MyeongGI Jeong",
       "dueDate": "2026-12-11",
       "historyCount": 6
+    },
+    {
+      "key": "NSDT-2079",
+      "section": "Host SW",
+      "title": "Diagnostics",
+      "created": "2026-07-09T15:18:46.406+0900",
+      "updated": "2026-09-16T18:56:11.585+0900",
+      "currentStatus": "To Do",
+      "assignee": "UKJIN CHOI",
+      "dueDate": "2027-02-12",
+      "historyCount": 9
     },
     {
       "key": "NSDT-2084",
@@ -323,17 +334,6 @@
       "assignee": "UKJIN CHOI",
       "dueDate": "2027-02-12",
       "historyCount": 12
-    },
-    {
-      "key": "NSDT-2079",
-      "section": "Host SW",
-      "title": "Diagnostics",
-      "created": "2026-07-09T15:18:46.406+0900",
-      "updated": "2026-09-16T18:56:11.585+0900",
-      "currentStatus": "To Do",
-      "assignee": "UKJIN CHOI",
-      "dueDate": "2027-02-12",
-      "historyCount": 9
     },
     {
       "key": "NSDT-2077",
@@ -369,17 +369,6 @@
       "historyCount": 13
     },
     {
-      "key": "NSDT-2074",
-      "section": "Host SW",
-      "title": "Real-time scheduling",
-      "created": "2026-07-09T15:17:01.158+0900",
-      "updated": "2026-09-16T18:56:10.716+0900",
-      "currentStatus": "To Do",
-      "assignee": "UKJIN CHOI",
-      "dueDate": "2027-02-12",
-      "historyCount": 15
-    },
-    {
       "key": "NSDT-2073",
       "section": "Host SW",
       "title": "Fair scheduling",
@@ -389,6 +378,17 @@
       "assignee": "UKJIN CHOI",
       "dueDate": "2027-02-12",
       "historyCount": 18
+    },
+    {
+      "key": "NSDT-2074",
+      "section": "Host SW",
+      "title": "Real-time scheduling",
+      "created": "2026-07-09T15:17:01.158+0900",
+      "updated": "2026-09-16T18:56:10.716+0900",
+      "currentStatus": "To Do",
+      "assignee": "UKJIN CHOI",
+      "dueDate": "2027-02-12",
+      "historyCount": 15
     },
     {
       "key": "PTTM-702",
@@ -501,17 +501,6 @@
       "historyCount": 8
     },
     {
-      "key": "PTTM-680",
-      "section": "Unmapped Jira ticket",
-      "title": "[N1 B0] Develop IT TCs for KMD",
-      "created": "2026-07-09T12:50:42.539+0900",
-      "updated": "2026-09-16T18:50:31.952+0900",
-      "currentStatus": "To Do",
-      "assignee": "Ngo Chi Kien",
-      "dueDate": "2026-10-30",
-      "historyCount": 8
-    },
-    {
       "key": "PTTM-679",
       "section": "Unmapped Jira ticket",
       "title": "[N1 B0] Develop IT TCs for UMD",
@@ -521,6 +510,17 @@
       "assignee": "Ngo Chi Kien",
       "dueDate": "2026-10-30",
       "historyCount": 10
+    },
+    {
+      "key": "PTTM-680",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop IT TCs for KMD",
+      "created": "2026-07-09T12:50:42.539+0900",
+      "updated": "2026-09-16T18:50:31.952+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-10-30",
+      "historyCount": 8
     },
     {
       "key": "PTTM-678",
@@ -545,17 +545,6 @@
       "historyCount": 7
     },
     {
-      "key": "PTTM-675",
-      "section": "Unmapped Jira ticket",
-      "title": "[N1 B0] Develop System Test automation for UMD",
-      "created": "2026-07-09T12:48:24.163+0900",
-      "updated": "2026-09-16T18:50:32.047+0900",
-      "currentStatus": "To Do",
-      "assignee": "Ngo Chi Kien",
-      "dueDate": "2026-09-30",
-      "historyCount": 7
-    },
-    {
       "key": "PTTM-676",
       "section": "Unmapped Jira ticket",
       "title": "[N1 B0] Develop System Test automation for KMD",
@@ -567,15 +556,15 @@
       "historyCount": 7
     },
     {
-      "key": "PTTM-674",
+      "key": "PTTM-675",
       "section": "Unmapped Jira ticket",
-      "title": "[N1 B0] Develop System TCs for TT-Metal",
-      "created": "2026-07-09T12:48:00.974+0900",
-      "updated": "2026-09-16T18:50:34.272+0900",
+      "title": "[N1 B0] Develop System Test automation for UMD",
+      "created": "2026-07-09T12:48:24.163+0900",
+      "updated": "2026-09-16T18:50:32.047+0900",
       "currentStatus": "To Do",
       "assignee": "Ngo Chi Kien",
       "dueDate": "2026-09-30",
-      "historyCount": 8
+      "historyCount": 7
     },
     {
       "key": "PTTM-673",
@@ -586,6 +575,17 @@
       "currentStatus": "To Do",
       "assignee": "Ngo Chi Kien",
       "dueDate": "2026-09-11",
+      "historyCount": 8
+    },
+    {
+      "key": "PTTM-674",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for TT-Metal",
+      "created": "2026-07-09T12:48:00.974+0900",
+      "updated": "2026-09-16T18:50:34.272+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-09-30",
       "historyCount": 8
     },
     {
@@ -677,17 +677,6 @@
       "historyCount": 10
     },
     {
-      "key": "PTTM-663",
-      "section": "Unmapped Jira ticket",
-      "title": "[N1 B0] Develop System TCs for Speculative decoding",
-      "created": "2026-07-09T12:32:16.400+0900",
-      "updated": "2026-09-16T18:50:32.532+0900",
-      "currentStatus": "To Do",
-      "assignee": "Ngo Chi Kien",
-      "dueDate": "2026-10-30",
-      "historyCount": 9
-    },
-    {
       "key": "PTTM-664",
       "section": "Unmapped Jira ticket",
       "title": "[N1 B0] Develop System Test automation for Speculative decoding",
@@ -696,6 +685,17 @@
       "currentStatus": "To Do",
       "assignee": "Ngo Chi Kien",
       "dueDate": "2026-11-13",
+      "historyCount": 9
+    },
+    {
+      "key": "PTTM-663",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for Speculative decoding",
+      "created": "2026-07-09T12:32:16.400+0900",
+      "updated": "2026-09-16T18:50:32.532+0900",
+      "currentStatus": "To Do",
+      "assignee": "Ngo Chi Kien",
+      "dueDate": "2026-10-30",
       "historyCount": 9
     },
     {
@@ -765,17 +765,6 @@
       "historyCount": 9
     },
     {
-      "key": "NSDT-2061",
-      "section": "Unmapped Jira ticket",
-      "title": "[HS] Speculative Decoding SRS Write",
-      "created": "2026-07-08T17:10:29.533+0900",
-      "updated": "2026-09-23T10:51:51.869+0900",
-      "currentStatus": "To Do",
-      "assignee": "서정현",
-      "dueDate": "",
-      "historyCount": 10
-    },
-    {
       "key": "NSDT-2060",
       "section": "Unmapped Jira ticket",
       "title": "[HS] Compiler SUD Write",
@@ -785,6 +774,17 @@
       "assignee": "Dang Thanh Huy",
       "dueDate": "",
       "historyCount": 16
+    },
+    {
+      "key": "NSDT-2061",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SRS Write",
+      "created": "2026-07-08T17:10:29.533+0900",
+      "updated": "2026-09-23T10:51:51.869+0900",
+      "currentStatus": "To Do",
+      "assignee": "서정현",
+      "dueDate": "",
+      "historyCount": 10
     },
     {
       "key": "NSDT-2059",
@@ -831,17 +831,6 @@
       "historyCount": 13
     },
     {
-      "key": "NSDT-1960",
-      "section": "Unmapped Jira ticket",
-      "title": "  [HS] UMD/KMD SUD Write",
-      "created": "2026-07-06T14:54:43.944+0900",
-      "updated": "2026-09-23T10:39:21.728+0900",
-      "currentStatus": "To Do",
-      "assignee": "MyeongGI Jeong",
-      "dueDate": "",
-      "historyCount": 12
-    },
-    {
       "key": "NSDT-2055",
       "section": "Unmapped Jira ticket",
       "title": "[HS] Quantization SRS Write",
@@ -864,15 +853,15 @@
       "historyCount": 13
     },
     {
-      "key": "NSDT-1958",
+      "key": "NSDT-1960",
       "section": "Unmapped Jira ticket",
-      "title": "[HS] BOS-SMI SAD Write",
-      "created": "2026-07-06T14:49:34.700+0900",
-      "updated": "2026-09-23T10:49:48.872+0900",
+      "title": "  [HS] UMD/KMD SUD Write",
+      "created": "2026-07-06T14:54:43.944+0900",
+      "updated": "2026-09-23T10:39:21.728+0900",
       "currentStatus": "To Do",
       "assignee": "MyeongGI Jeong",
       "dueDate": "",
-      "historyCount": 14
+      "historyCount": 12
     },
     {
       "key": "NSDT-1959",
@@ -880,6 +869,17 @@
       "title": "[HS] BOS-SMI SUD Write",
       "created": "2026-07-06T14:49:56.753+0900",
       "updated": "2026-09-23T10:41:52.501+0900",
+      "currentStatus": "To Do",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "",
+      "historyCount": 14
+    },
+    {
+      "key": "NSDT-1958",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SAD Write",
+      "created": "2026-07-06T14:49:34.700+0900",
+      "updated": "2026-09-23T10:49:48.872+0900",
       "currentStatus": "To Do",
       "assignee": "MyeongGI Jeong",
       "dueDate": "",
@@ -908,17 +908,6 @@
       "historyCount": 15
     },
     {
-      "key": "NSDT-1953",
-      "section": "Unmapped Jira ticket",
-      "title": "[HS] BOS-SMI SRS Write",
-      "created": "2026-07-06T14:46:20.421+0900",
-      "updated": "2026-09-23T10:41:00.153+0900",
-      "currentStatus": "To Do",
-      "assignee": "MyeongGI Jeong",
-      "dueDate": "",
-      "historyCount": 16
-    },
-    {
       "key": "NSDT-1952",
       "section": "Unmapped Jira ticket",
       "title": "[HS] UMD/KMD SRS Write",
@@ -930,15 +919,26 @@
       "historyCount": 15
     },
     {
-      "key": "NSDT-1951",
+      "key": "NSDT-1953",
       "section": "Unmapped Jira ticket",
-      "title": "[HS] TT-metal-E2 SRS write (including multi-model scheduler)",
-      "created": "2026-07-06T14:44:42.232+0900",
-      "updated": "2026-09-23T10:35:30.710+0900",
+      "title": "[HS] BOS-SMI SRS Write",
+      "created": "2026-07-06T14:46:20.421+0900",
+      "updated": "2026-09-23T10:41:00.153+0900",
       "currentStatus": "To Do",
       "assignee": "MyeongGI Jeong",
       "dueDate": "",
       "historyCount": 16
+    },
+    {
+      "key": "NSDT-1951",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] TT-metal-E2 SRS write (including multi-model scheduler)",
+      "created": "2026-07-06T14:44:42.232+0900",
+      "updated": "2026-09-23T11:56:37.364+0900",
+      "currentStatus": "In Progress",
+      "assignee": "MyeongGI Jeong",
+      "dueDate": "",
+      "historyCount": 18
     },
     {
       "key": "NSDT-1949",
@@ -974,39 +974,6 @@
       "historyCount": 9
     },
     {
-      "key": "NSDT-1944",
-      "section": "Host SW",
-      "title": "Vision Quantization scripts with Quandora (Symmetric / PTQ)",
-      "created": "2026-07-05T17:17:10.270+0900",
-      "updated": "2026-09-22T15:10:41.048+0900",
-      "currentStatus": "In Progress",
-      "assignee": "Hoang Nhat Quang",
-      "dueDate": "2026-12-31",
-      "historyCount": 28
-    },
-    {
-      "key": "NSDT-1943",
-      "section": "AI Model Dev. Tools for Eagle N",
-      "title": "Production-Ready Deployment Flow",
-      "created": "2026-07-05T14:13:41.528+0900",
-      "updated": "2026-09-16T19:07:55.542+0900",
-      "currentStatus": "In Progress",
-      "assignee": "Dang Thanh Huy",
-      "dueDate": "2026-12-31",
-      "historyCount": 14
-    },
-    {
-      "key": "NSDT-1942",
-      "section": "AI Model Dev. Tools for Eagle N",
-      "title": "Performance-Driven Data Formats",
-      "created": "2026-07-05T14:11:33.102+0900",
-      "updated": "2026-09-16T19:07:55.991+0900",
-      "currentStatus": "pre-silicon done",
-      "assignee": "Dang Thanh Huy",
-      "dueDate": "2026-12-31",
-      "historyCount": 17
-    },
-    {
       "key": "NSDT-1946",
       "section": "Ref. Models",
       "title": "Resnet50/Yolo Quantized",
@@ -1027,6 +994,39 @@
       "assignee": "",
       "dueDate": "2026-12-31",
       "historyCount": 15
+    },
+    {
+      "key": "NSDT-1944",
+      "section": "Host SW",
+      "title": "Vision Quantization scripts with Quandora (Symmetric / PTQ)",
+      "created": "2026-07-05T17:17:10.270+0900",
+      "updated": "2026-09-22T15:10:41.048+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Hoang Nhat Quang",
+      "dueDate": "2026-12-31",
+      "historyCount": 28
+    },
+    {
+      "key": "NSDT-1942",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Performance-Driven Data Formats",
+      "created": "2026-07-05T14:11:33.102+0900",
+      "updated": "2026-09-16T19:07:55.991+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Dang Thanh Huy",
+      "dueDate": "2026-12-31",
+      "historyCount": 17
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Production-Ready Deployment Flow",
+      "created": "2026-07-05T14:13:41.528+0900",
+      "updated": "2026-09-16T19:07:55.542+0900",
+      "currentStatus": "In Progress",
+      "assignee": "Dang Thanh Huy",
+      "dueDate": "2026-12-31",
+      "historyCount": 14
     },
     {
       "key": "NSDT-1941",
@@ -1104,6 +1104,292 @@
       "assignee": "조민수",
       "dueDate": "2027-01-31",
       "historyCount": 10
+    },
+    {
+      "key": "NSDT-1931",
+      "section": "Ref. Models",
+      "title": "Qwen 3 VL 3B/7B Speculative decoding",
+      "created": "2026-07-02T16:23:22.027+0900",
+      "updated": "2026-09-22T15:19:11.166+0900",
+      "currentStatus": "In Progress",
+      "assignee": "서정현",
+      "dueDate": "2027-02-19",
+      "historyCount": 14
+    },
+    {
+      "key": "NSDT-1930",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B Quantized",
+      "created": "2026-07-02T16:22:43.637+0900",
+      "updated": "2026-09-16T19:07:55.413+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "조민수",
+      "dueDate": "2027-01-31",
+      "historyCount": 11
+    },
+    {
+      "key": "NSDT-1929",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B",
+      "created": "2026-07-02T16:22:02.387+0900",
+      "updated": "2026-09-16T19:07:55.459+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "서정현",
+      "dueDate": "2027-01-31",
+      "historyCount": 12
+    },
+    {
+      "key": "NSDT-1927",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Quantized",
+      "created": "2026-07-02T16:18:48.748+0900",
+      "updated": "2026-09-16T19:07:55.688+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "조민수",
+      "dueDate": "2027-01-31",
+      "historyCount": 12
+    },
+    {
+      "key": "NSDT-1928",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Speculative decoding",
+      "created": "2026-07-02T16:21:05.308+0900",
+      "updated": "2026-09-16T19:07:55.977+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "서정현",
+      "dueDate": "2027-01-31",
+      "historyCount": 10
+    },
+    {
+      "key": "NSDT-1926",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B",
+      "created": "2026-07-02T16:18:37.662+0900",
+      "updated": "2026-09-16T19:07:55.641+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "Athul Shibu",
+      "dueDate": "2027-01-31",
+      "historyCount": 13
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "created": "2026-07-02T14:56:23.812+0900",
+      "updated": "2026-09-16T19:07:55.550+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "서정현",
+      "dueDate": "2027-01-31",
+      "historyCount": 16
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "created": "2026-07-02T14:58:49.585+0900",
+      "updated": "2026-09-16T19:07:55.394+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "min.yi (이창민)",
+      "dueDate": "2027-01-31",
+      "historyCount": 13
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "created": "2026-07-02T14:53:16.714+0900",
+      "updated": "2026-09-16T19:07:55.479+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "서정현",
+      "dueDate": "2027-01-31",
+      "historyCount": 17
+    },
+    {
+      "key": "NSDT-1921",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for LLM/VLM",
+      "created": "2026-07-02T14:53:00.339+0900",
+      "updated": "2026-09-16T19:07:55.415+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "SungminLee",
+      "dueDate": "2027-01-31",
+      "historyCount": 9
+    },
+    {
+      "key": "NSDT-1920",
+      "section": "SDK",
+      "title": "W8A8 LLM quantization workflow documentation",
+      "created": "2026-07-02T14:52:34.726+0900",
+      "updated": "2026-09-16T19:07:55.621+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "조민수",
+      "dueDate": "2027-01-31",
+      "historyCount": 11
+    },
+    {
+      "key": "NSDT-1919",
+      "section": "Host SW",
+      "title": "W8A8 LLM quantization recipes/scripts",
+      "created": "2026-07-02T14:52:18.113+0900",
+      "updated": "2026-09-16T19:07:56.543+0900",
+      "currentStatus": "pre-silicon done",
+      "assignee": "조민수",
+      "dueDate": "2027-01-31",
+      "historyCount": 11
+    },
+    {
+      "key": "PTTM-476",
+      "section": "SDK",
+      "title": "Custom Ops & Kernel Programming Guide",
+      "created": "2026-06-04T13:33:34.595+0900",
+      "updated": "2026-09-16T18:50:32.156+0900",
+      "currentStatus": "To Do",
+      "assignee": "Simon Jacqmart",
+      "dueDate": "",
+      "historyCount": 11
+    },
+    {
+      "key": "PTTM-477",
+      "section": "SDK",
+      "title": "Model development Guide",
+      "created": "2026-06-04T13:35:52.503+0900",
+      "updated": "2026-09-16T18:50:32.253+0900",
+      "currentStatus": "Done",
+      "assignee": "Simon Jacqmart",
+      "dueDate": "2026-06-30",
+      "historyCount": 24
+    },
+    {
+      "key": "PTTM-475",
+      "section": "SDK",
+      "title": "Model performance optimization Guide",
+      "created": "2026-06-04T13:33:34.140+0900",
+      "updated": "2026-09-16T18:50:32.172+0900",
+      "currentStatus": "To Do",
+      "assignee": "Simon Jacqmart",
+      "dueDate": "2026-11-30",
+      "historyCount": 12
+    },
+    {
+      "key": "PTTM-472",
+      "section": "SDK",
+      "title": "Custom model development and deployment",
+      "created": "2026-06-04T13:33:32.765+0900",
+      "updated": "2026-09-16T18:50:31.956+0900",
+      "currentStatus": "To Do",
+      "assignee": "Simon Jacqmart",
+      "dueDate": "",
+      "historyCount": 8
+    },
+    {
+      "key": "PTTM-471",
+      "section": "SDK",
+      "title": "How to Quantize models",
+      "created": "2026-06-04T13:33:32.299+0900",
+      "updated": "2026-09-16T18:50:32.581+0900",
+      "currentStatus": "To Do",
+      "assignee": "Simon Jacqmart",
+      "dueDate": "2026-12-30",
+      "historyCount": 9
+    },
+    {
+      "key": "PTTM-470",
+      "section": "SDK",
+      "title": "How to use tt-sim",
+      "created": "2026-06-04T13:33:31.861+0900",
+      "updated": "2026-09-16T18:50:31.989+0900",
+      "currentStatus": "To Do",
+      "assignee": "Simon Jacqmart",
+      "dueDate": "2026-09-30",
+      "historyCount": 10
+    },
+    {
+      "key": "PTTM-469",
+      "section": "SDK",
+      "title": "How to use tt-explorer",
+      "created": "2026-06-04T13:33:31.378+0900",
+      "updated": "2026-09-16T18:50:32.253+0900",
+      "currentStatus": "To Do",
+      "assignee": "Simon Jacqmart",
+      "dueDate": "2026-10-31",
+      "historyCount": 9
+    },
+    {
+      "key": "PTTM-468",
+      "section": "SDK",
+      "title": "Custom Operator Implementation",
+      "created": "2026-06-04T13:33:30.927+0900",
+      "updated": "2026-09-16T18:50:31.951+0900",
+      "currentStatus": "To Do",
+      "assignee": "Simon Jacqmart",
+      "dueDate": "2026-08-31",
+      "historyCount": 11
+    },
+    {
+      "key": "PTTM-467",
+      "section": "SDK",
+      "title": "How to use tt-npe (Practical Tutorial)",
+      "created": "2026-06-04T13:33:30.454+0900",
+      "updated": "2026-09-16T18:50:32.006+0900",
+      "currentStatus": "Won't Do",
+      "assignee": "Simon Jacqmart",
+      "dueDate": "2026-07-20",
+      "historyCount": 21
+    },
+    {
+      "key": "PTTM-466",
+      "section": "SDK",
+      "title": "SW Installation Guide (auto installer-based)",
+      "created": "2026-06-04T13:33:29.962+0900",
+      "updated": "2026-09-16T18:50:32.036+0900",
+      "currentStatus": "Done",
+      "assignee": "Simon Jacqmart",
+      "dueDate": "2026-07-20",
+      "historyCount": 13
+    },
+    {
+      "key": "PTTM-465",
+      "section": "SDK",
+      "title": "Model Deployment Workflow",
+      "created": "2026-06-04T13:33:29.507+0900",
+      "updated": "2026-09-16T18:50:33.062+0900",
+      "currentStatus": "To Do",
+      "assignee": "Simon Jacqmart",
+      "dueDate": "",
+      "historyCount": 7
+    },
+    {
+      "key": "PTTM-464",
+      "section": "SDK",
+      "title": "Model Performance Optimization Workflow",
+      "created": "2026-06-04T13:33:28.958+0900",
+      "updated": "2026-09-16T18:50:32.102+0900",
+      "currentStatus": "To Do",
+      "assignee": "Simon Jacqmart",
+      "dueDate": "",
+      "historyCount": 6
+    },
+    {
+      "key": "PTTM-463",
+      "section": "SDK",
+      "title": "Compiler-based Model Development Workflow",
+      "created": "2026-06-04T13:33:28.491+0900",
+      "updated": "2026-09-16T18:50:32.031+0900",
+      "currentStatus": "To Do",
+      "assignee": "Simon Jacqmart",
+      "dueDate": "2026-11-30",
+      "historyCount": 9
+    },
+    {
+      "key": "PTTM-462",
+      "section": "SDK",
+      "title": "Manual Model Development Workflow",
+      "created": "2026-06-04T13:33:28.041+0900",
+      "updated": "2026-09-16T18:50:32.428+0900",
+      "currentStatus": "Done",
+      "assignee": "Simon Jacqmart",
+      "dueDate": "2026-06-30",
+      "historyCount": 14
     }
   ],
   "changes": [
@@ -1144,6 +1430,33 @@
       "to": "2026-12-15 00:00:00.0"
     },
     {
+      "key": "NSDT-2138",
+      "section": "Ref. Models",
+      "title": "ViT Quantized",
+      "at": "2026-08-24T10:30:44.301+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2138",
+      "section": "Ref. Models",
+      "title": "ViT Quantized",
+      "at": "2026-08-24T10:26:20.002+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Hoang Nhat Quang"
+    },
+    {
+      "key": "NSDT-2138",
+      "section": "Ref. Models",
+      "title": "ViT Quantized",
+      "at": "2026-07-14T15:16:57.994+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
       "key": "NSDT-2292",
       "section": "Ref. Models",
       "title": "BOS: ResNet INT-8 Kernel OPs - Trinity",
@@ -1160,6 +1473,24 @@
       "field": "assignee",
       "from": "Not recorded",
       "to": "Nguyen Viet Nhat"
+    },
+    {
+      "key": "NSDT-2291",
+      "section": "Ref. Models",
+      "title": "BOS: Llama INT8 Kernel OPs - Trinity",
+      "at": "2026-08-24T15:01:33.963+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2027-02-19 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2291",
+      "section": "Ref. Models",
+      "title": "BOS: Llama INT8 Kernel OPs - Trinity",
+      "at": "2026-08-12T10:18:47.963+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "min.yi (이창민)"
     },
     {
       "key": "NSDT-2288",
@@ -1223,51 +1554,6 @@
       "field": "assignee",
       "from": "Not recorded",
       "to": "MyeongGI Jeong"
-    },
-    {
-      "key": "NSDT-2291",
-      "section": "Ref. Models",
-      "title": "BOS: Llama INT8 Kernel OPs - Trinity",
-      "at": "2026-08-24T15:01:33.963+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2027-02-19 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2291",
-      "section": "Ref. Models",
-      "title": "BOS: Llama INT8 Kernel OPs - Trinity",
-      "at": "2026-08-12T10:18:47.963+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "min.yi (이창민)"
-    },
-    {
-      "key": "NSDT-2138",
-      "section": "Ref. Models",
-      "title": "ViT Quantized",
-      "at": "2026-08-24T10:30:44.301+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-2138",
-      "section": "Ref. Models",
-      "title": "ViT Quantized",
-      "at": "2026-08-24T10:26:20.002+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Hoang Nhat Quang"
-    },
-    {
-      "key": "NSDT-2138",
-      "section": "Ref. Models",
-      "title": "ViT Quantized",
-      "at": "2026-07-14T15:16:57.994+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-31 00:00:00.0"
     },
     {
       "key": "NSDT-2105",
@@ -1378,6 +1664,33 @@
       "to": "2026-12-24 00:00:00.0"
     },
     {
+      "key": "NSDT-2098",
+      "section": "Host SW",
+      "title": "Partition manager",
+      "at": "2026-07-15T09:52:22.203+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2027-03-26 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2098",
+      "section": "Host SW",
+      "title": "Partition manager",
+      "at": "2026-07-14T13:52:55.178+0900",
+      "field": "duedate",
+      "from": "2026-12-24 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-2098",
+      "section": "Host SW",
+      "title": "Partition manager",
+      "at": "2026-07-14T12:46:49.692+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-24 00:00:00.0"
+    },
+    {
       "key": "NSDT-2099",
       "section": "Host SW",
       "title": "memory protection (isolation)",
@@ -1405,31 +1718,13 @@
       "to": "2026-12-24 00:00:00.0"
     },
     {
-      "key": "NSDT-2098",
+      "key": "NSDT-2096",
       "section": "Host SW",
-      "title": "Partition manager",
-      "at": "2026-07-15T09:52:22.203+0900",
+      "title": "Memory allocator for sharding, interleaving, etc",
+      "at": "2026-07-14T12:45:13.077+0900",
       "field": "duedate",
       "from": "Not recorded",
-      "to": "2027-03-26 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2098",
-      "section": "Host SW",
-      "title": "Partition manager",
-      "at": "2026-07-14T13:52:55.178+0900",
-      "field": "duedate",
-      "from": "2026-12-24 00:00:00.0",
-      "to": "Not recorded"
-    },
-    {
-      "key": "NSDT-2098",
-      "section": "Host SW",
-      "title": "Partition manager",
-      "at": "2026-07-14T12:46:49.692+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-24 00:00:00.0"
+      "to": "2026-12-10 00:00:00.0"
     },
     {
       "key": "NSDT-2097",
@@ -1495,15 +1790,6 @@
       "to": "2026-12-07 00:00:00.0"
     },
     {
-      "key": "NSDT-2096",
-      "section": "Host SW",
-      "title": "Memory allocator for sharding, interleaving, etc",
-      "at": "2026-07-14T12:45:13.077+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-10 00:00:00.0"
-    },
-    {
       "key": "NSDT-2094",
       "section": "Host SW",
       "title": "Trace",
@@ -1556,6 +1842,42 @@
       "field": "assignee",
       "from": "Not recorded",
       "to": "MyeongGI Jeong"
+    },
+    {
+      "key": "NSDT-2092",
+      "section": "Host SW",
+      "title": "Slow dispatch",
+      "at": "2026-08-06T15:51:57.322+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-2092",
+      "section": "Host SW",
+      "title": "Slow dispatch",
+      "at": "2026-08-06T15:51:55.843+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2092",
+      "section": "Host SW",
+      "title": "Slow dispatch",
+      "at": "2026-08-06T15:20:23.209+0900",
+      "field": "assignee",
+      "from": "MyeongGI Jeong",
+      "to": "Hyun Eun (은현)"
+    },
+    {
+      "key": "NSDT-2092",
+      "section": "Host SW",
+      "title": "Slow dispatch",
+      "at": "2026-07-14T12:42:44.346+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-09 00:00:00.0"
     },
     {
       "key": "NSDT-2091",
@@ -1621,37 +1943,37 @@
       "to": "[ Host SW - Runtime ] YOLO LLK for Trinity"
     },
     {
-      "key": "NSDT-2092",
+      "key": "NSDT-2090",
       "section": "Host SW",
-      "title": "Slow dispatch",
-      "at": "2026-08-06T15:51:57.322+0900",
+      "title": "NPU firmware for Tensix boot-up",
+      "at": "2026-08-06T15:51:27.669+0900",
       "field": "status",
       "from": "In Progress",
       "to": "pre-silicon done"
     },
     {
-      "key": "NSDT-2092",
+      "key": "NSDT-2090",
       "section": "Host SW",
-      "title": "Slow dispatch",
-      "at": "2026-08-06T15:51:55.843+0900",
+      "title": "NPU firmware for Tensix boot-up",
+      "at": "2026-08-06T15:51:25.755+0900",
       "field": "status",
       "from": "To Do",
       "to": "In Progress"
     },
     {
-      "key": "NSDT-2092",
+      "key": "NSDT-2090",
       "section": "Host SW",
-      "title": "Slow dispatch",
-      "at": "2026-08-06T15:20:23.209+0900",
+      "title": "NPU firmware for Tensix boot-up",
+      "at": "2026-08-06T15:20:23.204+0900",
       "field": "assignee",
       "from": "MyeongGI Jeong",
       "to": "Hyun Eun (은현)"
     },
     {
-      "key": "NSDT-2092",
+      "key": "NSDT-2090",
       "section": "Host SW",
-      "title": "Slow dispatch",
-      "at": "2026-07-14T12:42:44.346+0900",
+      "title": "NPU firmware for Tensix boot-up",
+      "at": "2026-07-14T12:42:20.412+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-12-09 00:00:00.0"
@@ -1693,42 +2015,6 @@
       "to": "2026-12-08 00:00:00.0"
     },
     {
-      "key": "NSDT-2090",
-      "section": "Host SW",
-      "title": "NPU firmware for Tensix boot-up",
-      "at": "2026-08-06T15:51:27.669+0900",
-      "field": "status",
-      "from": "In Progress",
-      "to": "pre-silicon done"
-    },
-    {
-      "key": "NSDT-2090",
-      "section": "Host SW",
-      "title": "NPU firmware for Tensix boot-up",
-      "at": "2026-08-06T15:51:25.755+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-2090",
-      "section": "Host SW",
-      "title": "NPU firmware for Tensix boot-up",
-      "at": "2026-08-06T15:20:23.204+0900",
-      "field": "assignee",
-      "from": "MyeongGI Jeong",
-      "to": "Hyun Eun (은현)"
-    },
-    {
-      "key": "NSDT-2090",
-      "section": "Host SW",
-      "title": "NPU firmware for Tensix boot-up",
-      "at": "2026-07-14T12:42:20.412+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-09 00:00:00.0"
-    },
-    {
       "key": "NSDT-2088",
       "section": "Host SW",
       "title": "NPU reset scenario",
@@ -1760,69 +2046,6 @@
       "section": "Host SW",
       "title": "NPU reset scenario",
       "at": "2026-07-14T11:58:22.529+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-08 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2087",
-      "section": "Host SW",
-      "title": "Device Access",
-      "at": "2026-08-06T15:42:15.346+0900",
-      "field": "status",
-      "from": "In Progress",
-      "to": "pre-silicon done"
-    },
-    {
-      "key": "NSDT-2087",
-      "section": "Host SW",
-      "title": "Device Access",
-      "at": "2026-08-06T15:42:13.687+0900",
-      "field": "status",
-      "from": "RE-OPEN",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-2087",
-      "section": "Host SW",
-      "title": "Device Access",
-      "at": "2026-08-06T15:42:11.740+0900",
-      "field": "status",
-      "from": "Resolved",
-      "to": "RE-OPEN"
-    },
-    {
-      "key": "NSDT-2087",
-      "section": "Host SW",
-      "title": "Device Access",
-      "at": "2026-08-06T15:40:21.178+0900",
-      "field": "status",
-      "from": "In Progress",
-      "to": "Resolved"
-    },
-    {
-      "key": "NSDT-2087",
-      "section": "Host SW",
-      "title": "Device Access",
-      "at": "2026-08-06T15:40:19.449+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-2087",
-      "section": "Host SW",
-      "title": "Device Access",
-      "at": "2026-08-06T15:20:24.753+0900",
-      "field": "assignee",
-      "from": "MyeongGI Jeong",
-      "to": "Hyun Eun (은현)"
-    },
-    {
-      "key": "NSDT-2087",
-      "section": "Host SW",
-      "title": "Device Access",
-      "at": "2026-07-14T11:57:53.551+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-12-08 00:00:00.0"
@@ -1891,6 +2114,69 @@
       "to": "2026-12-08 00:00:00.0"
     },
     {
+      "key": "NSDT-2087",
+      "section": "Host SW",
+      "title": "Device Access",
+      "at": "2026-08-06T15:42:15.346+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-2087",
+      "section": "Host SW",
+      "title": "Device Access",
+      "at": "2026-08-06T15:42:13.687+0900",
+      "field": "status",
+      "from": "RE-OPEN",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2087",
+      "section": "Host SW",
+      "title": "Device Access",
+      "at": "2026-08-06T15:42:11.740+0900",
+      "field": "status",
+      "from": "Resolved",
+      "to": "RE-OPEN"
+    },
+    {
+      "key": "NSDT-2087",
+      "section": "Host SW",
+      "title": "Device Access",
+      "at": "2026-08-06T15:40:21.178+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "Resolved"
+    },
+    {
+      "key": "NSDT-2087",
+      "section": "Host SW",
+      "title": "Device Access",
+      "at": "2026-08-06T15:40:19.449+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-2087",
+      "section": "Host SW",
+      "title": "Device Access",
+      "at": "2026-08-06T15:20:24.753+0900",
+      "field": "assignee",
+      "from": "MyeongGI Jeong",
+      "to": "Hyun Eun (은현)"
+    },
+    {
+      "key": "NSDT-2087",
+      "section": "Host SW",
+      "title": "Device Access",
+      "at": "2026-07-14T11:57:53.551+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-08 00:00:00.0"
+    },
+    {
       "key": "NSDT-2085",
       "section": "Host SW",
       "title": "INT-8 Runtime Format",
@@ -1898,6 +2184,24 @@
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-12-11 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2079",
+      "section": "Host SW",
+      "title": "Diagnostics",
+      "at": "2026-08-21T09:24:29.719+0900",
+      "field": "duedate",
+      "from": "2027-02-26 00:00:00.0",
+      "to": "2027-02-12 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2079",
+      "section": "Host SW",
+      "title": "Diagnostics",
+      "at": "2026-07-09T15:26:12.793+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2027-02-26 00:00:00.0"
     },
     {
       "key": "NSDT-2084",
@@ -1961,24 +2265,6 @@
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-10-30 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2079",
-      "section": "Host SW",
-      "title": "Diagnostics",
-      "at": "2026-08-21T09:24:29.719+0900",
-      "field": "duedate",
-      "from": "2027-02-26 00:00:00.0",
-      "to": "2027-02-12 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2079",
-      "section": "Host SW",
-      "title": "Diagnostics",
-      "at": "2026-07-09T15:26:12.793+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2027-02-26 00:00:00.0"
     },
     {
       "key": "NSDT-2077",
@@ -2071,33 +2357,6 @@
       "to": "2026-10-30 00:00:00.0"
     },
     {
-      "key": "NSDT-2074",
-      "section": "Host SW",
-      "title": "Real-time scheduling",
-      "at": "2026-08-21T09:24:54.425+0900",
-      "field": "duedate",
-      "from": "2027-02-26 00:00:00.0",
-      "to": "2027-02-12 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2074",
-      "section": "Host SW",
-      "title": "Real-time scheduling",
-      "at": "2026-08-19T10:50:34.378+0900",
-      "field": "duedate",
-      "from": "2026-09-30 00:00:00.0",
-      "to": "2027-02-26 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2074",
-      "section": "Host SW",
-      "title": "Real-time scheduling",
-      "at": "2026-07-09T15:24:02.170+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-30 00:00:00.0"
-    },
-    {
       "key": "NSDT-2073",
       "section": "Host SW",
       "title": "Fair scheduling",
@@ -2120,6 +2379,33 @@
       "section": "Host SW",
       "title": "Fair scheduling",
       "at": "2026-07-09T15:23:46.408+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2074",
+      "section": "Host SW",
+      "title": "Real-time scheduling",
+      "at": "2026-08-21T09:24:54.425+0900",
+      "field": "duedate",
+      "from": "2027-02-26 00:00:00.0",
+      "to": "2027-02-12 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2074",
+      "section": "Host SW",
+      "title": "Real-time scheduling",
+      "at": "2026-08-19T10:50:34.378+0900",
+      "field": "duedate",
+      "from": "2026-09-30 00:00:00.0",
+      "to": "2027-02-26 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2074",
+      "section": "Host SW",
+      "title": "Real-time scheduling",
+      "at": "2026-07-09T15:24:02.170+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-09-30 00:00:00.0"
@@ -2269,19 +2555,19 @@
       "to": "2026-10-30 00:00:00.0"
     },
     {
-      "key": "PTTM-680",
+      "key": "PTTM-679",
       "section": "Unmapped Jira ticket",
-      "title": "[N1 B0] Develop IT TCs for KMD",
-      "at": "2026-08-04T16:38:02.778+0900",
+      "title": "[N1 B0] Develop IT TCs for UMD",
+      "at": "2026-08-04T16:37:28.855+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-10-30 00:00:00.0"
     },
     {
-      "key": "PTTM-679",
+      "key": "PTTM-680",
       "section": "Unmapped Jira ticket",
-      "title": "[N1 B0] Develop IT TCs for UMD",
-      "at": "2026-08-04T16:37:28.855+0900",
+      "title": "[N1 B0] Develop IT TCs for KMD",
+      "at": "2026-08-04T16:38:02.778+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-10-30 00:00:00.0"
@@ -2305,15 +2591,6 @@
       "to": "2026-09-30 00:00:00.0"
     },
     {
-      "key": "PTTM-675",
-      "section": "Unmapped Jira ticket",
-      "title": "[N1 B0] Develop System Test automation for UMD",
-      "at": "2026-08-04T16:22:19.825+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-30 00:00:00.0"
-    },
-    {
       "key": "PTTM-676",
       "section": "Unmapped Jira ticket",
       "title": "[N1 B0] Develop System Test automation for KMD",
@@ -2323,10 +2600,10 @@
       "to": "2026-09-30 00:00:00.0"
     },
     {
-      "key": "PTTM-674",
+      "key": "PTTM-675",
       "section": "Unmapped Jira ticket",
-      "title": "[N1 B0] Develop System TCs for TT-Metal",
-      "at": "2026-08-04T16:24:46.743+0900",
+      "title": "[N1 B0] Develop System Test automation for UMD",
+      "at": "2026-08-04T16:22:19.825+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-09-30 00:00:00.0"
@@ -2348,6 +2625,15 @@
       "field": "assignee",
       "from": "Not recorded",
       "to": "Ngo Chi Kien"
+    },
+    {
+      "key": "PTTM-674",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for TT-Metal",
+      "at": "2026-08-04T16:24:46.743+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-30 00:00:00.0"
     },
     {
       "key": "PTTM-672",
@@ -2476,24 +2762,6 @@
       "to": "2026-08-28 00:00:00.0"
     },
     {
-      "key": "PTTM-663",
-      "section": "Unmapped Jira ticket",
-      "title": "[N1 B0] Develop System TCs for Speculative decoding",
-      "at": "2026-08-04T16:43:56.093+0900",
-      "field": "duedate",
-      "from": "2026-09-11 00:00:00.0",
-      "to": "2026-10-30 00:00:00.0"
-    },
-    {
-      "key": "PTTM-663",
-      "section": "Unmapped Jira ticket",
-      "title": "[N1 B0] Develop System TCs for Speculative decoding",
-      "at": "2026-07-09T16:00:16.420+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-09-11 00:00:00.0"
-    },
-    {
       "key": "PTTM-664",
       "section": "Unmapped Jira ticket",
       "title": "[N1 B0] Develop System Test automation for Speculative decoding",
@@ -2510,6 +2778,24 @@
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-10-23 00:00:00.0"
+    },
+    {
+      "key": "PTTM-663",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for Speculative decoding",
+      "at": "2026-08-04T16:43:56.093+0900",
+      "field": "duedate",
+      "from": "2026-09-11 00:00:00.0",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-663",
+      "section": "Unmapped Jira ticket",
+      "title": "[N1 B0] Develop System TCs for Speculative decoding",
+      "at": "2026-07-09T16:00:16.420+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-11 00:00:00.0"
     },
     {
       "key": "PTTM-662",
@@ -2710,60 +2996,6 @@
       "to": "서정현"
     },
     {
-      "key": "NSDT-2061",
-      "section": "Unmapped Jira ticket",
-      "title": "[HS] Speculative Decoding SRS Write",
-      "at": "2026-09-23T10:51:51.869+0900",
-      "field": "duedate",
-      "from": "2026-09-30 00:00:00.0",
-      "to": "Not recorded"
-    },
-    {
-      "key": "NSDT-2061",
-      "section": "Unmapped Jira ticket",
-      "title": "[HS] Speculative Decoding SRS Write",
-      "at": "2026-09-21T10:37:59.753+0900",
-      "field": "duedate",
-      "from": "2026-12-31 00:00:00.0",
-      "to": "2026-09-30 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2061",
-      "section": "Unmapped Jira ticket",
-      "title": "[HS] Speculative Decoding SRS Write",
-      "at": "2026-07-31T14:58:49.507+0900",
-      "field": "summary",
-      "from": "[N1-B0] Speculative Decoding SRS Write",
-      "to": "[HS] Speculative Decoding SRS Write"
-    },
-    {
-      "key": "NSDT-2061",
-      "section": "Unmapped Jira ticket",
-      "title": "[HS] Speculative Decoding SRS Write",
-      "at": "2026-07-30T15:24:09.894+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-2061",
-      "section": "Unmapped Jira ticket",
-      "title": "[HS] Speculative Decoding SRS Write",
-      "at": "2026-07-30T15:23:42.358+0900",
-      "field": "assignee",
-      "from": "정영주",
-      "to": "서정현"
-    },
-    {
-      "key": "NSDT-2061",
-      "section": "Unmapped Jira ticket",
-      "title": "[HS] Speculative Decoding SRS Write",
-      "at": "2026-07-28T17:06:19.405+0900",
-      "field": "assignee",
-      "from": "Ted Kim(김태현)",
-      "to": "정영주"
-    },
-    {
       "key": "NSDT-2060",
       "section": "Unmapped Jira ticket",
       "title": "[HS] Compiler SUD Write",
@@ -2816,6 +3048,60 @@
       "field": "summary",
       "from": "[N1-B0] Compiler SUD Write",
       "to": "[HS] Compiler SUD Write"
+    },
+    {
+      "key": "NSDT-2061",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SRS Write",
+      "at": "2026-09-23T10:51:51.869+0900",
+      "field": "duedate",
+      "from": "2026-09-30 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-2061",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SRS Write",
+      "at": "2026-09-21T10:37:59.753+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2061",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SRS Write",
+      "at": "2026-07-31T14:58:49.507+0900",
+      "field": "summary",
+      "from": "[N1-B0] Speculative Decoding SRS Write",
+      "to": "[HS] Speculative Decoding SRS Write"
+    },
+    {
+      "key": "NSDT-2061",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SRS Write",
+      "at": "2026-07-30T15:24:09.894+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-2061",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SRS Write",
+      "at": "2026-07-30T15:23:42.358+0900",
+      "field": "assignee",
+      "from": "정영주",
+      "to": "서정현"
+    },
+    {
+      "key": "NSDT-2061",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] Speculative Decoding SRS Write",
+      "at": "2026-07-28T17:06:19.405+0900",
+      "field": "assignee",
+      "from": "Ted Kim(김태현)",
+      "to": "정영주"
     },
     {
       "key": "NSDT-2059",
@@ -3052,60 +3338,6 @@
       "to": "SungminLee"
     },
     {
-      "key": "NSDT-1960",
-      "section": "Unmapped Jira ticket",
-      "title": "  [HS] UMD/KMD SUD Write",
-      "at": "2026-09-23T10:39:21.728+0900",
-      "field": "duedate",
-      "from": "2026-11-27 00:00:00.0",
-      "to": "Not recorded"
-    },
-    {
-      "key": "NSDT-1960",
-      "section": "Unmapped Jira ticket",
-      "title": "  [HS] UMD/KMD SUD Write",
-      "at": "2026-07-31T14:56:48.159+0900",
-      "field": "summary",
-      "from": "  [N1-B0] UMD/KMD SUD Write",
-      "to": "  [HS] UMD/KMD SUD Write"
-    },
-    {
-      "key": "NSDT-1960",
-      "section": "Unmapped Jira ticket",
-      "title": "  [HS] UMD/KMD SUD Write",
-      "at": "2026-07-30T15:27:54.810+0900",
-      "field": "duedate",
-      "from": "2026-10-30 00:00:00.0",
-      "to": "2026-11-27 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1960",
-      "section": "Unmapped Jira ticket",
-      "title": "  [HS] UMD/KMD SUD Write",
-      "at": "2026-07-30T15:21:28.301+0900",
-      "field": "assignee",
-      "from": "Nagoo Sung(성낙우)",
-      "to": "MyeongGI Jeong"
-    },
-    {
-      "key": "NSDT-1960",
-      "section": "Unmapped Jira ticket",
-      "title": "  [HS] UMD/KMD SUD Write",
-      "at": "2026-07-30T15:21:28.301+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-10-30 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1960",
-      "section": "Unmapped Jira ticket",
-      "title": "  [HS] UMD/KMD SUD Write",
-      "at": "2026-07-06T15:02:06.361+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Nagoo Sung(성낙우)"
-    },
-    {
       "key": "NSDT-2055",
       "section": "Unmapped Jira ticket",
       "title": "[HS] Quantization SRS Write",
@@ -3250,76 +3482,58 @@
       "to": "Nagoo Sung(성낙우)"
     },
     {
-      "key": "NSDT-1958",
+      "key": "NSDT-1960",
       "section": "Unmapped Jira ticket",
-      "title": "[HS] BOS-SMI SAD Write",
-      "at": "2026-09-23T10:49:48.872+0900",
+      "title": "  [HS] UMD/KMD SUD Write",
+      "at": "2026-09-23T10:39:21.728+0900",
       "field": "duedate",
-      "from": "2026-10-30 00:00:00.0",
+      "from": "2026-11-27 00:00:00.0",
       "to": "Not recorded"
     },
     {
-      "key": "NSDT-1958",
+      "key": "NSDT-1960",
       "section": "Unmapped Jira ticket",
-      "title": "[HS] BOS-SMI SAD Write",
-      "at": "2026-09-15T13:03:47.168+0900",
-      "field": "duedate",
-      "from": "2026-11-27 00:00:00.0",
-      "to": "2026-10-30 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1958",
-      "section": "Unmapped Jira ticket",
-      "title": "[HS] BOS-SMI SAD Write",
-      "at": "2026-07-31T14:56:35.245+0900",
+      "title": "  [HS] UMD/KMD SUD Write",
+      "at": "2026-07-31T14:56:48.159+0900",
       "field": "summary",
-      "from": "[N1-B0] BOS-SMI SAD Write",
-      "to": "[HS] BOS-SMI SAD Write"
+      "from": "  [N1-B0] UMD/KMD SUD Write",
+      "to": "  [HS] UMD/KMD SUD Write"
     },
     {
-      "key": "NSDT-1958",
+      "key": "NSDT-1960",
       "section": "Unmapped Jira ticket",
-      "title": "[HS] BOS-SMI SAD Write",
-      "at": "2026-07-30T15:26:21.816+0900",
+      "title": "  [HS] UMD/KMD SUD Write",
+      "at": "2026-07-30T15:27:54.810+0900",
       "field": "duedate",
       "from": "2026-10-30 00:00:00.0",
       "to": "2026-11-27 00:00:00.0"
     },
     {
-      "key": "NSDT-1958",
+      "key": "NSDT-1960",
       "section": "Unmapped Jira ticket",
-      "title": "[HS] BOS-SMI SAD Write",
-      "at": "2026-07-30T15:21:28.722+0900",
+      "title": "  [HS] UMD/KMD SUD Write",
+      "at": "2026-07-30T15:21:28.301+0900",
       "field": "assignee",
       "from": "Nagoo Sung(성낙우)",
       "to": "MyeongGI Jeong"
     },
     {
-      "key": "NSDT-1958",
+      "key": "NSDT-1960",
       "section": "Unmapped Jira ticket",
-      "title": "[HS] BOS-SMI SAD Write",
-      "at": "2026-07-30T15:21:28.722+0900",
+      "title": "  [HS] UMD/KMD SUD Write",
+      "at": "2026-07-30T15:21:28.301+0900",
       "field": "duedate",
       "from": "Not recorded",
       "to": "2026-10-30 00:00:00.0"
     },
     {
-      "key": "NSDT-1958",
+      "key": "NSDT-1960",
       "section": "Unmapped Jira ticket",
-      "title": "[HS] BOS-SMI SAD Write",
-      "at": "2026-07-06T15:02:17.452+0900",
+      "title": "  [HS] UMD/KMD SUD Write",
+      "at": "2026-07-06T15:02:06.361+0900",
       "field": "assignee",
       "from": "Not recorded",
       "to": "Nagoo Sung(성낙우)"
-    },
-    {
-      "key": "NSDT-1958",
-      "section": "Unmapped Jira ticket",
-      "title": "[HS] BOS-SMI SAD Write",
-      "at": "2026-07-06T14:53:30.164+0900",
-      "field": "summary",
-      "from": "Eagle-N BOS-SMI SAD Write",
-      "to": "[N1-B0] BOS-SMI SAD Write"
     },
     {
       "key": "NSDT-1959",
@@ -3392,6 +3606,78 @@
       "field": "summary",
       "from": "Eagle-N BOS-SMI SUD Write",
       "to": "[N1-B0] BOS-SMI SUD Write"
+    },
+    {
+      "key": "NSDT-1958",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SAD Write",
+      "at": "2026-09-23T10:49:48.872+0900",
+      "field": "duedate",
+      "from": "2026-10-30 00:00:00.0",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1958",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SAD Write",
+      "at": "2026-09-15T13:03:47.168+0900",
+      "field": "duedate",
+      "from": "2026-11-27 00:00:00.0",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1958",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SAD Write",
+      "at": "2026-07-31T14:56:35.245+0900",
+      "field": "summary",
+      "from": "[N1-B0] BOS-SMI SAD Write",
+      "to": "[HS] BOS-SMI SAD Write"
+    },
+    {
+      "key": "NSDT-1958",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SAD Write",
+      "at": "2026-07-30T15:26:21.816+0900",
+      "field": "duedate",
+      "from": "2026-10-30 00:00:00.0",
+      "to": "2026-11-27 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1958",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SAD Write",
+      "at": "2026-07-30T15:21:28.722+0900",
+      "field": "assignee",
+      "from": "Nagoo Sung(성낙우)",
+      "to": "MyeongGI Jeong"
+    },
+    {
+      "key": "NSDT-1958",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SAD Write",
+      "at": "2026-07-30T15:21:28.722+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-10-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1958",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SAD Write",
+      "at": "2026-07-06T15:02:17.452+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Nagoo Sung(성낙우)"
+    },
+    {
+      "key": "NSDT-1958",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] BOS-SMI SAD Write",
+      "at": "2026-07-06T14:53:30.164+0900",
+      "field": "summary",
+      "from": "Eagle-N BOS-SMI SAD Write",
+      "to": "[N1-B0] BOS-SMI SAD Write"
     },
     {
       "key": "NSDT-1957",
@@ -3529,6 +3815,78 @@
       "to": "[N1-B0] UMD/KMD SAD Write"
     },
     {
+      "key": "NSDT-1952",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SRS Write",
+      "at": "2026-09-03T10:06:44.589+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1952",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SRS Write",
+      "at": "2026-08-20T14:30:28.035+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1952",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SRS Write",
+      "at": "2026-07-31T14:55:37.897+0900",
+      "field": "summary",
+      "from": "[N1-B0] UMD/KMD SRS Write",
+      "to": "[HS] UMD/KMD SRS Write"
+    },
+    {
+      "key": "NSDT-1952",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SRS Write",
+      "at": "2026-07-30T15:24:54.416+0900",
+      "field": "duedate",
+      "from": "2026-08-28 00:00:00.0",
+      "to": "2026-09-25 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1952",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SRS Write",
+      "at": "2026-07-30T15:21:29.617+0900",
+      "field": "assignee",
+      "from": "Nagoo Sung(성낙우)",
+      "to": "MyeongGI Jeong"
+    },
+    {
+      "key": "NSDT-1952",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SRS Write",
+      "at": "2026-07-30T15:21:29.617+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-08-28 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1952",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SRS Write",
+      "at": "2026-07-06T15:03:10.213+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Nagoo Sung(성낙우)"
+    },
+    {
+      "key": "NSDT-1952",
+      "section": "Unmapped Jira ticket",
+      "title": "[HS] UMD/KMD SRS Write",
+      "at": "2026-07-06T14:52:44.991+0900",
+      "field": "summary",
+      "from": "Eagle-N UMD/KMD SRS Write",
+      "to": "[N1-B0] UMD/KMD SRS Write"
+    },
+    {
       "key": "NSDT-1953",
       "section": "Unmapped Jira ticket",
       "title": "[HS] BOS-SMI SRS Write",
@@ -3601,76 +3959,13 @@
       "to": "[N1-B0] BOS-SMI SRS Write"
     },
     {
-      "key": "NSDT-1952",
+      "key": "NSDT-1951",
       "section": "Unmapped Jira ticket",
-      "title": "[HS] UMD/KMD SRS Write",
-      "at": "2026-09-03T10:06:44.589+0900",
-      "field": "status",
-      "from": "In Progress",
-      "to": "pre-silicon done"
-    },
-    {
-      "key": "NSDT-1952",
-      "section": "Unmapped Jira ticket",
-      "title": "[HS] UMD/KMD SRS Write",
-      "at": "2026-08-20T14:30:28.035+0900",
+      "title": "[HS] TT-metal-E2 SRS write (including multi-model scheduler)",
+      "at": "2026-09-23T11:55:20.128+0900",
       "field": "status",
       "from": "To Do",
       "to": "In Progress"
-    },
-    {
-      "key": "NSDT-1952",
-      "section": "Unmapped Jira ticket",
-      "title": "[HS] UMD/KMD SRS Write",
-      "at": "2026-07-31T14:55:37.897+0900",
-      "field": "summary",
-      "from": "[N1-B0] UMD/KMD SRS Write",
-      "to": "[HS] UMD/KMD SRS Write"
-    },
-    {
-      "key": "NSDT-1952",
-      "section": "Unmapped Jira ticket",
-      "title": "[HS] UMD/KMD SRS Write",
-      "at": "2026-07-30T15:24:54.416+0900",
-      "field": "duedate",
-      "from": "2026-08-28 00:00:00.0",
-      "to": "2026-09-25 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1952",
-      "section": "Unmapped Jira ticket",
-      "title": "[HS] UMD/KMD SRS Write",
-      "at": "2026-07-30T15:21:29.617+0900",
-      "field": "assignee",
-      "from": "Nagoo Sung(성낙우)",
-      "to": "MyeongGI Jeong"
-    },
-    {
-      "key": "NSDT-1952",
-      "section": "Unmapped Jira ticket",
-      "title": "[HS] UMD/KMD SRS Write",
-      "at": "2026-07-30T15:21:29.617+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-08-28 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1952",
-      "section": "Unmapped Jira ticket",
-      "title": "[HS] UMD/KMD SRS Write",
-      "at": "2026-07-06T15:03:10.213+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Nagoo Sung(성낙우)"
-    },
-    {
-      "key": "NSDT-1952",
-      "section": "Unmapped Jira ticket",
-      "title": "[HS] UMD/KMD SRS Write",
-      "at": "2026-07-06T14:52:44.991+0900",
-      "field": "summary",
-      "from": "Eagle-N UMD/KMD SRS Write",
-      "to": "[N1-B0] UMD/KMD SRS Write"
     },
     {
       "key": "NSDT-1951",
@@ -3853,6 +4148,60 @@
       "to": "Nguyen Dang Thoi Toan"
     },
     {
+      "key": "NSDT-1946",
+      "section": "Ref. Models",
+      "title": "Resnet50/Yolo Quantized",
+      "at": "2026-08-24T10:30:39.313+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1946",
+      "section": "Ref. Models",
+      "title": "Resnet50/Yolo Quantized",
+      "at": "2026-08-24T10:24:27.297+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Tran Thi Cam Giang"
+    },
+    {
+      "key": "NSDT-1946",
+      "section": "Ref. Models",
+      "title": "Resnet50/Yolo Quantized",
+      "at": "2026-07-05T17:22:44.315+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1945",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for Vision models",
+      "at": "2026-08-24T10:30:37.435+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1945",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for Vision models",
+      "at": "2026-07-05T17:19:58.615+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1945",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for Vision models",
+      "at": "2026-07-05T17:19:26.112+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][",
+      "to": "[N1-B0][AISW][Quantization] INT8 w8a8 quantization for Vision models (ResNet50, YOLOv8s, ViT, PDL, OFT/FastOFT, SSR) "
+    },
+    {
       "key": "NSDT-1944",
       "section": "Host SW",
       "title": "Vision Quantization scripts with Quandora (Symmetric / PTQ)",
@@ -3914,60 +4263,6 @@
       "field": "assignee",
       "from": "Not recorded",
       "to": "Nguyen Viet Nhat"
-    },
-    {
-      "key": "NSDT-1943",
-      "section": "AI Model Dev. Tools for Eagle N",
-      "title": "Production-Ready Deployment Flow",
-      "at": "2026-07-15T13:21:38.222+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-1943",
-      "section": "AI Model Dev. Tools for Eagle N",
-      "title": "Production-Ready Deployment Flow",
-      "at": "2026-07-15T13:21:32.551+0900",
-      "field": "duedate",
-      "from": "2026-09-30 00:00:00.0",
-      "to": "2026-12-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1943",
-      "section": "AI Model Dev. Tools for Eagle N",
-      "title": "Production-Ready Deployment Flow",
-      "at": "2026-07-08T11:56:01.549+0900",
-      "field": "duedate",
-      "from": "2026-12-31 00:00:00.0",
-      "to": "2026-09-30 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1943",
-      "section": "AI Model Dev. Tools for Eagle N",
-      "title": "Production-Ready Deployment Flow",
-      "at": "2026-07-05T14:41:24.374+0900",
-      "field": "duedate",
-      "from": "2026-08-31 00:00:00.0",
-      "to": "2026-12-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1943",
-      "section": "AI Model Dev. Tools for Eagle N",
-      "title": "Production-Ready Deployment Flow",
-      "at": "2026-07-05T14:13:58.851+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-08-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1943",
-      "section": "AI Model Dev. Tools for Eagle N",
-      "title": "Production-Ready Deployment Flow",
-      "at": "2026-07-05T14:13:48.017+0900",
-      "field": "assignee",
-      "from": "Not recorded",
-      "to": "Dang Thanh Huy"
     },
     {
       "key": "NSDT-1942",
@@ -4051,58 +4346,58 @@
       "to": "Dang Thanh Huy"
     },
     {
-      "key": "NSDT-1946",
-      "section": "Ref. Models",
-      "title": "Resnet50/Yolo Quantized",
-      "at": "2026-08-24T10:30:39.313+0900",
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Production-Ready Deployment Flow",
+      "at": "2026-07-15T13:21:38.222+0900",
       "field": "status",
       "from": "To Do",
       "to": "In Progress"
     },
     {
-      "key": "NSDT-1946",
-      "section": "Ref. Models",
-      "title": "Resnet50/Yolo Quantized",
-      "at": "2026-08-24T10:24:27.297+0900",
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Production-Ready Deployment Flow",
+      "at": "2026-07-15T13:21:32.551+0900",
+      "field": "duedate",
+      "from": "2026-09-30 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Production-Ready Deployment Flow",
+      "at": "2026-07-08T11:56:01.549+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Production-Ready Deployment Flow",
+      "at": "2026-07-05T14:41:24.374+0900",
+      "field": "duedate",
+      "from": "2026-08-31 00:00:00.0",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Production-Ready Deployment Flow",
+      "at": "2026-07-05T14:13:58.851+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-08-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1943",
+      "section": "AI Model Dev. Tools for Eagle N",
+      "title": "Production-Ready Deployment Flow",
+      "at": "2026-07-05T14:13:48.017+0900",
       "field": "assignee",
       "from": "Not recorded",
-      "to": "Tran Thi Cam Giang"
-    },
-    {
-      "key": "NSDT-1946",
-      "section": "Ref. Models",
-      "title": "Resnet50/Yolo Quantized",
-      "at": "2026-07-05T17:22:44.315+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1945",
-      "section": "Host SW",
-      "title": "INT8 w8a8 quantization for Vision models",
-      "at": "2026-08-24T10:30:37.435+0900",
-      "field": "status",
-      "from": "To Do",
-      "to": "In Progress"
-    },
-    {
-      "key": "NSDT-1945",
-      "section": "Host SW",
-      "title": "INT8 w8a8 quantization for Vision models",
-      "at": "2026-07-05T17:19:58.615+0900",
-      "field": "duedate",
-      "from": "Not recorded",
-      "to": "2026-12-31 00:00:00.0"
-    },
-    {
-      "key": "NSDT-1945",
-      "section": "Host SW",
-      "title": "INT8 w8a8 quantization for Vision models",
-      "at": "2026-07-05T17:19:26.112+0900",
-      "field": "summary",
-      "from": "[N1-B0][AISW][",
-      "to": "[N1-B0][AISW][Quantization] INT8 w8a8 quantization for Vision models (ResNet50, YOLOv8s, ViT, PDL, OFT/FastOFT, SSR) "
+      "to": "Dang Thanh Huy"
     },
     {
       "key": "NSDT-1941",
@@ -4625,6 +4920,1581 @@
       "field": "summary",
       "from": "Transformer\tViT\tAIMM\t\tP-D \tViT Quantized \tAIMM\t\t CNN\tResnet50/Yolo\tAIMM\t\tP-D \tOFT/PDL\tAIMM\t\tP-D \tResnet50/Yolo Quantized\tAIMM\t\tP-D \tOFT/PDL Quantized\tAIMM\t\tP-D E2E\tSSR\tAIMM\t\tP-D \tSSR Quantized\tAIMM",
       "to": "[N1-B0][AISW][Model] VIT"
+    },
+    {
+      "key": "NSDT-1931",
+      "section": "Ref. Models",
+      "title": "Qwen 3 VL 3B/7B Speculative decoding",
+      "at": "2026-09-22T15:18:18.986+0900",
+      "field": "assignee",
+      "from": "DongHo",
+      "to": "서정현"
+    },
+    {
+      "key": "NSDT-1931",
+      "section": "Ref. Models",
+      "title": "Qwen 3 VL 3B/7B Speculative decoding",
+      "at": "2026-08-25T15:32:34.266+0900",
+      "field": "duedate",
+      "from": "2026-08-31 00:00:00.0",
+      "to": "2027-02-19 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1931",
+      "section": "Ref. Models",
+      "title": "Qwen 3 VL 3B/7B Speculative decoding",
+      "at": "2026-08-25T15:31:51.816+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "DongHo"
+    },
+    {
+      "key": "NSDT-1931",
+      "section": "Ref. Models",
+      "title": "Qwen 3 VL 3B/7B Speculative decoding",
+      "at": "2026-07-09T14:22:54.387+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1931",
+      "section": "Ref. Models",
+      "title": "Qwen 3 VL 3B/7B Speculative decoding",
+      "at": "2026-07-09T14:21:02.034+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-08-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1931",
+      "section": "Ref. Models",
+      "title": "Qwen 3 VL 3B/7B Speculative decoding",
+      "at": "2026-07-09T13:09:59.448+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Model] Qwen 2.5VL 3B/7B Speculative decoding",
+      "to": "[N1-B0][AISW][Model] Qwen 3 VL 2B/8B Speculative decoding"
+    },
+    {
+      "key": "NSDT-1931",
+      "section": "Ref. Models",
+      "title": "Qwen 3 VL 3B/7B Speculative decoding",
+      "at": "2026-07-03T08:54:25.934+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1931",
+      "section": "Ref. Models",
+      "title": "Qwen 3 VL 3B/7B Speculative decoding",
+      "at": "2026-07-03T08:52:48.687+0900",
+      "field": "assignee",
+      "from": "DongHo",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1931",
+      "section": "Ref. Models",
+      "title": "Qwen 3 VL 3B/7B Speculative decoding",
+      "at": "2026-07-02T17:27:35.550+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "DongHo"
+    },
+    {
+      "key": "NSDT-1931",
+      "section": "Ref. Models",
+      "title": "Qwen 3 VL 3B/7B Speculative decoding",
+      "at": "2026-07-02T16:23:39.746+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Model] Llama 3.1 8B/Llama 3.2 1B/3B Speculative decoding",
+      "to": "[N1-B0][AISW][Model] Qwen 2.5VL 3B/7B Speculative decoding"
+    },
+    {
+      "key": "NSDT-1930",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B Quantized",
+      "at": "2026-09-14T15:38:31.802+0900",
+      "field": "assignee",
+      "from": "Jaeyoung Im",
+      "to": "조민수"
+    },
+    {
+      "key": "NSDT-1930",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B Quantized",
+      "at": "2026-09-10T15:35:27.353+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1930",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B Quantized",
+      "at": "2026-08-25T16:56:05.329+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Jaeyoung Im"
+    },
+    {
+      "key": "NSDT-1930",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B Quantized",
+      "at": "2026-08-25T16:56:05.329+0900",
+      "field": "duedate",
+      "from": "2026-09-30 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1930",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B Quantized",
+      "at": "2026-07-09T14:16:49.038+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1930",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B Quantized",
+      "at": "2026-07-09T14:16:32.462+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1930",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B Quantized",
+      "at": "2026-07-09T13:10:18.402+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Model] Qwen 2.5VL 3B/7B Quantized",
+      "to": "[N1-B0][AISW][Model] Qwen 3 VL 2B/8B Quantized"
+    },
+    {
+      "key": "NSDT-1930",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B Quantized",
+      "at": "2026-07-03T08:54:32.442+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1930",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B Quantized",
+      "at": "2026-07-02T16:23:09.602+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Model] Llama 3.1 8B/Llama 3.2 1B/3B Quantized",
+      "to": "[N1-B0][AISW][Model] Qwen 2.5VL 3B/7B Quantized"
+    },
+    {
+      "key": "NSDT-1929",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B",
+      "at": "2026-08-25T16:56:05.322+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "서정현"
+    },
+    {
+      "key": "NSDT-1929",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B",
+      "at": "2026-08-25T16:56:05.322+0900",
+      "field": "duedate",
+      "from": "2026-06-30 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1929",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B",
+      "at": "2026-07-09T14:18:03.147+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-06-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1929",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B",
+      "at": "2026-07-09T14:02:00.409+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1929",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B",
+      "at": "2026-07-09T14:01:49.233+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1929",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B",
+      "at": "2026-07-09T13:10:32.902+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Model] Qwen 2.5VL 3B/7B",
+      "to": "[N1-B0][AISW][Model] Qwen 3 VL 2B/8B"
+    },
+    {
+      "key": "NSDT-1929",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B",
+      "at": "2026-07-03T08:54:37.569+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1929",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B",
+      "at": "2026-07-03T08:52:53.525+0900",
+      "field": "assignee",
+      "from": "정영주",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1929",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B",
+      "at": "2026-07-03T08:52:50.495+0900",
+      "field": "assignee",
+      "from": "DongHo",
+      "to": "정영주"
+    },
+    {
+      "key": "NSDT-1929",
+      "section": "Ref. Models",
+      "title": "Qwen 2.5VL 3B/7B",
+      "at": "2026-07-02T17:27:24.571+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "DongHo"
+    },
+    {
+      "key": "NSDT-1927",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Quantized",
+      "at": "2026-09-10T15:35:23.795+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1927",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Quantized",
+      "at": "2026-08-25T16:56:04.344+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "조민수"
+    },
+    {
+      "key": "NSDT-1927",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Quantized",
+      "at": "2026-08-25T16:56:04.344+0900",
+      "field": "duedate",
+      "from": "2026-09-30 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1927",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Quantized",
+      "at": "2026-07-09T14:17:06.736+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1927",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Quantized",
+      "at": "2026-07-09T14:16:50.914+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1927",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Quantized",
+      "at": "2026-07-09T13:12:34.354+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Model] Llama 3.1 8B/Llama 3.2 1B Quantized",
+      "to": "[N1-B0][AISW][Model] Llama 3.1 8B/Llama 3.2 3B/1B Quantized"
+    },
+    {
+      "key": "NSDT-1927",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Quantized",
+      "at": "2026-07-09T13:11:18.973+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Model] Llama 3.1 8B/Llama 3.2 1B/3B Quantized",
+      "to": "[N1-B0][AISW][Model] Llama 3.1 8B/Llama 3.2 1B Quantized"
+    },
+    {
+      "key": "NSDT-1927",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Quantized",
+      "at": "2026-07-03T08:54:49.850+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1927",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Quantized",
+      "at": "2026-07-02T16:19:24.206+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Model] Llama 3.1 8B/Llama 3.2 1B/3B",
+      "to": "[N1-B0][AISW][Model] Llama 3.1 8B/Llama 3.2 1B/3B Quantized"
+    },
+    {
+      "key": "NSDT-1927",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Quantized",
+      "at": "2026-07-02T16:19:03.329+0900",
+      "field": "summary",
+      "from": "Llama 3.1 8B/Llama 3.2 1B/3B",
+      "to": "[N1-B0][AISW][Model] Llama 3.1 8B/Llama 3.2 1B/3B"
+    },
+    {
+      "key": "NSDT-1928",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Speculative decoding",
+      "at": "2026-08-25T16:56:05.299+0900",
+      "field": "duedate",
+      "from": "2026-06-30 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1928",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Speculative decoding",
+      "at": "2026-08-25T16:01:58.353+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "서정현"
+    },
+    {
+      "key": "NSDT-1928",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Speculative decoding",
+      "at": "2026-07-09T14:17:55.370+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-06-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1928",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Speculative decoding",
+      "at": "2026-07-09T14:02:14.013+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1928",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Speculative decoding",
+      "at": "2026-07-09T14:02:09.583+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1928",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Speculative decoding",
+      "at": "2026-07-09T13:10:48.209+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Model] Llama 3.1 8B/Llama 3.2 1B/3B Speculative decoding",
+      "to": "[N1-B0][AISW][Model] Llama 3.1 8B/Llama 3.2 1B Speculative decoding"
+    },
+    {
+      "key": "NSDT-1928",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B Speculative decoding",
+      "at": "2026-07-03T08:54:44.893+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1926",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B",
+      "at": "2026-08-25T16:56:05.656+0900",
+      "field": "duedate",
+      "from": "2026-06-30 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1926",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B",
+      "at": "2026-08-25T16:01:58.338+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Athul Shibu"
+    },
+    {
+      "key": "NSDT-1926",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B",
+      "at": "2026-07-09T14:18:18.896+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-06-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1926",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B",
+      "at": "2026-07-09T13:13:48.001+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1926",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B",
+      "at": "2026-07-09T13:13:44.798+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1926",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B",
+      "at": "2026-07-09T13:11:47.742+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Model] Llama 3.1 8B/Llama 3.2 1B",
+      "to": "[N1-B0][AISW][Model] Llama 3.1 8B/Llama 3.2 3B/1B"
+    },
+    {
+      "key": "NSDT-1926",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B",
+      "at": "2026-07-09T13:11:28.480+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Model] Llama 3.1 8B/Llama 3.2 1B/3B",
+      "to": "[N1-B0][AISW][Model] Llama 3.1 8B/Llama 3.2 1B"
+    },
+    {
+      "key": "NSDT-1926",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B",
+      "at": "2026-07-03T08:54:55.377+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1926",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B",
+      "at": "2026-07-03T08:52:58.036+0900",
+      "field": "assignee",
+      "from": "서정현",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1926",
+      "section": "Ref. Models",
+      "title": "Llama 3.1 8B/Llama 3.2 1B/3B",
+      "at": "2026-07-02T17:27:54.564+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "서정현"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-09-07T14:55:05.683+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-09-07T14:51:32.106+0900",
+      "field": "status",
+      "from": "RE-OPEN",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-08-25T16:56:06.827+0900",
+      "field": "duedate",
+      "from": "2026-08-27 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-08-25T16:01:59.268+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "서정현"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-08-25T14:41:00.286+0900",
+      "field": "status",
+      "from": "pre-silicon done",
+      "to": "RE-OPEN"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-08-24T14:19:49.956+0900",
+      "field": "duedate",
+      "from": "2026-06-30 00:00:00.0",
+      "to": "2026-08-27 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-07-09T14:19:42.130+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-06-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-07-09T13:44:53.375+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-07-09T13:44:51.049+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-07-03T08:55:23.547+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-07-03T08:53:05.161+0900",
+      "field": "assignee",
+      "from": "서정현",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1923",
+      "section": "Host SW",
+      "title": "Speculative Decoding Benchmark and Acceptance-Rate Dashboard",
+      "at": "2026-07-02T17:24:10.175+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "서정현"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-08-25T16:56:06.542+0900",
+      "field": "duedate",
+      "from": "2026-06-30 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-08-25T16:01:59.269+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "min.yi (이창민)"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-07-09T14:18:31.569+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-06-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-07-09T13:13:37.393+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-07-09T13:13:32.748+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-07-09T13:13:28.562+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Speculative Decoding] Long-Context and KV-Cache Policy",
+      "to": "[N1-B0][AISW][Long Context] Sliding Window Attention/Attention sync"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-07-03T08:55:14.182+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-07-03T08:53:01.878+0900",
+      "field": "assignee",
+      "from": "min.yi (이창민)",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-07-02T17:24:01.076+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "min.yi (이창민)"
+    },
+    {
+      "key": "NSDT-1924",
+      "section": "Host SW",
+      "title": "Sliding Window Attention/Attention sync",
+      "at": "2026-07-02T17:12:54.569+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Speculative Decoding] Long-Context and KV-Cache Policy for Speculative Decoding",
+      "to": "[N1-B0][AISW][Speculative Decoding] Long-Context and KV-Cache Policy"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-09-07T14:55:07.498+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-09-07T14:51:43.084+0900",
+      "field": "status",
+      "from": "RE-OPEN",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-08-25T16:56:06.827+0900",
+      "field": "duedate",
+      "from": "2026-08-27 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-08-24T14:20:27.512+0900",
+      "field": "duedate",
+      "from": "2026-06-30 00:00:00.0",
+      "to": "2026-08-27 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-08-24T14:20:19.212+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "서정현"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-08-24T14:15:52.021+0900",
+      "field": "status",
+      "from": "pre-silicon done",
+      "to": "RE-OPEN"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-07-09T14:19:32.910+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-06-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-07-09T13:44:45.818+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-07-09T13:44:43.542+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-07-03T08:55:29.884+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-07-03T08:53:08.783+0900",
+      "field": "assignee",
+      "from": "서정현",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-07-02T17:24:48.770+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "서정현"
+    },
+    {
+      "key": "NSDT-1922",
+      "section": "Host SW",
+      "title": "Draft-Target Speculative Decoding Runtime",
+      "at": "2026-07-02T14:55:50.290+0900",
+      "field": "summary",
+      "from": "[N1-B0][AISW][Speculative Decoding] W8A8 LLM compression recipes/scripts",
+      "to": "[N1-B0][AISW][Speculative Decoding] Draft-Target Speculative Decoding Runtime"
+    },
+    {
+      "key": "NSDT-1921",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for LLM/VLM",
+      "at": "2026-08-25T16:56:05.653+0900",
+      "field": "duedate",
+      "from": "2026-06-30 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1921",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for LLM/VLM",
+      "at": "2026-08-25T16:01:59.267+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "SungminLee"
+    },
+    {
+      "key": "NSDT-1921",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for LLM/VLM",
+      "at": "2026-07-09T14:19:16.508+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-06-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1921",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for LLM/VLM",
+      "at": "2026-07-09T13:44:29.706+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1921",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for LLM/VLM",
+      "at": "2026-07-09T13:44:21.671+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1921",
+      "section": "Host SW",
+      "title": "INT8 w8a8 quantization for LLM/VLM",
+      "at": "2026-07-03T08:55:37.291+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1920",
+      "section": "SDK",
+      "title": "W8A8 LLM quantization workflow documentation",
+      "at": "2026-08-25T16:56:06.542+0900",
+      "field": "duedate",
+      "from": "2026-06-30 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1920",
+      "section": "SDK",
+      "title": "W8A8 LLM quantization workflow documentation",
+      "at": "2026-07-13T12:39:08.461+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "조민수"
+    },
+    {
+      "key": "NSDT-1920",
+      "section": "SDK",
+      "title": "W8A8 LLM quantization workflow documentation",
+      "at": "2026-07-09T14:21:43.665+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-06-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1920",
+      "section": "SDK",
+      "title": "W8A8 LLM quantization workflow documentation",
+      "at": "2026-07-09T13:16:25.378+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1920",
+      "section": "SDK",
+      "title": "W8A8 LLM quantization workflow documentation",
+      "at": "2026-07-09T13:16:22.572+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1920",
+      "section": "SDK",
+      "title": "W8A8 LLM quantization workflow documentation",
+      "at": "2026-07-03T08:55:43.649+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1920",
+      "section": "SDK",
+      "title": "W8A8 LLM quantization workflow documentation",
+      "at": "2026-07-03T08:53:11.691+0900",
+      "field": "assignee",
+      "from": "조민수",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1920",
+      "section": "SDK",
+      "title": "W8A8 LLM quantization workflow documentation",
+      "at": "2026-07-02T17:25:03.855+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "조민수"
+    },
+    {
+      "key": "NSDT-1919",
+      "section": "Host SW",
+      "title": "W8A8 LLM quantization recipes/scripts",
+      "at": "2026-08-25T16:56:06.542+0900",
+      "field": "duedate",
+      "from": "2026-06-30 00:00:00.0",
+      "to": "2027-01-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1919",
+      "section": "Host SW",
+      "title": "W8A8 LLM quantization recipes/scripts",
+      "at": "2026-07-13T12:50:52.319+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "조민수"
+    },
+    {
+      "key": "NSDT-1919",
+      "section": "Host SW",
+      "title": "W8A8 LLM quantization recipes/scripts",
+      "at": "2026-07-09T14:22:36.119+0900",
+      "field": "duedate",
+      "from": "2026-12-31 00:00:00.0",
+      "to": "2026-06-30 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1919",
+      "section": "Host SW",
+      "title": "W8A8 LLM quantization recipes/scripts",
+      "at": "2026-07-09T13:16:31.865+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "pre-silicon done"
+    },
+    {
+      "key": "NSDT-1919",
+      "section": "Host SW",
+      "title": "W8A8 LLM quantization recipes/scripts",
+      "at": "2026-07-09T13:16:28.391+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "NSDT-1919",
+      "section": "Host SW",
+      "title": "W8A8 LLM quantization recipes/scripts",
+      "at": "2026-07-03T08:55:49.384+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-12-31 00:00:00.0"
+    },
+    {
+      "key": "NSDT-1919",
+      "section": "Host SW",
+      "title": "W8A8 LLM quantization recipes/scripts",
+      "at": "2026-07-03T08:53:15.511+0900",
+      "field": "assignee",
+      "from": "조민수",
+      "to": "Not recorded"
+    },
+    {
+      "key": "NSDT-1919",
+      "section": "Host SW",
+      "title": "W8A8 LLM quantization recipes/scripts",
+      "at": "2026-07-02T17:25:56.322+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "조민수"
+    },
+    {
+      "key": "PTTM-476",
+      "section": "SDK",
+      "title": "Custom Ops & Kernel Programming Guide",
+      "at": "2026-06-10T14:46:55.889+0900",
+      "field": "summary",
+      "from": "Compiler-based model development Guide",
+      "to": "Custom Ops & Kernel Programming Guide"
+    },
+    {
+      "key": "PTTM-476",
+      "section": "SDK",
+      "title": "Custom Ops & Kernel Programming Guide",
+      "at": "2026-06-05T17:47:51.181+0900",
+      "field": "summary",
+      "from": "Yolo",
+      "to": "Compiler-based model development Guide"
+    },
+    {
+      "key": "PTTM-476",
+      "section": "SDK",
+      "title": "Custom Ops & Kernel Programming Guide",
+      "at": "2026-06-05T16:58:56.535+0900",
+      "field": "summary",
+      "from": "Enhanced end to end workflow documentation",
+      "to": "Yolo"
+    },
+    {
+      "key": "PTTM-476",
+      "section": "SDK",
+      "title": "Custom Ops & Kernel Programming Guide",
+      "at": "2026-06-04T13:36:54.318+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Simon Jacqmart"
+    },
+    {
+      "key": "PTTM-477",
+      "section": "SDK",
+      "title": "Model development Guide",
+      "at": "2026-06-29T17:07:45.827+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "Done"
+    },
+    {
+      "key": "PTTM-477",
+      "section": "SDK",
+      "title": "Model development Guide",
+      "at": "2026-06-16T10:18:13.818+0900",
+      "field": "duedate",
+      "from": "2026-07-20 00:00:00.0",
+      "to": "2026-06-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-477",
+      "section": "SDK",
+      "title": "Model development Guide",
+      "at": "2026-06-08T15:30:27.434+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "PTTM-477",
+      "section": "SDK",
+      "title": "Model development Guide",
+      "at": "2026-06-05T17:47:51.561+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-07-20 00:00:00.0"
+    },
+    {
+      "key": "PTTM-477",
+      "section": "SDK",
+      "title": "Model development Guide",
+      "at": "2026-06-05T17:00:05.168+0900",
+      "field": "summary",
+      "from": "Simplifying installation steps",
+      "to": "Manual model development Guide"
+    },
+    {
+      "key": "PTTM-475",
+      "section": "SDK",
+      "title": "Model performance optimization Guide",
+      "at": "2026-06-10T14:59:35.359+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-11-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-475",
+      "section": "SDK",
+      "title": "Model performance optimization Guide",
+      "at": "2026-06-09T17:56:46.019+0900",
+      "field": "summary",
+      "from": "Yolo",
+      "to": "Model performance optimization Guide"
+    },
+    {
+      "key": "PTTM-475",
+      "section": "SDK",
+      "title": "Model performance optimization Guide",
+      "at": "2026-06-05T16:59:07.626+0900",
+      "field": "summary",
+      "from": "Custom model Compilation and execution tutorial",
+      "to": "Yolo"
+    },
+    {
+      "key": "PTTM-475",
+      "section": "SDK",
+      "title": "Model performance optimization Guide",
+      "at": "2026-06-04T13:57:18.310+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Simon Jacqmart"
+    },
+    {
+      "key": "PTTM-472",
+      "section": "SDK",
+      "title": "Custom model development and deployment",
+      "at": "2026-06-09T17:54:14.695+0900",
+      "field": "summary",
+      "from": "Custom model compilation and execution",
+      "to": "Custom model development and deployment "
+    },
+    {
+      "key": "PTTM-472",
+      "section": "SDK",
+      "title": "Custom model development and deployment",
+      "at": "2026-06-05T16:56:25.202+0900",
+      "field": "summary",
+      "from": "Possible Guided Performance tooling",
+      "to": "Custom model compilation and execution"
+    },
+    {
+      "key": "PTTM-472",
+      "section": "SDK",
+      "title": "Custom model development and deployment",
+      "at": "2026-06-04T13:57:30.580+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Simon Jacqmart"
+    },
+    {
+      "key": "PTTM-471",
+      "section": "SDK",
+      "title": "How to Quantize models",
+      "at": "2026-07-09T11:13:54.130+0900",
+      "field": "duedate",
+      "from": "2026-09-30 00:00:00.0",
+      "to": "2026-12-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-471",
+      "section": "SDK",
+      "title": "How to Quantize models",
+      "at": "2026-06-10T14:59:35.344+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-471",
+      "section": "SDK",
+      "title": "How to Quantize models",
+      "at": "2026-06-05T16:55:57.950+0900",
+      "field": "summary",
+      "from": "Ops compatibility Checker",
+      "to": "How to Quantize models"
+    },
+    {
+      "key": "PTTM-471",
+      "section": "SDK",
+      "title": "How to Quantize models",
+      "at": "2026-06-04T13:57:31.619+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Simon Jacqmart"
+    },
+    {
+      "key": "PTTM-470",
+      "section": "SDK",
+      "title": "How to use tt-sim",
+      "at": "2026-07-09T11:13:54.144+0900",
+      "field": "duedate",
+      "from": "2026-08-31 00:00:00.0",
+      "to": "2026-09-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-470",
+      "section": "SDK",
+      "title": "How to use tt-sim",
+      "at": "2026-06-10T14:59:35.352+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-08-31 00:00:00.0"
+    },
+    {
+      "key": "PTTM-470",
+      "section": "SDK",
+      "title": "How to use tt-sim",
+      "at": "2026-06-05T16:55:23.348+0900",
+      "field": "summary",
+      "from": "ttnn-standalone",
+      "to": "How to use tt-sim"
+    },
+    {
+      "key": "PTTM-470",
+      "section": "SDK",
+      "title": "How to use tt-sim",
+      "at": "2026-06-04T13:57:33.115+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Simon Jacqmart"
+    },
+    {
+      "key": "PTTM-469",
+      "section": "SDK",
+      "title": "How to use tt-explorer",
+      "at": "2026-06-10T14:59:35.804+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-10-31 00:00:00.0"
+    },
+    {
+      "key": "PTTM-469",
+      "section": "SDK",
+      "title": "How to use tt-explorer",
+      "at": "2026-06-05T16:54:42.035+0900",
+      "field": "summary",
+      "from": "tt-explorer",
+      "to": "How to use tt-explorer"
+    },
+    {
+      "key": "PTTM-469",
+      "section": "SDK",
+      "title": "How to use tt-explorer",
+      "at": "2026-06-04T13:57:35.390+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Simon Jacqmart"
+    },
+    {
+      "key": "PTTM-468",
+      "section": "SDK",
+      "title": "Custom Operator Implementation",
+      "at": "2026-06-10T14:59:35.858+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-08-31 00:00:00.0"
+    },
+    {
+      "key": "PTTM-468",
+      "section": "SDK",
+      "title": "Custom Operator Implementation",
+      "at": "2026-06-05T16:53:31.158+0900",
+      "field": "summary",
+      "from": "tt-npe",
+      "to": "Custom Operator Implementation"
+    },
+    {
+      "key": "PTTM-468",
+      "section": "SDK",
+      "title": "Custom Operator Implementation",
+      "at": "2026-06-04T13:57:36.774+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Simon Jacqmart"
+    },
+    {
+      "key": "PTTM-467",
+      "section": "SDK",
+      "title": "How to use tt-npe (Practical Tutorial)",
+      "at": "2026-07-30T12:59:32.970+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "Won't Do"
+    },
+    {
+      "key": "PTTM-467",
+      "section": "SDK",
+      "title": "How to use tt-npe (Practical Tutorial)",
+      "at": "2026-07-14T09:23:27.810+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Simon Jacqmart"
+    },
+    {
+      "key": "PTTM-467",
+      "section": "SDK",
+      "title": "How to use tt-npe (Practical Tutorial)",
+      "at": "2026-06-30T14:07:08.022+0900",
+      "field": "summary",
+      "from": "How to use tt-npe",
+      "to": "How to use tt-npe: Eagle N A0 configuration and practical example"
+    },
+    {
+      "key": "PTTM-467",
+      "section": "SDK",
+      "title": "How to use tt-npe (Practical Tutorial)",
+      "at": "2026-06-09T17:57:31.516+0900",
+      "field": "summary",
+      "from": "Automated device binary fusing",
+      "to": "How to use tt-npe"
+    },
+    {
+      "key": "PTTM-467",
+      "section": "SDK",
+      "title": "How to use tt-npe (Practical Tutorial)",
+      "at": "2026-06-09T17:57:21.203+0900",
+      "field": "assignee",
+      "from": "Simon Jacqmart",
+      "to": "Not recorded"
+    },
+    {
+      "key": "PTTM-467",
+      "section": "SDK",
+      "title": "How to use tt-npe (Practical Tutorial)",
+      "at": "2026-06-05T17:47:51.468+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "PTTM-467",
+      "section": "SDK",
+      "title": "How to use tt-npe (Practical Tutorial)",
+      "at": "2026-06-05T17:47:51.207+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-07-20 00:00:00.0"
+    },
+    {
+      "key": "PTTM-467",
+      "section": "SDK",
+      "title": "How to use tt-npe (Practical Tutorial)",
+      "at": "2026-06-05T16:52:01.750+0900",
+      "field": "summary",
+      "from": "ttnn-visualizer",
+      "to": "Automated device binary fusing"
+    },
+    {
+      "key": "PTTM-467",
+      "section": "SDK",
+      "title": "How to use tt-npe (Practical Tutorial)",
+      "at": "2026-06-04T13:57:38.301+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Simon Jacqmart"
+    },
+    {
+      "key": "PTTM-466",
+      "section": "SDK",
+      "title": "SW Installation Guide (auto installer-based)",
+      "at": "2026-07-30T12:59:32.993+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "Done"
+    },
+    {
+      "key": "PTTM-466",
+      "section": "SDK",
+      "title": "SW Installation Guide (auto installer-based)",
+      "at": "2026-06-09T17:54:51.371+0900",
+      "field": "summary",
+      "from": "Automated tt-metal installation and host memory access configuration",
+      "to": "SW Installation Guide"
+    },
+    {
+      "key": "PTTM-466",
+      "section": "SDK",
+      "title": "SW Installation Guide (auto installer-based)",
+      "at": "2026-06-05T17:47:51.463+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "PTTM-466",
+      "section": "SDK",
+      "title": "SW Installation Guide (auto installer-based)",
+      "at": "2026-06-05T17:47:51.206+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-07-20 00:00:00.0"
+    },
+    {
+      "key": "PTTM-466",
+      "section": "SDK",
+      "title": "SW Installation Guide (auto installer-based)",
+      "at": "2026-06-05T16:51:55.383+0900",
+      "field": "summary",
+      "from": "Model Deployment Workflow",
+      "to": "Automated tt-metal installation and host memory access configuration"
+    },
+    {
+      "key": "PTTM-466",
+      "section": "SDK",
+      "title": "SW Installation Guide (auto installer-based)",
+      "at": "2026-06-05T16:51:44.188+0900",
+      "field": "summary",
+      "from": "Tracy profiler",
+      "to": "Model Deployment Workflow"
+    },
+    {
+      "key": "PTTM-466",
+      "section": "SDK",
+      "title": "SW Installation Guide (auto installer-based)",
+      "at": "2026-06-04T13:57:39.752+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Simon Jacqmart"
+    },
+    {
+      "key": "PTTM-465",
+      "section": "SDK",
+      "title": "Model Deployment Workflow",
+      "at": "2026-06-09T17:51:10.422+0900",
+      "field": "summary",
+      "from": "Manual Model Deployment Workflow",
+      "to": "Model Deployment Workflow"
+    },
+    {
+      "key": "PTTM-465",
+      "section": "SDK",
+      "title": "Model Deployment Workflow",
+      "at": "2026-06-09T17:50:09.840+0900",
+      "field": "summary",
+      "from": "Model Deployment Workflow",
+      "to": "Manual Model Deployment Workflow"
+    },
+    {
+      "key": "PTTM-465",
+      "section": "SDK",
+      "title": "Model Deployment Workflow",
+      "at": "2026-06-05T16:50:44.422+0900",
+      "field": "summary",
+      "from": "Deployment Workflow",
+      "to": "Model Deployment Workflow"
+    },
+    {
+      "key": "PTTM-465",
+      "section": "SDK",
+      "title": "Model Deployment Workflow",
+      "at": "2026-06-04T13:57:24.470+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Simon Jacqmart"
+    },
+    {
+      "key": "PTTM-464",
+      "section": "SDK",
+      "title": "Model Performance Optimization Workflow",
+      "at": "2026-06-05T16:50:38.785+0900",
+      "field": "summary",
+      "from": "Optimization Workflow",
+      "to": "Model Performance Optimization Workflow"
+    },
+    {
+      "key": "PTTM-464",
+      "section": "SDK",
+      "title": "Model Performance Optimization Workflow",
+      "at": "2026-06-04T13:57:25.900+0900",
+      "field": "assignee",
+      "from": "Jeong Park",
+      "to": "Simon Jacqmart"
+    },
+    {
+      "key": "PTTM-464",
+      "section": "SDK",
+      "title": "Model Performance Optimization Workflow",
+      "at": "2026-06-04T13:57:21.420+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Jeong Park"
+    },
+    {
+      "key": "PTTM-463",
+      "section": "SDK",
+      "title": "Compiler-based Model Development Workflow",
+      "at": "2026-06-10T14:59:46.536+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-11-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-463",
+      "section": "SDK",
+      "title": "Compiler-based Model Development Workflow",
+      "at": "2026-06-05T17:36:50.874+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Simon Jacqmart"
+    },
+    {
+      "key": "PTTM-463",
+      "section": "SDK",
+      "title": "Compiler-based Model Development Workflow",
+      "at": "2026-06-05T16:50:35.111+0900",
+      "field": "summary",
+      "from": "Development Workflow",
+      "to": "Compiler-based Model Development Workflow"
+    },
+    {
+      "key": "PTTM-462",
+      "section": "SDK",
+      "title": "Manual Model Development Workflow",
+      "at": "2026-06-29T17:07:25.151+0900",
+      "field": "status",
+      "from": "In Progress",
+      "to": "Done"
+    },
+    {
+      "key": "PTTM-462",
+      "section": "SDK",
+      "title": "Manual Model Development Workflow",
+      "at": "2026-06-16T10:18:14.273+0900",
+      "field": "duedate",
+      "from": "2026-07-20 00:00:00.0",
+      "to": "2026-06-30 00:00:00.0"
+    },
+    {
+      "key": "PTTM-462",
+      "section": "SDK",
+      "title": "Manual Model Development Workflow",
+      "at": "2026-06-10T15:07:10.079+0900",
+      "field": "status",
+      "from": "To Do",
+      "to": "In Progress"
+    },
+    {
+      "key": "PTTM-462",
+      "section": "SDK",
+      "title": "Manual Model Development Workflow",
+      "at": "2026-06-05T17:47:51.763+0900",
+      "field": "duedate",
+      "from": "Not recorded",
+      "to": "2026-07-20 00:00:00.0"
+    },
+    {
+      "key": "PTTM-462",
+      "section": "SDK",
+      "title": "Manual Model Development Workflow",
+      "at": "2026-06-05T17:36:29.348+0900",
+      "field": "assignee",
+      "from": "Not recorded",
+      "to": "Simon Jacqmart"
+    },
+    {
+      "key": "PTTM-462",
+      "section": "SDK",
+      "title": "Manual Model Development Workflow",
+      "at": "2026-06-05T16:50:27.182+0900",
+      "field": "summary",
+      "from": "tt-forge/tt-xla",
+      "to": "Manual Model Development Workflow"
     }
   ]
 }

@@ -1,22 +1,93 @@
 {
-  "generatedAt": "2026-09-23T11:51:06+09:00",
-  "sourceObservedAt": "2026-09-23T11:51:06+09:00",
+  "generatedAt": "2026-09-23T13:08:46+09:00",
+  "sourceObservedAt": "2026-09-23T04:07:45.829078+00:00",
   "title": "Eagle B0 ticket and documentation control",
-  "overall": "Jira filter 19455 contains 100 tickets: 67 To Do, 14 In Progress and 19 Pre-silicon Done. The four requested Level 1 areas account for 50 tickets in the current mapping: SDK 2, Host SW 28, AI Model Dev. Tools for Eagle N 9 and Ref. Models 11. No ticket is currently recorded as Resolved or Done in the filter capture. Three overdue Jira tickets and one missing assignee require management review. The new documentation sheet contributes 24 SRS/SAD/SUD writing and review pairs; direct Jira reads are used for those document keys even when they are outside filter 19455.",
+  "overall": "Jira filter 19455 contains 126 tickets: 77 To Do, 16 In Progress, 30 Pre-silicon Done and 3 Done. The four requested Level 1 areas account for 76 tickets: SDK 17, Host SW 33, AI Model Dev. Tools for Eagle N 9 and Ref. Models 17. 5 overdue tickets, 22 missing due dates and 1 missing assignee require management review. No filter ticket is currently recorded as Resolved or Reopened. The documentation sheet contributes 24 SRS/SAD/SUD writing and review pairs; direct Jira reads cover document keys outside filter 19455.",
   "attention": [
-    "Review the three overdue Jira tickets and agree an owner and recovery date.",
-    "Assign the one Host SW ticket without a Jira assignee before using its date as a commitment.",
-    "Add or confirm the missing Ref. Models Jira due date.",
+    "Review the 5 overdue Jira tickets and agree an owner and recovery date.",
+    "Assign the 1 Host SW ticket without a Jira assignee before using its date as a commitment.",
+    "Resolve or confirm the 22 missing Jira due dates, starting with the overdue SDK tickets and the missing Ref. Models date.",
     "Confirm the 24 documentation writing/review pairs and keep review status and reviewer assignment visible after each writing ticket reaches Jira P-D.",
     "Use the seven ITCP-47 child test requests as the test-request evidence set for P-D feature follow-up; wording-based matches remain review aids until a human confirms the relationship."
   ],
   "sections": [
-    {"name":"SDK","tickets":2,"toDo":0,"inProgress":0,"preSiliconDone":2,"resolved":0,"done":0,"overdue":0,"missingDue":0,"summary":"Both filter tickets are Pre-silicon Done. Final silicon acceptance and the linked test evidence remain separate checks."},
-    {"name":"Host SW","tickets":28,"toDo":16,"inProgress":3,"preSiliconDone":9,"resolved":0,"done":0,"overdue":0,"missingDue":0,"missingAssignee":1,"summary":"Host SW is the largest requested Level 1 area. Nine tickets are Pre-silicon Done, while sixteen remain To Do and one ticket has no assignee."},
-    {"name":"AI Model Dev. Tools for Eagle N","tickets":9,"toDo":3,"inProgress":3,"preSiliconDone":3,"resolved":0,"done":0,"overdue":0,"missingDue":0,"summary":"The area is split across queued, active and Pre-silicon Done tickets. No final silicon completion is recorded."},
-    {"name":"Ref. Models","tickets":11,"toDo":3,"inProgress":4,"preSiliconDone":4,"resolved":0,"done":0,"overdue":0,"missingDue":1,"summary":"Four tickets are Pre-silicon Done and four are In Progress. One Jira due date is missing."},
-    {"name":"Other filter tickets","tickets":50,"toDo":45,"inProgress":4,"preSiliconDone":1,"resolved":0,"done":0,"overdue":3,"missingDue":17,"summary":"These tickets remain in filter 19455 but do not map to one of the four requested Level 1 areas in the current workbook. They are retained for filter-wide warnings and reporting."}
+    {
+      "name": "SDK",
+      "tickets": 17,
+      "toDo": 11,
+      "inProgress": 0,
+      "preSiliconDone": 3,
+      "resolved": 0,
+      "reopened": 0,
+      "done": 3,
+      "overdue": 2,
+      "missingDue": 4,
+      "missingAssignee": 0,
+      "summary": "The SDK cohort contains 17 filter tickets: three are Pre-silicon Done, three are Done, and eleven remain To Do. Two tickets are overdue and four have no usable Jira due date."
+    },
+    {
+      "name": "Host SW",
+      "tickets": 33,
+      "toDo": 16,
+      "inProgress": 3,
+      "preSiliconDone": 14,
+      "resolved": 0,
+      "reopened": 0,
+      "done": 0,
+      "overdue": 0,
+      "missingDue": 0,
+      "missingAssignee": 1,
+      "summary": "Host SW contains 33 filter tickets. Fourteen are Pre-silicon Done, three are In Progress and sixteen remain To Do; one ticket has no assignee."
+    },
+    {
+      "name": "AI Model Dev. Tools for Eagle N",
+      "tickets": 9,
+      "toDo": 3,
+      "inProgress": 3,
+      "preSiliconDone": 3,
+      "resolved": 0,
+      "reopened": 0,
+      "done": 0,
+      "overdue": 0,
+      "missingDue": 0,
+      "missingAssignee": 0,
+      "summary": "The AI model development tools cohort contains nine tickets split evenly across To Do, In Progress and Pre-silicon Done."
+    },
+    {
+      "name": "Ref. Models",
+      "tickets": 17,
+      "toDo": 3,
+      "inProgress": 5,
+      "preSiliconDone": 9,
+      "resolved": 0,
+      "reopened": 0,
+      "done": 0,
+      "overdue": 0,
+      "missingDue": 1,
+      "missingAssignee": 0,
+      "summary": "Ref. Models contains 17 tickets: nine are Pre-silicon Done, five are In Progress and three remain To Do. One Jira due date is missing."
+    },
+    {
+      "name": "Other filter tickets",
+      "tickets": 0,
+      "toDo": 0,
+      "inProgress": 0,
+      "preSiliconDone": 0,
+      "resolved": 0,
+      "reopened": 0,
+      "done": 0,
+      "overdue": 0,
+      "missingDue": 0,
+      "missingAssignee": 0,
+      "summary": "These 50 tickets are retained for filter-wide control views but are not mapped to one of the four requested Level 1 areas in the current workbook. They include three overdue tickets and seventeen missing due dates."
+    }
   ],
-  "documentation": {"pairs":24,"reviewActions":0,"writingReviewRule":"When a writing ticket is Jira P-D, its paired review ticket must be In Progress and assigned.","testEpic":"ITCP-47","testRequests":7},
+  "documentation": {
+    "pairs": 24,
+    "reviewActions": 0,
+    "writingReviewRule": "When a writing ticket is Jira P-D, its paired review ticket must be In Progress and assigned.",
+    "testEpic": "ITCP-47",
+    "testRequests": 7
+  },
   "limitations": "Jira status and due dates are the current ticket evidence. Workbook P-D and Done dates are targets and support mapping; they do not prove completion. Documentation controls read document ticket keys directly because not all of them carry the filter label. No Jira status, assignee or link is changed by this dashboard. Refresh remains on request through Codex."
 }
