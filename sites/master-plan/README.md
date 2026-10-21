@@ -4,7 +4,7 @@ Private Sites project: `appgprj_6aaa4125c9008191b9e05460b44f7875`.
 
 The dashboard counts **unique Jira tickets**, never workbook rows. Its population is every Jira key in the first worksheet of `Eagle-N B0 SW Dev. Master Plan.xlsx` plus the `Eagle-N B0 Doc Delivery Plan` worksheet of `Eagle-N B0 SW Master Plan-SyncupVer.xlsx`. The two SharePoint workbooks define ticket membership, Level 1 categories and writing/review relationships. Jira issue detail and changelog provide current status, owner, P-D Due Date, Emulator Validation Due Date, comments and weekly history. A repeated ticket counts once globally, but can appear in two Level 1 cohorts when the source plan places it in both.
 
-This public code mirror excludes the refreshed October 2026 workbook/Jira JSON and original workbook bytes. Run the on-request refresh locally before building a current dashboard. Older data files remain in the repository and its history; they require separate cleanup.
+This public code mirror excludes workbook/Jira JSON and original workbook bytes from the current tree. Run the on-request refresh locally before building a current dashboard. Older data files remain in Git history and require separate history cleanup.
 
 ## On-request refresh
 
