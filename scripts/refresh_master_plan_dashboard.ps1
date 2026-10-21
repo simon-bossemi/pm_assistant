@@ -1,20 +1,18 @@
+param(
+    [Parameter(Mandatory = $true)][string]$DevelopmentWorkbook,
+    [Parameter(Mandatory = $true)][string]$DocumentationWorkbook
+)
 $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path -Parent $PSScriptRoot
-$workbook = Join-Path $projectRoot 'work_notes\linked-master-plan.xlsx'
-$sourceWorkbook = $null
-$oneDriveRoots = Get-ChildItem -LiteralPath $env:USERPROFILE -Directory -ErrorAction SilentlyContinue | Where-Object { $_.Name -like 'OneDrive - *' }
-foreach ($oneDriveRoot in $oneDriveRoots) {
-    $candidate = Get-ChildItem -LiteralPath $oneDriveRoot.FullName -Recurse -File -Filter 'Eagle-N B0 SW Master Plan-SyncupVer.xlsx' -ErrorAction SilentlyContinue | Select-Object -First 1
-    if ($candidate) { $sourceWorkbook = $candidate.FullName; break }
+foreach ($source in @($DevelopmentWorkbook, $DocumentationWorkbook)) {
+    if (-not (Test-Path -LiteralPath $source -PathType Leaf)) { throw "Workbook not readable: $source" }
 }
-if (-not $sourceWorkbook) { throw 'The linked SharePoint workbook was not found in the synced OneDrive folders.' }
-Copy-Item -LiteralPath $sourceWorkbook -Destination $workbook -Force
-node (Join-Path $projectRoot 'sites\master-plan\export-source.cjs') $workbook
-
+node (Join-Path $projectRoot 'sites\master-plan\export-source.cjs') $DevelopmentWorkbook $DocumentationWorkbook
+if ($LASTEXITCODE -ne 0) { throw 'Worksheet export failed.' }
 py (Join-Path $PSScriptRoot 'build_jira_history.py')
+if ($LASTEXITCODE -ne 0) { throw 'Jira capture failed.' }
 py (Join-Path $PSScriptRoot 'build_doc_controls.py')
-py (Join-Path $PSScriptRoot 'summarize_master_plan_jira.py')
-py (Join-Path $PSScriptRoot 'generate_ai_report.py')
-
-Write-Host 'Jira capture and dashboard facts are ready.'
-Write-Host 'Codex must now validate, build, and privately publish the Site.'
+if ($LASTEXITCODE -ne 0) { throw 'Documentation and test capture failed.' }
+py (Join-Path $PSScriptRoot 'generate_program_report.py')
+if ($LASTEXITCODE -ne 0) { throw 'Management report generation failed.' }
+Write-Host 'Jira scope, dates, documentation controls and management brief are ready. Validate, build and privately publish the Site through Codex.'

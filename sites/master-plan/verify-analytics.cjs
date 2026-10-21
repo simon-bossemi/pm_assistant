@@ -1,5 +1,5 @@
 const assert=require('node:assert/strict'),A=require('./dist/analytics.js'),d=require('./dist/source.json');
-const expected={focus:116,req:0,docs:48,validation:1,all:316};
+const expected={focus:130,req:0,docs:63,validation:1,all:333};
 for(const [scope,n] of Object.entries(expected)){
  const rows=(scope==='docs'||scope==='validation'?d.docRows:d.rows).filter(A.scopes[scope].match);assert.equal(rows.length,n);
  assert.equal(Object.values(A.countStatus(rows)).reduce((a,b)=>a+b,0),n);
@@ -11,6 +11,6 @@ assert.equal(A.dueSummary(sample,'due','2026-09-16').past.length,1);
 assert.equal(A.dueSummary(sample,'preDue','2026-09-16').past.length,0);
 assert.equal(A.dueSummary(sample,'due','2026-09-16').upcoming.length,1);
 assert.equal(A.dueSummary(sample,'preDue','2026-09-16').missing,1);
-assert.equal(A.groupRows(d.docRows.filter(A.scopes.docs.match),'group').length,11);
+assert.equal(A.groupRows(d.docRows.filter(A.scopes.docs.match),'group').length,12);
 assert.equal(A.docType('SAD for Security SWCs'),'SAD');
 console.log('PASS: chart totals reconcile across all five scopes; date buckets, unknowns, document groups, and milestone completion semantics checked.');

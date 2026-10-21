@@ -11,6 +11,13 @@
   const header=Array.from({length:Math.min(range.e.r+1,30)},(_,i)=>i+1).find(r=>val(r,1).replace(/\s/g,'').toLowerCase()==='level1'&&/^JIRA/i.test(val(r,6)));
   if(!header)throw new Error('This workbook sheet has no Level1/JIRA header.');
   const date=(r,c)=>{const x=cell(r,c);if(!x)return '';if(x.t==='d')return new Date(x.v).toISOString().slice(0,10);if(x.t==='n'){const d=XLSX.SSF.parse_date_code(x.v,{date1904:!!book.Workbook?.WBProps?.date1904});if(d&&d.y>=2000&&d.y<2100)return `${d.y}-${String(d.m).padStart(2,'0')}-${String(d.d).padStart(2,'0')}`;}const t=val(r,c);return /^20\d\d-\d\d-\d\d/.test(t)?t.slice(0,10):t;};
+  const column=name=>Array.from({length:range.e.c+1},(_,i)=>i+1).find(c=>name.test(val(header,c).toLowerCase().replace(/\s+/g,' ')))||0;
+  const pdColumn=column(/p-d due date|p-d\s*\(t-date\)/)||8;
+  const doneColumn=column(/feature due date|done\s*\(t-date\)/)||9;
+  const sdkColumn=column(/sdk version/);
+  const summaryColumn=column(/current progress summary/);
+  const emulatorColumn=column(/emulator validation due date/);
+  const verificationColumn=column(/p-d verification status/);
   const yearText=Array.from({length:range.e.c+1},(_,i)=>val(header,i+1)).join('');
   let section='',group='',month='',year=Number(yearText.match(/20\d{2}/)?.[0]||2026),lastWeek=0;
   const weeks=[];
@@ -29,17 +36,17 @@
    }
    if(b)group=b;
    const timeline=weeks.flatMap(w=>{const x=cell(r,w.column),text=val(r,w.column),fill=x?.s?.fgColor?.rgb||x?.s?.fill?.fgColor?.rgb||'',color=/^[0-9A-Fa-f]{6,8}$/.test(fill)&&!['FFFFFF','000000'].includes(fill.slice(-6))?fill.slice(-6):'';return text||color?[{...w,text,color}]:[]});
-   const raw=Array.from({length:12},(_,c)=>val(r,c+1));
+   const raw=Array.from({length:Math.max(12,emulatorColumn)},(_,c)=>val(r,c+1));
    if(!raw.some(Boolean)&&!timeline.length)continue;
    const ticket=val(r,6),key=issueKey(ticket),title=val(r,3)||b||(a?section:'Unspecified feature');
    const links=[];for(let c=1;c<=range.e.c+1;c++){const href=cell(r,c)?.l?.Target;if(href&&/^https?:\/\//i.test(href))links.push({column:XLSX.utils.encode_col(c-1),text:val(r,c)||href,url:href});}
    const status=val(r,7)||'Unknown', review=/\breview\b/i.test(title), documentType=/\bSRS\b/i.test(title)?'SRS':/\bSAD\b/i.test(title)?'SAD':/\bSUD\b/i.test(title)?'SUD':'';
-   rows.push({id:`${kind||'sheet'}-row-${r}`,row:r,sheet:book.SheetNames[index],kind,section,group,title,team:val(r,4),owner:val(r,5),ticket,key,url:links.find(x=>x.column==='F')?.url||(key?'https://bos-semi.atlassian.net/browse/'+key:''),status,preTarget:date(r,8),summary:val(r,11),sdk:val(r,10),preDue:date(r,8),due:date(r,9),timeline,links,raw,review,documentType,writingTicket:!review&&!!documentType,reviewTicket:review&&!!key});
+   rows.push({id:`${kind||'sheet'}-row-${r}`,row:r,sheet:book.SheetNames[index],kind,section,group,title,team:val(r,4),owner:val(r,5),ticket,key,url:links.find(x=>x.column==='F')?.url||(key?'https://bos-semi.atlassian.net/browse/'+key:''),status,preTarget:date(r,pdColumn),summary:summaryColumn?val(r,summaryColumn):'',sdk:sdkColumn?val(r,sdkColumn):'',preDue:date(r,pdColumn),due:date(r,doneColumn),emulatorDue:emulatorColumn?date(r,emulatorColumn):'',emulatorVerification:verificationColumn?val(r,verificationColumn):'',timeline,links,raw,review,documentType,writingTicket:!review&&!!documentType,reviewTicket:review&&!!key});
   }
   return {sheet:book.SheetNames[index],rows,weeks,header};
  }
  function parseWorkbook(book,meta={}){
-  const dev=parseSheet(book,0,meta,'development'), docs=book.SheetNames.length>1?parseSheet(book,1,meta,'documentation'):{sheet:'',rows:[],weeks:[],header:0};
+  const dev=parseSheet(book,0,meta,'development'), docIndex=book.SheetNames.findIndex(s=>s==='Eagle-N B0 Doc Delivery Plan'), docs=docIndex>=0?parseSheet(book,docIndex,meta,'documentation'):{sheet:'',rows:[],weeks:[],header:0};
   return {...meta,sheet:dev.sheet,documentationSheet:docs.sheet,rows:dev.rows,docRows:docs.rows,weeks:dev.weeks,docWeeks:docs.weeks,sheets:book.SheetNames,importedAt:new Date().toISOString()};
  }
  const api={focus,labels,parseWorkbook};root.Plan=api;if(typeof module!=='undefined')module.exports=api;

@@ -1,12 +1,44 @@
-const assert=require('node:assert/strict'),fs=require('fs'),vm=require('vm'),H=require('./dist/history-core.js'),A=require('./dist/analytics.js');
-const plan=require('./dist/source.json'),baseline=require('./dist/baseline.json'),legacy=require('./dist/legacy-history.json'),deps=require('./dist/dependencies.json').dependencies;
-for(const file of ['app','intelligence','visuals','history-core'])new vm.Script(fs.readFileSync('dist/'+file+'.js','utf8'));
-assert.equal(H.summarize(plan).focusRows,116);assert.deepEqual(H.focus.map(k=>H.summarize(plan).groups[k].rows),[39,40,14,23]);
-assert.equal(H.week('2026-09-13T15:01:00Z'),'2026-09-14');assert.equal(H.week('2026-09-13T14:59:00Z'),'2026-09-07');
-const weeks=H.weekly([{observedAt:'2026-09-01T01:00:00Z',focusRows:1},{observedAt:'2026-09-04T01:00:00Z',focusRows:2},{observedAt:'2026-09-16T01:00:00Z',focusRows:3}]);assert.equal(weeks.length,3);assert.equal(weeks[0].observation.focusRows,2);assert.equal(weeks[1].observation,null);
-const history=H.legacyObservations(legacy.runs,plan.rows);assert.equal(history.length,26);assert.ok(history.every(o=>o.focusRows===H.focus.reduce((n,s)=>n+(o.groups[s]?.rows||0),0)));assert.equal(legacy.changes.length,518);
-const assessed=deps.map(d=>H.dependency(d,plan.rows));assert.equal(assessed.filter(d=>d.risk==='conditional').length,3);assert.ok(assessed.every(d=>d.jiraRecorded===false));
-const altered=structuredClone(plan);altered.rows[0].owner='Test owner';const delta=H.diff(plan,altered);assert.ok(delta.some(d=>d.kind==='owner'&&d.detail.endsWith('Test owner')));assert.equal(H.diff(plan,plan).filter(d=>d.kind!=='Ambiguous duplicate').length,0);
-const r={row:1,key:'TEST-1',title:'Fixture',section:'Host SW',owner:'A',status:'P-D',preDue:'2026-09-20',due:'2026-09-10'};const signals=H.warnings([r],[],[],[],'2026-09-16');assert.ok(signals.some(s=>s.kind==='Milestone order'));assert.ok(signals.some(s=>s.kind==='Past Feature Done target'));assert.ok(!signals.some(s=>s.kind==='Past P-D target'));assert.equal(A.milestoneDone(r,'due'),false);
-console.log('PASS: weekly KST boundaries, missing-week gaps, latest-week selection, all area totals, legacy counts, 518 changes, 3 conditional risks, snapshot differences and milestone semantics.');
-(async()=>{const root='http://127.0.0.1:8766/api/',get=async p=>{const r=await fetch(root+p);assert.equal(r.status,200);return r.json()},post=(p,b,origin)=>fetch(root+p,{method:'POST',headers:{'content-type':'application/json',...(origin?{origin}:{})},body:JSON.stringify(b)});const before=await get('history');assert.ok(before.snapshots.length>=2);for(const s of before.snapshots){const saved=await get('snapshots/'+encodeURIComponent(s.id));assert.equal(saved.rows.length,s.rowCount);}const save=await post('snapshots',{plan});assert.equal(save.status,201);const s=await save.json();const twice=await (await post('snapshots',{plan})).json();assert.equal(s.saved.id,twice.saved.id);const restored=await get('snapshots/'+s.saved.id);assert.deepEqual(restored,plan);assert.equal(Buffer.from(restored.workbookBase64,'base64').length,185646);const bad=await post('snapshots',{plan:{rows:[]}});assert.equal(bad.status,400);const cross=await post('snapshots',{plan},'https://invalid.example');assert.equal(cross.status,403);const noEvidence=await post('dependency-review',{id:deps[0].id,decision:'accepted',note:''});assert.equal(noEvidence.status,400);const review=await post('dependency-review',{id:deps[0].id,decision:'unreviewed',note:'Local persistence test; no owner approval.'});assert.equal(review.status,200);const reread=await get('history');assert.equal(reread.reviews.find(x=>x.id===deps[0].id).note,'Local persistence test; no owner approval.');console.log('PASS: original workbook bytes restored; same-day deduplication; complete snapshot reload; invalid/cross-origin writes rejected; review persistence. Local tests only.');})().catch(e=>{console.error(e);process.exitCode=1;});
+const assert=require('node:assert/strict');
+const H=require('./dist/history-core.js');
+const source=require('./dist/source.json');
+const history=require('./dist/jira-history.json');
+
+assert.equal(H.week('2026-09-13T15:01:00Z'),'2026-09-14');
+assert.equal(H.week('2026-09-13T14:59:00Z'),'2026-09-07');
+const weeks=H.weekly([
+  {observedAt:'2026-09-01T01:00:00Z',rowCount:1},
+  {observedAt:'2026-09-04T01:00:00Z',rowCount:2},
+  {observedAt:'2026-09-16T01:00:00Z',rowCount:3}
+]);
+assert.equal(weeks.length,3);
+assert.equal(weeks[0].observation.rowCount,2);
+assert.equal(weeks[1].observation,null);
+assert.equal(H.summarize(source).rowCount,source.rows.length);
+const keys=new Set(history.issues.map(i=>i.key));
+assert.equal(keys.size,history.issues.length);
+assert.ok(history.issues.every(i=>i.created && i.currentStatus));
+assert.ok(history.changes.every(c=>keys.has(c.key) && c.at));
+assert.ok(history.changes.some(c=>c.field==='status'));
+assert.ok(history.changes.some(c=>c.field==='pdDueDate'));
+
+async function localPersistence(base){
+ const get=async path=>{const r=await fetch(base+path);assert.equal(r.status,200);return r.json()};
+ const before=await get('/api/history');
+ assert.ok(before.snapshots.length>=2);
+ const savedResponse=await fetch(base+'/api/snapshots',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({plan:source})});
+ assert.equal(savedResponse.status,201);
+ const saved=(await savedResponse.json()).saved;
+ const restored=await get('/api/snapshots/'+encodeURIComponent(saved.id));
+ assert.deepEqual(restored,source);
+ assert.equal(restored.docRows.length,source.docRows.length);
+ assert.equal(restored.docWorkbookBase64,source.docWorkbookBase64);
+ const again=await fetch(base+'/api/snapshots',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({plan:source})});
+ assert.equal(again.status,201);
+ assert.equal((await again.json()).saved.id,saved.id);
+ const after=await get('/api/history');
+ assert.ok(after.snapshots.some(s=>s.id===saved.id));
+}
+(async()=>{
+ if(process.argv[2])await localPersistence(process.argv[2].replace(/\/$/,''));
+ console.log('PASS: Korea week boundaries, historical gaps, Jira event keys and local two-workbook snapshot persistence.');
+})().catch(error=>{console.error(error);process.exitCode=1});

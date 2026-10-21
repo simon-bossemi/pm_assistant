@@ -1,31 +1,29 @@
-# Eagle B0 master plan dashboard
+# Eagle-N B0 program control dashboard
 
 Private Sites project: `appgprj_6aaa4125c9008191b9e05460b44f7875`.
 
-## Refresh policy
+The dashboard counts **unique Jira tickets**, never workbook rows. Its population is every Jira key in the first worksheet of `Eagle-N B0 SW Dev. Master Plan.xlsx` plus the `Eagle-N B0 Doc Delivery Plan` worksheet of `Eagle-N B0 SW Master Plan-SyncupVer.xlsx`. The two SharePoint workbooks define ticket membership, Level 1 categories and writing/review relationships. Jira issue detail and changelog provide current status, owner, P-D Due Date, Emulator Validation Due Date, comments and weekly history. A repeated ticket counts once globally, but can appear in two Level 1 cohorts when the source plan places it in both.
 
-Only when Simon requests a refresh. No scheduled job. Never run `fill_due_dates.py` to refresh this dashboard: it can modify upstream data. Read the workbook and date database only.
+This public code mirror excludes the refreshed October 2026 workbook/Jira JSON and original workbook bytes. Run the on-request refresh locally before building a current dashboard. Older data files remain in the repository and its history; they require separate cleanup.
 
-The site's **Load & save workbook** button parses the first worksheet and retains the original XLSX (up to 1 MB) plus all parsed rows in D1. Same content within one Korea calendar day is deduplicated. Historical snapshots are immutable and not pruned. Latest saved observation loads on restart. Original workbook download and parsed baseline export are available in Weekly evolution.
+## On-request refresh
 
-For a Codex refresh, run `export-source.cjs` with the exact current local workbook path, then `extract-history.py`. Preserve `dist/baseline.json`. Review dependency hypotheses against changed tickets; update evidence only, never create Jira links. Validate and publish through Sites skills. The published source is seeded once into persistent history with its actual capture timestamp, preserving previous observations and owner reviews. Never publish local `.wrangler` test state.
+There is no scheduled capture or in-site Jira refresh. When Simon requests a refresh:
 
-## Data semantics
+1. Obtain the current two SharePoint workbooks. Prefer the local synchronized development copy. Fetch the documentation workbook if its synchronized copy is locked. Do not modify either source workbook.
+2. Run `scripts/refresh_master_plan_dashboard.ps1 -DevelopmentWorkbook <path> -DocumentationWorkbook <path>` from `C:\Agents\pm_assistant`. The script exports the exact tabs, queries each scoped Jira ticket and its changelog, checks document review pairs and ITCP-47 test requests, and generates the management brief.
+3. Run `py -3 sites/master-plan/verify-current-scope.py` and JavaScript syntax checks, then `node sites/master-plan/build.cjs`.
+4. Review the dashboard in a local preview, push the exact Site source, package it and deploy to the existing owner-private Site. Mirror agent/scripts/Site source to `simon-bossemi/pm_assistant` without input/output workbooks or generated private reports.
 
-- Focus feature counts are worksheet rows, including unticketed/placeholder rows, not unique Jira tickets or effort estimates.
-- Full-feature history begins on 16 September 2026. Older `duedates.db` observations contain ticket dates but no historical Level 1 membership; historical ticket charts explicitly map them to current sections. Missing weeks are gaps.
-- Weekly points select the last observation in each Monday–Sunday Korea-time week. Multiple daily observations remain archived.
-- Column K is the P-D target. Column L (Feature Due Date) is the Feature Done **target**, never an actual finish date. Only `Done` confirms final completion; `P-D` confirms a separate pre-silicon milestone. No actual completion dates are available.
-- Date ledger combines legacy database changes with changes between durable workbook captures. Snapshot comparisons flag duplicate keys rather than silently pairing them.
-- Dependency suggestions are workbook-based hypotheses. Acceptance/rejection is a dashboard review record, not a Jira dependency or a confirmed scheduling blocker.
-- Warning rules expose recorded delays, missing data, late targets, repeated observed slippage, milestone order and conditional final-date inversions. They are review signals, not forecasts.
+Refresh statistics and source provenance for 2026-10-21 are in `work_notes/master-plan-scope-refresh-2026-10-21.md`.
 
-## Implementation and validation
+## Interpretation
 
-Vanilla HTML/CSS/JS; SheetJS for XLSX parsing; a Cloudflare-compatible Worker and D1 for durable state. Drizzle schema/migrations are included. `build.cjs` builds the Worker with embedded static assets and hosting metadata.
+- P-D Due Date and Emulator Validation Due Date are **targets**, not actual completion dates. Jira P-D status is a separate milestone and does not prove emulator validation.
+- Weekly history replays each issue's creation and status transitions. Level 1 category membership comes from the current worksheets and is applied retrospectively, so it is not a historical record of category changes.
+- The first tab's seven emulator target dates reconcile to five Jira dates. The other two are visible as workbook/Jira gaps, not silently accepted as Jira commitments.
+- After an SRS/SAD/SUD writing ticket reaches Jira P-D, the paired review must be In Progress and assigned. A review may serve two writing tickets.
+- Dependency hypotheses and test-request wording matches are review aids. The dashboard does not create Jira links or alter source tickets.
+- The published source contains the original captured workbook bytes for audit, and the Worker retains immutable saved observations in D1. Older observations remain available but are not allowed to override a newer published capture on page load.
 
-`verify-source.py` independently reconciles all source rows against openpyxl. `verify-analytics.cjs` checks chart counts and milestone semantics. `verify-history.cjs` checks Korea week boundaries, gaps, history counts, dependency risks and local D1 APIs at port 8766. Run API tests only against the local test database; never add synthetic test reviews or observations to production.
-
-Browser QA includes keyboard navigation, charts, filters, mobile/desktop layout and report views. The Codex in-app file-picker automation may return OS file-read permission errors; this does not invalidate the independently verified XLSX parser/API path. Test original-file picker behavior in a regular browser when available.
-
-The configured reporting-style directory was unavailable on this machine. The built-in report uses the existing dashboard's BOS navy/teal presentation and exports self-contained HTML.
+The Site uses vanilla HTML/CSS/JS, SheetJS for parsing, and a Cloudflare Worker with D1 for durable snapshots and owner reviews. `build.cjs` embeds static assets in the Worker.

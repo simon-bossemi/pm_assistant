@@ -4,6 +4,7 @@ node_modules/
 .wrangler/
 dist/server/
 dist/.openai/
+dist/*.json
 update-dashboard.cjs
 integrate-history.cjs
 finish-history.cjs

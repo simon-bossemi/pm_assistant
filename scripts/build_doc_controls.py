@@ -88,13 +88,22 @@ def main():
         direct={}
         for f in as_completed(futs): direct[futs[f]]=f.result()
     pairs=[]
-    for i,row in enumerate(docs):
-        if not row.get('documentType') or row.get('review'): continue
-        review=docs[i+1] if i+1<len(docs) and docs[i+1].get('review') else None
+    def add_pair(row,review):
         w=direct.get(row.get('key'),{'key':row.get('key'),'error':'No Jira key'})
         rv=direct.get(review.get('key'),{'key':review.get('key'),'error':'No Jira key'}) if review else {'error':'No adjacent review row'}
         required=normal(w.get('status'))=='P-D'
         pairs.append({'writing':{**row,'jira':w,'jiraStatus':normal(w.get('status'))},'review':{**review,'jira':rv,'jiraStatus':normal(rv.get('status'))} if review else None,'reviewControl':{'required':required,'statusOk':not required or normal(rv.get('status'))=='In Progress','assigneeOk':not required or bool(rv.get('assignee')),'action':required and (normal(rv.get('status'))!='In Progress' or not rv.get('assignee'))}})
+    pending=[]; previous_group=None
+    for row in docs:
+        if row.get('group')!=previous_group:
+            for writing in pending: add_pair(writing,None)
+            pending=[]; previous_group=row.get('group')
+        if row.get('documentType') and not row.get('review'):
+            pending.append(row)
+        elif row.get('review'):
+            for writing in pending: add_pair(writing,row)
+            pending=[]
+    for writing in pending: add_pair(writing,None)
     pd=[]
     issue_map={i['key']:i for i in hist.get('issues',[])}
     for r in source.get('rows',[]):
